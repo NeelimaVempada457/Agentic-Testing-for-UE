@@ -1,0 +1,200 @@
+- generic [ref=e9]:
+  - link "Skip to Main" [ref=e10] [cursor=pointer]:
+    - /url: javascript:void(0);
+  - banner
+  - main [ref=e11]:
+    - generic [ref=e18]:
+      - generic [ref=e25]:
+        - generic [ref=e27]:
+          - img "BOSL Digital Logo" [ref=e30]
+          - navigation "Main navigation" [ref=e31]:
+            - menubar [ref=e32]:
+              - menuitem "Home" [ref=e33] [cursor=pointer]
+              - menuitem "Our Products" [ref=e34] [cursor=pointer]
+              - menuitem "Check Status" [ref=e35] [cursor=pointer]:
+                - text: Check Status
+                - img [ref=e39]
+              - menuitem "Raise a Case" [ref=e42] [cursor=pointer]
+              - menuitem "Resume Application" [ref=e43] [cursor=pointer]
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]:
+              - generic [ref=e48]:
+                - generic [ref=e49]: Hero banner showing a customer using a mobile phone for digital banking
+                - generic [ref=e50]:
+                  - generic [ref=e51]: BOSL Digital Customer Portal
+                  - generic [ref=e52]: WELCOME!
+                  - heading "Simple. Secure. Convenient." [level=1] [ref=e53]
+                  - paragraph [ref=e54]: Discover the new BOSL Digital experience designed with you in mind. Bank from the comfort of your home, office or on the go. We are happy you are here.
+                  - button "Request products" [ref=e56] [cursor=pointer]
+              - generic [ref=e57]:
+                - heading "From Application to Approval. Simplified." [level=2] [ref=e58]
+                - generic [ref=e59]:
+                  - generic [ref=e60]:
+                    - img "Explore and choose products" [ref=e62]
+                    - heading "Explore & Choose" [level=3] [ref=e63]
+                    - paragraph [ref=e64]: Compare products designed for your needs
+                  - generic [ref=e65]:
+                    - img "Apply online form" [ref=e67]
+                    - heading "Apply Online" [level=3] [ref=e68]
+                    - paragraph [ref=e69]: Fill out a simple, secure form
+                  - generic [ref=e70]:
+                    - img "Track your application progress" [ref=e72]
+                    - heading "Track Your Progress" [level=3] [ref=e73]
+                    - paragraph [ref=e74]: Stay updated on every step until approval
+                - button "Start Application" [active] [ref=e75] [cursor=pointer]
+            - generic [ref=e237]:
+              - button "×" [ref=e238] [cursor=pointer]
+              - generic [ref=e240]:
+                - generic [ref=e241]:
+                  - heading "Are you an existing customer?" [level=1] [ref=e242]
+                  - paragraph [ref=e243]: Please select the option that applies to you
+                - generic [ref=e244]:
+                  - generic [ref=e245] [cursor=pointer]:
+                    - generic [ref=e248]:
+                      - img [ref=e250]
+                      - generic [ref=e253]: Existing Customer
+                    - heading "Existing Customer" [level=2] [ref=e254]
+                    - paragraph [ref=e255]: I already have an account with BOSL
+                  - generic [ref=e256] [cursor=pointer]:
+                    - generic [ref=e259]:
+                      - img [ref=e261]
+                      - generic [ref=e264]: New Customer
+                    - heading "New Customer" [level=2] [ref=e265]
+                    - paragraph [ref=e266]: I'm new to BOSL and want to open an account
+          - generic [ref=e77]:
+            - generic [ref=e78]:
+              - heading "Your Trust. Our Commitment." [level=2] [ref=e79]
+              - paragraph [ref=e80]:
+                - text: We combine security, speed, and personalized support to give you confidence
+                - text: in every step.
+            - generic [ref=e81]:
+              - generic [ref=e83]:
+                - img "Safe and secure banking protection" [ref=e84]
+                - generic [ref=e85]:
+                  - heading "Safe & Secure" [level=3] [ref=e86]
+                  - paragraph [ref=e87]: Your data and money are protected with the highest security standards.
+              - generic [ref=e89]:
+                - img "Fast approval process illustration" [ref=e90]
+                - generic [ref=e91]:
+                  - heading "Fast Approvals" [level=3] [ref=e92]
+                  - paragraph [ref=e93]: Get decisions quickly so you can move forward without delay.
+              - generic [ref=e95]:
+                - img "Trusted by thousands of customers" [ref=e96]
+                - generic [ref=e97]:
+                  - heading "Trusted by Thousands" [level=3] [ref=e98]
+                  - paragraph [ref=e99]: Join a growing community of satisfied customers across the country.
+              - generic [ref=e101]:
+                - img "Always connected banking services" [ref=e102]
+                - generic [ref=e103]:
+                  - heading "Always Connected" [level=3] [ref=e104]
+                  - paragraph [ref=e105]: Access your bank whenever you are—online, in-app, or in person.
+          - generic [ref=e106]:
+            - generic [ref=e107]: Find the product that fits your needs
+            - generic [ref=e109]:
+              - generic [ref=e111] [cursor=pointer]:
+                - img "Savings Icon" [ref=e112]
+                - generic [ref=e113]: Savings Accounts
+                - paragraph [ref=e114]: Discover the best way to manage your funds and reach your goals
+                - generic [ref=e115]:
+                  - text: Learn More
+                  - generic "forward" [ref=e117]:
+                    - generic [ref=e118]:
+                      - img [ref=e120]
+                      - generic [ref=e123]: forward
+              - generic [ref=e125] [cursor=pointer]:
+                - img "Debit Card Icon" [ref=e126]
+                - generic [ref=e127]: Debit Cards
+                - paragraph [ref=e128]: Shop, pay, and withdraw securely with seamless control of your money.
+                - generic [ref=e129]:
+                  - text: Learn More
+                  - generic "forward" [ref=e131]:
+                    - generic [ref=e132]:
+                      - img [ref=e134]
+                      - generic [ref=e137]: forward
+              - generic [ref=e139] [cursor=pointer]:
+                - img "Credit Card Icon" [ref=e140]
+                - generic [ref=e141]: Credit Cards
+                - paragraph [ref=e142]: Turn your daily spending into rewards with a card that gets you points every time you use it.
+                - generic [ref=e143]:
+                  - text: Learn More
+                  - generic "forward" [ref=e145]:
+                    - generic [ref=e146]:
+                      - img [ref=e148]
+                      - generic [ref=e151]: forward
+              - generic [ref=e153] [cursor=pointer]:
+                - img "Loan Icon" [ref=e154]
+                - generic [ref=e155]: Personal Loans
+                - paragraph [ref=e156]: Get the funds you need to do the things that matter to you.
+                - generic [ref=e157]:
+                  - text: Learn More
+                  - generic "forward" [ref=e159]:
+                    - generic [ref=e160]:
+                      - img [ref=e162]
+                      - generic [ref=e165]: forward
+            - generic [ref=e166] [cursor=pointer]: See all products
+          - img [ref=e170] [cursor=pointer]
+          - button "Resume Application" [ref=e172] [cursor=pointer]
+      - generic [ref=e182]:
+        - generic [ref=e183]:
+          - generic [ref=e184]:
+            - heading "BOSL Digital" [level=3] [ref=e185]
+            - generic [ref=e186]:
+              - generic [ref=e187]:
+                - paragraph [ref=e188]:
+                  - strong [ref=e189]: "Telephone:"
+                  - link "1 (758) 456 6999" [ref=e190] [cursor=pointer]:
+                    - /url: tel:17584566999
+                  - link "1 (305) 501 2931" [ref=e191] [cursor=pointer]:
+                    - /url: tel:13055012931
+                - paragraph [ref=e192]:
+                  - strong [ref=e193]: "WhatsApp:"
+                  - text: 1 (758) 725 2675
+                  - text: 1 (758) 485 2675
+              - generic [ref=e194]:
+                - paragraph [ref=e195]:
+                  - strong [ref=e196]: "Address:"
+                  - text: "#1 Bridge Street"
+                  - text: P O Box 1862
+                  - text: Castries LC04 101
+                  - text: Saint Lucia
+                - paragraph [ref=e197]:
+                  - strong [ref=e198]: "Email:"
+                  - link "bosldigital@bankofsaintlucia.com" [ref=e199] [cursor=pointer]:
+                    - /url: mailto:bosldigital@bankofsaintlucia.com
+          - generic [ref=e200]:
+            - heading "Important Links" [level=3] [ref=e201]
+            - list [ref=e202]:
+              - listitem [ref=e203]:
+                - link "BOSL Website" [ref=e204] [cursor=pointer]:
+                  - /url: https://www.bankofsaintlucia.com
+              - listitem [ref=e205]:
+                - link "BOSL Credit Card Enquiry Portal" [ref=e206] [cursor=pointer]:
+                  - /url: https://www.4csonline.com/CardInquiry/logon.aspx?cthm=BOSL
+              - listitem [ref=e207]:
+                - link "BOSL Debit Card Portal" [ref=e208] [cursor=pointer]:
+                  - /url: https://debitcard.bankofsaintlucia.com/eservicesbosl/
+          - generic [ref=e209]:
+            - generic [ref=e210]:
+              - heading "Social" [level=3] [ref=e211]
+              - button "Back to top" [ref=e212] [cursor=pointer]:
+                - generic [ref=e214]:
+                  - img [ref=e216]
+                  - generic [ref=e219]: Back to top
+            - generic [ref=e220]:
+              - link "BOSL Facebook" [ref=e221] [cursor=pointer]:
+                - /url: https://www.facebook.com/bankofsaintlucia
+                - img "BOSL Facebook" [ref=e222]
+              - link "BOSL Instagram" [ref=e223] [cursor=pointer]:
+                - /url: https://www.instagram.com/bankofsaintlucialimited
+                - img "BOSL Instagram" [ref=e224]
+              - link "BOSL Twitter" [ref=e225] [cursor=pointer]:
+                - /url: https://x.com/BankofSLU
+                - img "BOSL Twitter" [ref=e226]
+              - link "BOSL YouTube" [ref=e227] [cursor=pointer]:
+                - /url: https://www.youtube.com/@bosl
+                - img "BOSL YouTube" [ref=e228]
+        - generic [ref=e231]:
+          - img "Bank of Saint Lucia" [ref=e233]
+          - generic [ref=e234]: © 2026 | All Rights Reserved
+  - contentinfo

@@ -1,0 +1,5 @@
+[    1380ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://bankofstlucia--digitalqa.sandbox.my.site.com/webruntime/framework/b84f5999fe/prod/lwr_bootstrap_locker:22
+[    1558ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://bankofstlucia--digitalqa.sandbox.my.site.com/webruntime/framework/b84f5999fe/prod/lwr_bootstrap_locker:22
+[    1600ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://bankofstlucia--digitalqa.sandbox.my.site.com/webruntime/framework/b84f5999fe/prod/lwr_bootstrap_locker:22
+[    2408ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://bankofstlucia--digitalqa.sandbox.my.site.com/login:0
+[   70709ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://bankofstlucia--digitalqa.sandbox.my.site.com/webruntime/api/apex/execute?language=en-US&asGuest=true&htmlEncode=false:0

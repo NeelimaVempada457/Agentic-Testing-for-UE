@@ -1,0 +1,314 @@
+{
+  "key": "UWB-3",
+  "id": "117314",
+  "self": "https://unitededucators.atlassian.net/rest/api/2/issue/117314",
+  "summary": "SUB-02: View Submissions in Tabular List",
+  "status": "IN BA",
+  "priority": "Medium",
+  "issuetype": "Story",
+  "assignee": {
+    "displayName": "Naresh Kotha",
+    "emailAddress": "naresh.kotha@theksquaregroup.com"
+  },
+  "reporter": {
+    "displayName": "Mythili T",
+    "emailAddress": "mythili.thangavelu@theksquaregroup.com"
+  },
+  "labels": [],
+  "components": [],
+  "fixVersions": [],
+  "affectsVersions": [],
+  "storyPoints": null,
+  "sprint": null,
+  "epic": null,
+  "environment": null,
+  "created": "2026-04-27T14:38:22.063+0530",
+  "updated": "2026-05-21T02:45:25.022+0530",
+  "dueDate": null,
+  "resolutionDate": null,
+  "votes": 0,
+  "watches": 2,
+  "customFields": {
+    "customfield_10011": "0|108qze:"
+  },
+  "rawFields": {
+    "statuscategorychangedate": "2026-05-15T02:13:50.487+0530",
+    "issuetype": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/issuetype/11824",
+      "id": "11824",
+      "description": "Stories track functionality or features expressed as user goals.",
+      "iconUrl": "https://unitededucators.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+      "name": "Story",
+      "subtask": false,
+      "avatarId": 10315,
+      "entityId": "e46e57e2-a30d-4aee-8551-76713f9b75b1",
+      "hierarchyLevel": 0
+    },
+    "components": [],
+    "timespent": null,
+    "timeoriginalestimate": null,
+    "project": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/project/12133",
+      "id": "12133",
+      "key": "UWB",
+      "name": "Underwriting Workbench",
+      "projectTypeKey": "software",
+      "simplified": true,
+      "avatarUrls": {
+        "48x48": "https://unitededucators.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/12818",
+        "24x24": "https://unitededucators.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/12818?size=small",
+        "16x16": "https://unitededucators.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/12818?size=xsmall",
+        "32x32": "https://unitededucators.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/12818?size=medium"
+      }
+    },
+    "description": "*Navigation*:\n\nHomepage/Submissions\n\n*Story:*\n\n|*As a*|Underwriter or BD User|\n|*I want to*|view all submissions in a paginated table with key details per row|\n|*So that*|I can view, sort, and navigate submissions efficiently without opening each record|\n\n*Fields & Behavior* \n\n“*+ New Submission*”: button to create new submission. Uses the same universal new submission creation page.  \n\n|*Field*|*Section*|*Type*|*Behavior*|*Validation*|\n|Member/Institution|Table|Hyperlink + Sub ID|Account name as hyperlink; shows SUB-ID, state, brokerage below|—|\n|Type|Table|Badge|Displays submission type (e.g., New Business, Cross-sell, Renewal)|—|\n|Products|Table|Tag Pills|Selected products codes shown as pill badges (EPL, ELL, GL, Cyber, ML, etc.)|—|\n|Stage|Table|Colored Badge|-Grey = New, Amber = In Review, Green = Bound, etc. (Color Coding TBD)-\nThis should show the stage in the same colors as the stage from [https://unitededucators.atlassian.net/browse/UWB-1|https://unitededucators.atlassian.net/browse/UWB-1|smart-link]|—|\n|Premium|Table|Currency -+- -Enrolled-|Shows premium amount -and enrolled count (Enrolled Logic TBD)-|—|\n|Underwriter|Table|-Avatar +- Name|-Shows initials avatar +- name; 'Unassigned' with warning icon if empty|—|\n|Appetite|Table|Percentage\n-Progress Bar + %-|Displays appetite score as a percentage -with visual bar (logic TBD)-|A Seperate Story written for the same [UWB-13|https://unitededucators.atlassian.net/browse/UWB-13]|\n|-Age-|-Table-|-Elapsed Time-|-Time since creation (e.g., ‘3d’, '1hr'-|-If age is less than a day show in hrs else days.-|\n|Need By|Table|Date|Target date for completion|—|\n|Effective|Table|Date|Policy effective date|—|\n\n*Key Rules*\n\n* Default sort is by most recently -active or- created\n\n* Columns with ↑↓ arrows are sortable (*-Age-**, Need By and Effective)* clicking toggles ascending/descending \n\n* Pagination footer shows: Showing X–Y of N submissions · Page Z of M\n\n* Previous/Next and numbered page controls are available\n\n* Clicking a row or account name navigates to the Submission Detail page\n\n*Acceptance Criteria*\n\n* Table displays all 10 columns: Member/Institution, Type, Products, Stage, Premium, Underwriter, Appetite, Age, Need By, Effective\n\n* Each row shows account name as a hyperlink, SUB-ID, state abbreviation, and brokerage\n\n* Stage badges are color-coded consistently across the list\n\n* Unassigned submissions show a warning icon in the Underwriter column\n\n* Pagination controls are visible and functional\n\n* Clicking a row navigates to the Submission Detail page; URL updates to /submissions/{SUB-ID}\n\n*Dependencies:*  Live submission data from Workbench database",
+    "customfield_12398": null,
+    "customfield_12233": null,
+    "fixVersions": [],
+    "customfield_10011": "0|108qze:",
+    "aggregatetimespent": null,
+    "statusCategory": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/statuscategory/2",
+      "id": 2,
+      "key": "new",
+      "colorName": "blue-gray",
+      "name": "To Do"
+    },
+    "resolution": null,
+    "customfield_12377": null,
+    "customfield_11500": null,
+    "timetracking": {},
+    "security": null,
+    "attachment": [],
+    "aggregatetimeestimate": null,
+    "resolutiondate": null,
+    "workratio": -1,
+    "summary": "SUB-02: View Submissions in Tabular List",
+    "issuerestriction": {
+      "issuerestrictions": {},
+      "shouldDisplay": true
+    },
+    "watches": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/issue/UWB-3/watchers",
+      "watchCount": 2,
+      "isWatching": false
+    },
+    "lastViewed": "2026-05-13T07:51:42.185+0530",
+    "creator": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "subtasks": [],
+    "created": "2026-04-27T14:38:22.063+0530",
+    "customfield_12220": null,
+    "reporter": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "priority": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/priority/3",
+      "iconUrl": "https://unitededucators.atlassian.net/images/icons/priorities/major_new.svg",
+      "name": "Medium",
+      "id": "3"
+    },
+    "customfield_10002": null,
+    "labels": [],
+    "environment": null,
+    "timeestimate": null,
+    "aggregatetimeoriginalestimate": null,
+    "versions": [],
+    "duedate": null,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "issuelinks": [],
+    "votes": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/issue/UWB-3/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "comment": {
+      "comments": [
+        {
+          "self": "https://unitededucators.atlassian.net/rest/api/2/issue/117314/comment/367896",
+          "id": "367896",
+          "author": {
+            "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+            "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+            "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+              "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+              "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+              "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+            },
+            "displayName": "Mythili T",
+            "active": true,
+            "timeZone": "Asia/Kolkata",
+            "accountType": "atlassian"
+          },
+          "body": " [~accountid:712020:ed9f4624-6ed8-4cbe-8ac5-d54ddf64fef3] [~accountid:614dcf9f41af83007156944d]  [~accountid:557058:e0e50699-b67e-4c72-9c63-628991326903]- Could you please review and provide your signoff?\nCC: [~accountid:712020:5ee25fae-766a-4daf-ace9-7e5aab2df041] [~accountid:712020:9f54aa7d-41d9-495a-abe8-8ae539a60281] [~accountid:712020:5021b219-a9e2-414e-877f-1e2f93e2215f] [~accountid:712020:7a496ff5-e099-443f-9f54-d35f3b7384b1]",
+          "updateAuthor": {
+            "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+            "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+            "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+              "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+              "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+              "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+            },
+            "displayName": "Mythili T",
+            "active": true,
+            "timeZone": "Asia/Kolkata",
+            "accountType": "atlassian"
+          },
+          "created": "2026-05-06T17:22:55.039+0530",
+          "updated": "2026-05-06T17:22:55.039+0530",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://unitededucators.atlassian.net/rest/api/2/issue/117314/comment/368087",
+          "id": "368087",
+          "author": {
+            "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=557058%3Ae0e50699-b67e-4c72-9c63-628991326903",
+            "accountId": "557058:e0e50699-b67e-4c72-9c63-628991326903",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png"
+            },
+            "displayName": "Ziad Elharaoui",
+            "active": true,
+            "timeZone": "Asia/Kolkata",
+            "accountType": "atlassian"
+          },
+          "body": "[~accountid:712020:969bebc2-b867-48a4-8ef7-c2e0c555434d]  We reviewed this ticket. We made some changes. We also did a strikethrough some words. Here is a summary:\n\nAdded New Submission button to create the new submission below the fields and behavior \nField - Changed to Institution from Member/Institution\nType- New Business, Renewal- Added these\nProducts- 3rd column Selected products codes \nStage- 3rd column change- \nPremium- we do not need enrolled- currency is default USD\n\nAdded Filters section",
+          "updateAuthor": {
+            "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=557058%3Ae0e50699-b67e-4c72-9c63-628991326903",
+            "accountId": "557058:e0e50699-b67e-4c72-9c63-628991326903",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png"
+            },
+            "displayName": "Ziad Elharaoui",
+            "active": true,
+            "timeZone": "Asia/Kolkata",
+            "accountType": "atlassian"
+          },
+          "created": "2026-05-07T00:02:23.995+0530",
+          "updated": "2026-05-07T00:03:32.641+0530",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://unitededucators.atlassian.net/rest/api/2/issue/117314/comment/376777",
+          "id": "376777",
+          "author": {
+            "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+            "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+            "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+              "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+              "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+              "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+            },
+            "displayName": "Mythili T",
+            "active": true,
+            "timeZone": "Asia/Kolkata",
+            "accountType": "atlassian"
+          },
+          "body": "A new [Story |https://unitededucators.atlassian.net/browse/UWB-13]created for Appetite Scoring ",
+          "updateAuthor": {
+            "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+            "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+            "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+              "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+              "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+              "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+            },
+            "displayName": "Mythili T",
+            "active": true,
+            "timeZone": "Asia/Kolkata",
+            "accountType": "atlassian"
+          },
+          "created": "2026-05-21T02:45:25.022+0530",
+          "updated": "2026-05-21T02:45:25.022+0530",
+          "jsdPublic": true
+        }
+      ],
+      "self": "https://unitededucators.atlassian.net/rest/api/2/issue/117314/comment",
+      "maxResults": 3,
+      "total": 3,
+      "startAt": 0
+    },
+    "assignee": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3Ab841cce5-af49-487b-9f3b-2cf8d84ad891",
+      "accountId": "712020:b841cce5-af49-487b-9f3b-2cf8d84ad891",
+      "emailAddress": "naresh.kotha@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/b8b2be80a162f2a3e1d7eed5b9999739?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNK-4.png",
+        "24x24": "https://secure.gravatar.com/avatar/b8b2be80a162f2a3e1d7eed5b9999739?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNK-4.png",
+        "16x16": "https://secure.gravatar.com/avatar/b8b2be80a162f2a3e1d7eed5b9999739?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNK-4.png",
+        "32x32": "https://secure.gravatar.com/avatar/b8b2be80a162f2a3e1d7eed5b9999739?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNK-4.png"
+      },
+      "displayName": "Naresh Kotha",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": []
+    },
+    "updated": "2026-05-21T02:45:25.022+0530",
+    "status": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/status/13044",
+      "description": "",
+      "iconUrl": "https://unitededucators.atlassian.net/",
+      "name": "IN BA",
+      "id": "13044",
+      "statusCategory": {
+        "self": "https://unitededucators.atlassian.net/rest/api/2/statuscategory/2",
+        "id": 2,
+        "key": "new",
+        "colorName": "blue-gray",
+        "name": "To Do"
+      }
+    }
+  }
+}

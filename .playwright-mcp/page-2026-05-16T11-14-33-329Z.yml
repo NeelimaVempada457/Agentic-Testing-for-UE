@@ -1,0 +1,77 @@
+- generic [ref=e9]:
+  - link "Skip to Main" [ref=e10] [cursor=pointer]:
+    - /url: javascript:void(0);
+  - banner
+  - main [active] [ref=e11]:
+    - generic [ref=e278]:
+      - generic [ref=e281]:
+        - img "BOSL Digital Logo" [ref=e283]
+        - button "Back to Home" [ref=e285] [cursor=pointer]
+      - generic [ref=e289]:
+        - complementary [ref=e290]:
+          - list [ref=e291]:
+            - listitem [ref=e292] [cursor=pointer]:
+              - img "Select Product" [ref=e293]
+              - generic [ref=e294]: Select Product
+            - listitem [ref=e295] [cursor=pointer]:
+              - img "Instructions" [ref=e296]
+              - generic [ref=e297]: Instructions
+            - listitem [ref=e298] [cursor=pointer]:
+              - img "Personal Information" [ref=e299]
+              - generic [ref=e300]: Personal Information
+            - listitem [ref=e301] [cursor=pointer]:
+              - img "Validation" [ref=e302]
+              - generic [ref=e303]: Validation
+        - generic [ref=e304]:
+          - generic [ref=e305]:
+            - heading "Select the product you want to request" [level=2] [ref=e306]
+            - paragraph [ref=e307]: Complete the following steps
+          - generic [ref=e308]:
+            - generic [ref=e309] [cursor=pointer]:
+              - img "Bank Accounts" [ref=e311]
+              - generic [ref=e312]:
+                - generic [ref=e313]: Bank Accounts
+                - generic [ref=e314]: Discover the best way to manage your funds and reach your goals
+            - generic [ref=e315] [cursor=pointer]:
+              - img "Debit Cards" [ref=e317]
+              - generic [ref=e318]:
+                - generic [ref=e319]: Debit Cards
+                - generic [ref=e320]: Shop, pay, and withdraw securely with seamless control of your money.
+            - generic [ref=e321] [cursor=pointer]:
+              - img "Credit Cards" [ref=e323]
+              - generic [ref=e324]:
+                - generic [ref=e325]: Credit Cards
+                - generic [ref=e326]: Turn your daily spending into rewards with a card that gets you points every time you use it.
+            - generic [ref=e327] [cursor=pointer]:
+              - img "Loans" [ref=e329]
+              - generic [ref=e330]:
+                - generic [ref=e331]: Loans
+                - generic [ref=e332]: Get the funds you need to do the things that matter to you.
+          - heading "Select a product to continue" [level=2] [ref=e339]
+          - generic [ref=e340]:
+            - generic [ref=e342] [cursor=pointer]:
+              - generic [ref=e343]:
+                - img "A+ Club" [ref=e344]
+                - generic [ref=e345]: A+ Club
+              - generic [ref=e346]: Designed for children and young people up to 18 years old, offering incentives to help keep them saving and aiming for the top.
+            - generic [ref=e348] [cursor=pointer]:
+              - generic [ref=e349]:
+                - img "GUARANTEED MORTGAGE PLAN – HomeStart" [ref=e350]
+                - generic [ref=e351]: GUARANTEED MORTGAGE PLAN – HomeStart
+              - generic [ref=e352]: Unlock your Future Home Today!
+            - generic [ref=e354] [cursor=pointer]:
+              - generic [ref=e355]:
+                - img "Ordinary Savings" [ref=e356]
+                - generic [ref=e357]: Ordinary Savings
+              - generic [ref=e358]: A simple savings account for everyday banking and future financial goals.
+          - button "Continue" [ref=e334] [cursor=pointer]
+      - generic [ref=e336]:
+        - text: Need help? Contact
+        - link "Call BOSL Digital Support" [ref=e337] [cursor=pointer]:
+          - /url: tel:+17584566999
+          - text: (758)-456-6999
+        - text: / Email
+        - link "Email BOSL Digital Support" [ref=e338] [cursor=pointer]:
+          - /url: mailto:bosldigital@bankofsaintlucia.com
+          - text: bosldigital@bankofsaintlucia.com
+  - contentinfo

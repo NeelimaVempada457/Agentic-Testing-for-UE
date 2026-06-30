@@ -1,0 +1,24 @@
+- generic [ref=e9]:
+  - link "Skip to Main" [ref=e10] [cursor=pointer]:
+    - /url: javascript:void(0);
+  - banner
+  - main [ref=e11]:
+    - article [ref=e34]:
+      - generic [ref=e38]:
+        - img "Bank of Saint Lucia Digital" [ref=e40]
+        - generic [ref=e41]:
+          - heading "Sign up to BOSL Digital" [level=2] [ref=e42]
+          - paragraph [ref=e43]: Not a customer? Start your journey today.
+          - generic "Open an Account" [ref=e44] [cursor=pointer]
+        - generic [ref=e45]:
+          - heading "Customer Access" [level=2] [ref=e46]
+          - generic [ref=e49]:
+            - generic [ref=e50]: "*User Name"
+            - textbox "User Name" [ref=e52]
+          - generic [ref=e55]:
+            - generic [ref=e56]: "*Password"
+            - textbox "Password" [ref=e58]
+          - generic "Sign in" [ref=e59] [cursor=pointer]: Sign In
+          - link "Forgot your password? Reset password" [ref=e61] [cursor=pointer]:
+            - /url: javascript:void(0);
+  - contentinfo

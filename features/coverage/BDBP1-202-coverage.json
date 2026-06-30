@@ -1,0 +1,129 @@
+{
+  "ticketId": "BDBP1-202",
+  "generatedAt": "2026-05-15T00:00:00Z",
+  "applicationContext": {
+    "url": "${APP_URL}",
+    "environment": "UAT / QA",
+    "appType": "Web (Responsive)",
+    "authRequired": true,
+    "roles": ["Customer"],
+    "platform": "BOSL Digital Portal"
+  },
+  "totalScenarios": 28,
+  "breakdown": {
+    "positive": 10,
+    "negative": 4,
+    "edgeCase": 6,
+    "security": 3,
+    "accessibility": 5
+  },
+  "acceptanceCriteriaCoverage": [
+    {
+      "id": "AC-1",
+      "description": "Header and Footer consistent on Registration Page (covered by BDBP1-94)",
+      "coveredBy": [
+        "Header, footer, and left-side component are consistent with Registration Page design"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "AC-2",
+      "description": "Left Side component consistent on Registration Page (covered by BDBP1-95)",
+      "coveredBy": [
+        "Header, footer, and left-side component are consistent with Registration Page design"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "AC-3",
+      "description": "Instruction Section: product-specific instructions from Salesforce, FATCA notice, 4 residency buttons",
+      "coveredBy": [
+        "Instruction section loads with all four residency type buttons visible",
+        "Product-specific instructions are dynamically loaded from Salesforce",
+        "FATCA compliance notice is displayed with correct link"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "AC-4",
+      "description": "On Button Click: clicking residency button shows documentation requirements table",
+      "coveredBy": [
+        "ECCU Territories button reveals correct KYC identification requirements",
+        "CARICOM button reveals correct KYC identification and address requirements",
+        "Non-CARICOM button reveals two-ID and address proof requirements",
+        "Self-Employed button reveals residency-dependent ID count requirements"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "AC-5",
+      "description": "Accordion behavior: collapsible, one section open at a time, auto-close when another opens",
+      "coveredBy": [
+        "Opening a second accordion section auto-closes the first",
+        "Clicking the already-open accordion section collapses it",
+        "Rapid double-click on accordion button does not toggle section twice",
+        "Accordion residency type buttons are fully keyboard accessible",
+        "Screen reader announces accordion expanded and collapsed states"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "AC-6",
+      "description": "Navigation: Continue → Personal Information, Save Progress, Back to Dashboard",
+      "coveredBy": [
+        "Continue button navigates to the Personal Information section",
+        "Save Progress button persists the current state",
+        "Back to Dashboard button returns the customer to the main dashboard",
+        "Navigation buttons are keyboard accessible and reachable",
+        "Instruction section is readable on mobile viewport"
+      ],
+      "status": "covered"
+    }
+  ],
+  "missingCoverage": [
+    {
+      "area": "Minor account KYC (ECCU section)",
+      "description": "The ECCU KYC table notes that minors need parent/guardian KYC + birth certificate. No interactive scenario covers this — informational display only. Recommend manual verification.",
+      "risk": "low"
+    },
+    {
+      "area": "Salesforce error exact message text",
+      "description": "The ticket does not specify the exact error message when Salesforce is unavailable. The negative scenario uses a placeholder message — confirm with product team.",
+      "risk": "medium"
+    },
+    {
+      "area": "Multiple products instructions ordering",
+      "description": "When multiple products are selected, the ordering of instruction sections 3 and 4 was confirmed by Prachi Jangid (Comment #13). An explicit ordering test was not generated — the Scenario Outline covers content presence but not display order.",
+      "risk": "low"
+    }
+  ],
+  "tagDistribution": {
+    "@Smoke": 2,
+    "@Regression": 26,
+    "@Positive": 10,
+    "@Negative": 4,
+    "@EdgeCase": 6,
+    "@Security": 3,
+    "@Accessibility": 5,
+    "@HighPriority": 16,
+    "@MediumPriority": 10,
+    "@LowPriority": 2,
+    "@UI": 28,
+    "@Web": 28,
+    "@BDBP1-202": 28,
+    "@AC-1": 1,
+    "@AC-2": 1,
+    "@AC-3": 4,
+    "@AC-4": 4,
+    "@AC-5": 4,
+    "@AC-6": 5
+  },
+  "playwrightReady": true,
+  "playwrightNotes": [
+    "Accordion state verified via aria-expanded attribute",
+    "Salesforce API unavailability requires network interception (page.route) or test environment flag",
+    "FATCA link open-in-new-tab requires popup/new-tab handling in Playwright",
+    "Session expiry scenario requires manual token invalidation or clock mocking",
+    "Mobile viewport scenario requires viewport.set({ width: 375, height: 812 })"
+  ]
+}

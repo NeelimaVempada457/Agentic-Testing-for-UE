@@ -1,0 +1,92 @@
+- generic [ref=e9]:
+  - link "Skip to Main" [ref=e10] [cursor=pointer]:
+    - /url: javascript:void(0);
+  - banner
+  - main [ref=e11]:
+    - generic [ref=e278]:
+      - generic [ref=e281]:
+        - img "BOSL Digital Logo" [ref=e283]
+        - button "Back to Home" [ref=e285] [cursor=pointer]
+      - generic [ref=e289]:
+        - complementary [ref=e290]:
+          - list [ref=e291]:
+            - listitem [ref=e292] [cursor=pointer]:
+              - img "Select Product" [ref=e293]
+              - generic [ref=e294]: Select Product
+            - listitem [ref=e295] [cursor=pointer]:
+              - img "Instructions" [ref=e296]
+              - generic [ref=e297]: Instructions
+            - listitem [ref=e298] [cursor=pointer]:
+              - img "Personal Information" [ref=e299]
+              - generic [ref=e300]: Personal Information
+            - listitem [ref=e301] [cursor=pointer]:
+              - img "Validation" [ref=e302]
+              - generic [ref=e303]: Validation
+        - generic [ref=e387]:
+          - heading "Ordinary Savings Application" [level=2] [ref=e388]
+          - paragraph [ref=e389]: Complete the following steps
+          - generic [ref=e390]:
+            - heading "General Instructions" [level=3] [ref=e391]
+            - heading "Instructions for completing the form" [level=3] [ref=e392]
+            - list [ref=e393]:
+              - listitem [ref=e394]: Application document MUST be completed in its entirety.
+              - listitem [ref=e395]: No more than four (4) persons can be included on an account.
+              - listitem [ref=e396]: In keeping with Bank of Saint Lucia's AML policy, we require that ALL our existing customers' information remain up to date. As such the items listed in the Account Requirements attached must also be submitted by the existing customer(s) to support the updated information provided (In particular forms of valid identification).
+              - listitem [ref=e397]: A Personal Information Form to be completed and signed by each signatory to the account.
+            - paragraph [ref=e398]:
+              - strong [ref=e399]: "DISCLAIMER:"
+              - text: Please note that bank may request additional supporting documentation or Video Snip (Virtual Meeting) for the processing of your application on a case-by-case basis.
+          - generic [ref=e401]:
+            - generic [ref=e402] [cursor=pointer]:
+              - img [ref=e406]
+              - generic [ref=e409]: Ordinary Savings
+            - generic [ref=e412]:
+              - paragraph [ref=e413]: All of life's accomplishments have started with a first step. Developing a good savings habit while learning to manage your income is your first
+              - paragraph [ref=e414]: step to financial security. A regular savings account from Bank of Saint Lucia facilitates the payment of your salary, payment of your utility bills
+              - paragraph [ref=e415]: and access to various convenience services while allowing you to save for future goals and emergencies.
+              - paragraph [ref=e416]: Features
+              - list [ref=e417]:
+                - listitem [ref=e418]: Must be 18 years and over.
+                - listitem [ref=e419]: Minimum opening balance of $50 (Plus $10.00 Government Stamp Duty upon opening of account).
+              - paragraph [ref=e420]: Benefits
+              - list [ref=e421]:
+                - listitem [ref=e422]: Interest paid quarterly.
+                - listitem [ref=e423]: Unlimited deposits and withdrawals via ATM.
+                - listitem [ref=e424]: Standing order facility.
+                - listitem [ref=e425]: Payment of your utility bills.
+                - listitem [ref=e426]: Complete Online Banking.
+                - listitem [ref=e427]: Use of your Visa International debit card at various business outlets.
+              - paragraph [ref=e428]: "* We reserve the right to review our product features, rates and fees in accordance with market conditions."
+          - generic [ref=e429]:
+            - heading "Important Compliance Notice" [level=3] [ref=e430]
+            - paragraph [ref=e431]:
+              - text: If you are a U.S. citizen or U.S. resident, you are required to complete the
+              - link "FATCA (Foreign Account Tax Compliance Act)" [ref=e432] [cursor=pointer]:
+                - /url: https://www.irs.gov/businesses/corporations/fatca-related-forms
+                - generic [ref=e433]: FATCA (Foreign Account Tax Compliance Act)
+              - text: form before proceeding. Failure to complete this form may result in delays or restrictions in processing your application.
+          - generic [ref=e434]:
+            - paragraph [ref=e435]: What documents do you need?
+            - generic [ref=e437] [cursor=pointer]:
+              - generic [ref=e438]: Individual (National) of ECCU Territories
+              - img [ref=e442]
+            - generic [ref=e446] [cursor=pointer]:
+              - generic [ref=e447]: Resident Nationals of CARICOM (except ECCU territories)
+              - img [ref=e451]
+            - generic [ref=e455] [cursor=pointer]:
+              - generic [ref=e456]: Non-Nationals / Residents Outside CARICOM
+              - img [ref=e460]
+            - generic [ref=e464] [cursor=pointer]:
+              - generic [ref=e465]: Self – Employed Individuals
+              - img [ref=e469]
+          - button "Continue" [ref=e474] [cursor=pointer]
+      - generic [ref=e336]:
+        - text: Need help? Contact
+        - link "Call BOSL Digital Support" [ref=e337] [cursor=pointer]:
+          - /url: tel:+17584566999
+          - text: (758)-456-6999
+        - text: / Email
+        - link "Email BOSL Digital Support" [ref=e338] [cursor=pointer]:
+          - /url: mailto:bosldigital@bankofsaintlucia.com
+          - text: bosldigital@bankofsaintlucia.com
+  - contentinfo

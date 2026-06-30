@@ -1,0 +1,1491 @@
+{
+  "key": "BDBP1-202",
+  "id": "24492",
+  "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/24492",
+  "summary": "Registration Form: Instruction Section ",
+  "status": "UAT Deployed",
+  "priority": "Medium",
+  "issuetype": "Story",
+  "assignee": {
+    "displayName": "Prachi Jangid",
+    "emailAddress": "prachi.jangid@theksquaregroup.com"
+  },
+  "reporter": {
+    "displayName": "Prachi Jangid",
+    "emailAddress": "prachi.jangid@theksquaregroup.com"
+  },
+  "labels": [],
+  "components": [],
+  "fixVersions": [],
+  "affectsVersions": [],
+  "storyPoints": null,
+  "sprint": {
+    "id": 3685,
+    "name": "BOSL Digital Dev SP4",
+    "state": "closed",
+    "boardId": 409,
+    "goal": "",
+    "startDate": "2026-02-16T09:57:10.596Z",
+    "endDate": "2026-02-27T05:00:00.000Z",
+    "completeDate": "2026-03-12T16:06:16.690Z"
+  },
+  "epic": {
+    "key": "BDBP1-153",
+    "summary": "Digital Portal (Customer)  |  User Journey"
+  },
+  "environment": null,
+  "created": "2025-11-08T23:01:04.981-0500",
+  "updated": "2026-03-04T04:34:20.934-0500",
+  "dueDate": null,
+  "resolutionDate": null,
+  "votes": 0,
+  "watches": 7,
+  "customFields": {
+    "customfield_10053": 6,
+    "customfield_10047": [],
+    "customfield_10038": [],
+    "customfield_10398": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/customFieldOption/10241",
+      "value": "Yes",
+      "id": "10241"
+    },
+    "customfield_10399": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/customFieldOption/10243",
+      "value": "Yes",
+      "id": "10243"
+    },
+    "customfield_10020": [
+      {
+        "id": 3685,
+        "name": "BOSL Digital Dev SP4",
+        "state": "closed",
+        "boardId": 409,
+        "goal": "",
+        "startDate": "2026-02-16T09:57:10.596Z",
+        "endDate": "2026-02-27T05:00:00.000Z",
+        "completeDate": "2026-03-12T16:06:16.690Z"
+      }
+    ],
+    "customfield_10026": "2025-11-20T15:59:19.022-0500",
+    "customfield_10019": "0|i01frq:qzzx",
+    "customfield_10014": "BDBP1-153",
+    "customfield_10401": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/customFieldOption/10248",
+      "value": "No",
+      "id": "10248"
+    },
+    "customfield_10402": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/customFieldOption/10249",
+      "value": "Yes",
+      "id": "10249"
+    },
+    "customfield_10403": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/customFieldOption/10252",
+      "value": "No",
+      "id": "10252"
+    },
+    "customfield_10000": "{pullrequest={dataType=pullrequest, state=MERGED, stateCount=1}, json={\"cachedValue\":{\"errors\":[],\"summary\":{\"pullrequest\":{\"overall\":{\"count\":1,\"lastUpdated\":\"2026-02-19T22:40:00.000+0530\",\"stateCount\":1,\"state\":\"MERGED\",\"dataType\":\"pullrequest\",\"open\":false},\"byInstanceType\":{\"GitHub\":{\"count\":1,\"name\":\"GitHub\"}}}}},\"isStale\":true}}",
+    "customfield_10002": [],
+    "customfield_10762": 23,
+    "customfield_10400": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/customFieldOption/10245",
+      "value": "Yes",
+      "id": "10245"
+    }
+  },
+  "rawFields": {
+    "statuscategorychangedate": "2026-03-04T04:28:53.929-0500",
+    "parent": {
+      "id": "24264",
+      "key": "BDBP1-153",
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/24264",
+      "fields": {
+        "summary": "Digital Portal (Customer)  |  User Journey",
+        "status": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/status/10040",
+          "description": "",
+          "iconUrl": "https://theksquaregroupglobal.atlassian.net/",
+          "name": "To Do",
+          "id": "10040",
+          "statusCategory": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+          }
+        },
+        "priority": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://theksquaregroupglobal.atlassian.net/images/icons/priorities/medium_new.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "issuetype": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issuetype/10000",
+          "id": "10000",
+          "description": "A big user story that needs to be broken down. Created by Jira Software - do not edit or delete.",
+          "iconUrl": "https://theksquaregroupglobal.atlassian.net/images/icons/issuetypes/epic.svg",
+          "name": "Epic",
+          "subtask": false,
+          "hierarchyLevel": 1
+        }
+      }
+    },
+    "fixVersions": [],
+    "statusCategory": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/statuscategory/3",
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Done"
+    },
+    "resolution": null,
+    "lastViewed": "2026-05-18T08:16:32.817-0400",
+    "customfield_10063": null,
+    "priority": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/priority/3",
+      "iconUrl": "https://theksquaregroupglobal.atlassian.net/images/icons/priorities/medium_new.svg",
+      "name": "Medium",
+      "id": "3"
+    },
+    "labels": [],
+    "timeestimate": null,
+    "aggregatetimeoriginalestimate": 82800,
+    "versions": [],
+    "issuelinks": [
+      {
+        "id": "17687",
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issueLink/17687",
+        "type": {
+          "id": "10000",
+          "name": "Blocks",
+          "inward": "is blocked by",
+          "outward": "blocks",
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issueLinkType/10000"
+        },
+        "outwardIssue": {
+          "id": "31209",
+          "key": "BDBP1-408",
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/31209",
+          "fields": {
+            "summary": "Controlled Step Navigation for Account Registration Flow",
+            "status": {
+              "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/status/10609",
+              "description": "",
+              "iconUrl": "https://theksquaregroupglobal.atlassian.net/images/icons/statuses/generic.png",
+              "name": "UAT Deployed",
+              "id": "10609",
+              "statusCategory": {
+                "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "green",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/priority/3",
+              "iconUrl": "https://theksquaregroupglobal.atlassian.net/images/icons/priorities/medium_new.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issuetype/10011",
+              "id": "10011",
+              "description": "Stories track functionality or features expressed as user goals.",
+              "iconUrl": "https://theksquaregroupglobal.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10300?size=medium",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10300,
+              "hierarchyLevel": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "18940",
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issueLink/18940",
+        "type": {
+          "id": "10003",
+          "name": "Relates",
+          "inward": "relates to",
+          "outward": "relates to",
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issueLinkType/10003"
+        },
+        "outwardIssue": {
+          "id": "37047",
+          "key": "BDBP1-529",
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/37047",
+          "fields": {
+            "summary": "BOSL Digital QA Bug – Instruction Section content and formatting do not match approved specifications",
+            "status": {
+              "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/status/10010",
+              "description": "This was auto-generated by Jira Service Management during workflow import",
+              "iconUrl": "https://theksquaregroupglobal.atlassian.net/images/icons/status_generic.gif",
+              "name": "Completed",
+              "id": "10010",
+              "statusCategory": {
+                "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "green",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/priority/3",
+              "iconUrl": "https://theksquaregroupglobal.atlassian.net/images/icons/priorities/medium_new.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issuetype/10029",
+              "id": "10029",
+              "description": "A problem or error.",
+              "iconUrl": "https://theksquaregroupglobal.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+              "name": "Bug",
+              "subtask": false,
+              "avatarId": 10303,
+              "hierarchyLevel": 0
+            }
+          }
+        }
+      }
+    ],
+    "assignee": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+      "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+      "emailAddress": "prachi.jangid@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+      },
+      "displayName": "Prachi Jangid",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "status": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/status/10609",
+      "description": "",
+      "iconUrl": "https://theksquaregroupglobal.atlassian.net/images/icons/statuses/generic.png",
+      "name": "UAT Deployed",
+      "id": "10609",
+      "statusCategory": {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/statuscategory/3",
+        "id": 3,
+        "key": "done",
+        "colorName": "green",
+        "name": "Done"
+      }
+    },
+    "components": [],
+    "customfield_10050": null,
+    "customfield_10051": null,
+    "customfield_10052": null,
+    "customfield_10053": 6,
+    "customfield_10049": null,
+    "aggregatetimeestimate": 82800,
+    "creator": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Aab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+      "accountId": "712020:ab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+      "emailAddress": "richard.mena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png"
+      },
+      "displayName": "Richard Mena",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "subtasks": [
+      {
+        "id": "32453",
+        "key": "BDBP1-445",
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/32453",
+        "fields": {
+          "summary": "Dev - Registration Form: Instruction Section",
+          "status": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/status/10011",
+            "description": "This was auto-generated by Jira Service Management during workflow import",
+            "iconUrl": "https://theksquaregroupglobal.atlassian.net/images/icons/status_generic.gif",
+            "name": "Done",
+            "id": "10011",
+            "statusCategory": {
+              "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/priority/3",
+            "iconUrl": "https://theksquaregroupglobal.atlassian.net/images/icons/priorities/medium_new.svg",
+            "name": "Medium",
+            "id": "3"
+          },
+          "issuetype": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issuetype/10010",
+            "id": "10010",
+            "description": "The sub-task of the issue",
+            "iconUrl": "https://theksquaregroupglobal.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10568?size=medium",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 10568,
+            "hierarchyLevel": -1
+          }
+        }
+      },
+      {
+        "id": "35024",
+        "key": "BDBP1-516",
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/35024",
+        "fields": {
+          "summary": "QA Task: Registration Form: Instruction Section",
+          "status": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/status/10011",
+            "description": "This was auto-generated by Jira Service Management during workflow import",
+            "iconUrl": "https://theksquaregroupglobal.atlassian.net/images/icons/status_generic.gif",
+            "name": "Done",
+            "id": "10011",
+            "statusCategory": {
+              "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/priority/3",
+            "iconUrl": "https://theksquaregroupglobal.atlassian.net/images/icons/priorities/medium_new.svg",
+            "name": "Medium",
+            "id": "3"
+          },
+          "issuetype": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issuetype/10010",
+            "id": "10010",
+            "description": "The sub-task of the issue",
+            "iconUrl": "https://theksquaregroupglobal.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10568?size=medium",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 10568,
+            "hierarchyLevel": -1
+          }
+        }
+      }
+    ],
+    "customfield_10040": null,
+    "customfield_10041": null,
+    "customfield_10042": null,
+    "reporter": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+      "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+      "emailAddress": "prachi.jangid@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+      },
+      "displayName": "Prachi Jangid",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "customfield_10043": null,
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 82800,
+      "percent": 0
+    },
+    "customfield_10044": null,
+    "customfield_10045": null,
+    "customfield_10046": null,
+    "customfield_10047": [],
+    "customfield_10048": null,
+    "customfield_10797": null,
+    "customfield_10830": null,
+    "customfield_10038": [],
+    "customfield_10039": null,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "votes": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/BDBP1-202/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": []
+    },
+    "issuetype": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issuetype/10011",
+      "id": "10011",
+      "description": "Stories track functionality or features expressed as user goals.",
+      "iconUrl": "https://theksquaregroupglobal.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10300?size=medium",
+      "name": "Story",
+      "subtask": false,
+      "avatarId": 10300,
+      "hierarchyLevel": 0
+    },
+    "timespent": null,
+    "customfield_10030": null,
+    "project": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/project/10409",
+      "id": "10409",
+      "key": "BDBP1",
+      "name": "BOSL - Digital Branch - Phase 1",
+      "projectTypeKey": "software",
+      "simplified": false,
+      "avatarUrls": {
+        "48x48": "https://theksquaregroupglobal.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10417",
+        "24x24": "https://theksquaregroupglobal.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10417?size=small",
+        "16x16": "https://theksquaregroupglobal.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10417?size=xsmall",
+        "32x32": "https://theksquaregroupglobal.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10417?size=medium"
+      }
+    },
+    "customfield_10031": null,
+    "customfield_10033": null,
+    "aggregatetimespent": null,
+    "customfield_10034": null,
+    "customfield_10398": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/customFieldOption/10241",
+      "value": "Yes",
+      "id": "10241"
+    },
+    "customfield_10035": null,
+    "customfield_10036": null,
+    "customfield_10399": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/customFieldOption/10243",
+      "value": "Yes",
+      "id": "10243"
+    },
+    "customfield_10795": null,
+    "customfield_10796": null,
+    "customfield_10037": null,
+    "customfield_10027": null,
+    "customfield_10028": null,
+    "customfield_10029": null,
+    "resolutiondate": null,
+    "workratio": -1,
+    "watches": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/BDBP1-202/watchers",
+      "watchCount": 7,
+      "isWatching": false
+    },
+    "created": "2025-11-08T23:01:04.981-0500",
+    "customfield_10020": [
+      {
+        "id": 3685,
+        "name": "BOSL Digital Dev SP4",
+        "state": "closed",
+        "boardId": 409,
+        "goal": "",
+        "startDate": "2026-02-16T09:57:10.596Z",
+        "endDate": "2026-02-27T05:00:00.000Z",
+        "completeDate": "2026-03-12T16:06:16.690Z"
+      }
+    ],
+    "customfield_10021": null,
+    "customfield_10022": null,
+    "customfield_10023": null,
+    "customfield_10024": null,
+    "customfield_10663": null,
+    "customfield_10025": null,
+    "customfield_10026": "2025-11-20T15:59:19.022-0500",
+    "customfield_10016": null,
+    "customfield_10017": null,
+    "customfield_10019": "0|i01frq:qzzx",
+    "updated": "2026-03-04T04:34:20.934-0500",
+    "timeoriginalestimate": null,
+    "description": "*As a* Customer,\n*I want to* view and interact with the Instruction section, access picture requirements and compliance information, and navigate easily,\n*So that* I can understand the required steps, review applicable requirements, and proceed confidently to complete the application process.\n\n*Screen UI:*\nThe complete screen of which the Instructions Section will be a part of-\n\n!image-20260129-122424.png|width=1208,alt=\"image-20260129-122424.png\"!\n\nThis screen is the Registration Form screen, and the Instructions component will be placed within this screen as shown above.\n\nh3. *Acceptance Criteria*\n\n# Haeder and Footer\" should be consistent on the Registration Page covered in story [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|smart-link] \n# Left Side component is consistent on the Registration Page covered by Jira Ticket [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|smart-link] \n# Instruction Section:\n## !image-20260122-080238.png|width=1138,alt=\"image-20260122-080238.png\"!\n## Based on the products selected in the previous Select Product screen, product-specific instructions must appear as documented in:\n##* [*Objects and Fields Details*|https://ksquaregroup.sharepoint.com/:x:/r/sites/ValueStreamManagement/_layouts/15/doc2.aspx?sourcedoc=%7BE4ECCB46-59DA-4F94-BCB1-851D50BEADA0%7D&file=Objects%20and%20Fields%20Details.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1][ |https://ksquaregroup.sharepoint.com/:x:/r/sites/ValueStreamManagement/_layouts/15/doc2.aspx?sourcedoc=%7BE4ECCB46-59DA-4F94-BCB1-851D50BEADA0%7D&file=Objects%20and%20Fields%20Details.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1](Products)\n##* [*Product Details Information.xlsx*|https://ecfhbosl.sharepoint.com/:x:/r/sites/DigitalBranchExpericeneCloudforDigitalbranch/Shared%20Documents/Digital%20Branch%20Expericene%20Cloud%20for%20Digital%20branch/1-Initiation/Request%20from%20KSquare/Product%20Details%20Information.xlsx?d=w31b58cedcacf448385de724e493720b4&csf=1&web=1&e=2ldmkU] (Instructions tab)\n## Important Compliance notice for U.S. citizens/residents regarding FATCA.\n## Buttons Presented will be applicable for the different applicant’s residency types\n### Individual (National) of ECCU Territories\n### Resident Nationals of CARICOM (except ECCU territories)\n### Non-Nationals/Residents Outside CARICOM\n### Self –Employed Individuals\n# *On Button Click*\n#* Clicking on the applicable button to see documentation requirements\n\n||{color:#ffffff}*Customer Type/Button Label*{color}||{color:#ffffff}*Identification*{color}||{color:#ffffff}*Residential Address*{color}||{color:#ffffff}*Additional Notes*{color}||\n|# Individual (National) of ECCU Territories|One form of Valid (Unexpired) Government-Issued Picture Identification:\n* Passport\n* National Identification Card\n* Social Security card\n* Driver’s license\n* Voter’s card|*NO PROOF OF ADDRESS REQUIRED:*\na. For Saint Lucian Nationals and Residents unless Customer type is listed as Companies / Unlisted Corporations|*Specific to Minors*\n* Accounts on behalf of minors with no picture identification: parent/legal guardian subject to standard KYC requirements\n* Birth certificate of minor|\n|Resident Nationals of CARICOM\n(except ECCU territories)|One Form of Valid (unexpired) Government Issued Identification:\n* Passport and\n* Driver’s License or National identification Card|Confirmation of Residential Address is required by any of the following documents:\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential\n\\\\\nAddress. (The relationship must be in existence for at least 1 year);\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner,\n\\\\\nalong with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n|Non-Nationals/\nResidents\nOutside\nCARICOM|Two forms of valid (unexpired) Government Issued Identification\n* Passport\n* National Identification Card\n* Social Security card\n* Driver’s license\n* Voter’s card|Confirmation of Residential Address by way of any one of the following documents\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential\n\\\\\nAddress. (The relationship must be in existence for at least 1 year);\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner,\n\\\\\nalong with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n|Self –\nEmployed\nIndividuals|* One (1) form of Government-Issued Picture Identification in the case of\nNationals/Residents of ECCU and CARICOM.\n* Two (2) forms of Government- Issued Picture Identification in the case of Non\u0002Nationals/ Residents Outside of CARICOM|Confirmation of Residential Address by way of any one of the following documents\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential Address. (The relationship must be in existence for at least 1 year)\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner, along with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n\n* *Behaviour*\n** A collapsible accordion component must be provided for document requirement categories\n** Only one accordion section can be expanded at a time\n** The Accordion can be auto closed when another accordion is opened\n\n!image-20260212-135841.png|width=644,alt=\"image-20260212-135841.png\"!\n* *Navigation*\n** +Continue+ button navigates to the next section: Personal Information.\n* *Design Compliance*\n** BOSL branding (colors, fonts, logo) applied consistently.\n** Responsive design verified across desktop and mobile.\n\n*Significance*\n\nThis section ensures customers understand application requirements and compliance obligations before proceeding. It improves transparency, reduces errors, and supports regulatory compliance while maintaining a consistent user experience.\n\n*Definition of Done*\n\n* Instruction section implemented per Figma design.\n* All hyperlinks and buttons open in a new tab and point to correct URLs.\n* FATCA link displayed under compliance notice and opens correctly.\n* Navigation buttons (Continue, Save Progress, Back to Dashboard) function as expected.\n* QA validates responsiveness and usability across devices.\n* Smoke tests pass successfully in staging environment.\n* UAT sign-off obtained from BOSL team.\n\n*Dependencies*\n\n* BOSL branding guidelines and reusable header/footer components.\n* Verified URLs for picture requirements, FATCA, and applicant requirement pages.\n* Backend readiness for saving progress and navigation logic.\n\n*Risks*\n\n* Incorrect or broken links may prevent users from accessing compliance information.\n* Navigation issues may block progress to the next section.\n* Branding inconsistencies may reduce trust and user confidence.\n\n\n\n* Figma Design Link\n* [https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1752-13933&t=OrDVZQ9W5ZMS9Syh-4|https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1752-13933&t=OrDVZQ9W5ZMS9Syh-4|smart-link] \n*  [https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=OrDVZQ9W5ZMS9Syh-4|https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=OrDVZQ9W5ZMS9Syh-4|smart-link] ",
+    "customfield_10010": null,
+    "customfield_10496": null,
+    "customfield_10014": "BDBP1-153",
+    "customfield_10015": null,
+    "timetracking": {},
+    "customfield_10005": null,
+    "customfield_10401": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/customFieldOption/10248",
+      "value": "No",
+      "id": "10248"
+    },
+    "customfield_10402": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/customFieldOption/10249",
+      "value": "Yes",
+      "id": "10249"
+    },
+    "customfield_10006": null,
+    "customfield_10007": null,
+    "security": null,
+    "customfield_10403": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/customFieldOption/10252",
+      "value": "No",
+      "id": "10252"
+    },
+    "customfield_10008": null,
+    "attachment": [
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/38494",
+        "id": "38494",
+        "filename": "20260304-0932-05.1000314.mp4",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A5eed3a43-4d0d-4318-a166-a9735cd0d118",
+          "accountId": "712020:5eed3a43-4d0d-4318-a166-a9735cd0d118",
+          "emailAddress": "madhu.gaddam@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+            "24x24": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+            "16x16": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+            "32x32": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png"
+          },
+          "displayName": "Madhu Latha Gaddam",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-04T04:34:18.204-0500",
+        "size": 12675693,
+        "mimeType": "video/mp4",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/38494"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/30232",
+        "id": "30232",
+        "filename": "image-20260122-080238.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+          "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+          "emailAddress": "prachi.jangid@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+          },
+          "displayName": "Prachi Jangid",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-01-22T03:19:59.507-0500",
+        "size": 93176,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/30232",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/30232"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/31450",
+        "id": "31450",
+        "filename": "image-20260129-122424.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Abb76c871-09f7-4464-96af-3349b8c74dc3",
+          "accountId": "712020:bb76c871-09f7-4464-96af-3349b8c74dc3",
+          "emailAddress": "namratha.matcha@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+            "24x24": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+            "16x16": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+            "32x32": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png"
+          },
+          "displayName": "Namratha Matcha",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-01-29T07:24:38.484-0500",
+        "size": 720143,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/31450",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/31450"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/34632",
+        "id": "34632",
+        "filename": "image-20260212-135841.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Abb76c871-09f7-4464-96af-3349b8c74dc3",
+          "accountId": "712020:bb76c871-09f7-4464-96af-3349b8c74dc3",
+          "emailAddress": "namratha.matcha@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+            "24x24": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+            "16x16": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+            "32x32": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png"
+          },
+          "displayName": "Namratha Matcha",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-02-12T09:01:17.918-0500",
+        "size": 424782,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/34632",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/34632"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/35730",
+        "id": "35730",
+        "filename": "image-20260218-132349.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+          "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+          "emailAddress": "prachi.jangid@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+          },
+          "displayName": "Prachi Jangid",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-02-18T08:47:25.258-0500",
+        "size": 24321,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/35730",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/35730"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/35732",
+        "id": "35732",
+        "filename": "image-20260218-132413.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+          "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+          "emailAddress": "prachi.jangid@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+          },
+          "displayName": "Prachi Jangid",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-02-18T08:47:26.112-0500",
+        "size": 27076,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/35732",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/35732"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/35733",
+        "id": "35733",
+        "filename": "image-20260218-132511.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+          "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+          "emailAddress": "prachi.jangid@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+          },
+          "displayName": "Prachi Jangid",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-02-18T08:47:26.480-0500",
+        "size": 21467,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/35733",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/35733"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/35731",
+        "id": "35731",
+        "filename": "image-20260218-133053.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+          "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+          "emailAddress": "prachi.jangid@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+          },
+          "displayName": "Prachi Jangid",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-02-18T08:47:25.724-0500",
+        "size": 34465,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/35731",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/35731"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/36214",
+        "id": "36214",
+        "filename": "image-20260220-143823.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+          "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+          "emailAddress": "prachi.jangid@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+          },
+          "displayName": "Prachi Jangid",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-02-20T09:39:01.367-0500",
+        "size": 76731,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/36214",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/36214"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/36215",
+        "id": "36215",
+        "filename": "image-20260220-143838.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+          "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+          "emailAddress": "prachi.jangid@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+            "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+            "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+            "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+          },
+          "displayName": "Prachi Jangid",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-02-20T09:39:01.856-0500",
+        "size": 91825,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/36215",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/36215"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/38496",
+        "id": "38496",
+        "filename": "image-20260304-093045.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A5eed3a43-4d0d-4318-a166-a9735cd0d118",
+          "accountId": "712020:5eed3a43-4d0d-4318-a166-a9735cd0d118",
+          "emailAddress": "madhu.gaddam@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+            "24x24": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+            "16x16": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+            "32x32": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png"
+          },
+          "displayName": "Madhu Latha Gaddam",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-04T04:34:19.070-0500",
+        "size": 198744,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/38496",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/38496"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/38497",
+        "id": "38497",
+        "filename": "image-20260304-093100.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A5eed3a43-4d0d-4318-a166-a9735cd0d118",
+          "accountId": "712020:5eed3a43-4d0d-4318-a166-a9735cd0d118",
+          "emailAddress": "madhu.gaddam@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+            "24x24": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+            "16x16": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+            "32x32": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png"
+          },
+          "displayName": "Madhu Latha Gaddam",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-04T04:34:19.527-0500",
+        "size": 190389,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/38497",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/38497"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/38499",
+        "id": "38499",
+        "filename": "image-20260304-093113.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A5eed3a43-4d0d-4318-a166-a9735cd0d118",
+          "accountId": "712020:5eed3a43-4d0d-4318-a166-a9735cd0d118",
+          "emailAddress": "madhu.gaddam@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+            "24x24": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+            "16x16": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+            "32x32": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png"
+          },
+          "displayName": "Madhu Latha Gaddam",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-04T04:34:20.238-0500",
+        "size": 193323,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/38499",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/38499"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/38498",
+        "id": "38498",
+        "filename": "image-20260304-093131.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A5eed3a43-4d0d-4318-a166-a9735cd0d118",
+          "accountId": "712020:5eed3a43-4d0d-4318-a166-a9735cd0d118",
+          "emailAddress": "madhu.gaddam@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+            "24x24": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+            "16x16": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+            "32x32": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png"
+          },
+          "displayName": "Madhu Latha Gaddam",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-04T04:34:19.921-0500",
+        "size": 178354,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/38498",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/38498"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/38495",
+        "id": "38495",
+        "filename": "image-20260304-093146.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A5eed3a43-4d0d-4318-a166-a9735cd0d118",
+          "accountId": "712020:5eed3a43-4d0d-4318-a166-a9735cd0d118",
+          "emailAddress": "madhu.gaddam@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+            "24x24": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+            "16x16": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+            "32x32": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png"
+          },
+          "displayName": "Madhu Latha Gaddam",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-04T04:34:18.726-0500",
+        "size": 162783,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/38495",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/38495"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/24861",
+        "id": "24861",
+        "filename": "Retail & Corporate KYC Checklist 2025 (1).pdf",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Aab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+          "accountId": "712020:ab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+          "emailAddress": "richard.mena@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+            "24x24": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+            "16x16": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+            "32x32": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png"
+          },
+          "displayName": "Richard Mena",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2025-11-20T15:59:18.412-0500",
+        "size": 263052,
+        "mimeType": "application/pdf",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/24861"
+      }
+    ],
+    "customfield_10009": null,
+    "summary": "Registration Form: Instruction Section ",
+    "customfield_10000": "{pullrequest={dataType=pullrequest, state=MERGED, stateCount=1}, json={\"cachedValue\":{\"errors\":[],\"summary\":{\"pullrequest\":{\"overall\":{\"count\":1,\"lastUpdated\":\"2026-02-19T22:40:00.000+0530\",\"stateCount\":1,\"state\":\"MERGED\",\"dataType\":\"pullrequest\",\"open\":false},\"byInstanceType\":{\"GitHub\":{\"count\":1,\"name\":\"GitHub\"}}}}},\"isStale\":true}}",
+    "customfield_10001": null,
+    "customfield_10002": [],
+    "customfield_10003": null,
+    "customfield_10762": 23,
+    "customfield_10400": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/customFieldOption/10245",
+      "value": "Yes",
+      "id": "10245"
+    },
+    "customfield_10004": null,
+    "environment": null,
+    "duedate": null,
+    "comment": {
+      "comments": [
+        {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/24492/comment/24789",
+          "id": "24789",
+          "author": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Aab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+            "accountId": "712020:ab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+            "emailAddress": "richard.mena@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+              "24x24": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+              "16x16": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+              "32x32": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png"
+            },
+            "displayName": "Richard Mena",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "body": "Changes made as confirmed with [~accountid:712020:416f700a-e02a-448e-bf2f-7b0fd7dde2c0] based on the [^Retail & Corporate KYC Checklist 2025 (1).pdf]  for the applicable residency type\n\ncc: [~accountid:712020:98be500c-734d-4ba3-9e47-d06126c774d4] ",
+          "updateAuthor": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Aab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+            "accountId": "712020:ab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+            "emailAddress": "richard.mena@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+              "24x24": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+              "16x16": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+              "32x32": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png"
+            },
+            "displayName": "Richard Mena",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "created": "2025-11-20T15:59:19.022-0500",
+          "updated": "2025-11-20T15:59:19.022-0500",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/24492/comment/24800",
+          "id": "24800",
+          "author": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A416f700a-e02a-448e-bf2f-7b0fd7dde2c0",
+            "accountId": "712020:416f700a-e02a-448e-bf2f-7b0fd7dde2c0",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/2ec8ab92e9336a84b69488483fd447b9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCA-0.png",
+              "24x24": "https://secure.gravatar.com/avatar/2ec8ab92e9336a84b69488483fd447b9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCA-0.png",
+              "16x16": "https://secure.gravatar.com/avatar/2ec8ab92e9336a84b69488483fd447b9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCA-0.png",
+              "32x32": "https://secure.gravatar.com/avatar/2ec8ab92e9336a84b69488483fd447b9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCA-0.png"
+            },
+            "displayName": "Creselda Alexander",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "body": "🎉 Looks good!",
+          "updateAuthor": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A416f700a-e02a-448e-bf2f-7b0fd7dde2c0",
+            "accountId": "712020:416f700a-e02a-448e-bf2f-7b0fd7dde2c0",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/2ec8ab92e9336a84b69488483fd447b9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCA-0.png",
+              "24x24": "https://secure.gravatar.com/avatar/2ec8ab92e9336a84b69488483fd447b9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCA-0.png",
+              "16x16": "https://secure.gravatar.com/avatar/2ec8ab92e9336a84b69488483fd447b9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCA-0.png",
+              "32x32": "https://secure.gravatar.com/avatar/2ec8ab92e9336a84b69488483fd447b9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCA-0.png"
+            },
+            "displayName": "Creselda Alexander",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "created": "2025-11-20T18:00:03.238-0500",
+          "updated": "2025-11-20T18:00:03.238-0500",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/24492/comment/24944",
+          "id": "24944",
+          "author": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A416f700a-e02a-448e-bf2f-7b0fd7dde2c0",
+            "accountId": "712020:416f700a-e02a-448e-bf2f-7b0fd7dde2c0",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/2ec8ab92e9336a84b69488483fd447b9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCA-0.png",
+              "24x24": "https://secure.gravatar.com/avatar/2ec8ab92e9336a84b69488483fd447b9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCA-0.png",
+              "16x16": "https://secure.gravatar.com/avatar/2ec8ab92e9336a84b69488483fd447b9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCA-0.png",
+              "32x32": "https://secure.gravatar.com/avatar/2ec8ab92e9336a84b69488483fd447b9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCA-0.png"
+            },
+            "displayName": "Creselda Alexander",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "body": "[~accountid:712020:ab1c63fb-f435-4eeb-a61c-ca4d97476f0e] thank you ",
+          "updateAuthor": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A416f700a-e02a-448e-bf2f-7b0fd7dde2c0",
+            "accountId": "712020:416f700a-e02a-448e-bf2f-7b0fd7dde2c0",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/2ec8ab92e9336a84b69488483fd447b9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCA-0.png",
+              "24x24": "https://secure.gravatar.com/avatar/2ec8ab92e9336a84b69488483fd447b9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCA-0.png",
+              "16x16": "https://secure.gravatar.com/avatar/2ec8ab92e9336a84b69488483fd447b9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCA-0.png",
+              "32x32": "https://secure.gravatar.com/avatar/2ec8ab92e9336a84b69488483fd447b9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCA-0.png"
+            },
+            "displayName": "Creselda Alexander",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "created": "2025-11-21T18:46:05.964-0500",
+          "updated": "2025-11-21T18:46:05.964-0500",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/24492/comment/33581",
+          "id": "33581",
+          "author": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Afa87f1b2-177f-4921-a251-e6dd2a7e7c58",
+            "accountId": "712020:fa87f1b2-177f-4921-a251-e6dd2a7e7c58",
+            "emailAddress": "yusuf.khan@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/9a7ac43624c7dc4e90117b3a75ec53fa?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYK-6.png",
+              "24x24": "https://secure.gravatar.com/avatar/9a7ac43624c7dc4e90117b3a75ec53fa?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYK-6.png",
+              "16x16": "https://secure.gravatar.com/avatar/9a7ac43624c7dc4e90117b3a75ec53fa?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYK-6.png",
+              "32x32": "https://secure.gravatar.com/avatar/9a7ac43624c7dc4e90117b3a75ec53fa?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYK-6.png"
+            },
+            "displayName": "Yusuf Khan",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "body": "Need clarifications on how to display instructions ",
+          "updateAuthor": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Afa87f1b2-177f-4921-a251-e6dd2a7e7c58",
+            "accountId": "712020:fa87f1b2-177f-4921-a251-e6dd2a7e7c58",
+            "emailAddress": "yusuf.khan@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/9a7ac43624c7dc4e90117b3a75ec53fa?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYK-6.png",
+              "24x24": "https://secure.gravatar.com/avatar/9a7ac43624c7dc4e90117b3a75ec53fa?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYK-6.png",
+              "16x16": "https://secure.gravatar.com/avatar/9a7ac43624c7dc4e90117b3a75ec53fa?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYK-6.png",
+              "32x32": "https://secure.gravatar.com/avatar/9a7ac43624c7dc4e90117b3a75ec53fa?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYK-6.png"
+            },
+            "displayName": "Yusuf Khan",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "created": "2026-02-04T07:20:28.264-0500",
+          "updated": "2026-02-04T07:20:28.264-0500",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/24492/comment/33870",
+          "id": "33870",
+          "author": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Abb76c871-09f7-4464-96af-3349b8c74dc3",
+            "accountId": "712020:bb76c871-09f7-4464-96af-3349b8c74dc3",
+            "emailAddress": "namratha.matcha@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+              "24x24": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+              "16x16": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+              "32x32": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png"
+            },
+            "displayName": "Namratha Matcha",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "body": "[~accountid:712020:fa87f1b2-177f-4921-a251-e6dd2a7e7c58] Lets connect on this",
+          "updateAuthor": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Abb76c871-09f7-4464-96af-3349b8c74dc3",
+            "accountId": "712020:bb76c871-09f7-4464-96af-3349b8c74dc3",
+            "emailAddress": "namratha.matcha@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+              "24x24": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+              "16x16": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+              "32x32": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png"
+            },
+            "displayName": "Namratha Matcha",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "created": "2026-02-04T12:16:05.806-0500",
+          "updated": "2026-02-04T12:16:05.806-0500",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/24492/comment/37925",
+          "id": "37925",
+          "author": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Afa87f1b2-177f-4921-a251-e6dd2a7e7c58",
+            "accountId": "712020:fa87f1b2-177f-4921-a251-e6dd2a7e7c58",
+            "emailAddress": "yusuf.khan@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/9a7ac43624c7dc4e90117b3a75ec53fa?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYK-6.png",
+              "24x24": "https://secure.gravatar.com/avatar/9a7ac43624c7dc4e90117b3a75ec53fa?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYK-6.png",
+              "16x16": "https://secure.gravatar.com/avatar/9a7ac43624c7dc4e90117b3a75ec53fa?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYK-6.png",
+              "32x32": "https://secure.gravatar.com/avatar/9a7ac43624c7dc4e90117b3a75ec53fa?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYK-6.png"
+            },
+            "displayName": "Yusuf Khan",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "body": "All i see is the instructions for Savings account are these instructions same for the loans and credit card and other products \ncc: [~accountid:712020:98be500c-734d-4ba3-9e47-d06126c774d4]  [~accountid:712020:bb76c871-09f7-4464-96af-3349b8c74dc3] ",
+          "updateAuthor": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Afa87f1b2-177f-4921-a251-e6dd2a7e7c58",
+            "accountId": "712020:fa87f1b2-177f-4921-a251-e6dd2a7e7c58",
+            "emailAddress": "yusuf.khan@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/9a7ac43624c7dc4e90117b3a75ec53fa?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYK-6.png",
+              "24x24": "https://secure.gravatar.com/avatar/9a7ac43624c7dc4e90117b3a75ec53fa?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYK-6.png",
+              "16x16": "https://secure.gravatar.com/avatar/9a7ac43624c7dc4e90117b3a75ec53fa?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYK-6.png",
+              "32x32": "https://secure.gravatar.com/avatar/9a7ac43624c7dc4e90117b3a75ec53fa?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYK-6.png"
+            },
+            "displayName": "Yusuf Khan",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "created": "2026-02-18T04:56:09.316-0500",
+          "updated": "2026-02-18T04:56:09.316-0500",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/24492/comment/37932",
+          "id": "37932",
+          "author": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Abb76c871-09f7-4464-96af-3349b8c74dc3",
+            "accountId": "712020:bb76c871-09f7-4464-96af-3349b8c74dc3",
+            "emailAddress": "namratha.matcha@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+              "24x24": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+              "16x16": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+              "32x32": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png"
+            },
+            "displayName": "Namratha Matcha",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "body": "[~accountid:712020:fa87f1b2-177f-4921-a251-e6dd2a7e7c58] No, Instructions need to be dynamically pulled from Salesforce. Savings is just for reference",
+          "updateAuthor": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Abb76c871-09f7-4464-96af-3349b8c74dc3",
+            "accountId": "712020:bb76c871-09f7-4464-96af-3349b8c74dc3",
+            "emailAddress": "namratha.matcha@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+              "24x24": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+              "16x16": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+              "32x32": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png"
+            },
+            "displayName": "Namratha Matcha",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "created": "2026-02-18T05:54:33.779-0500",
+          "updated": "2026-02-18T05:54:33.779-0500",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/24492/comment/37971",
+          "id": "37971",
+          "author": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+            "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+            "emailAddress": "prachi.jangid@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+            },
+            "displayName": "Prachi Jangid",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "body": "*Loans:*\nEnsure that all of your life's moments and milestone are as you dreamed they would be. A BOSL Personal Loan is an affordable way to get you the funds you need to do the things you that matter to you!\n\nOur experienced Loans Officers will ensure you have a response within 24-hours of application and your loan payments are affordable to you.\n\nChecklist\n\n* Picture I.D. (2 forms for first time customers)\n* Letter from Employer – Stating Length of Service\n* Salary Slip (Recent)\n\nInterest rates and terms on will vary so come in and talk to us today. Ask us today for detailed information about our Personal Loan Services.\n\n*For other products, the word documents are attached.*",
+          "updateAuthor": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+            "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+            "emailAddress": "prachi.jangid@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+            },
+            "displayName": "Prachi Jangid",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "created": "2026-02-18T08:23:08.569-0500",
+          "updated": "2026-02-18T08:23:08.569-0500",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/24492/comment/37974",
+          "id": "37974",
+          "author": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+            "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+            "emailAddress": "prachi.jangid@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+            },
+            "displayName": "Prachi Jangid",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "body": "[~accountid:712020:98be500c-734d-4ba3-9e47-d06126c774d4] \n\n!image-20260218-132413.png|width=726,alt=\"image-20260218-132413.png\"!\n\n!image-20260218-132349.png|width=757,alt=\"image-20260218-132349.png\"!\n\n\n\n!image-20260218-132511.png|width=719,alt=\"image-20260218-132511.png\"!\n\n*General Instructions*\n\n!image-20260218-133053.png|width=747,alt=\"image-20260218-133053.png\"!",
+          "updateAuthor": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+            "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+            "emailAddress": "prachi.jangid@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+            },
+            "displayName": "Prachi Jangid",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "created": "2026-02-18T08:47:27.102-0500",
+          "updated": "2026-02-18T08:47:27.102-0500",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/24492/comment/38713",
+          "id": "38713",
+          "author": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+            "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+            "emailAddress": "prachi.jangid@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+            },
+            "displayName": "Prachi Jangid",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "body": "[~accountid:712020:98be500c-734d-4ba3-9e47-d06126c774d4] \nHomestart-\n\n!image-20260220-143838.png|width=555,alt=\"image-20260220-143838.png\"!\n\nRegular/Ordinary-\n\n!image-20260220-143823.png|width=555,alt=\"image-20260220-143823.png\"!",
+          "updateAuthor": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+            "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+            "emailAddress": "prachi.jangid@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+            },
+            "displayName": "Prachi Jangid",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "created": "2026-02-20T09:39:02.575-0500",
+          "updated": "2026-02-20T09:39:02.575-0500",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/24492/comment/38946",
+          "id": "38946",
+          "author": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A718d8a89-842e-4b65-8360-5391f2ce3814",
+            "accountId": "712020:718d8a89-842e-4b65-8360-5391f2ce3814",
+            "emailAddress": "arnav.gaddam@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+              "24x24": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+              "16x16": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+              "32x32": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png"
+            },
+            "displayName": "Arnav Gaddam",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "body": "Hi Team, \nSince we are using the Instructions to be displayed when we select a product as in bullet points as suggested by [~accountid:712020:98be500c-734d-4ba3-9e47-d06126c774d4], we changed the Product Instructions (Product_Instructions__c) field from Text Area Long to Rich Text Area. \nCC : [~accountid:712020:5690ddf8-01d0-4edd-861c-99d274d394cc] , [~accountid:712020:fa87f1b2-177f-4921-a251-e6dd2a7e7c58] ",
+          "updateAuthor": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A718d8a89-842e-4b65-8360-5391f2ce3814",
+            "accountId": "712020:718d8a89-842e-4b65-8360-5391f2ce3814",
+            "emailAddress": "arnav.gaddam@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+              "24x24": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+              "16x16": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+              "32x32": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png"
+            },
+            "displayName": "Arnav Gaddam",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "created": "2026-02-23T08:50:24.880-0500",
+          "updated": "2026-02-23T08:50:24.880-0500",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/24492/comment/39921",
+          "id": "39921",
+          "author": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A718d8a89-842e-4b65-8360-5391f2ce3814",
+            "accountId": "712020:718d8a89-842e-4b65-8360-5391f2ce3814",
+            "emailAddress": "arnav.gaddam@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+              "24x24": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+              "16x16": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+              "32x32": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png"
+            },
+            "displayName": "Arnav Gaddam",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "body": "[~accountid:712020:5eed3a43-4d0d-4318-a166-a9735cd0d118], You can continue testing this ticket as PR is raised and deployed to DigitalQA. It is updated for fetching multiple Product Instructions as suggested by [~accountid:712020:98be500c-734d-4ba3-9e47-d06126c774d4] .\n\nCC : [~accountid:712020:379b6930-33f2-4472-8780-4224ae76dd28] ",
+          "updateAuthor": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A718d8a89-842e-4b65-8360-5391f2ce3814",
+            "accountId": "712020:718d8a89-842e-4b65-8360-5391f2ce3814",
+            "emailAddress": "arnav.gaddam@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+              "24x24": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+              "16x16": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+              "32x32": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png"
+            },
+            "displayName": "Arnav Gaddam",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "created": "2026-02-25T09:00:16.946-0500",
+          "updated": "2026-02-25T09:00:16.946-0500",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/24492/comment/41334",
+          "id": "41334",
+          "author": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A718d8a89-842e-4b65-8360-5391f2ce3814",
+            "accountId": "712020:718d8a89-842e-4b65-8360-5391f2ce3814",
+            "emailAddress": "arnav.gaddam@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+              "24x24": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+              "16x16": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+              "32x32": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png"
+            },
+            "displayName": "Arnav Gaddam",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "body": "[~accountid:712020:5eed3a43-4d0d-4318-a166-a9735cd0d118], As confirmed by [~accountid:712020:98be500c-734d-4ba3-9e47-d06126c774d4] the ordering of instructions 3 and 4 is fine and developed as given by Prachi. Disclaimer also needs to be added. Moving it to Ready for QA.",
+          "updateAuthor": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A718d8a89-842e-4b65-8360-5391f2ce3814",
+            "accountId": "712020:718d8a89-842e-4b65-8360-5391f2ce3814",
+            "emailAddress": "arnav.gaddam@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+              "24x24": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+              "16x16": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+              "32x32": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png"
+            },
+            "displayName": "Arnav Gaddam",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "created": "2026-03-03T08:02:46.568-0500",
+          "updated": "2026-03-03T08:03:07.342-0500",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/24492/comment/41717",
+          "id": "41717",
+          "author": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A5eed3a43-4d0d-4318-a166-a9735cd0d118",
+            "accountId": "712020:5eed3a43-4d0d-4318-a166-a9735cd0d118",
+            "emailAddress": "madhu.gaddam@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+              "24x24": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+              "16x16": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+              "32x32": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png"
+            },
+            "displayName": "Madhu Latha Gaddam",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "body": "As the Related bug got fixed and is as per the Requirements and all the Specified instructions are also as per the Requirements,\nProceeding to Move the story to UAT Deployed.\n\n!image-20260304-093045.png|width=930,alt=\"image-20260304-093045.png\"!\n\n!image-20260304-093100.png|width=911,alt=\"image-20260304-093100.png\"!\n\n!image-20260304-093113.png|width=911,alt=\"image-20260304-093113.png\"!\n\n!image-20260304-093131.png|width=911,alt=\"image-20260304-093131.png\"!\n\n!image-20260304-093146.png|width=911,alt=\"image-20260304-093146.png\"!\n\n!20260304-0932-05.1000314.mp4|width=911,alt=\"20260304-0932-05.1000314.mp4\"!\n\nAll the Products and Residency types are working as expected.\nCC: [~accountid:712020:98be500c-734d-4ba3-9e47-d06126c774d4] ",
+          "updateAuthor": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A5eed3a43-4d0d-4318-a166-a9735cd0d118",
+            "accountId": "712020:5eed3a43-4d0d-4318-a166-a9735cd0d118",
+            "emailAddress": "madhu.gaddam@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+              "24x24": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+              "16x16": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+              "32x32": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png"
+            },
+            "displayName": "Madhu Latha Gaddam",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "created": "2026-03-04T04:34:20.790-0500",
+          "updated": "2026-03-04T04:34:20.790-0500",
+          "jsdPublic": true
+        }
+      ],
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/24492/comment",
+      "maxResults": 14,
+      "total": 14,
+      "startAt": 0
+    }
+  }
+}

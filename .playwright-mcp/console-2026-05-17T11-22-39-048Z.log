@@ -1,0 +1,13 @@
+[  245581ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://bankofstlucia--digitalqa.sandbox.my.site.com/webruntime/framework/b84f5999fe/prod/lwr_bootstrap_locker:22
+[  246018ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://bankofstlucia--digitalqa.sandbox.my.site.com/webruntime/framework/b84f5999fe/prod/lwr_bootstrap_locker:22
+[  246106ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://bankofstlucia--digitalqa.sandbox.my.site.com/webruntime/framework/b84f5999fe/prod/lwr_bootstrap_locker:22
+[  246621ms] [LOG] Current Page Name: Register @ https://bankofstlucia--digitalqa.sandbox.my.site.com/webruntime/framework/b84f5999fe/prod/lwr_bootstrap_locker:20
+[  246624ms] [LOG] Current Page Name: Register @ https://bankofstlucia--digitalqa.sandbox.my.site.com/webruntime/framework/b84f5999fe/prod/lwr_bootstrap_locker:20
+[  247130ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bankofstlucia--digitalqa.sandbox.my.site.com/assets/styles/images/themes/oneSalesforce/banner-brand-default.png:0
+[  247931ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bankofstlucia--digitalqa.sandbox.my.site.com/favicon.ico:0
+[  428493ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://bankofstlucia--digitalqa.sandbox.my.site.com/webruntime/framework/b84f5999fe/prod/lwr_bootstrap_locker:22
+[  428732ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://bankofstlucia--digitalqa.sandbox.my.site.com/webruntime/framework/b84f5999fe/prod/lwr_bootstrap_locker:22
+[  428862ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://bankofstlucia--digitalqa.sandbox.my.site.com/webruntime/framework/b84f5999fe/prod/lwr_bootstrap_locker:22
+[  461126ms] [LOG] Current Page Name: Register @ https://bankofstlucia--digitalqa.sandbox.my.site.com/webruntime/framework/b84f5999fe/prod/lwr_bootstrap_locker:20
+[  461129ms] [LOG] Current Page Name: Register @ https://bankofstlucia--digitalqa.sandbox.my.site.com/webruntime/framework/b84f5999fe/prod/lwr_bootstrap_locker:20
+[  462657ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bankofstlucia--digitalqa.sandbox.my.site.com/assets/styles/images/themes/oneSalesforce/banner-brand-default.png:0

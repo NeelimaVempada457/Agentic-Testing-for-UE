@@ -1,0 +1,604 @@
+[
+  {
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/31385/comment/31565",
+    "id": "31565",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "body": "Hello @Vernette Symphorien, We can include the VIN number as part of the Document. but we need to validate were should we allocate the VIN number field since is not part of the initial scope in the doc? \n\n!image-20260127-191708.png|width=539,alt=\"image-20260127-191708.png\"!",
+    "updateAuthor": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-01-27T14:17:12.227-0500",
+    "updated": "2026-01-27T14:17:12.227-0500",
+    "jsdPublic": true
+  },
+  {
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/31385/comment/32301",
+    "id": "32301",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "body": "@Vernette Symphorien @Deepthi Kolli @Dwain Peter , we need the confirmation of where the VIN Number will be located. ",
+    "updateAuthor": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-01-29T13:04:32.791-0500",
+    "updated": "2026-01-29T13:04:32.791-0500",
+    "parentId": 31565,
+    "jsdPublic": true
+  },
+  {
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/31385/comment/37975",
+    "id": "37975",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Ade8d557c-a40d-4f0e-bbc2-d47d027d3a63",
+      "accountId": "712020:de8d557c-a40d-4f0e-bbc2-d47d027d3a63",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png"
+      },
+      "displayName": "Vernette Symphorien",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "body": "@jean.lopez @Carlene Charlemagne @Marcia George The Vin number should be located below “Year Model”. Where there is a VIN number, the Engine and Chassis number *should NOT appear on the MACA.*\n\nWhere there is Engine and Chassis number, the VIN number should not be available or should be hidden.",
+    "updateAuthor": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Ade8d557c-a40d-4f0e-bbc2-d47d027d3a63",
+      "accountId": "712020:de8d557c-a40d-4f0e-bbc2-d47d027d3a63",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png"
+      },
+      "displayName": "Vernette Symphorien",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-18T09:01:38.220-0500",
+    "updated": "2026-02-18T09:02:22.860-0500",
+    "jsdPublic": true
+  },
+  {
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/31385/comment/38012",
+    "id": "38012",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "body": "@Vernette SymphorienGood day,\n\nSince the generated document templates only support a single sample, I recommend creating a new *MACA - VIN Number* form to meet this requirement. So the Officers will Choose to generate the Doc with the Chasis Number or the one with the VIN.\n\n*Proposed Form Changes:*\n\n* *Add Field:* \"VIN Number\" (to be placed directly below \"Year Model\").\n* *Remove Fields:* \"Engine Number\" and \"Chassis Number.\"\n\nPlease let me know if you approve this approach so we can proceed with the update.\n\n@Marcia George @Carlene Charlemagne @Deepthi Kolli ",
+    "updateAuthor": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-18T09:58:07.389-0500",
+    "updated": "2026-02-18T09:58:07.389-0500",
+    "parentId": 37975,
+    "jsdPublic": true
+  },
+  {
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/31385/comment/39928",
+    "id": "39928",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Ade8d557c-a40d-4f0e-bbc2-d47d027d3a63",
+      "accountId": "712020:de8d557c-a40d-4f0e-bbc2-d47d027d3a63",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png"
+      },
+      "displayName": "Vernette Symphorien",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "body": "@jean.lopez @Marcia George @Dwain Peter We do not need a new form; can you include a login that if the Chassis number field is blank and a value is entered in the Vin number field that the information pulled to the MACA would automatically be the Vin number. The opposite would apply if the Vin number field were blank; confirming that it’s either Chassis/Vin number.",
+    "updateAuthor": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Ade8d557c-a40d-4f0e-bbc2-d47d027d3a63",
+      "accountId": "712020:de8d557c-a40d-4f0e-bbc2-d47d027d3a63",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png"
+      },
+      "displayName": "Vernette Symphorien",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-25T09:48:31.803-0500",
+    "updated": "2026-02-25T09:48:31.803-0500",
+    "jsdPublic": true
+  },
+  {
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/31385/comment/39930",
+    "id": "39930",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "body": "@Vernette Symphorien What we can do is to the Edit the Document to Place the Chasis NO / VIN NO: and add a conditional if the System read that the Chasis NO is Populated, will add this information, if is Blank and the VIN No is populated will add this information instead. \n\n!image-20260225-145800.png|width=659,alt=\"image-20260225-145800.png\"!",
+    "updateAuthor": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-25T09:58:06.152-0500",
+    "updated": "2026-02-25T09:58:06.152-0500",
+    "parentId": 39928,
+    "jsdPublic": true
+  },
+  {
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/31385/comment/40872",
+    "id": "40872",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Ade8d557c-a40d-4f0e-bbc2-d47d027d3a63",
+      "accountId": "712020:de8d557c-a40d-4f0e-bbc2-d47d027d3a63",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png"
+      },
+      "displayName": "Vernette Symphorien",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "body": "@jean.lopez @Dwain Peter @Monette Johny Labanard @Marcia GeorgeTHE TEAM HAS AGREED WITH THE FOLLOWING SUGGESTION : *“What we can do is to the Edit the Document to Place the Chassis NO / VIN NO: and add a conditional if the System read that the Chassis NO is Populated, will add this information, if is Blank and the VIN No is populated will add this information instead.”* ",
+    "updateAuthor": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Ade8d557c-a40d-4f0e-bbc2-d47d027d3a63",
+      "accountId": "712020:de8d557c-a40d-4f0e-bbc2-d47d027d3a63",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png"
+      },
+      "displayName": "Vernette Symphorien",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-02T07:59:41.502-0500",
+    "updated": "2026-03-02T07:59:41.502-0500",
+    "jsdPublic": true
+  },
+  {
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/31385/comment/51198",
+    "id": "51198",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+      },
+      "displayName": "Shivaji Gundabattina",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "body": "Hi @jean.lopez / @Amarnath Marupilla ,\nQA estimate for this ticket is 3hrs.",
+    "updateAuthor": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+      },
+      "displayName": "Shivaji Gundabattina",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-13T11:09:12.552-0400",
+    "updated": "2026-04-13T11:09:12.552-0400",
+    "jsdPublic": true
+  },
+  {
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/31385/comment/51834",
+    "id": "51834",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=626ff8c876b8d3006872261d",
+      "accountId": "626ff8c876b8d3006872261d",
+      "emailAddress": "alexander.pena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png"
+      },
+      "displayName": "Alexander Peña Melikhov",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "body": "@jean.lopez @Amarnath Marupilla Is there a specific record I can use to replicate he issue with all the data set?",
+    "updateAuthor": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=626ff8c876b8d3006872261d",
+      "accountId": "626ff8c876b8d3006872261d",
+      "emailAddress": "alexander.pena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png"
+      },
+      "displayName": "Alexander Peña Melikhov",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-24T09:01:30.815-0400",
+    "updated": "2026-04-24T09:01:30.815-0400",
+    "jsdPublic": true
+  },
+  {
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/31385/comment/51903",
+    "id": "51903",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=626ff8c876b8d3006872261d",
+      "accountId": "626ff8c876b8d3006872261d",
+      "emailAddress": "alexander.pena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png"
+      },
+      "displayName": "Alexander Peña Melikhov",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "body": "@jean.lopez @Shivaji Gundabattina Added VIN NO Validation for document.[^2378 - Mortgage - Digital Technology INC-Movable Asset Collateral Agreement - Many Assets-a1JWA000007a6xJ2AQ.pdf] ",
+    "updateAuthor": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=626ff8c876b8d3006872261d",
+      "accountId": "626ff8c876b8d3006872261d",
+      "emailAddress": "alexander.pena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png"
+      },
+      "displayName": "Alexander Peña Melikhov",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-28T05:25:31.891-0400",
+    "updated": "2026-04-28T05:25:31.891-0400",
+    "jsdPublic": true
+  },
+  {
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/31385/comment/51943",
+    "id": "51943",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+      },
+      "displayName": "Shivaji Gundabattina",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "body": "Hi @jean.lopez / @Alexander Peña Melikhov/ @Vernette Symphorien  , I see Chasis NO & VIN NO are getting populated correctly. Please review the below test cases.\n\n*Test Cases:*\n\n# As a Docugenius Officer when I generated *MACA* document, I should see *Chasis NO* getting printed on the document when the *Automobile* asset has both *Chasis NO* and *VIN NO* populated on it.\nAsset\n!image-20260429-082326.png|width=529,alt=\"image-20260429-082326.png\"!\nMovable Asset Collateral Agreement\n!image-20260429-082439.png|width=529,alt=\"image-20260429-082439.png\"!\nMovable Asset Collateral Agreement - Many Assets\n!image-20260429-082537.png|width=529,alt=\"image-20260429-082537.png\"!\n# As a Docugenius Officer when I generated *MACA* document, I should see *VIN NO* getting printed on the document when the *Automobile* asset has *VIN NO* populated and *Chasis NO* left blank.\nAsset\n!image-20260429-083602.png|width=529,alt=\"image-20260429-083602.png\"!\nMovable Asset Collateral Agreement\n!image-20260429-083747.png|width=529,alt=\"image-20260429-083747.png\"!\nMovable Asset Collateral Agreement - Many Assets\n!image-20260429-083906.png|width=529,alt=\"image-20260429-083906.png\"!\n# As a Docugenius Officer when I generated *MACA* document, I should see *Chasis NO* getting printed on the document when the *Automobile* asset has *Chasis NO* populated and *VIN NO* left blank.\nAsset\n!image-20260429-084111.png|width=529,alt=\"image-20260429-084111.png\"!\nMovable Asset Collateral Agreement\n!image-20260429-083817.png|width=529,alt=\"image-20260429-083817.png\"!\nMovable Asset Collateral Agreement - Many Assets\n!image-20260429-084018.png|width=529,alt=\"image-20260429-084018.png\"!\n# As a Docugenius Officer when I generated *MACA* document, I should see *Blank* for *Chasis NO/VIN NO* field in the document when the Automobile asset has *Chasis NO* populated and *VIN NO* left blank.\nAsset\n!image-20260429-084223.png|width=529,alt=\"image-20260429-084223.png\"!\nMovable Asset Collateral Agreement\n!image-20260429-084321.png|width=529,alt=\"image-20260429-084321.png\"!\nMovable Asset Collateral Agreement - Many Assets\n!image-20260429-084330.png|width=529,alt=\"image-20260429-084330.png\"!\n\n\n\n*Observation:*\nAutomobile Asset information indentation is not starting at the same point for all the assets in MACA Document.\n\n!image-20260429-091825.png|width=553,alt=\"image-20260429-091825.png\"!",
+    "updateAuthor": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+      },
+      "displayName": "Shivaji Gundabattina",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-29T02:58:55.628-0400",
+    "updated": "2026-05-05T12:21:01.160-0400",
+    "jsdPublic": true
+  },
+  {
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/31385/comment/52093",
+    "id": "52093",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=626ff8c876b8d3006872261d",
+      "accountId": "626ff8c876b8d3006872261d",
+      "emailAddress": "alexander.pena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png"
+      },
+      "displayName": "Alexander Peña Melikhov",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "body": "@Shivaji Gundabattina @jean.lopez  Fixed movable asset collateral agreement, automobile asset data alignment [^2340 - Mortgage - Techland Limited-Movable Asset Collateral Agreement - Many Assets-a1JWA000007MCrJ2AW.pdf] [^2373 - Mortgage - Gareth Edwards-Movable Asset Collateral Agreement - Many Assets-a1JWA000007XR3p2AG.pdf] ",
+    "updateAuthor": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=626ff8c876b8d3006872261d",
+      "accountId": "626ff8c876b8d3006872261d",
+      "emailAddress": "alexander.pena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png"
+      },
+      "displayName": "Alexander Peña Melikhov",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-05T04:57:02.520-0400",
+    "updated": "2026-05-05T04:57:02.520-0400",
+    "parentId": 51943,
+    "jsdPublic": true
+  },
+  {
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/31385/comment/52094",
+    "id": "52094",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=626ff8c876b8d3006872261d",
+      "accountId": "626ff8c876b8d3006872261d",
+      "emailAddress": "alexander.pena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png"
+      },
+      "displayName": "Alexander Peña Melikhov",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "body": "@jean.lopez  @Shivaji Gundabattina  @Amarnath Marupilla  Fixed information alignment \n\n!image-20260505-085759.png|width=425,alt=\"image-20260505-085759.png\"!",
+    "updateAuthor": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=626ff8c876b8d3006872261d",
+      "accountId": "626ff8c876b8d3006872261d",
+      "emailAddress": "alexander.pena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png"
+      },
+      "displayName": "Alexander Peña Melikhov",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-05T04:58:05.578-0400",
+    "updated": "2026-05-05T04:58:05.578-0400",
+    "jsdPublic": true
+  },
+  {
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/31385/comment/52105",
+    "id": "52105",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+      },
+      "displayName": "Shivaji Gundabattina",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "body": "Hi @jean.lopez / @Alexander Peña Melikhov/ @Vernette Symphorien  , Now I see the information of Assets are correctly aligned in the MACA document.\nMovable Asset Collateral Agreement - Many Assets\n\n!image-20260505-161701.png|width=578,alt=\"image-20260505-161701.png\"!\n\nMovable Asset Collateral Agreement\n\n\n!image-20260505-161850.png|width=561,alt=\"image-20260505-161850.png\"!",
+    "updateAuthor": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+      },
+      "displayName": "Shivaji Gundabattina",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-05T12:19:39.918-0400",
+    "updated": "2026-05-05T12:21:22.998-0400",
+    "jsdPublic": true
+  },
+  {
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/31385/comment/52185",
+    "id": "52185",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Ade8d557c-a40d-4f0e-bbc2-d47d027d3a63",
+      "accountId": "712020:de8d557c-a40d-4f0e-bbc2-d47d027d3a63",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png"
+      },
+      "displayName": "Vernette Symphorien",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "body": "@jean.lopez @Deepthi Kolli @Monette Johny Labanard @Marcia George This ticket can be closed",
+    "updateAuthor": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Ade8d557c-a40d-4f0e-bbc2-d47d027d3a63",
+      "accountId": "712020:de8d557c-a40d-4f0e-bbc2-d47d027d3a63",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png"
+      },
+      "displayName": "Vernette Symphorien",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-07T08:53:28.888-0400",
+    "updated": "2026-05-07T08:53:28.888-0400",
+    "jsdPublic": true
+  },
+  {
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/31385/comment/52186",
+    "id": "52186",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Aee9d20f4-3175-48ee-acca-04a8b2bea64a",
+      "accountId": "712020:ee9d20f4-3175-48ee-acca-04a8b2bea64a",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/350d4427bafcdf5ea3734f1e84740448?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FML-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/350d4427bafcdf5ea3734f1e84740448?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FML-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/350d4427bafcdf5ea3734f1e84740448?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FML-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/350d4427bafcdf5ea3734f1e84740448?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FML-2.png"
+      },
+      "displayName": "Monette Johny Labanard",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "body": "@Deepthi Kolli @jean.lopez Approved",
+    "updateAuthor": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Aee9d20f4-3175-48ee-acca-04a8b2bea64a",
+      "accountId": "712020:ee9d20f4-3175-48ee-acca-04a8b2bea64a",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/350d4427bafcdf5ea3734f1e84740448?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FML-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/350d4427bafcdf5ea3734f1e84740448?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FML-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/350d4427bafcdf5ea3734f1e84740448?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FML-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/350d4427bafcdf5ea3734f1e84740448?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FML-2.png"
+      },
+      "displayName": "Monette Johny Labanard",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-07T08:54:43.228-0400",
+    "updated": "2026-05-07T08:54:43.228-0400",
+    "jsdPublic": true
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "name": "first_project_agentic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "jira:fetch-details": "node .claude/skills/fetch-jira-details/scripts/fetch-jira-details.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.7.0",
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.0"
+  }
+}

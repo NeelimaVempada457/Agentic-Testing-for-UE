@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<title>Agentic QA Platform — High Level Architecture</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #060a12;
+    color: #e2e8f0;
+    padding: 44px 56px 52px;
+    width: 1600px;
+  }
+
+  /* ── HEADER ─────────────────────────────────────── */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 48px;
+  }
+  .header-left { }
+  .eyebrow {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #7c3aed;
+    margin-bottom: 10px;
+  }
+  h1 {
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: -0.5px;
+    background: linear-gradient(120deg, #f1f5f9 0%, #c4b5fd 45%, #38bdf8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1.15;
+    margin-bottom: 6px;
+  }
+  .subtitle {
+    font-size: 13px;
+    color: #475569;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+  }
+  .header-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+  }
+  .header-pills {
+    display: flex;
+    gap: 8px;
+  }
+  .hp {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 5px 14px;
+    border-radius: 20px;
+    letter-spacing: 0.3px;
+  }
+  .hp-blue   { color: #38bdf8; background: rgba(56,189,248,0.08); border: 1px solid rgba(56,189,248,0.22); }
+  .hp-purple { color: #a78bfa; background: rgba(167,139,250,0.08); border: 1px solid rgba(167,139,250,0.22); }
+  .hp-green  { color: #34d399; background: rgba(52,211,153,0.08); border: 1px solid rgba(52,211,153,0.22); }
+  .hp-amber  { color: #fbbf24; background: rgba(251,191,36,0.08);  border: 1px solid rgba(251,191,36,0.22); }
+
+  /* ── ARCH STACK ──────────────────────────────────── */
+  .arch {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    position: relative;
+  }
+
+  /* ── LAYER ───────────────────────────────────────── */
+  .layer {
+    border-radius: 20px;
+    padding: 32px 36px 34px;
+    position: relative;
+    overflow: hidden;
+  }
+  .layer::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 20px;
+    pointer-events: none;
+  }
+
+  /* Layer 1 — blue */
+  .l1 {
+    background: linear-gradient(160deg, #0b1629 0%, #0d1a2e 100%);
+    border: 1.5px solid rgba(56,189,248,0.22);
+    box-shadow: 0 0 60px rgba(56,189,248,0.07), inset 0 1px 0 rgba(56,189,248,0.1);
+  }
+  .l1-accent { background: linear-gradient(90deg, #38bdf8, #818cf8); }
+
+  /* Layer 2 — purple */
+  .l2 {
+    background: linear-gradient(160deg, #0d0820 0%, #110b2a 100%);
+    border: 1.5px solid rgba(167,139,250,0.22);
+    box-shadow: 0 0 60px rgba(124,58,237,0.08), inset 0 1px 0 rgba(167,139,250,0.1);
+  }
+  .l2-accent { background: linear-gradient(90deg, #7c3aed, #a78bfa, #c084fc); }
+
+  /* Layer 3 — green */
+  .l3 {
+    background: linear-gradient(160deg, #051612 0%, #071a14 100%);
+    border: 1.5px solid rgba(52,211,153,0.22);
+    box-shadow: 0 0 60px rgba(16,185,129,0.07), inset 0 1px 0 rgba(52,211,153,0.1);
+  }
+  .l3-accent { background: linear-gradient(90deg, #059669, #34d399, #10b981); }
+
+  /* accent bar at top of each layer */
+  .layer-accent-bar {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    border-radius: 20px 20px 0 0;
+  }
+
+  /* ── LAYER HEADER ────────────────────────────────── */
+  .layer-hdr {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 28px;
+  }
+  .layer-icon-box {
+    width: 52px; height: 52px;
+    border-radius: 14px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 22px;
+    flex-shrink: 0;
+  }
+  .l1 .layer-icon-box { background: rgba(56,189,248,0.1);  border: 1.5px solid rgba(56,189,248,0.28); }
+  .l2 .layer-icon-box { background: rgba(167,139,250,0.1); border: 1.5px solid rgba(167,139,250,0.28); }
+  .l3 .layer-icon-box { background: rgba(52,211,153,0.1);  border: 1.5px solid rgba(52,211,153,0.28); }
+
+  .layer-hdr-text { flex: 1; }
+  .layer-num {
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+  }
+  .l1 .layer-num { color: #38bdf8; }
+  .l2 .layer-num { color: #a78bfa; }
+  .l3 .layer-num { color: #34d399; }
+
+  .layer-title {
+    font-size: 20px;
+    font-weight: 800;
+    color: #f1f5f9;
+    letter-spacing: -0.2px;
+  }
+  .layer-desc {
+    font-size: 12px;
+    color: #64748b;
+    margin-top: 3px;
+  }
+
+  .layer-badge {
+    font-size: 11px;
+    font-weight: 700;
+    padding: 6px 16px;
+    border-radius: 20px;
+  }
+  .l1 .layer-badge { color: #38bdf8; background: rgba(56,189,248,0.08); border: 1px solid rgba(56,189,248,0.2); }
+  .l2 .layer-badge { color: #a78bfa; background: rgba(167,139,250,0.08); border: 1px solid rgba(167,139,250,0.2); }
+  .l3 .layer-badge { color: #34d399; background: rgba(52,211,153,0.08); border: 1px solid rgba(52,211,153,0.2); }
+
+  /* ── COMPONENT GRID ──────────────────────────────── */
+  .comp-row {
+    display: grid;
+    gap: 16px;
+  }
+  .g4 { grid-template-columns: repeat(4, 1fr); }
+  .g3 { grid-template-columns: repeat(3, 1fr); }
+  .g5 { grid-template-columns: repeat(5, 1fr); }
+
+  .comp {
+    border-radius: 14px;
+    padding: 20px 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* subtle inner glow at top */
+  .comp::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 1px;
+    border-radius: 14px 14px 0 0;
+  }
+
+  .cb  { background: rgba(56,189,248,0.04);  border: 1px solid rgba(56,189,248,0.16);  }
+  .cb::before  { background: rgba(56,189,248,0.3); }
+  .cp  { background: rgba(167,139,250,0.05); border: 1px solid rgba(167,139,250,0.16); }
+  .cp::before  { background: rgba(167,139,250,0.3); }
+  .cv  { background: rgba(124,58,237,0.06);  border: 1px solid rgba(124,58,237,0.2);   }
+  .cv::before  { background: rgba(124,58,237,0.35); }
+  .cg  { background: rgba(52,211,153,0.04);  border: 1px solid rgba(52,211,153,0.16);  }
+  .cg::before  { background: rgba(52,211,153,0.3); }
+  .ct  { background: rgba(45,212,191,0.04);  border: 1px solid rgba(45,212,191,0.16);  }
+  .ct::before  { background: rgba(45,212,191,0.3); }
+  .ca  { background: rgba(251,191,36,0.04);  border: 1px solid rgba(251,191,36,0.14);  }
+  .ca::before  { background: rgba(251,191,36,0.3); }
+
+  .comp-top {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+  }
+  .cdot {
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .d-blue   { background: #38bdf8; box-shadow: 0 0 8px rgba(56,189,248,0.7); }
+  .d-purple { background: #a78bfa; box-shadow: 0 0 8px rgba(167,139,250,0.7); }
+  .d-violet { background: #7c3aed; box-shadow: 0 0 8px rgba(124,58,237,0.7); }
+  .d-green  { background: #34d399; box-shadow: 0 0 8px rgba(52,211,153,0.7); }
+  .d-teal   { background: #2dd4bf; box-shadow: 0 0 8px rgba(45,212,191,0.7); }
+  .d-amber  { background: #fbbf24; box-shadow: 0 0 8px rgba(251,191,36,0.7); }
+
+  .comp-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: #f1f5f9;
+    letter-spacing: -0.1px;
+  }
+
+  .comp-body {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .ci {
+    font-size: 11.5px;
+    color: #94a3b8;
+    display: flex;
+    align-items: flex-start;
+    gap: 7px;
+    line-height: 1.5;
+  }
+  .ci::before {
+    content: '▸';
+    font-size: 9px;
+    color: #334155;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  .ci strong { color: #cbd5e1; font-weight: 600; }
+
+  .comp-footer {
+    margin-top: auto;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255,255,255,0.04);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .ctag {
+    font-size: 9px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+  .tb  { color: #38bdf8; background: rgba(56,189,248,0.1);  border: 1px solid rgba(56,189,248,0.2); }
+  .tp  { color: #a78bfa; background: rgba(167,139,250,0.1); border: 1px solid rgba(167,139,250,0.2); }
+  .tv  { color: #7c3aed; background: rgba(124,58,237,0.1);  border: 1px solid rgba(124,58,237,0.2); }
+  .tg  { color: #34d399; background: rgba(52,211,153,0.1);  border: 1px solid rgba(52,211,153,0.2); }
+  .tt  { color: #2dd4bf; background: rgba(45,212,191,0.1);  border: 1px solid rgba(45,212,191,0.2); }
+  .ta  { color: #fbbf24; background: rgba(251,191,36,0.1);  border: 1px solid rgba(251,191,36,0.2); }
+  .tr  { color: #fb7185; background: rgba(251,113,133,0.1); border: 1px solid rgba(251,113,133,0.2); }
+
+  /* ── INTER-LAYER ARROW ───────────────────────────── */
+  .arrow-bridge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+    position: relative;
+  }
+  .arrow-bridge::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0; bottom: 0;
+    width: 1px;
+    background: linear-gradient(to bottom, transparent 0%, #334155 40%, #334155 60%, transparent 100%);
+    transform: translateX(-50%);
+  }
+  .bridge-pill {
+    position: relative;
+    z-index: 2;
+    background: #0c1222;
+    border: 1px solid #1e293b;
+    border-radius: 30px;
+    padding: 8px 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .bp-item {
+    font-size: 10px;
+    font-weight: 500;
+    color: #475569;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    letter-spacing: 0.3px;
+  }
+  .bp-dot { width: 4px; height: 4px; border-radius: 50%; background: #334155; }
+  .bp-arrow { font-size: 14px; color: #334155; }
+
+  /* ── FULL-WIDTH MCP BAR ──────────────────────────── */
+  .mcp-row {
+    margin-top: 16px;
+    border-radius: 12px;
+    padding: 14px 22px;
+    background: rgba(124,58,237,0.05);
+    border: 1px solid rgba(124,58,237,0.18);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .mcp-left {
+    flex-shrink: 0;
+  }
+  .mcp-title {
+    font-size: 11px;
+    font-weight: 700;
+    color: #7c3aed;
+    font-family: 'JetBrains Mono', monospace;
+    margin-bottom: 3px;
+  }
+  .mcp-sub {
+    font-size: 9.5px;
+    color: #475569;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .mcp-divider { width: 1px; height: 36px; background: rgba(124,58,237,0.2); flex-shrink: 0; }
+  .mcp-tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .mt {
+    font-size: 9px;
+    font-family: 'JetBrains Mono', monospace;
+    color: #6d28d9;
+    background: rgba(109,40,217,0.08);
+    border: 1px solid rgba(109,40,217,0.18);
+    border-radius: 4px;
+    padding: 2px 7px;
+    white-space: nowrap;
+  }
+
+  /* ── ARTIFACTS ROW ───────────────────────────────── */
+  .artifact-row {
+    margin-top: 16px;
+    border-radius: 12px;
+    background: rgba(15,23,42,0.5);
+    border: 1px solid #1a2744;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .ac {
+    padding: 16px 20px;
+    border-right: 1px solid #1a2744;
+  }
+  .ac:last-child { border-right: none; }
+  .ac-title {
+    font-size: 10px;
+    font-weight: 700;
+    font-family: 'JetBrains Mono', monospace;
+    margin-bottom: 10px;
+    letter-spacing: 0.3px;
+  }
+  .l3 .ac-title { color: #34d399; }
+  .ac-items { display: flex; flex-direction: column; gap: 4px; }
+  .ai {
+    font-size: 10px;
+    color: #475569;
+    font-family: 'JetBrains Mono', monospace;
+    line-height: 1.8;
+  }
+  .ai.hl { color: #64748b; }
+  .ai.star { color: #34d399; font-weight: 600; }
+
+  /* ── WORKFLOW STRIP ──────────────────────────────── */
+  .workflow {
+    margin-top: 28px;
+    border-radius: 16px;
+    background: linear-gradient(135deg, #0b1120 0%, #0f1629 100%);
+    border: 1px solid #1e293b;
+    padding: 24px 32px;
+  }
+  .wf-title {
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #334155;
+    margin-bottom: 20px;
+  }
+  .wf-steps {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0;
+    position: relative;
+  }
+  .wf-steps::after {
+    content: '';
+    position: absolute;
+    left: 10%; right: 10%;
+    top: 20px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #1e293b 20%, #1e293b 80%, transparent);
+    z-index: 0;
+  }
+  .wf-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    z-index: 1;
+  }
+  .wf-num {
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px;
+    font-weight: 800;
+    background: #0b1120;
+  }
+  .wn1 { color: #38bdf8; border: 2px solid rgba(56,189,248,0.5);  box-shadow: 0 0 12px rgba(56,189,248,0.2); }
+  .wn2 { color: #a78bfa; border: 2px solid rgba(167,139,250,0.5); box-shadow: 0 0 12px rgba(167,139,250,0.2); }
+  .wn3 { color: #7c3aed; border: 2px solid rgba(124,58,237,0.5);  box-shadow: 0 0 12px rgba(124,58,237,0.2); }
+  .wn4 { color: #fbbf24; border: 2px solid rgba(251,191,36,0.5);  box-shadow: 0 0 12px rgba(251,191,36,0.2); }
+  .wn5 { color: #34d399; border: 2px solid rgba(52,211,153,0.5);  box-shadow: 0 0 12px rgba(52,211,153,0.2); }
+
+  .wf-label {
+    font-size: 11.5px;
+    font-weight: 700;
+    color: #94a3b8;
+    text-align: center;
+    line-height: 1.4;
+  }
+  .wf-cmd {
+    font-size: 9.5px;
+    font-family: 'JetBrains Mono', monospace;
+    color: #334155;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  /* ── PRINCIPLES + TECH ───────────────────────────── */
+  .bottom-row {
+    margin-top: 22px;
+    display: grid;
+    grid-template-columns: 1fr 1.6fr;
+    gap: 18px;
+  }
+  .principles {
+    border-radius: 14px;
+    background: rgba(10,14,26,0.7);
+    border: 1px solid #1a2744;
+    padding: 20px 22px;
+  }
+  .sec-title {
+    font-size: 9.5px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #334155;
+    margin-bottom: 14px;
+  }
+  .prin-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .prin {
+    border-radius: 10px;
+    padding: 12px 14px;
+    background: #0b1120;
+    border: 1px solid #1e293b;
+  }
+  .prin-icon { font-size: 15px; margin-bottom: 5px; }
+  .prin-name { font-size: 10.5px; font-weight: 700; color: #94a3b8; margin-bottom: 3px; }
+  .prin-desc { font-size: 9.5px; color: #475569; line-height: 1.5; }
+
+  .tech-stack {
+    border-radius: 14px;
+    background: rgba(10,14,26,0.7);
+    border: 1px solid #1a2744;
+    padding: 20px 22px;
+  }
+  .tech-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-top: 14px;
+  }
+  .tp-item {
+    font-size: 10.5px;
+    font-weight: 600;
+    padding: 5px 13px;
+    border-radius: 20px;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .tp-b  { color: #38bdf8; background: rgba(56,189,248,0.07);  border: 1px solid rgba(56,189,248,0.18); }
+  .tp-p  { color: #a78bfa; background: rgba(167,139,250,0.07); border: 1px solid rgba(167,139,250,0.18); }
+  .tp-g  { color: #34d399; background: rgba(52,211,153,0.07);  border: 1px solid rgba(52,211,153,0.18); }
+  .tp-a  { color: #fbbf24; background: rgba(251,191,36,0.07);  border: 1px solid rgba(251,191,36,0.18); }
+  .tp-r  { color: #fb7185; background: rgba(251,113,133,0.07); border: 1px solid rgba(251,113,133,0.18); }
+  .tp-t  { color: #2dd4bf; background: rgba(45,212,191,0.07);  border: 1px solid rgba(45,212,191,0.18); }
+  .tp-s  { color: #64748b; background: rgba(100,116,139,0.07); border: 1px solid rgba(100,116,139,0.18); }
+
+  /* ── FOOTER ──────────────────────────────────────── */
+  .footer {
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    border-top: 1px solid #0f1a2e;
+  }
+  .fl { font-size: 10.5px; color: #1e3a5f; }
+  .fr { font-size: 9.5px; color: #1e293b; font-family: 'JetBrains Mono', monospace; }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-left">
+    <div class="eyebrow">High-Level Architecture Overview</div>
+    <h1>Agentic QA Automation Platform</h1>
+    <div class="subtitle">3-Layer Architecture &nbsp;·&nbsp; AI-First QA &nbsp;·&nbsp; Powered by Claude Code &nbsp;·&nbsp; Anthropic AI</div>
+  </div>
+  <div class="header-right">
+    <div class="header-pills">
+      <span class="hp hp-purple">claude-sonnet-4-6</span>
+      <span class="hp hp-blue">Playwright 1.60</span>
+    </div>
+    <div class="header-pills">
+      <span class="hp hp-amber">Jira REST API v2</span>
+      <span class="hp hp-green">MCP Protocol</span>
+    </div>
+  </div>
+</div>
+
+<div class="arch">
+
+  <!-- ══════════════════════════════════════════════ -->
+  <!-- LAYER 1 -->
+  <!-- ══════════════════════════════════════════════ -->
+  <div class="layer l1">
+    <div class="layer-accent-bar l1-accent"></div>
+
+    <div class="layer-hdr">
+      <div class="layer-icon-box">🖥️</div>
+      <div class="layer-hdr-text">
+        <div class="layer-num">Layer 1</div>
+        <div class="layer-title">User Experience &amp; IDE Interface</div>
+        <div class="layer-desc">Developer / QA Engineer &nbsp;·&nbsp; VS Code / JetBrains &nbsp;·&nbsp; Claude Code CLI &amp; Extension</div>
+      </div>
+      <div class="layer-badge">Entry Point</div>
+    </div>
+
+    <div class="comp-row g4">
+
+      <div class="comp cb">
+        <div class="comp-top">
+          <div class="cdot d-blue"></div>
+          <div class="comp-name">IDE Integration</div>
+        </div>
+        <div class="comp-body">
+          <div class="ci"><strong>VS Code</strong> Native extension + inline chat</div>
+          <div class="ci"><strong>JetBrains</strong> Plugin + slash commands</div>
+          <div class="ci"><strong>CLI</strong> Terminal <code style="font-size:10px;color:#7c3aed">claude</code> command</div>
+          <div class="ci">No context switching — stay in your IDE</div>
+        </div>
+        <div class="comp-footer">
+          <span class="ctag tb">VS Code</span>
+          <span class="ctag tb">JetBrains</span>
+          <span class="ctag tb">CLI</span>
+        </div>
+      </div>
+
+      <div class="comp cb">
+        <div class="comp-top">
+          <div class="cdot d-blue"></div>
+          <div class="comp-name">Slash Commands</div>
+        </div>
+        <div class="comp-body">
+          <div class="ci"><strong>/fetch-jira-details</strong> &nbsp;Download Jira context</div>
+          <div class="ci"><strong>/generate-test-cases</strong> &nbsp;Full app analysis</div>
+          <div class="ci"><strong>/generate-gherkin</strong> &nbsp;AC → BDD scenarios</div>
+          <div class="ci"><strong>/early-defect-consolidator</strong></div>
+        </div>
+        <div class="comp-footer">
+          <span class="ctag tb">.claude/commands/</span>
+          <span class="ctag tp">4 skills</span>
+        </div>
+      </div>
+
+      <div class="comp cb">
+        <div class="comp-top">
+          <div class="cdot d-blue"></div>
+          <div class="comp-name">Human Review Loop</div>
+        </div>
+        <div class="comp-body">
+          <div class="ci"><strong>APPROVE</strong> &nbsp;Accept findings</div>
+          <div class="ci"><strong>EXCLUDE / MERGE / UPDATE</strong> &nbsp;Refine</div>
+          <div class="ci"><strong>FINAL_APPROVE</strong> &nbsp;Only Jira trigger</div>
+          <div class="ci">Zero automated bug creation</div>
+        </div>
+        <div class="comp-footer">
+          <span class="ctag tr">Human-in-the-Loop</span>
+        </div>
+      </div>
+
+      <div class="comp cb">
+        <div class="comp-top">
+          <div class="cdot d-blue"></div>
+          <div class="comp-name">Configuration</div>
+        </div>
+        <div class="comp-body">
+          <div class="ci"><strong>.env</strong> &nbsp;Jira credentials</div>
+          <div class="ci"><strong>CLAUDE.md</strong> &nbsp;Project rules &amp; architecture</div>
+          <div class="ci"><strong>settings.local.json</strong> &nbsp;Tool permissions</div>
+          <div class="ci"><strong>memory/</strong> &nbsp;Cross-session AI memory</div>
+        </div>
+        <div class="comp-footer">
+          <span class="ctag tb">Persistent Memory</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ARROW 1→2 -->
+  <div class="arrow-bridge">
+    <div class="bridge-pill">
+      <div class="bp-item"><div class="bp-dot"></div> Prompt / Response</div>
+      <div class="bp-item"><span class="bp-arrow">↕</span></div>
+      <div class="bp-item"><div class="bp-dot"></div> Tool Calls</div>
+      <div class="bp-item"><span class="bp-arrow">↕</span></div>
+      <div class="bp-item"><div class="bp-dot"></div> Skill Execution</div>
+      <div class="bp-item"><span class="bp-arrow">↕</span></div>
+      <div class="bp-item"><div class="bp-dot"></div> Generated Artifacts</div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════ -->
+  <!-- LAYER 2 -->
+  <!-- ══════════════════════════════════════════════ -->
+  <div class="layer l2">
+    <div class="layer-accent-bar l2-accent"></div>
+
+    <div class="layer-hdr">
+      <div class="layer-icon-box">🧠</div>
+      <div class="layer-hdr-text">
+        <div class="layer-num">Layer 2</div>
+        <div class="layer-title">AI Orchestration Engine</div>
+        <div class="layer-desc">Claude claude-sonnet-4-6 &nbsp;·&nbsp; Skills &nbsp;·&nbsp; Specialized Agents &nbsp;·&nbsp; MCP Server</div>
+      </div>
+      <div class="layer-badge">Intelligence Core</div>
+    </div>
+
+    <!-- SKILLS -->
+    <div class="comp-row g4">
+
+      <div class="comp cp">
+        <div class="comp-top">
+          <div class="cdot d-purple"></div>
+          <div class="comp-name">fetch-jira-details</div>
+        </div>
+        <div class="comp-body">
+          <div class="ci">5-script Node.js engine</div>
+          <div class="ci">ADF → Markdown conversion</div>
+          <div class="ci">SHA-256 attachment deduplication</div>
+          <div class="ci">Batch processing + retry backoff</div>
+        </div>
+        <div class="comp-footer">
+          <span class="ctag tp">Skill</span>
+          <span class="ctag tb">REST API v2</span>
+        </div>
+      </div>
+
+      <div class="comp cp">
+        <div class="comp-top">
+          <div class="cdot d-purple"></div>
+          <div class="comp-name">generate-test-cases</div>
+        </div>
+        <div class="comp-body">
+          <div class="ci">9-step JIRA_AND_URL workflow</div>
+          <div class="ci">Screenshot per discrepancy</div>
+          <div class="ci">9 test scenario categories</div>
+          <div class="ci">Gherkin + RTM + Coverage</div>
+        </div>
+        <div class="comp-footer">
+          <span class="ctag tp">Skill</span>
+          <span class="ctag tv">~100 tests</span>
+        </div>
+      </div>
+
+      <div class="comp cp">
+        <div class="comp-top">
+          <div class="cdot d-purple"></div>
+          <div class="comp-name">generate-gherkin</div>
+        </div>
+        <div class="comp-body">
+          <div class="ci">AC → BDD transformation</div>
+          <div class="ci">Scenario Outline + Examples</div>
+          <div class="ci">Coverage JSON + Risk analysis</div>
+          <div class="ci">Gherkin syntax rules enforced</div>
+        </div>
+        <div class="comp-footer">
+          <span class="ctag tp">Skill</span>
+          <span class="ctag tg">.feature files</span>
+        </div>
+      </div>
+
+      <div class="comp cv">
+        <div class="comp-top">
+          <div class="cdot d-violet"></div>
+          <div class="comp-name">early-defect-consolidator</div>
+        </div>
+        <div class="comp-body">
+          <div class="ci">10-step validation pipeline</div>
+          <div class="ci">6-axis AC validation per finding</div>
+          <div class="ci">Root-cause consolidation</div>
+          <div class="ci">Human-gated Jira bug creation</div>
+        </div>
+        <div class="comp-footer">
+          <span class="ctag tv">Skill</span>
+          <span class="ctag tr">FINAL_APPROVE gate</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- AGENTS -->
+    <div class="comp-row g3" style="margin-top:14px">
+
+      <div class="comp cv">
+        <div class="comp-top">
+          <div class="cdot d-violet"></div>
+          <div class="comp-name">playwright-test-planner</div>
+        </div>
+        <div class="comp-body">
+          <div class="ci">Live app navigation + authentication</div>
+          <div class="ci">Full form + flow analysis</div>
+          <div class="ci">Jira AC cross-reference</div>
+          <div class="ci">DISC-NNN screenshot capture</div>
+        </div>
+        <div class="comp-footer">
+          <span class="ctag tv">Agent</span>
+          <span class="ctag tp">50+ MCP tools</span>
+        </div>
+      </div>
+
+      <div class="comp cv">
+        <div class="comp-top">
+          <div class="cdot d-violet"></div>
+          <div class="comp-name">playwright-test-generator</div>
+        </div>
+        <div class="comp-body">
+          <div class="ci">.feature → .spec.ts conversion</div>
+          <div class="ci">Page Object Model patterns</div>
+          <div class="ci">Playwright assertions + helpers</div>
+          <div class="ci">TypeScript strict compliance</div>
+        </div>
+        <div class="comp-footer">
+          <span class="ctag tv">Agent</span>
+          <span class="ctag tb">Gherkin → TS</span>
+        </div>
+      </div>
+
+      <div class="comp cv">
+        <div class="comp-top">
+          <div class="cdot d-violet"></div>
+          <div class="comp-name">playwright-test-healer</div>
+        </div>
+        <div class="comp-body">
+          <div class="ci">Failing test auto-diagnosis</div>
+          <div class="ci">Locator + selector regeneration</div>
+          <div class="ci">Network request inspection</div>
+          <div class="ci">Test re-run verification</div>
+        </div>
+        <div class="comp-footer">
+          <span class="ctag tv">Agent</span>
+          <span class="ctag tg">Self-healing</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- MCP BAR -->
+    <div class="mcp-row">
+      <div class="mcp-left">
+        <div class="mcp-title">MCP Server</div>
+        <div class="mcp-sub">playwright-test</div>
+        <div class="mcp-sub" style="margin-top:2px">50+ browser functions</div>
+      </div>
+      <div class="mcp-divider"></div>
+      <div class="mcp-tools">
+        <span class="mt">browser_navigate</span>
+        <span class="mt">browser_snapshot</span>
+        <span class="mt">browser_take_screenshot</span>
+        <span class="mt">browser_click</span>
+        <span class="mt">browser_fill_form</span>
+        <span class="mt">browser_evaluate</span>
+        <span class="mt">browser_generate_locator</span>
+        <span class="mt">browser_network_requests</span>
+        <span class="mt">browser_start_tracing</span>
+        <span class="mt">browser_start_video</span>
+        <span class="mt">browser_route</span>
+        <span class="mt">browser_cookie_set</span>
+        <span class="mt">test_run</span>
+        <span class="mt">test_debug</span>
+        <span class="mt">planner_setup_page</span>
+        <span class="mt">planner_save_plan</span>
+        <span class="mt">+ 34 more tools</span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ARROW 2→3 -->
+  <div class="arrow-bridge">
+    <div class="bridge-pill">
+      <div class="bp-item"><div class="bp-dot"></div> REST APIs</div>
+      <div class="bp-item"><span class="bp-arrow">↕</span></div>
+      <div class="bp-item"><div class="bp-dot"></div> File I/O</div>
+      <div class="bp-item"><span class="bp-arrow">↕</span></div>
+      <div class="bp-item"><div class="bp-dot"></div> Node.js Scripts</div>
+      <div class="bp-item"><span class="bp-arrow">↕</span></div>
+      <div class="bp-item"><div class="bp-dot"></div> Browser Automation</div>
+      <div class="bp-item"><span class="bp-arrow">↕</span></div>
+      <div class="bp-item"><div class="bp-dot"></div> HTTP Multipart Upload</div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════ -->
+  <!-- LAYER 3 -->
+  <!-- ══════════════════════════════════════════════ -->
+  <div class="layer l3">
+    <div class="layer-accent-bar l3-accent"></div>
+
+    <div class="layer-hdr">
+      <div class="layer-icon-box">⚙️</div>
+      <div class="layer-hdr-text">
+        <div class="layer-num">Layer 3</div>
+        <div class="layer-title">System Integration &amp; Infrastructure</div>
+        <div class="layer-desc">Jira Cloud &nbsp;·&nbsp; Playwright Engine &nbsp;·&nbsp; GitHub &nbsp;·&nbsp; Target Applications &nbsp;·&nbsp; Artifact Store</div>
+      </div>
+      <div class="layer-badge">External Systems</div>
+    </div>
+
+    <!-- SYSTEM CARDS -->
+    <div class="comp-row g4">
+
+      <div class="comp cg">
+        <div class="comp-top">
+          <div class="cdot d-green"></div>
+          <div class="comp-name">Jira Cloud</div>
+        </div>
+        <div class="comp-body">
+          <div class="ci"><strong>GET</strong> issue, comments, attachments</div>
+          <div class="ci"><strong>POST</strong> create bug + upload screenshots</div>
+          <div class="ci">Basic Auth · Exponential backoff</div>
+          <div class="ci">ADF → Markdown · SHA-256 dedup</div>
+        </div>
+        <div class="comp-footer">
+          <span class="ctag tg">REST API v2</span>
+          <span class="ctag tg">Attachments</span>
+        </div>
+      </div>
+
+      <div class="comp cg">
+        <div class="comp-top">
+          <div class="cdot d-green"></div>
+          <div class="comp-name">Playwright Engine</div>
+        </div>
+        <div class="comp-body">
+          <div class="ci">@playwright/test v1.60.0</div>
+          <div class="ci">Chromium · Firefox · WebKit</div>
+          <div class="ci">Trace + Video + Screenshot on fail</div>
+          <div class="ci">CI: 2 retries · HTML + JSON reports</div>
+        </div>
+        <div class="comp-footer">
+          <span class="ctag tb">Chromium</span>
+          <span class="ctag tg">CI/CD</span>
+        </div>
+      </div>
+
+      <div class="comp cg">
+        <div class="comp-top">
+          <div class="cdot d-green"></div>
+          <div class="comp-name">GitHub</div>
+        </div>
+        <div class="comp-body">
+          <div class="ci">Version control for skills + tests</div>
+          <div class="ci">GitHub Actions CI/CD pipeline</div>
+          <div class="ci">PR checks + branch protection</div>
+          <div class="ci">Jira IDs in branch / commit names</div>
+        </div>
+        <div class="comp-footer">
+          <span class="ctag tg">Actions</span>
+          <span class="ctag tg">Traceability</span>
+        </div>
+      </div>
+
+      <div class="comp ct">
+        <div class="comp-top">
+          <div class="cdot d-teal"></div>
+          <div class="comp-name">Target Applications</div>
+        </div>
+        <div class="comp-body">
+          <div class="ci"><strong>United Educators</strong> Vercel + Salesforce</div>
+          <div class="ci"><strong>Bank of St. Lucia</strong> QA Sandbox</div>
+          <div class="ci">React SPA · Auth-gated · API forms</div>
+          <div class="ci">Any SaaS web application</div>
+        </div>
+        <div class="comp-footer">
+          <span class="ctag tt">Vercel</span>
+          <span class="ctag tt">Salesforce</span>
+          <span class="ctag tt">Any SaaS</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ARTIFACT STORE -->
+    <div class="artifact-row">
+      <div class="ac">
+        <div class="ac-title">jira-output/[TICKET]/</div>
+        <div class="ac-items">
+          <div class="ai hl">Summary/ &nbsp;Comments/ &nbsp;Attachments/</div>
+          <div class="ai hl">Links/ &nbsp;Metadata/ &nbsp;Subtasks/</div>
+          <div class="ai star">★ complete_ticket_context.md</div>
+        </div>
+      </div>
+      <div class="ac">
+        <div class="ac-title">test-artifacts/[TICKET]/</div>
+        <div class="ac-items">
+          <div class="ai hl">application-analysis/ &nbsp;reports/</div>
+          <div class="ai star">★ discrepancies.md + screenshots/</div>
+          <div class="ai hl">test-cases/ [9 categories]</div>
+          <div class="ai star">★ EarlyDefectReviewReport.md</div>
+        </div>
+      </div>
+      <div class="ac">
+        <div class="ac-title">features/[TICKET]/</div>
+        <div class="ac-items">
+          <div class="ai hl">smoke/ &nbsp;functional/ &nbsp;negative/</div>
+          <div class="ai hl">edge-cases/ &nbsp;boundary/</div>
+          <div class="ai hl">security/ &nbsp;accessibility/</div>
+          <div class="ai star">regression/ &nbsp;*.feature</div>
+        </div>
+      </div>
+      <div class="ac">
+        <div class="ac-title">test-results/</div>
+        <div class="ac-items">
+          <div class="ai hl">results.json</div>
+          <div class="ai star">playwright-report/index.html</div>
+          <div class="ai hl">trace.zip &nbsp;video.webm</div>
+          <div class="ai hl">logs/ &nbsp;execution.log</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- WORKFLOW STRIP -->
+<div class="workflow">
+  <div class="wf-title">End-to-End Workflow</div>
+  <div class="wf-steps">
+    <div class="wf-step">
+      <div class="wf-num wn1">1</div>
+      <div class="wf-label">Fetch<br/>Requirements</div>
+      <div class="wf-cmd">/fetch-jira-details<br/>Download AC, comments,<br/>attachments from Jira</div>
+    </div>
+    <div class="wf-step">
+      <div class="wf-num wn2">2</div>
+      <div class="wf-label">Crawl Live<br/>Application</div>
+      <div class="wf-cmd">/generate-test-cases<br/>Playwright crawl + Jira<br/>AC cross-reference</div>
+    </div>
+    <div class="wf-step">
+      <div class="wf-num wn3">3</div>
+      <div class="wf-label">Generate Tests<br/>Gherkin &amp; RTM</div>
+      <div class="wf-cmd">~100 test cases<br/>9 categories · .feature files<br/>Coverage + Risk reports</div>
+    </div>
+    <div class="wf-step">
+      <div class="wf-num wn4">4</div>
+      <div class="wf-label">Validate &amp;<br/>Consolidate Bugs</div>
+      <div class="wf-cmd">/early-defect-consolidator<br/>6-axis AC validation<br/>Root-cause grouping</div>
+    </div>
+    <div class="wf-step">
+      <div class="wf-num wn5">5</div>
+      <div class="wf-label">FINAL_APPROVE<br/>→ Jira Bug</div>
+      <div class="wf-cmd">1 bug · full traceability<br/>Screenshots attached<br/>discrepancies.md updated</div>
+    </div>
+  </div>
+</div>
+
+<!-- BOTTOM ROW -->
+<div class="bottom-row">
+  <div class="principles">
+    <div class="sec-title">Design Principles</div>
+    <div class="prin-grid">
+      <div class="prin">
+        <div class="prin-icon">🔒</div>
+        <div class="prin-name">Human-in-the-Loop</div>
+        <div class="prin-desc">FINAL_APPROVE is the only Jira trigger. No automated bug creation.</div>
+      </div>
+      <div class="prin">
+        <div class="prin-icon">🔗</div>
+        <div class="prin-name">Traceability First</div>
+        <div class="prin-desc">Full chain: AC → Test → App → Bug → Screenshot → Jira.</div>
+      </div>
+      <div class="prin">
+        <div class="prin-icon">📸</div>
+        <div class="prin-name">Evidence-Driven QA</div>
+        <div class="prin-desc">Every discrepancy has DISC-NNN screenshot auto-attached.</div>
+      </div>
+      <div class="prin">
+        <div class="prin-icon">🎯</div>
+        <div class="prin-name">Single Bug Per Cycle</div>
+        <div class="prin-desc">One consolidated Jira bug per story. Zero noise.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tech-stack">
+    <div class="sec-title">Technology Stack</div>
+    <div class="tech-pills">
+      <span class="tp-item tp-p">Claude claude-sonnet-4-6</span>
+      <span class="tp-item tp-p">Claude Code</span>
+      <span class="tp-item tp-p">MCP Protocol</span>
+      <span class="tp-item tp-b">Playwright 1.60</span>
+      <span class="tp-item tp-b">TypeScript ESNext</span>
+      <span class="tp-item tp-b">Node.js 18+</span>
+      <span class="tp-item tp-a">Jira REST API v2</span>
+      <span class="tp-item tp-a">Axios 1.7</span>
+      <span class="tp-item tp-a">dotenv 16</span>
+      <span class="tp-item tp-g">GitHub Actions</span>
+      <span class="tp-item tp-g">Gherkin BDD</span>
+      <span class="tp-item tp-t">VS Code Extension</span>
+      <span class="tp-item tp-r">Vercel · Salesforce</span>
+      <span class="tp-item tp-s">Windows 11</span>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <div class="fl">Agentic QA Automation Platform &nbsp;·&nbsp; Technical Architecture v2.0 &nbsp;·&nbsp; First Project Agentic</div>
+  <div class="fr">Powered by Claude Code · Anthropic AI · 2026-05-28</div>
+</div>
+
+</body>
+</html>

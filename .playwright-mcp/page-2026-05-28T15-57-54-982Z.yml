@@ -1,0 +1,562 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - img "United Educators" [ref=e6]
+    - navigation "Primary" [ref=e7]:
+      - button "Dashboard" [ref=e8] [cursor=pointer]:
+        - img [ref=e9]
+        - generic [ref=e14]: Dashboard
+      - button "Submissions" [ref=e15] [cursor=pointer]:
+        - img [ref=e16]
+        - generic [ref=e19]: Submissions
+      - button "Renewals" [ref=e20] [cursor=pointer]:
+        - img [ref=e21]
+        - generic [ref=e23]: Renewals
+      - button "Inbox" [ref=e24] [cursor=pointer]:
+        - img [ref=e25]
+        - generic [ref=e28]: Inbox
+      - button "Tasks" [ref=e29] [cursor=pointer]:
+        - img [ref=e30]
+        - generic [ref=e33]: Tasks
+      - button "Approvals" [ref=e34] [cursor=pointer]:
+        - img [ref=e35]
+        - generic [ref=e37]: Approvals
+      - button "Notifications" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+        - generic [ref=e42]: Notifications
+      - button "Activity" [ref=e43] [cursor=pointer]:
+        - img [ref=e44]
+        - generic [ref=e46]: Activity
+      - button "Portfolio" [ref=e47] [cursor=pointer]:
+        - img [ref=e48]
+        - generic [ref=e49]: Portfolio
+    - button "JM John Michaels Sr. Underwriter" [ref=e51] [cursor=pointer]:
+      - generic [ref=e52]: JM
+      - generic [ref=e53]:
+        - paragraph [ref=e54]: John Michaels
+        - paragraph [ref=e55]: Sr. Underwriter
+      - img [ref=e56]
+  - main [ref=e58]:
+    - generic [ref=e59]:
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - generic [ref=e64]:
+            - img [ref=e65]
+            - generic [ref=e71]: Thursday, May 28, 2026
+          - heading "Good evening, John." [level=1] [ref=e72]
+          - paragraph [ref=e73]: You have 2 critical alerts and 3 overdue tasks waiting.
+        - button "New Submission" [ref=e75] [cursor=pointer]:
+          - generic [ref=e76]:
+            - img [ref=e77]
+            - text: New Submission
+      - generic [ref=e78]:
+        - 'group "My In Review: 4, Active, Steady, Team avg 3.5" [ref=e79]':
+          - generic [ref=e81]:
+            - paragraph [ref=e82]: My In Review
+            - img [ref=e84]
+          - generic [ref=e87]:
+            - paragraph [ref=e88]: "4"
+            - img [ref=e90]
+          - generic [ref=e95]:
+            - img [ref=e96]
+            - generic [ref=e97]: Active
+          - generic [ref=e98]:
+            - generic [ref=e99]: Steady
+            - generic [ref=e101]: Team avg 3.5
+        - 'group "Quoted This Month: 9, +1 vs. last month, Ahead of target, Target 8/mo" [ref=e102]':
+          - generic [ref=e104]:
+            - paragraph [ref=e105]: Quoted This Month
+            - img [ref=e107]
+          - generic [ref=e110]:
+            - paragraph [ref=e111]: "9"
+            - img [ref=e113]
+          - generic [ref=e118]:
+            - img [ref=e119]
+            - generic [ref=e122]: +1 vs. last month
+          - generic [ref=e123]:
+            - generic [ref=e124]: Ahead of target
+            - generic [ref=e126]: Target 8/mo
+        - 'group "Bound This Month: 4, $1.45M premium, Above pace, Avg 3/mo" [ref=e127]':
+          - generic [ref=e129]:
+            - paragraph [ref=e130]: Bound This Month
+            - img [ref=e132]
+          - generic [ref=e135]:
+            - paragraph [ref=e136]: "4"
+            - img [ref=e138]
+          - generic [ref=e143]:
+            - img [ref=e144]
+            - generic [ref=e147]: $1.45M premium
+          - generic [ref=e148]:
+            - generic [ref=e149]: Above pace
+            - generic [ref=e151]: Avg 3/mo
+        - 'group "Avg. Days to Quote: 3.2d, Best on team, Team leader, Team avg 4.2d" [ref=e152]':
+          - generic [ref=e154]:
+            - paragraph [ref=e155]: Avg. Days to Quote
+            - img [ref=e157]
+          - generic [ref=e160]:
+            - paragraph [ref=e161]: 3.2d
+            - img [ref=e163]
+          - generic [ref=e168]:
+            - img [ref=e169]
+            - generic [ref=e172]: Best on team
+          - generic [ref=e173]:
+            - generic [ref=e174]: Team leader
+            - generic [ref=e176]: Team avg 4.2d
+        - 'group "Hit Ratio (YTD): 74%, +6pp vs. last yr, Top quartile, Team avg 68%" [ref=e177]':
+          - generic [ref=e179]:
+            - paragraph [ref=e180]: Hit Ratio (YTD)
+            - img [ref=e182]
+          - generic [ref=e185]:
+            - paragraph [ref=e186]: 74%
+            - img [ref=e188]
+          - generic [ref=e193]:
+            - img [ref=e194]
+            - generic [ref=e197]: +6pp vs. last yr
+          - generic [ref=e198]:
+            - generic [ref=e199]: Top quartile
+            - generic [ref=e201]: Team avg 68%
+      - generic [ref=e202]:
+        - generic [ref=e203]:
+          - generic [ref=e204]:
+            - generic [ref=e205]:
+              - generic [ref=e206]:
+                - img [ref=e208]
+                - heading "Open Tasks" [level=3] [ref=e211]
+              - generic [ref=e212]:
+                - button "All" [ref=e213] [cursor=pointer]
+                - button "Mine" [ref=e214] [cursor=pointer]
+                - button "Overdue 3" [ref=e215] [cursor=pointer]:
+                  - text: Overdue
+                  - generic [ref=e216]: "3"
+            - generic [ref=e217]:
+              - generic [ref=e218] [cursor=pointer]:
+                - generic [ref=e219]:
+                  - paragraph [ref=e220]: Obtain open claims detail from broker
+                  - generic [ref=e221]: High
+                - generic [ref=e222]:
+                  - generic [ref=e223]: SUB-7829
+                  - generic [ref=e224]:
+                    - img [ref=e225]
+                    - text: Apr 20, 2024
+              - generic [ref=e228] [cursor=pointer]:
+                - generic [ref=e229]:
+                  - paragraph [ref=e230]: Verify background check documentation
+                  - generic [ref=e231]: High
+                - generic [ref=e232]:
+                  - generic [ref=e233]: SUB-7829
+                  - generic [ref=e234]:
+                    - img [ref=e235]
+                    - text: Apr 22, 2024
+              - generic [ref=e238] [cursor=pointer]:
+                - generic [ref=e239]:
+                  - paragraph [ref=e240]: Review GASB 68 pension liability report
+                  - generic [ref=e241]: Medium
+                - generic [ref=e243]:
+                  - generic [ref=e244]: SUB-7832
+                  - generic [ref=e245]:
+                    - img [ref=e246]
+                    - text: Apr 18, 2024
+              - generic [ref=e248] [cursor=pointer]:
+                - generic [ref=e249]:
+                  - paragraph [ref=e250]: Request missing safety questionnaire
+                  - generic [ref=e251]: Critical
+                - generic [ref=e252]:
+                  - generic [ref=e253]: SUB-7835
+                  - generic [ref=e254]:
+                    - img [ref=e255]
+                    - text: Apr 19, 2024
+              - generic [ref=e257] [cursor=pointer]:
+                - generic [ref=e258]:
+                  - paragraph [ref=e259]: Send indicative quote to Gallagher
+                  - generic [ref=e260]: High
+                - generic [ref=e261]:
+                  - generic [ref=e262]: SUB-7829
+                  - generic [ref=e263]:
+                    - img [ref=e264]
+                    - text: May 5, 2024
+              - generic [ref=e267] [cursor=pointer]:
+                - generic [ref=e268]:
+                  - paragraph [ref=e269]: Confirm earthquake zone with surveyor
+                  - generic [ref=e270]: Medium
+                - generic [ref=e272]:
+                  - generic [ref=e273]: SUB-7831
+                  - generic [ref=e274]:
+                    - img [ref=e275]
+                    - text: Apr 28, 2024
+            - generic [ref=e278]:
+              - generic [ref=e279]: 8 total tasks
+              - button "View all" [ref=e280] [cursor=pointer]:
+                - text: View all
+                - img [ref=e281]
+          - generic [ref=e284]:
+            - generic [ref=e285]:
+              - generic [ref=e286]:
+                - img [ref=e288]
+                - heading "Alerts & Flags" [level=3] [ref=e290]
+              - generic [ref=e291]:
+                - button "All" [ref=e292] [cursor=pointer]
+                - button "Critical" [ref=e293] [cursor=pointer]
+                - button "Warning" [ref=e294] [cursor=pointer]
+            - generic [ref=e295]:
+              - generic [ref=e296] [cursor=pointer]:
+                - generic [ref=e297]:
+                  - paragraph [ref=e300]: "Missing: Safety Questionnaire"
+                  - generic [ref=e301]: 2h ago
+                - paragraph [ref=e302]: SUB-7835 (Seattle PS) — required document not received.
+                - generic [ref=e303]: SUB-7835 →
+              - generic [ref=e304] [cursor=pointer]:
+                - generic [ref=e305]:
+                  - paragraph [ref=e308]: Review Overdue — 16 Days
+                  - generic [ref=e309]: Today
+                - paragraph [ref=e310]: SUB-7831 (Austin ISD) has been pending for 16 days.
+                - generic [ref=e311]: SUB-7831 →
+              - generic [ref=e312] [cursor=pointer]:
+                - generic [ref=e313]:
+                  - paragraph [ref=e316]: Open Litigation Flagged
+                  - generic [ref=e317]: Mar 18
+                - paragraph [ref=e318]: SUB-7829 (Riverside USD) — CLM-2021-027 in mediation.
+                - generic [ref=e319]: SUB-7829 →
+              - generic [ref=e320] [cursor=pointer]:
+                - generic [ref=e321]:
+                  - paragraph [ref=e324]: "Low Appetite Score: 41/100"
+                  - generic [ref=e325]: Mar 25
+                - paragraph [ref=e326]: SUB-7834 (Phoenix Charter) — below threshold of 50.
+                - generic [ref=e327]: SUB-7834 →
+              - generic [ref=e328] [cursor=pointer]:
+                - generic [ref=e329]:
+                  - paragraph [ref=e332]: Quote Expiring in 5 Days
+                  - generic [ref=e333]: Today
+                - paragraph [ref=e334]: SUB-7830 (San Diego City) quote expires Apr 24.
+                - generic [ref=e335]: SUB-7830 →
+              - generic [ref=e336] [cursor=pointer]:
+                - generic [ref=e337]:
+                  - paragraph [ref=e340]: "Missing: Background Check Policy"
+                  - generic [ref=e341]: 3d ago
+                - paragraph [ref=e342]: SUB-7838 (Chicago Lab) — compliance doc outstanding.
+                - generic [ref=e343]: SUB-7838 →
+            - generic [ref=e344]:
+              - generic [ref=e345]: 2 critical · 3 warnings
+              - button "View all" [ref=e346] [cursor=pointer]:
+                - text: View all
+                - img [ref=e347]
+        - generic [ref=e350]:
+          - generic [ref=e351]:
+            - generic [ref=e352]:
+              - img [ref=e354]
+              - heading "Correspondence" [level=3] [ref=e357]
+            - generic [ref=e358]:
+              - strong [ref=e359]: "3"
+              - text: unread · 3 awaiting reply
+          - generic [ref=e360] [cursor=pointer]:
+            - generic [ref=e361]: DC
+            - generic [ref=e362]:
+              - generic [ref=e363]:
+                - paragraph [ref=e364]:
+                  - text: David Chen
+                  - generic [ref=e365]: · Hub International
+                - generic [ref=e367]:
+                  - img [ref=e368]
+                  - text: Awaiting reply
+              - paragraph [ref=e371]: "Re: SUB-7835 — Safety questionnaire attached"
+              - paragraph [ref=e372]: Hi Sarah — questionnaire is in. One field is blank on page 3, can we proceed or wait for an updated copy?
+              - generic [ref=e373]:
+                - generic [ref=e374]: SUB-7835
+                - generic [ref=e375]: ·
+                - generic [ref=e376]: 8 min ago
+                - generic [ref=e377]: ·
+                - generic [ref=e378]: email
+          - generic [ref=e379] [cursor=pointer]:
+            - generic [ref=e380]: LP
+            - generic [ref=e381]:
+              - generic [ref=e382]:
+                - paragraph [ref=e383]:
+                  - text: Linda Park
+                  - generic [ref=e384]: · Aon
+                - generic [ref=e386]:
+                  - img [ref=e387]
+                  - text: Awaiting reply
+              - paragraph [ref=e390]: Quote acceptance — SUB-7836 (MIT)
+              - paragraph [ref=e391]: Client has signed off on the indicative quote. Please send binders and confirm effective date.
+              - generic [ref=e392]:
+                - generic [ref=e393]: SUB-7836
+                - generic [ref=e394]: ·
+                - generic [ref=e395]: 1 hour ago
+                - generic [ref=e396]: ·
+                - generic [ref=e397]: email
+          - generic [ref=e398] [cursor=pointer]:
+            - generic [ref=e399]: MS
+            - generic [ref=e400]:
+              - paragraph [ref=e402]:
+                - text: Mark Sullivan
+                - generic [ref=e403]: · Marsh McLennan
+              - paragraph [ref=e404]: COPE survey scheduled for next week
+              - paragraph [ref=e405]: Surveyor confirmed for Tuesday 9am at SUB-7830 (San Diego City). FYI no action needed.
+              - generic [ref=e406]:
+                - generic [ref=e407]: SUB-7830
+                - generic [ref=e408]: ·
+                - generic [ref=e409]: 3 hours ago
+                - generic [ref=e410]: ·
+                - generic [ref=e411]: email
+          - generic [ref=e412] [cursor=pointer]:
+            - generic [ref=e413]: JR
+            - generic [ref=e414]:
+              - generic [ref=e415]:
+                - paragraph [ref=e416]:
+                  - text: Jenna Roberts
+                  - generic [ref=e417]: · Willis Towers Watson
+                - generic [ref=e419]: Overdue reply
+              - paragraph [ref=e420]: Pricing pushback on Austin ISD renewal
+              - paragraph [ref=e421]: Broker is asking for a 6% rate concession on SUB-7831. Loss ratio supports holding firm — your call.
+              - generic [ref=e422]:
+                - generic [ref=e423]: SUB-7831
+                - generic [ref=e424]: ·
+                - generic [ref=e425]: Yesterday
+                - generic [ref=e426]: ·
+                - generic [ref=e427]: email
+          - generic [ref=e428] [cursor=pointer]:
+            - generic [ref=e429]: TL
+            - generic [ref=e430]:
+              - paragraph [ref=e432]:
+                - text: Tom Lee
+                - generic [ref=e433]: · Internal
+              - paragraph [ref=e434]: Bound — paperwork sent to ops
+              - paragraph [ref=e435]: Denver PS bound at $158K, effective Jul 1. Cert request mirrored to ops queue.
+              - generic [ref=e436]:
+                - generic [ref=e437]: SUB-7833
+                - generic [ref=e438]: ·
+                - generic [ref=e439]: Yesterday
+                - generic [ref=e440]: ·
+                - generic [ref=e441]: portal
+          - generic [ref=e442]:
+            - generic [ref=e443]: 5 threads · 1 overdue
+            - button "Open inbox" [ref=e444] [cursor=pointer]:
+              - text: Open inbox
+              - img [ref=e445]
+        - generic [ref=e448]:
+          - generic [ref=e449]:
+            - generic [ref=e450]:
+              - img [ref=e452]
+              - heading "Submissions" [level=3] [ref=e455]
+            - generic [ref=e456]: "3"
+          - generic [ref=e457]:
+            - generic [ref=e458]:
+              - button "My Submissions" [ref=e459] [cursor=pointer]
+              - button "Team" [ref=e460] [cursor=pointer]
+            - button "All" [ref=e462] [cursor=pointer]:
+              - img [ref=e463]
+              - text: All
+              - img [ref=e465]
+          - table [ref=e468]:
+            - rowgroup [ref=e469]:
+              - row "ID Member Type Assignee Premium Status Priority Effective" [ref=e470]:
+                - columnheader "ID" [ref=e471] [cursor=pointer]:
+                  - generic [ref=e472]:
+                    - text: ID
+                    - img [ref=e473]
+                - columnheader "Member" [ref=e476] [cursor=pointer]:
+                  - generic [ref=e477]:
+                    - text: Member
+                    - img [ref=e478]
+                - columnheader "Type" [ref=e481] [cursor=pointer]:
+                  - generic [ref=e482]:
+                    - text: Type
+                    - img [ref=e483]
+                - columnheader "Assignee" [ref=e486] [cursor=pointer]:
+                  - generic [ref=e487]:
+                    - text: Assignee
+                    - img [ref=e488]
+                - columnheader "Premium" [ref=e491] [cursor=pointer]:
+                  - generic [ref=e492]:
+                    - text: Premium
+                    - img [ref=e493]
+                - columnheader "Status" [ref=e496] [cursor=pointer]:
+                  - generic [ref=e497]:
+                    - text: Status
+                    - img [ref=e498]
+                - columnheader "Priority" [ref=e501] [cursor=pointer]:
+                  - generic [ref=e502]:
+                    - text: Priority
+                    - img [ref=e503]
+                - columnheader "Effective" [ref=e506] [cursor=pointer]:
+                  - generic [ref=e507]:
+                    - text: Effective
+                    - img [ref=e508]
+                - columnheader [ref=e511]
+            - rowgroup [ref=e512]:
+              - row "SUB-7832 Vanderbilt University TN Higher Ed JM John $620,000 In Review Medium Sep 1, 2024 Quick actions for SUB-7832" [ref=e513] [cursor=pointer]:
+                - cell "SUB-7832" [ref=e514]
+                - cell "Vanderbilt University TN" [ref=e515]:
+                  - paragraph [ref=e516]: Vanderbilt University
+                  - generic [ref=e517]:
+                    - img [ref=e518]
+                    - generic [ref=e521]: TN
+                - cell "Higher Ed" [ref=e522]
+                - cell "JM John" [ref=e523]:
+                  - generic [ref=e524]:
+                    - generic [ref=e525]: JM
+                    - generic [ref=e526]: John
+                - cell "$620,000" [ref=e527]
+                - cell "In Review" [ref=e528]:
+                  - generic [ref=e531]: In Review
+                - cell "Medium" [ref=e532]:
+                  - generic [ref=e533]: Medium
+                - cell "Sep 1, 2024" [ref=e535]
+                - cell "Quick actions for SUB-7832" [ref=e536]:
+                  - generic "Quick actions for SUB-7832" [ref=e537]:
+                    - button "Open submission" [ref=e538]:
+                      - img [ref=e539]
+                    - button "Reassign" [ref=e542]:
+                      - img [ref=e543]
+                    - button "Add note" [ref=e546]:
+                      - img [ref=e547]
+                    - button "More actions" [ref=e549]:
+                      - img [ref=e550]
+                  - img
+              - row "SUB-7836 Massachusetts Inst. of Technology MA Higher Ed JM John $890,000 Quoted Medium Jul 1, 2024 Quick actions for SUB-7836" [ref=e554] [cursor=pointer]:
+                - cell "SUB-7836" [ref=e555]
+                - cell "Massachusetts Inst. of Technology MA" [ref=e556]:
+                  - paragraph [ref=e557]: Massachusetts Inst. of Technology
+                  - generic [ref=e558]:
+                    - img [ref=e559]
+                    - generic [ref=e562]: MA
+                - cell "Higher Ed" [ref=e563]
+                - cell "JM John" [ref=e564]:
+                  - generic [ref=e565]:
+                    - generic [ref=e566]: JM
+                    - generic [ref=e567]: John
+                - cell "$890,000" [ref=e568]
+                - cell "Quoted" [ref=e569]:
+                  - generic [ref=e572]: Quoted
+                - cell "Medium" [ref=e573]:
+                  - generic [ref=e574]: Medium
+                - cell "Jul 1, 2024" [ref=e576]
+                - cell "Quick actions for SUB-7836" [ref=e577]:
+                  - generic "Quick actions for SUB-7836" [ref=e578]:
+                    - button "Open submission" [ref=e579]:
+                      - img [ref=e580]
+                    - button "Reassign" [ref=e583]:
+                      - img [ref=e584]
+                    - button "Add note" [ref=e587]:
+                      - img [ref=e588]
+                    - button "More actions" [ref=e590]:
+                      - img [ref=e591]
+                  - img
+              - row "SUB-7840 Georgetown University DC Higher Ed JM John $540,000 Quoted Medium Aug 1, 2024 Quick actions for SUB-7840" [ref=e595] [cursor=pointer]:
+                - cell "SUB-7840" [ref=e596]
+                - cell "Georgetown University DC" [ref=e597]:
+                  - paragraph [ref=e598]: Georgetown University
+                  - generic [ref=e599]:
+                    - img [ref=e600]
+                    - generic [ref=e603]: DC
+                - cell "Higher Ed" [ref=e604]
+                - cell "JM John" [ref=e605]:
+                  - generic [ref=e606]:
+                    - generic [ref=e607]: JM
+                    - generic [ref=e608]: John
+                - cell "$540,000" [ref=e609]
+                - cell "Quoted" [ref=e610]:
+                  - generic [ref=e613]: Quoted
+                - cell "Medium" [ref=e614]:
+                  - generic [ref=e615]: Medium
+                - cell "Aug 1, 2024" [ref=e617]
+                - cell "Quick actions for SUB-7840" [ref=e618]:
+                  - generic "Quick actions for SUB-7840" [ref=e619]:
+                    - button "Open submission" [ref=e620]:
+                      - img [ref=e621]
+                    - button "Reassign" [ref=e624]:
+                      - img [ref=e625]
+                    - button "Add note" [ref=e628]:
+                      - img [ref=e629]
+                    - button "More actions" [ref=e631]:
+                      - img [ref=e632]
+                  - img
+          - generic [ref=e636]:
+            - generic [ref=e637]: 1–3 of 3
+            - generic [ref=e638]:
+              - button "Prev" [disabled] [ref=e639]:
+                - img [ref=e640]
+                - text: Prev
+              - button "1" [ref=e642] [cursor=pointer]
+              - button "Next" [disabled] [ref=e643]:
+                - text: Next
+                - img [ref=e644]
+        - generic [ref=e646]:
+          - generic [ref=e648]:
+            - img [ref=e650]
+            - heading "Portfolio Snapshot" [level=3] [ref=e652]
+          - generic [ref=e654]:
+            - generic [ref=e655] [cursor=pointer]:
+              - generic [ref=e656]:
+                - img [ref=e658]
+                - generic [ref=e661]: Total Submissions (MTD)
+              - generic [ref=e662]: "22"
+            - generic [ref=e663] [cursor=pointer]:
+              - generic [ref=e664]:
+                - img [ref=e666]
+                - generic [ref=e668]: Quoted Pipeline
+              - generic [ref=e669]: $4.2M
+            - generic [ref=e670] [cursor=pointer]:
+              - generic [ref=e671]:
+                - img [ref=e673]
+                - generic [ref=e676]: Bound YTD
+              - generic [ref=e677]: $3.1M
+            - generic [ref=e678] [cursor=pointer]:
+              - generic [ref=e679]:
+                - img [ref=e681]
+                - generic [ref=e684]: Avg. Appetite Score
+              - generic [ref=e685]: 81/100
+            - generic [ref=e686] [cursor=pointer]:
+              - generic [ref=e687]:
+                - img [ref=e689]
+                - generic [ref=e692]: Submissions in SLA
+              - generic [ref=e693]: 91%
+            - generic [ref=e694] [cursor=pointer]:
+              - generic [ref=e695]:
+                - img [ref=e697]
+                - generic [ref=e699]: Docs Incomplete
+              - generic [ref=e700]: 4 subs
+  - complementary [ref=e701]:
+    - generic [ref=e702]:
+      - generic [ref=e703]: Live · agentic
+      - generic [ref=e705]:
+        - button "Reset thread" [ref=e706] [cursor=pointer]:
+          - img [ref=e707]
+        - button "Collapse" [ref=e710] [cursor=pointer]:
+          - img [ref=e711]
+    - generic [ref=e715]:
+      - img [ref=e721]
+      - generic [ref=e725]:
+        - generic [ref=e726]: Companion
+        - generic [ref=e727]: Dashboard · Today's workbench
+    - generic [ref=e729]:
+      - generic [ref=e730]:
+        - img [ref=e736]
+        - generic [ref=e740]: "Three things ready: one submission is ready to quote, one referral is past SLA, and two appetite scores moved overnight. Want a chart of today's pipeline?"
+      - generic [ref=e741]:
+        - generic [ref=e742]:
+          - img [ref=e743]
+          - text: Suggested follow-ups
+        - generic [ref=e746]:
+          - button "Show today's pipeline" [ref=e747] [cursor=pointer]:
+            - img [ref=e748]
+            - generic [ref=e750]: Show today's pipeline
+            - img [ref=e751]
+          - button "What's urgent?" [ref=e753] [cursor=pointer]:
+            - img [ref=e754]
+            - generic [ref=e756]: What's urgent?
+            - img [ref=e757]
+          - button "Open Submissions" [ref=e759] [cursor=pointer]:
+            - img [ref=e760]
+            - generic [ref=e763]: Open Submissions
+            - img [ref=e764]
+          - button "Start a new submission" [ref=e766] [cursor=pointer]:
+            - img [ref=e767]
+            - generic [ref=e768]: Start a new submission
+            - img [ref=e769]
+    - generic [ref=e773]:
+      - generic [ref=e774]:
+        - button [ref=e775] [cursor=pointer]:
+          - img [ref=e776]
+        - textbox "Ask about dashboard…" [ref=e777]
+        - button [disabled] [ref=e778] [cursor=pointer]:
+          - img [ref=e779]
+      - generic [ref=e782]: Watching this page — every action is deterministic and traceable.

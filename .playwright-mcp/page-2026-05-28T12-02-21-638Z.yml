@@ -1,0 +1,430 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: Enterprise Architecture
+      - heading "Agentic QA Automation Platform" [level=1] [ref=e5]
+      - generic [ref=e6]: 3-Layer Technical Architecture · Powered by Claude Code · Anthropic AI
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e9]: v2.0
+        - generic [ref=e10]: claude-sonnet-4-6
+      - generic [ref=e11]:
+        - generic [ref=e12]: Playwright 1.60
+        - generic [ref=e13]: Jira REST API v2
+      - generic [ref=e14]: First Project Agentic · 2026-05-28
+  - generic [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]: 🖥️
+        - generic [ref=e19]:
+          - generic [ref=e20]: Layer 1
+          - generic [ref=e21]: User Experience & IDE Interface
+          - generic [ref=e22]: Developer / QA Engineer · VS Code / JetBrains · Claude Code Extension
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e27]: IDE Integration
+          - generic [ref=e28]:
+            - generic [ref=e29]:
+              - text: ›
+              - strong [ref=e30]: VS Code
+              - text: — Native extension + inline chat
+            - generic [ref=e31]:
+              - text: ›
+              - strong [ref=e32]: JetBrains
+              - text: — Plugin + slash commands
+            - generic [ref=e33]:
+              - text: ›
+              - strong [ref=e34]: claude.ai/code
+              - text: — Browser interface
+            - generic [ref=e35]:
+              - text: ›
+              - strong [ref=e36]: CLI
+              - text: —
+              - code [ref=e37]: claude
+              - text: terminal command
+            - generic [ref=e38]: › File diffs, terminal, code lens
+        - generic [ref=e39]:
+          - generic [ref=e42]: Slash Commands
+          - generic [ref=e43]:
+            - generic [ref=e44]:
+              - text: ›
+              - generic [ref=e45]: /fetch-jira-details
+            - generic [ref=e46]:
+              - text: ›
+              - generic [ref=e47]: /generate-test-cases
+            - generic [ref=e48]:
+              - text: ›
+              - generic [ref=e49]: /generate-gherkin
+            - generic [ref=e50]:
+              - text: ›
+              - generic [ref=e51]: /early-defect-consolidator
+            - generic [ref=e52]:
+              - text: › Registered via
+              - strong [ref=e53]: .claude/commands/
+        - generic [ref=e54]:
+          - generic [ref=e57]: Human Review Loop
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - text: ›
+              - strong [ref=e60]: APPROVE
+              - text: — Accept all findings
+            - generic [ref=e61]:
+              - text: ›
+              - strong [ref=e62]: EXCLUDE
+              - text: — Remove defect IDs
+            - generic [ref=e63]:
+              - text: ›
+              - strong [ref=e64]: MERGE
+              - text: — Combine root causes
+            - generic [ref=e65]:
+              - text: ›
+              - strong [ref=e66]: UPDATE
+              - text: — Edit severity/desc
+            - generic [ref=e67]:
+              - text: ›
+              - strong [ref=e68]: FINAL_APPROVE
+              - text: — Only Jira trigger
+          - generic [ref=e70]: Human-in-the-Loop Gate
+        - generic [ref=e71]:
+          - generic [ref=e74]: Configuration
+          - generic [ref=e75]:
+            - generic [ref=e76]:
+              - text: ›
+              - strong [ref=e77]: .env
+              - text: — Jira credentials
+            - generic [ref=e78]:
+              - text: ›
+              - strong [ref=e79]: CLAUDE.md
+              - text: — Project rules
+            - generic [ref=e80]:
+              - text: ›
+              - strong [ref=e81]: settings.local.json
+              - text: — Permissions
+            - generic [ref=e82]:
+              - text: ›
+              - strong [ref=e83]: memory/
+              - text: — Cross-session memory
+            - generic [ref=e84]:
+              - text: ›
+              - strong [ref=e85]: tsconfig.json
+              - text: — TS strict mode
+    - generic [ref=e89]:
+      - generic [ref=e90]: Prompt / Response
+      - generic [ref=e92]: Tool Calls
+      - generic [ref=e94]: Artifacts
+      - generic [ref=e96]: Skill Execution
+    - generic [ref=e98]:
+      - generic [ref=e99]:
+        - generic [ref=e100]: 🧠
+        - generic [ref=e101]:
+          - generic [ref=e102]: Layer 2
+          - generic [ref=e103]: AI Orchestration Engine
+          - generic [ref=e104]: Claude claude-sonnet-4-6 · Skills Engine · Agent Fleet · MCP Server
+      - generic [ref=e106]: Skills Engine · .claude/skills/ + .claude/commands/
+      - generic [ref=e107]:
+        - generic [ref=e108]:
+          - generic [ref=e111]: fetch-jira-details
+          - generic [ref=e112]:
+            - generic [ref=e113]: › 5-script Node.js engine
+            - generic [ref=e114]: › ADF → Markdown conversion
+            - generic [ref=e115]: › SHA-256 attachment dedup
+            - generic [ref=e116]: › Exponential backoff retry
+            - generic [ref=e117]: › Batch ticket processing
+            - generic [ref=e118]: › Cloud/Server auto-detect
+          - generic [ref=e120]: REST API v2
+        - generic [ref=e121]:
+          - generic [ref=e124]: generate-test-cases
+          - generic [ref=e125]:
+            - generic [ref=e126]: › 9-step skill workflow
+            - generic [ref=e127]: › JIRA_AND_URL dual mode
+            - generic [ref=e128]: › Screenshot per discrepancy
+            - generic [ref=e129]: › 9 test scenario categories
+            - generic [ref=e130]: › Gherkin BDD generation
+            - generic [ref=e131]: › RTM + Coverage reports
+          - generic [ref=e133]: Playwright + Jira
+        - generic [ref=e134]:
+          - generic [ref=e137]: generate-gherkin
+          - generic [ref=e138]:
+            - generic [ref=e139]: › AC → BDD transformation
+            - generic [ref=e140]: › Scenario Outline + Examples
+            - generic [ref=e141]: › Analysis framework rules
+            - generic [ref=e142]: › Risk analysis report
+            - generic [ref=e143]: › Coverage JSON output
+            - generic [ref=e144]: › Gherkin syntax rules enforced
+          - generic [ref=e146]: Jira Only Mode
+        - generic [ref=e147]:
+          - generic [ref=e150]: early-defect-consolidator
+          - generic [ref=e151]:
+            - generic [ref=e152]: › 10-step validation pipeline
+            - generic [ref=e153]: › 6-axis AC validation
+            - generic [ref=e154]: › Root-cause grouping
+            - generic [ref=e155]: › Human-gated Jira creation
+            - generic [ref=e156]: › Screenshot auto-attachment
+            - generic [ref=e157]: › Single bug per review cycle
+          - generic [ref=e159]: FINAL_APPROVE gate
+      - generic [ref=e161]: Agent Fleet · Specialized Subagent Types
+      - generic [ref=e162]:
+        - generic [ref=e163]:
+          - generic [ref=e166]: playwright-test-planner
+          - generic [ref=e167]:
+            - generic [ref=e168]: › Live app navigation + auth
+            - generic [ref=e169]: › Full page inventory crawl
+            - generic [ref=e170]: › Form field + flow analysis
+            - generic [ref=e171]: › Jira AC cross-reference
+            - generic [ref=e172]: › DISC-NNN screenshot capture
+            - generic [ref=e173]: › discrepancies.md generation
+          - generic [ref=e175]: 50+ MCP tools
+        - generic [ref=e176]:
+          - generic [ref=e179]: playwright-test-generator
+          - generic [ref=e180]:
+            - generic [ref=e181]: › .feature → .spec.ts conversion
+            - generic [ref=e182]: › Page Object Model patterns
+            - generic [ref=e183]: › Playwright assertion authoring
+            - generic [ref=e184]: › Test data extraction
+            - generic [ref=e185]: › helpers.ts generation
+            - generic [ref=e186]: › TypeScript strict compliance
+          - generic [ref=e188]: Gherkin → TS
+        - generic [ref=e189]:
+          - generic [ref=e192]: playwright-test-healer
+          - generic [ref=e193]:
+            - generic [ref=e194]: › Failing test auto-diagnosis
+            - generic [ref=e195]: › Locator regeneration
+            - generic [ref=e196]: › CSS/XPath selector repair
+            - generic [ref=e197]: › Network request inspection
+            - generic [ref=e198]: › Test re-run verification
+            - generic [ref=e199]: › Healed spec file output
+          - generic [ref=e201]: Self-healing
+      - generic [ref=e203]: MCP Server · Model Context Protocol · playwright-test
+      - generic [ref=e204]:
+        - generic [ref=e205]:
+          - text: playwright-test
+          - text: npx playwright run-test-mcp-server
+        - generic [ref=e206]:
+          - generic [ref=e207]: browser_navigate
+          - generic [ref=e208]: browser_snapshot
+          - generic [ref=e209]: browser_take_screenshot
+          - generic [ref=e210]: browser_click
+          - generic [ref=e211]: browser_type
+          - generic [ref=e212]: browser_fill_form
+          - generic [ref=e213]: browser_evaluate
+          - generic [ref=e214]: browser_hover
+          - generic [ref=e215]: browser_select_option
+          - generic [ref=e216]: browser_generate_locator
+          - generic [ref=e217]: browser_console_messages
+          - generic [ref=e218]: browser_network_requests
+          - generic [ref=e219]: browser_start_tracing
+          - generic [ref=e220]: browser_start_video
+          - generic [ref=e221]: browser_cookie_set
+          - generic [ref=e222]: browser_localstorage_get
+          - generic [ref=e223]: browser_route
+          - generic [ref=e224]: browser_resize
+          - generic [ref=e225]: test_run
+          - generic [ref=e226]: test_debug
+          - generic [ref=e227]: planner_setup_page
+          - generic [ref=e228]: planner_save_plan
+          - generic [ref=e229]: + 30 more
+    - generic [ref=e233]:
+      - generic [ref=e234]: REST APIs
+      - generic [ref=e236]: File I/O
+      - generic [ref=e238]: Node.js Scripts
+      - generic [ref=e240]: Browser Automation
+      - generic [ref=e242]: HTTP Multipart
+    - generic [ref=e244]:
+      - generic [ref=e245]:
+        - generic [ref=e246]: ⚙️
+        - generic [ref=e247]:
+          - generic [ref=e248]: Layer 3
+          - generic [ref=e249]: System Integration & Infrastructure
+          - generic [ref=e250]: Jira Cloud · Playwright Engine · GitHub · Target Applications · Artifact Store
+      - generic [ref=e251]:
+        - generic [ref=e252]:
+          - generic [ref=e255]: Jira Cloud
+          - generic [ref=e256]:
+            - generic [ref=e257]:
+              - text: ›
+              - strong [ref=e258]: GET
+              - text: "/rest/api/2/issue/{\"{key}\"}"
+            - generic [ref=e259]:
+              - text: ›
+              - strong [ref=e260]: GET
+              - text: "/issue/{\"{key}\"}/comment"
+            - generic [ref=e261]:
+              - text: ›
+              - strong [ref=e262]: GET
+              - text: "/issue/{\"{key}\"}/attachment"
+            - generic [ref=e263]:
+              - text: ›
+              - strong [ref=e264]: POST
+              - text: /rest/api/2/issue
+            - generic [ref=e265]:
+              - text: ›
+              - strong [ref=e266]: POST
+              - text: "/issue/{\"{key}\"}/attachments"
+            - generic [ref=e267]: "› Auth: Basic base64(email:token)"
+            - generic [ref=e268]: "› Retry: 1s→2s→4s backoff"
+            - generic [ref=e269]: › ADF → Markdown conversion
+            - generic [ref=e270]: › SHA-256 deduplication
+          - generic [ref=e272]: REST API v2
+        - generic [ref=e273]:
+          - generic [ref=e276]: Playwright Engine
+          - generic [ref=e277]:
+            - generic [ref=e278]:
+              - text: › @playwright/test
+              - strong [ref=e279]: v1.60.0
+            - generic [ref=e280]: › Chromium · Firefox · WebKit
+            - generic [ref=e281]: "› Test timeout: 30s · Action: 10s"
+            - generic [ref=e282]: "› Retries: 2 (CI) / 0 (local)"
+            - generic [ref=e283]: › Fully parallel (local)
+            - generic [ref=e284]: › Trace on-first-retry
+            - generic [ref=e285]: › Screenshot + video on fail
+            - generic [ref=e286]: › HTML + JSON + list reporters
+          - generic [ref=e288]: INSTR-FUNC-001→008
+        - generic [ref=e289]:
+          - generic [ref=e292]: GitHub
+          - generic [ref=e293]:
+            - generic [ref=e294]: › Version control for skills
+            - generic [ref=e295]: › Test cases + Gherkin tracked
+            - generic [ref=e296]: › CI/CD via GitHub Actions
+            - generic [ref=e297]: › 1 worker on CI pipeline
+            - generic [ref=e298]: › HTML report as artifact
+            - generic [ref=e299]: › Jira IDs in branch names
+          - generic [ref=e301]: CI/CD
+        - generic [ref=e302]:
+          - generic [ref=e305]: Target Applications
+          - generic [ref=e306]:
+            - generic [ref=e307]:
+              - text: ›
+              - strong [ref=e308]: United Educators
+              - text: — Vercel + Salesforce
+            - generic [ref=e309]:
+              - text: ›
+              - strong [ref=e310]: Bank of St. Lucia
+              - text: — QA Sandbox
+            - generic [ref=e311]:
+              - text: ›
+              - strong [ref=e312]: Loan Platform
+              - text: — BOSLFS tickets
+            - generic [ref=e313]: › React SPA · Auth-gated
+            - generic [ref=e314]: › API-integrated forms
+            - generic [ref=e315]: › Multi-step wizard flows
+          - generic [ref=e317]: Any SaaS App
+      - generic [ref=e319]: Artifact File System · Structured Output Store
+      - generic [ref=e320]:
+        - generic [ref=e321]:
+          - generic [ref=e322]: jira-output/[TICKET]/
+          - generic [ref=e323]:
+            - text: Summary/ ticket_summary.md
+            - text: Comments/ comments.md
+            - text: Attachments/ [files]
+            - text: Links/ dependency_graph.md
+            - text: Metadata/ issue_details.json
+            - text: Subtasks/ subtasks.json
+            - text: ★ complete_ticket_context.md
+        - generic [ref=e324]:
+          - generic [ref=e325]: test-artifacts/[TICKET]/
+          - generic [ref=e326]:
+            - text: application-analysis/
+            - text: app-flow-analysis.md
+            - text: requirements-vs-app.md
+            - text: ★ discrepancies.md
+            - text: screenshots/ DISC-NNN.png
+            - text: test-cases/ [9 categories]
+            - text: reports/ coverage · rtm · risk
+            - text: EarlyDefectReviewReport.md
+        - generic [ref=e327]:
+          - generic [ref=e328]: features/[TICKET]/
+          - generic [ref=e329]:
+            - text: smoke/
+            - text: functional/
+            - text: negative/
+            - text: edge-cases/
+            - text: boundary/
+            - text: security/
+            - text: accessibility/
+            - text: regression/
+        - generic [ref=e330]:
+          - generic [ref=e331]: test-results/
+          - generic [ref=e332]:
+            - text: results.json
+            - text: playwright-report/
+            - text: index.html
+            - text: trace.zip
+            - text: video.webm
+            - text: screenshot.png
+            - text: logs/ execution.log
+    - generic [ref=e333]:
+      - generic [ref=e334]: End-to-End Workflow
+      - generic [ref=e335]:
+        - generic [ref=e336]:
+          - generic [ref=e337]: "1"
+          - generic [ref=e338]:
+            - text: Fetch
+            - text: Requirements
+          - generic [ref=e339]: /fetch-jira-details
+          - text: →
+        - generic [ref=e340]:
+          - generic [ref=e341]: "2"
+          - generic [ref=e342]:
+            - text: Crawl Live
+            - text: Application
+          - generic [ref=e343]: /generate-test-cases
+          - text: →
+        - generic [ref=e344]:
+          - generic [ref=e345]: "3"
+          - generic [ref=e346]:
+            - text: Generate Tests
+            - text: + Gherkin + RTM
+          - generic [ref=e347]: ~100 test cases
+          - text: →
+        - generic [ref=e348]:
+          - generic [ref=e349]: "4"
+          - generic [ref=e350]:
+            - text: Validate &
+            - text: Consolidate Bugs
+          - generic [ref=e351]: /early-defect-consolidator
+          - text: →
+        - generic [ref=e352]:
+          - generic [ref=e353]: "5"
+          - generic [ref=e354]:
+            - text: FINAL_APPROVE →
+            - text: Jira Bug + Screenshots
+          - generic [ref=e355]: 1 bug · full traceability
+    - generic [ref=e356]:
+      - generic [ref=e357]:
+        - generic [ref=e358]: 🔒
+        - generic [ref=e359]: Human-in-the-Loop
+        - generic [ref=e360]: FINAL_APPROVE is the only gate for Jira creation. No automated bug filing.
+      - generic [ref=e361]:
+        - generic [ref=e362]: 🔗
+        - generic [ref=e363]: Traceability First
+        - generic [ref=e364]: "Full chain: AC → Test → App Status → Bug → Screenshot → Jira."
+      - generic [ref=e365]:
+        - generic [ref=e366]: 📸
+        - generic [ref=e367]: Evidence-Driven QA
+        - generic [ref=e368]: Every discrepancy has a named DISC-NNN screenshot auto-attached to Jira.
+      - generic [ref=e369]:
+        - generic [ref=e370]: 🎯
+        - generic [ref=e371]: Single Bug Per Cycle
+        - generic [ref=e372]: One consolidated Jira bug per story. Root-cause grouping eliminates noise.
+      - generic [ref=e373]:
+        - generic [ref=e374]: ⚡
+        - generic [ref=e375]: Resilient APIs
+        - generic [ref=e376]: Exponential backoff 1s→2s→4s. 429 + 5xx handled. Zero unnecessary deps.
+    - generic [ref=e377]:
+      - generic [ref=e378]: Stack
+      - generic [ref=e379]: Claude claude-sonnet-4-6
+      - generic [ref=e380]: Claude Code
+      - generic [ref=e381]: MCP Protocol
+      - generic [ref=e382]: Playwright 1.60
+      - generic [ref=e383]: TypeScript ESNext
+      - generic [ref=e384]: Node.js 18+
+      - generic [ref=e385]: Jira REST API v2
+      - generic [ref=e386]: Axios 1.7
+      - generic [ref=e387]: GitHub Actions
+      - generic [ref=e388]: Gherkin BDD
+      - generic [ref=e389]: VS Code Extension
+      - generic [ref=e390]: dotenv 16
+      - generic [ref=e391]: Windows 11
+  - generic [ref=e392]:
+    - generic [ref=e393]: Agentic QA Automation Platform · Technical Architecture v2.0 · First Project Agentic
+    - generic [ref=e394]: Powered by Claude Code · Anthropic AI · 2026-05-28

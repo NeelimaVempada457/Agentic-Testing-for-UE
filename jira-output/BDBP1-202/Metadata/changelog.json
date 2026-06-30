@@ -1,0 +1,1565 @@
+[
+  {
+    "id": "122456",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Aab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+      "accountId": "712020:ab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+      "emailAddress": "richard.mena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png"
+      },
+      "displayName": "Richard Mena",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2025-11-08T23:01:05.017-0500",
+    "items": [
+      {
+        "field": "IssueParentAssociation",
+        "fieldtype": "jira",
+        "from": null,
+        "fromString": null,
+        "to": "24264",
+        "toString": "BDBP1-153"
+      }
+    ]
+  },
+  {
+    "id": "122458",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Aab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+      "accountId": "712020:ab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+      "emailAddress": "richard.mena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png"
+      },
+      "displayName": "Richard Mena",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2025-11-08T23:08:40.870-0500",
+    "items": [
+      {
+        "field": "Story Points",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10053",
+        "from": null,
+        "fromString": null,
+        "to": null,
+        "toString": "6"
+      }
+    ]
+  },
+  {
+    "id": "124332",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Aab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+      "accountId": "712020:ab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+      "emailAddress": "richard.mena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png"
+      },
+      "displayName": "Richard Mena",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2025-11-12T18:41:23.583-0500",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "As a registered customer completing my application,\nI want to view and interact with the Instruction section, access picture requirements and compliance information, and navigate easily,\nSo that I can understand the required steps, review applicable requirements, and proceed confidently to complete the application process.\n\n \n\nAcceptance Criteria\n\n* Screen Layout\n** Haeder and Footer\" should be consistent on the community theme covered in story [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|smart-link]  and [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-96|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-96|smart-link]\n** Left Side component is consistent on the community theme covered by Jira Ticket [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|smart-link] \n* Instruction Section Content\n** Displays guidelines for completing the application, including:\n*** Requirement to take/upload a picture.\n*** Application completion instructions.\n*** Compliance notice for U.S. citizens/residents regarding FATCA.\n* Hyperlinks and Buttons\n** See Picture Requirements hyperlink opens in a new tab and displays picture guidelines.\n** Three buttons displayed at the bottom of the section:\n*** See Requirements for National Individuals → Opens link in a new tab:\n[[https://www.bankofsaintlucia.com/services/customer-types/view/1/59#:~:text=For%20individuals%2018%20years%20&%20older,be%20included%20on%20an%20account.]|https://www.bankofsaintlucia.com/services/customer-types/view/1/59#:~:text=For%20individuals%2018%20years%20&%20older,be%20included%20on%20an%20account.]]\n*** See Requirements for International Individuals → Opens link in a new tab:\n[[https://www.bankofsaintlucia.com/services/customer-types/view/2/65|https://www.bankofsaintlucia.com/services/customer-types/view/2/65]]\n*** See Requirements for Self-Employed Individuals → Opens link in a new tab:\n[[https://www.bankofsaintlucia.com/services/customer-types/view/6/64|https://www.bankofsaintlucia.com/services/customer-types/view/6/64]]\n** FATCA link under Important Compliance Notice opens in a new tab to the FATCA form page.\n* Navigation\n** Continue button navigates to the next section: Personal Information.\n** Save Progress button saves data and displays confirmation message:\n_“Your progress has been saved.”_\n** Back to Dashboard button navigates to dashboard with warning if unsaved changes exist.\n* Design Compliance\n** BOSL branding (colors, fonts, logo) applied consistently.\n** Responsive design verified across desktop and mobile.\n* \n\n*Significance*\n\nThis section ensures customers understand application requirements and compliance obligations before proceeding. It improves transparency, reduces errors, and supports regulatory compliance while maintaining a consistent user experience.\n\n*Definition of Done*\n\n* Instruction section implemented per Figma design.\n* All hyperlinks and buttons open in a new tab and point to correct URLs.\n* FATCA link displayed under compliance notice and opens correctly.\n* Navigation buttons (Continue, Save Progress, Back to Dashboard) function as expected.\n* QA validates responsiveness and usability across devices.\n* Smoke tests pass successfully in staging environment.\n* UAT sign-off obtained from BOSL team.\n\n*Dependencies*\n\n* BOSL branding guidelines and reusable header/footer components.\n* Verified URLs for picture requirements, FATCA, and applicant requirement pages.\n* Backend readiness for saving progress and navigation logic.\n\n*Risks*\n\n* Incorrect or broken links may prevent users from accessing compliance information.\n* Navigation issues may block progress to the next section.\n* Branding inconsistencies may reduce trust and user confidence.\n\n\n\nFigma Design Link [https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=IadMaXkVs8eytvpR-4|https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=IadMaXkVs8eytvpR-4|smart-link]          ",
+        "to": null,
+        "toString": "As a registered customer completing my application,\nI want to view and interact with the Instruction section, access picture requirements and compliance information, and navigate easily,\nSo that I can understand the required steps, review applicable requirements, and proceed confidently to complete the application process.\n\n \n\nAcceptance Criteria\n\n* Screen Layout\n* !image-20251112-230540.png|width=754,alt=\"image-20251112-230540.png\"!\n\n** Haeder and Footer\" should be consistent on the community theme covered in story [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|smart-link]  and [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-96|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-96|smart-link]\n** Left Side component is consistent on the community theme covered by Jira Ticket [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|smart-link] \n* Instruction Section Content\n** Displays guidelines for completing the application, including:\n*** Requirement to take/upload a picture.\n*** Application completion instructions.\n*** Compliance notice for U.S. citizens/residents regarding FATCA.\n*  Buttons\n** User will see three buttons presented on the screen:\n*** See Requirements for National Individuals\n**** Will display information about the required documentation under its own section:\n***** !image-20251112-231949.png|width=738,alt=\"image-20251112-231949.png\"!\n\n*** See Requirements for International Individuals\n**** Will display information about the required documentation under its own section:\n**** !image-20251112-232045.png|width=740,alt=\"image-20251112-232045.png\"!\n\n*** See Requirements for Self-Employed Individuals \n**** Will display information about the required documentation under its own section:\n**** !image-20251112-232137.png|width=745,alt=\"image-20251112-232137.png\"!\n\n** When click on a button an overly screen component will become visible having each button under a collapsible section\n*** Only one collapsible section can be expanded at a time.\n*** Clicking Back returns to the previous popup.\n*** Clicking Apply Now redirects to login screen.\n*** Clicking Print downloads complete instructions as PDF.\n*** See Picture Requirements hyperlink opens in a new tab and displays picture guidelines.\n** FATCA link under Important Compliance Notice opens in a new tab to the FATCA form page.\n* Navigation\n** Continue button navigates to the next section: Personal Information.\n** Save Progress button saves data and displays confirmation message:\n_“Your application progress has been saved.”_\n** !image-20251112-233759.png|width=246,alt=\"image-20251112-233759.png\"!\n\n** Back to Dashboard button navigates to dashboard with warning if unsaved changes exist.\n* Design Compliance\n** BOSL branding (colors, fonts, logo) applied consistently.\n** Responsive design verified across desktop and mobile.\n\n*Significance*\n\nThis section ensures customers understand application requirements and compliance obligations before proceeding. It improves transparency, reduces errors, and supports regulatory compliance while maintaining a consistent user experience.\n\n*Definition of Done*\n\n* Instruction section implemented per Figma design.\n* All hyperlinks and buttons open in a new tab and point to correct URLs.\n* FATCA link displayed under compliance notice and opens correctly.\n* Navigation buttons (Continue, Save Progress, Back to Dashboard) function as expected.\n* QA validates responsiveness and usability across devices.\n* Smoke tests pass successfully in staging environment.\n* UAT sign-off obtained from BOSL team.\n\n*Dependencies*\n\n* BOSL branding guidelines and reusable header/footer components.\n* Verified URLs for picture requirements, FATCA, and applicant requirement pages.\n* Backend readiness for saving progress and navigation logic.\n\n*Risks*\n\n* Incorrect or broken links may prevent users from accessing compliance information.\n* Navigation issues may block progress to the next section.\n* Branding inconsistencies may reduce trust and user confidence.\n\n\n\nFigma Design Link [https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=IadMaXkVs8eytvpR-4|https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=IadMaXkVs8eytvpR-4|smart-link]          "
+      }
+    ]
+  },
+  {
+    "id": "124331",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Aab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+      "accountId": "712020:ab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+      "emailAddress": "richard.mena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png"
+      },
+      "displayName": "Richard Mena",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2025-11-12T18:41:24.993-0500",
+    "items": [
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "24130",
+        "toString": "image-20251112-232137.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "24128",
+        "toString": "image-20251112-231949.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "24127",
+        "toString": "image-20251112-230540.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "24129",
+        "toString": "image-20251112-232045.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "24126",
+        "toString": "image-20251112-233759.png"
+      }
+    ]
+  },
+  {
+    "id": "126549",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Aab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+      "accountId": "712020:ab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+      "emailAddress": "richard.mena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png"
+      },
+      "displayName": "Richard Mena",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2025-11-20T15:52:27.245-0500",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "As a registered customer completing my application,\nI want to view and interact with the Instruction section, access picture requirements and compliance information, and navigate easily,\nSo that I can understand the required steps, review applicable requirements, and proceed confidently to complete the application process.\n\n \n\nAcceptance Criteria\n\n* Screen Layout\n* !image-20251112-230540.png|width=754,alt=\"image-20251112-230540.png\"!\n\n** Haeder and Footer\" should be consistent on the community theme covered in story [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|smart-link]  and [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-96|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-96|smart-link]\n** Left Side component is consistent on the community theme covered by Jira Ticket [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|smart-link] \n* Instruction Section Content\n** Displays guidelines for completing the application, including:\n*** Requirement to take/upload a picture.\n*** Application completion instructions.\n*** Compliance notice for U.S. citizens/residents regarding FATCA.\n*  Buttons\n** User will see three buttons presented on the screen:\n*** See Requirements for National Individuals\n**** Will display information about the required documentation under its own section:\n***** !image-20251112-231949.png|width=738,alt=\"image-20251112-231949.png\"!\n\n*** See Requirements for International Individuals\n**** Will display information about the required documentation under its own section:\n**** !image-20251112-232045.png|width=740,alt=\"image-20251112-232045.png\"!\n\n*** See Requirements for Self-Employed Individuals \n**** Will display information about the required documentation under its own section:\n**** !image-20251112-232137.png|width=745,alt=\"image-20251112-232137.png\"!\n\n** When click on a button an overly screen component will become visible having each button under a collapsible section\n*** Only one collapsible section can be expanded at a time.\n*** Clicking Back returns to the previous popup.\n*** Clicking Apply Now redirects to login screen.\n*** Clicking Print downloads complete instructions as PDF.\n*** See Picture Requirements hyperlink opens in a new tab and displays picture guidelines.\n** FATCA link under Important Compliance Notice opens in a new tab to the FATCA form page.\n* Navigation\n** Continue button navigates to the next section: Personal Information.\n** Save Progress button saves data and displays confirmation message:\n_“Your application progress has been saved.”_\n** !image-20251112-233759.png|width=246,alt=\"image-20251112-233759.png\"!\n\n** Back to Dashboard button navigates to dashboard with warning if unsaved changes exist.\n* Design Compliance\n** BOSL branding (colors, fonts, logo) applied consistently.\n** Responsive design verified across desktop and mobile.\n\n*Significance*\n\nThis section ensures customers understand application requirements and compliance obligations before proceeding. It improves transparency, reduces errors, and supports regulatory compliance while maintaining a consistent user experience.\n\n*Definition of Done*\n\n* Instruction section implemented per Figma design.\n* All hyperlinks and buttons open in a new tab and point to correct URLs.\n* FATCA link displayed under compliance notice and opens correctly.\n* Navigation buttons (Continue, Save Progress, Back to Dashboard) function as expected.\n* QA validates responsiveness and usability across devices.\n* Smoke tests pass successfully in staging environment.\n* UAT sign-off obtained from BOSL team.\n\n*Dependencies*\n\n* BOSL branding guidelines and reusable header/footer components.\n* Verified URLs for picture requirements, FATCA, and applicant requirement pages.\n* Backend readiness for saving progress and navigation logic.\n\n*Risks*\n\n* Incorrect or broken links may prevent users from accessing compliance information.\n* Navigation issues may block progress to the next section.\n* Branding inconsistencies may reduce trust and user confidence.\n\n\n\nFigma Design Link [https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=IadMaXkVs8eytvpR-4|https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=IadMaXkVs8eytvpR-4|smart-link]          ",
+        "to": null,
+        "toString": "As a registered customer completing my application,\nI want to view and interact with the Instruction section, access picture requirements and compliance information, and navigate easily,\nSo that I can understand the required steps, review applicable requirements, and proceed confidently to complete the application process.\n\n \n\nAcceptance Criteria\n\n* Screen Layout\n* !image-20251112-230540.png|width=754,alt=\"image-20251112-230540.png\"!\n\n** Haeder and Footer\" should be consistent on the community theme covered in story [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|smart-link]  and [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-96|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-96|smart-link]\n** Left Side component is consistent on the community theme covered by Jira Ticket [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|smart-link] \n* Instruction Section Content\n** Displays guidelines for completing the application, including:\n*** Requirement to take/upload a picture.\n*** Application completion instructions.\n*** Compliance notice for U.S. citizens/residents regarding FATCA.\n*  Buttons Presented will be applicable for the different applicant’s residency types\n**  Individual (National) of ECCU Territories\n** Resident Nationals of CARICOM (except ECCU territories)\n** Non-Nationals/Residents Outside CARICOM\n** Self –Employed Individuals\n* Trigger\n** Clickiing on the applicable button to see documentation requirements\n\n||{color:#ffffff}*Customer Type/Button Label*{color}||{color:#ffffff}*Identification*{color}||{color:#ffffff}*Residential Address*{color}||{color:#ffffff}*Additional Notes*{color}||\n|# Individual (National) of ECCU Territories|One form of Valid (Unexpired) Government-Issued Picture Identification:\n* Passport\n* National Identification Card\n* Social Security card\n* Driver’s license\n* Voter’s card|*NO PROOF OF ADDRESS REQUIRED:*\na. For Saint Lucian Nationals and Residents unless Customer type is listed as Companies / Unlisted Corporations|*Specific to Minors*\n* Accounts on behalf of minors with no picture identification: parent/legal guardian subject to standard KYC requirements\n* Birth certificate of minor|\n|Resident Nationals of CARICOM\n(except ECCU territories)|One Form of Valid (unexpired) Government Issued Identification:\n* Passport and\n* Driver’s License or National identification Card|Confirmation of Residential Address is required by any of the following documents:\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential\n\\\\\nAddress. (The relationship must be in existence for at least 1 year);\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner,\n\\\\\nalong with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n|Non-Nationals/\nResidents\nOutside\nCARICOM|Two forms of valid (unexpired) Government Issued Identification\n* Passport\n* National Identification Card\n* Social Security card\n* Driver’s license\n* Voter’s card|Confirmation of Residential Address by way of any one of the following documents\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential\n\\\\\nAddress. (The relationship must be in existence for at least 1 year);\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner,\n\\\\\nalong with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n|Self –\nEmployed\nIndividuals|* One (1) form of Government-Issued Picture Identification in the case of\nNationals/Residents of ECCU and CARICOM.\n* Two (2) forms of Government- Issued Picture Identification in the case of Non\u0002Nationals/ Residents Outside of CARICOM|Confirmation of Residential Address by way of any one of the following documents\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential Address. (The relationship must be in existence for at least 1 year)\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner, along with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n\n* Behavior\n** Only one collapsible section can be expanded at a time.\n** The only collapsed section will be relatedto button the user previously clicked onto\n** Insturctions will be displayed overlay\n\n*** \n**** \n** When click on a button an overly screen component will become visible having each button under a collapsible section\n*** Only one collapsible section can be expanded at a time.\n*** Clicking Back returns to the previous popup.\n*** Clicking Apply Now redirects to login screen.\n*** Clicking Print downloads complete instructions as PDF.\n*** See Picture Requirements hyperlink opens in a new tab and displays picture guidelines.\n** FATCA link under Important Compliance Notice opens in a new tab to the FATCA form page.\n* Navigation\n** Continue button navigates to the next section: Personal Information.\n** Save Progress button saves data and displays confirmation message:\n_“Your application progress has been saved.”_\n** !image-20251112-233759.png|width=246,alt=\"image-20251112-233759.png\"!\n\n** Back to Dashboard button navigates to dashboard with warning if unsaved changes exist.\n* Design Compliance\n** BOSL branding (colors, fonts, logo) applied consistently.\n** Responsive design verified across desktop and mobile.\n\n*Significance*\n\nThis section ensures customers understand application requirements and compliance obligations before proceeding. It improves transparency, reduces errors, and supports regulatory compliance while maintaining a consistent user experience.\n\n*Definition of Done*\n\n* Instruction section implemented per Figma design.\n* All hyperlinks and buttons open in a new tab and point to correct URLs.\n* FATCA link displayed under compliance notice and opens correctly.\n* Navigation buttons (Continue, Save Progress, Back to Dashboard) function as expected.\n* QA validates responsiveness and usability across devices.\n* Smoke tests pass successfully in staging environment.\n* UAT sign-off obtained from BOSL team.\n\n*Dependencies*\n\n* BOSL branding guidelines and reusable header/footer components.\n* Verified URLs for picture requirements, FATCA, and applicant requirement pages.\n* Backend readiness for saving progress and navigation logic.\n\n*Risks*\n\n* Incorrect or broken links may prevent users from accessing compliance information.\n* Navigation issues may block progress to the next section.\n* Branding inconsistencies may reduce trust and user confidence.\n\n\n\nFigma Design Link [https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=IadMaXkVs8eytvpR-4|https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=IadMaXkVs8eytvpR-4|smart-link]          "
+      }
+    ]
+  },
+  {
+    "id": "126552",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Aab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+      "accountId": "712020:ab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+      "emailAddress": "richard.mena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png"
+      },
+      "displayName": "Richard Mena",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2025-11-20T15:58:40.689-0500",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "As a registered customer completing my application,\nI want to view and interact with the Instruction section, access picture requirements and compliance information, and navigate easily,\nSo that I can understand the required steps, review applicable requirements, and proceed confidently to complete the application process.\n\n \n\nAcceptance Criteria\n\n* Screen Layout\n* !image-20251112-230540.png|width=754,alt=\"image-20251112-230540.png\"!\n\n** Haeder and Footer\" should be consistent on the community theme covered in story [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|smart-link]  and [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-96|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-96|smart-link]\n** Left Side component is consistent on the community theme covered by Jira Ticket [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|smart-link] \n* Instruction Section Content\n** Displays guidelines for completing the application, including:\n*** Requirement to take/upload a picture.\n*** Application completion instructions.\n*** Compliance notice for U.S. citizens/residents regarding FATCA.\n*  Buttons Presented will be applicable for the different applicant’s residency types\n**  Individual (National) of ECCU Territories\n** Resident Nationals of CARICOM (except ECCU territories)\n** Non-Nationals/Residents Outside CARICOM\n** Self –Employed Individuals\n* Trigger\n** Clickiing on the applicable button to see documentation requirements\n\n||{color:#ffffff}*Customer Type/Button Label*{color}||{color:#ffffff}*Identification*{color}||{color:#ffffff}*Residential Address*{color}||{color:#ffffff}*Additional Notes*{color}||\n|# Individual (National) of ECCU Territories|One form of Valid (Unexpired) Government-Issued Picture Identification:\n* Passport\n* National Identification Card\n* Social Security card\n* Driver’s license\n* Voter’s card|*NO PROOF OF ADDRESS REQUIRED:*\na. For Saint Lucian Nationals and Residents unless Customer type is listed as Companies / Unlisted Corporations|*Specific to Minors*\n* Accounts on behalf of minors with no picture identification: parent/legal guardian subject to standard KYC requirements\n* Birth certificate of minor|\n|Resident Nationals of CARICOM\n(except ECCU territories)|One Form of Valid (unexpired) Government Issued Identification:\n* Passport and\n* Driver’s License or National identification Card|Confirmation of Residential Address is required by any of the following documents:\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential\n\\\\\nAddress. (The relationship must be in existence for at least 1 year);\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner,\n\\\\\nalong with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n|Non-Nationals/\nResidents\nOutside\nCARICOM|Two forms of valid (unexpired) Government Issued Identification\n* Passport\n* National Identification Card\n* Social Security card\n* Driver’s license\n* Voter’s card|Confirmation of Residential Address by way of any one of the following documents\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential\n\\\\\nAddress. (The relationship must be in existence for at least 1 year);\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner,\n\\\\\nalong with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n|Self –\nEmployed\nIndividuals|* One (1) form of Government-Issued Picture Identification in the case of\nNationals/Residents of ECCU and CARICOM.\n* Two (2) forms of Government- Issued Picture Identification in the case of Non\u0002Nationals/ Residents Outside of CARICOM|Confirmation of Residential Address by way of any one of the following documents\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential Address. (The relationship must be in existence for at least 1 year)\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner, along with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n\n* Behavior\n** Only one collapsible section can be expanded at a time.\n** The only collapsed section will be relatedto button the user previously clicked onto\n** Insturctions will be displayed overlay\n\n*** \n**** \n** When click on a button an overly screen component will become visible having each button under a collapsible section\n*** Only one collapsible section can be expanded at a time.\n*** Clicking Back returns to the previous popup.\n*** Clicking Apply Now redirects to login screen.\n*** Clicking Print downloads complete instructions as PDF.\n*** See Picture Requirements hyperlink opens in a new tab and displays picture guidelines.\n** FATCA link under Important Compliance Notice opens in a new tab to the FATCA form page.\n* Navigation\n** Continue button navigates to the next section: Personal Information.\n** Save Progress button saves data and displays confirmation message:\n_“Your application progress has been saved.”_\n** !image-20251112-233759.png|width=246,alt=\"image-20251112-233759.png\"!\n\n** Back to Dashboard button navigates to dashboard with warning if unsaved changes exist.\n* Design Compliance\n** BOSL branding (colors, fonts, logo) applied consistently.\n** Responsive design verified across desktop and mobile.\n\n*Significance*\n\nThis section ensures customers understand application requirements and compliance obligations before proceeding. It improves transparency, reduces errors, and supports regulatory compliance while maintaining a consistent user experience.\n\n*Definition of Done*\n\n* Instruction section implemented per Figma design.\n* All hyperlinks and buttons open in a new tab and point to correct URLs.\n* FATCA link displayed under compliance notice and opens correctly.\n* Navigation buttons (Continue, Save Progress, Back to Dashboard) function as expected.\n* QA validates responsiveness and usability across devices.\n* Smoke tests pass successfully in staging environment.\n* UAT sign-off obtained from BOSL team.\n\n*Dependencies*\n\n* BOSL branding guidelines and reusable header/footer components.\n* Verified URLs for picture requirements, FATCA, and applicant requirement pages.\n* Backend readiness for saving progress and navigation logic.\n\n*Risks*\n\n* Incorrect or broken links may prevent users from accessing compliance information.\n* Navigation issues may block progress to the next section.\n* Branding inconsistencies may reduce trust and user confidence.\n\n\n\nFigma Design Link [https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=IadMaXkVs8eytvpR-4|https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=IadMaXkVs8eytvpR-4|smart-link]          ",
+        "to": null,
+        "toString": "As a registered customer completing my application,\nI want to view and interact with the Instruction section, access picture requirements and compliance information, and navigate easily,\nSo that I can understand the required steps, review applicable requirements, and proceed confidently to complete the application process.\n\n \n\nAcceptance Criteria\n\n* Screen Layout\n* !image-20251120-205345.png|width=1436,alt=\"image-20251120-205345.png\"!\n\n** Haeder and Footer\" should be consistent on the community theme covered in story [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|smart-link]  and [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-96|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-96|smart-link]\n** Left Side component is consistent on the community theme covered by Jira Ticket [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|smart-link] \n* Instruction Section Content\n** Displays guidelines for completing the application, including:\n*** Requirement to take/upload a picture.\n*** Application completion instructions.\n*** Compliance notice for U.S. citizens/residents regarding FATCA.\n*  Buttons Presented will be applicable for the different applicant’s residency types\n**  Individual (National) of ECCU Territories\n** Resident Nationals of CARICOM (except ECCU territories)\n** Non-Nationals/Residents Outside CARICOM\n** Self –Employed Individuals\n* Trigger\n** Clickiing on the applicable button to see documentation requirements\n\n||{color:#ffffff}*Customer Type/Button Label*{color}||{color:#ffffff}*Identification*{color}||{color:#ffffff}*Residential Address*{color}||{color:#ffffff}*Additional Notes*{color}||\n|# Individual (National) of ECCU Territories|One form of Valid (Unexpired) Government-Issued Picture Identification:\n* Passport\n* National Identification Card\n* Social Security card\n* Driver’s license\n* Voter’s card|*NO PROOF OF ADDRESS REQUIRED:*\na. For Saint Lucian Nationals and Residents unless Customer type is listed as Companies / Unlisted Corporations|*Specific to Minors*\n* Accounts on behalf of minors with no picture identification: parent/legal guardian subject to standard KYC requirements\n* Birth certificate of minor|\n|Resident Nationals of CARICOM\n(except ECCU territories)|One Form of Valid (unexpired) Government Issued Identification:\n* Passport and\n* Driver’s License or National identification Card|Confirmation of Residential Address is required by any of the following documents:\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential\n\\\\\nAddress. (The relationship must be in existence for at least 1 year);\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner,\n\\\\\nalong with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n|Non-Nationals/\nResidents\nOutside\nCARICOM|Two forms of valid (unexpired) Government Issued Identification\n* Passport\n* National Identification Card\n* Social Security card\n* Driver’s license\n* Voter’s card|Confirmation of Residential Address by way of any one of the following documents\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential\n\\\\\nAddress. (The relationship must be in existence for at least 1 year);\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner,\n\\\\\nalong with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n|Self –\nEmployed\nIndividuals|* One (1) form of Government-Issued Picture Identification in the case of\nNationals/Residents of ECCU and CARICOM.\n* Two (2) forms of Government- Issued Picture Identification in the case of Non\u0002Nationals/ Residents Outside of CARICOM|Confirmation of Residential Address by way of any one of the following documents\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential Address. (The relationship must be in existence for at least 1 year)\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner, along with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n\n* Behavior\n** Instructions will be displayed as an overlay\n** Clicking Print downloads complete instructions as PDF.\n** See Picture Requirements hyperlink opens in a new tab and displays picture guidelines.\n** Clicking Back returns to the previous popup.\n** Clicking Print downloads complete instructions as PDF.\n** See Picture Requirements hyperlink opens in a new tab and displays picture guidelines.\n** FATCA link under Important Compliance Notice opens in a new tab to the FATCA form page.\n** !image-20251120-205749.png|width=1128,alt=\"image-20251120-205749.png\"!\n\n* Navigation\n** Continue button navigates to the next section: Personal Information.\n** Save Progress button saves data and displays confirmation message:\n_“Your application progress has been saved.”_\n** !image-20251112-233759.png|width=246,alt=\"image-20251112-233759.png\"!\n\n** Back to Dashboard button navigates to dashboard with warning if unsaved changes exist.\n* Design Compliance\n** BOSL branding (colors, fonts, logo) applied consistently.\n** Responsive design verified across desktop and mobile.\n\n*Significance*\n\nThis section ensures customers understand application requirements and compliance obligations before proceeding. It improves transparency, reduces errors, and supports regulatory compliance while maintaining a consistent user experience.\n\n*Definition of Done*\n\n* Instruction section implemented per Figma design.\n* All hyperlinks and buttons open in a new tab and point to correct URLs.\n* FATCA link displayed under compliance notice and opens correctly.\n* Navigation buttons (Continue, Save Progress, Back to Dashboard) function as expected.\n* QA validates responsiveness and usability across devices.\n* Smoke tests pass successfully in staging environment.\n* UAT sign-off obtained from BOSL team.\n\n*Dependencies*\n\n* BOSL branding guidelines and reusable header/footer components.\n* Verified URLs for picture requirements, FATCA, and applicant requirement pages.\n* Backend readiness for saving progress and navigation logic.\n\n*Risks*\n\n* Incorrect or broken links may prevent users from accessing compliance information.\n* Navigation issues may block progress to the next section.\n* Branding inconsistencies may reduce trust and user confidence.\n\n\n\n* Figma Design Link\n* [https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1752-13933&t=OrDVZQ9W5ZMS9Syh-4|https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1752-13933&t=OrDVZQ9W5ZMS9Syh-4|smart-link] \n*  [https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=OrDVZQ9W5ZMS9Syh-4|https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=OrDVZQ9W5ZMS9Syh-4|smart-link] "
+      }
+    ]
+  },
+  {
+    "id": "126551",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Aab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+      "accountId": "712020:ab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+      "emailAddress": "richard.mena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png"
+      },
+      "displayName": "Richard Mena",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2025-11-20T15:58:41.267-0500",
+    "items": [
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "24860",
+        "toString": "image-20251120-205749.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "24859",
+        "toString": "image-20251120-205345.png"
+      }
+    ]
+  },
+  {
+    "id": "126553",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Aab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+      "accountId": "712020:ab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+      "emailAddress": "richard.mena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png"
+      },
+      "displayName": "Richard Mena",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2025-11-20T15:59:18.793-0500",
+    "items": [
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "24861",
+        "toString": "Retail & Corporate KYC Checklist 2025 (1).pdf"
+      }
+    ]
+  },
+  {
+    "id": "126831",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Aab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+      "accountId": "712020:ab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+      "emailAddress": "richard.mena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png"
+      },
+      "displayName": "Richard Mena",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2025-11-21T11:41:38.856-0500",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "As a registered customer completing my application,\nI want to view and interact with the Instruction section, access picture requirements and compliance information, and navigate easily,\nSo that I can understand the required steps, review applicable requirements, and proceed confidently to complete the application process.\n\n \n\nAcceptance Criteria\n\n* Screen Layout\n* !image-20251120-205345.png|width=1436,alt=\"image-20251120-205345.png\"!\n\n** Haeder and Footer\" should be consistent on the community theme covered in story [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|smart-link]  and [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-96|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-96|smart-link]\n** Left Side component is consistent on the community theme covered by Jira Ticket [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|smart-link] \n* Instruction Section Content\n** Displays guidelines for completing the application, including:\n*** Requirement to take/upload a picture.\n*** Application completion instructions.\n*** Compliance notice for U.S. citizens/residents regarding FATCA.\n*  Buttons Presented will be applicable for the different applicant’s residency types\n**  Individual (National) of ECCU Territories\n** Resident Nationals of CARICOM (except ECCU territories)\n** Non-Nationals/Residents Outside CARICOM\n** Self –Employed Individuals\n* Trigger\n** Clickiing on the applicable button to see documentation requirements\n\n||{color:#ffffff}*Customer Type/Button Label*{color}||{color:#ffffff}*Identification*{color}||{color:#ffffff}*Residential Address*{color}||{color:#ffffff}*Additional Notes*{color}||\n|# Individual (National) of ECCU Territories|One form of Valid (Unexpired) Government-Issued Picture Identification:\n* Passport\n* National Identification Card\n* Social Security card\n* Driver’s license\n* Voter’s card|*NO PROOF OF ADDRESS REQUIRED:*\na. For Saint Lucian Nationals and Residents unless Customer type is listed as Companies / Unlisted Corporations|*Specific to Minors*\n* Accounts on behalf of minors with no picture identification: parent/legal guardian subject to standard KYC requirements\n* Birth certificate of minor|\n|Resident Nationals of CARICOM\n(except ECCU territories)|One Form of Valid (unexpired) Government Issued Identification:\n* Passport and\n* Driver’s License or National identification Card|Confirmation of Residential Address is required by any of the following documents:\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential\n\\\\\nAddress. (The relationship must be in existence for at least 1 year);\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner,\n\\\\\nalong with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n|Non-Nationals/\nResidents\nOutside\nCARICOM|Two forms of valid (unexpired) Government Issued Identification\n* Passport\n* National Identification Card\n* Social Security card\n* Driver’s license\n* Voter’s card|Confirmation of Residential Address by way of any one of the following documents\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential\n\\\\\nAddress. (The relationship must be in existence for at least 1 year);\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner,\n\\\\\nalong with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n|Self –\nEmployed\nIndividuals|* One (1) form of Government-Issued Picture Identification in the case of\nNationals/Residents of ECCU and CARICOM.\n* Two (2) forms of Government- Issued Picture Identification in the case of Non\u0002Nationals/ Residents Outside of CARICOM|Confirmation of Residential Address by way of any one of the following documents\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential Address. (The relationship must be in existence for at least 1 year)\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner, along with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n\n* Behavior\n** Instructions will be displayed as an overlay\n** Clicking Print downloads complete instructions as PDF.\n** See Picture Requirements hyperlink opens in a new tab and displays picture guidelines.\n** Clicking Back returns to the previous popup.\n** Clicking Print downloads complete instructions as PDF.\n** See Picture Requirements hyperlink opens in a new tab and displays picture guidelines.\n** FATCA link under Important Compliance Notice opens in a new tab to the FATCA form page.\n** !image-20251120-205749.png|width=1128,alt=\"image-20251120-205749.png\"!\n\n* Navigation\n** Continue button navigates to the next section: Personal Information.\n** Save Progress button saves data and displays confirmation message:\n_“Your application progress has been saved.”_\n** !image-20251112-233759.png|width=246,alt=\"image-20251112-233759.png\"!\n\n** Back to Dashboard button navigates to dashboard with warning if unsaved changes exist.\n* Design Compliance\n** BOSL branding (colors, fonts, logo) applied consistently.\n** Responsive design verified across desktop and mobile.\n\n*Significance*\n\nThis section ensures customers understand application requirements and compliance obligations before proceeding. It improves transparency, reduces errors, and supports regulatory compliance while maintaining a consistent user experience.\n\n*Definition of Done*\n\n* Instruction section implemented per Figma design.\n* All hyperlinks and buttons open in a new tab and point to correct URLs.\n* FATCA link displayed under compliance notice and opens correctly.\n* Navigation buttons (Continue, Save Progress, Back to Dashboard) function as expected.\n* QA validates responsiveness and usability across devices.\n* Smoke tests pass successfully in staging environment.\n* UAT sign-off obtained from BOSL team.\n\n*Dependencies*\n\n* BOSL branding guidelines and reusable header/footer components.\n* Verified URLs for picture requirements, FATCA, and applicant requirement pages.\n* Backend readiness for saving progress and navigation logic.\n\n*Risks*\n\n* Incorrect or broken links may prevent users from accessing compliance information.\n* Navigation issues may block progress to the next section.\n* Branding inconsistencies may reduce trust and user confidence.\n\n\n\n* Figma Design Link\n* [https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1752-13933&t=OrDVZQ9W5ZMS9Syh-4|https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1752-13933&t=OrDVZQ9W5ZMS9Syh-4|smart-link] \n*  [https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=OrDVZQ9W5ZMS9Syh-4|https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=OrDVZQ9W5ZMS9Syh-4|smart-link] ",
+        "to": null,
+        "toString": "As a registered customer completing my application,\nI want to view and interact with the Instruction section, access picture requirements and compliance information, and navigate easily,\nSo that I can understand the required steps, review applicable requirements, and proceed confidently to complete the application process.\n\n \n\nAcceptance Criteria\n\n* Screen Layout\n* !image-20251120-205345.png|width=1436,alt=\"image-20251120-205345.png\"!\n\n** Haeder and Footer\" should be consistent on the community theme covered in story [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|smart-link]  and [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-96|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-96|smart-link]\n** Left Side component is consistent on the community theme covered by Jira Ticket [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|smart-link] \n* Instruction Section Content\n** The system should apply all product-specific instructions and eligibility rules as documented in all product-specific instructions and eligibility rules as documented in: \n*** [*Objects and Fields Details*|https://ksquaregroup.sharepoint.com/:x:/r/sites/ValueStreamManagement/_layouts/15/doc2.aspx?sourcedoc=%7BE4ECCB46-59DA-4F94-BCB1-851D50BEADA0%7D&file=Objects%20and%20Fields%20Details.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1][ |https://ksquaregroup.sharepoint.com/:x:/r/sites/ValueStreamManagement/_layouts/15/doc2.aspx?sourcedoc=%7BE4ECCB46-59DA-4F94-BCB1-851D50BEADA0%7D&file=Objects%20and%20Fields%20Details.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1](Products and Instructions tabs).\n*** [*Product Details Information file*|https://ecfhbosl.sharepoint.com/:x:/r/sites/DigitalBranchExpericeneCloudforDigitalbranch/_layouts/15/doc2.aspx?sourcedoc=%7BF9304AFF-1A0D-4948-BB94-D0C1CE901C83%7D&file=Product%20Details%20Information.xlsx&action=default&mobileredirect=true] (Instructions tab).\n* Compliance notice for U.S. citizens/residents regarding FATCA.\n*  Buttons Presented will be applicable for the different applicant’s residency types\n**  Individual (National) of ECCU Territories\n** Resident Nationals of CARICOM (except ECCU territories)\n** Non-Nationals/Residents Outside CARICOM\n** Self –Employed Individuals\n* Trigger\n** Clickiing on the applicable button to see documentation requirements\n\n||{color:#ffffff}*Customer Type/Button Label*{color}||{color:#ffffff}*Identification*{color}||{color:#ffffff}*Residential Address*{color}||{color:#ffffff}*Additional Notes*{color}||\n|# Individual (National) of ECCU Territories|One form of Valid (Unexpired) Government-Issued Picture Identification:\n* Passport\n* National Identification Card\n* Social Security card\n* Driver’s license\n* Voter’s card|*NO PROOF OF ADDRESS REQUIRED:*\na. For Saint Lucian Nationals and Residents unless Customer type is listed as Companies / Unlisted Corporations|*Specific to Minors*\n* Accounts on behalf of minors with no picture identification: parent/legal guardian subject to standard KYC requirements\n* Birth certificate of minor|\n|Resident Nationals of CARICOM\n(except ECCU territories)|One Form of Valid (unexpired) Government Issued Identification:\n* Passport and\n* Driver’s License or National identification Card|Confirmation of Residential Address is required by any of the following documents:\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential\n\\\\\nAddress. (The relationship must be in existence for at least 1 year);\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner,\n\\\\\nalong with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n|Non-Nationals/\nResidents\nOutside\nCARICOM|Two forms of valid (unexpired) Government Issued Identification\n* Passport\n* National Identification Card\n* Social Security card\n* Driver’s license\n* Voter’s card|Confirmation of Residential Address by way of any one of the following documents\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential\n\\\\\nAddress. (The relationship must be in existence for at least 1 year);\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner,\n\\\\\nalong with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n|Self –\nEmployed\nIndividuals|* One (1) form of Government-Issued Picture Identification in the case of\nNationals/Residents of ECCU and CARICOM.\n* Two (2) forms of Government- Issued Picture Identification in the case of Non\u0002Nationals/ Residents Outside of CARICOM|Confirmation of Residential Address by way of any one of the following documents\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential Address. (The relationship must be in existence for at least 1 year)\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner, along with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n\n* Behavior\n** Instructions will be displayed as an overlay\n** Clicking Print downloads complete instructions as PDF.\n** See Picture Requirements hyperlink opens in a new tab and displays picture guidelines.\n** Clicking Back returns to the previous popup.\n** Clicking Print downloads complete instructions as PDF.\n** See Picture Requirements hyperlink opens in a new tab and displays picture guidelines.\n** FATCA link under Important Compliance Notice opens in a new tab to the FATCA form page.\n** !image-20251120-205749.png|width=1128,alt=\"image-20251120-205749.png\"!\n\n* Navigation\n** Continue button navigates to the next section: Personal Information.\n** Save Progress button saves data and displays confirmation message:\n_“Your application progress has been saved.”_\n** !image-20251112-233759.png|width=246,alt=\"image-20251112-233759.png\"!\n\n** Back to Dashboard button navigates to dashboard with warning if unsaved changes exist.\n* Design Compliance\n** BOSL branding (colors, fonts, logo) applied consistently.\n** Responsive design verified across desktop and mobile.\n\n*Significance*\n\nThis section ensures customers understand application requirements and compliance obligations before proceeding. It improves transparency, reduces errors, and supports regulatory compliance while maintaining a consistent user experience.\n\n*Definition of Done*\n\n* Instruction section implemented per Figma design.\n* All hyperlinks and buttons open in a new tab and point to correct URLs.\n* FATCA link displayed under compliance notice and opens correctly.\n* Navigation buttons (Continue, Save Progress, Back to Dashboard) function as expected.\n* QA validates responsiveness and usability across devices.\n* Smoke tests pass successfully in staging environment.\n* UAT sign-off obtained from BOSL team.\n\n*Dependencies*\n\n* BOSL branding guidelines and reusable header/footer components.\n* Verified URLs for picture requirements, FATCA, and applicant requirement pages.\n* Backend readiness for saving progress and navigation logic.\n\n*Risks*\n\n* Incorrect or broken links may prevent users from accessing compliance information.\n* Navigation issues may block progress to the next section.\n* Branding inconsistencies may reduce trust and user confidence.\n\n\n\n* Figma Design Link\n* [https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1752-13933&t=OrDVZQ9W5ZMS9Syh-4|https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1752-13933&t=OrDVZQ9W5ZMS9Syh-4|smart-link] \n*  [https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=OrDVZQ9W5ZMS9Syh-4|https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=OrDVZQ9W5ZMS9Syh-4|smart-link] "
+      }
+    ]
+  },
+  {
+    "id": "145525",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+      "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+      "emailAddress": "prachi.jangid@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+      },
+      "displayName": "Prachi Jangid",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-01-21T13:08:20.074-0500",
+    "items": [
+      {
+        "field": "summary",
+        "fieldtype": "jira",
+        "fieldId": "summary",
+        "from": null,
+        "fromString": "Implement Instruction Section with Compliance Links and Navigation",
+        "to": null,
+        "toString": "Registration Form: Instruction Section "
+      }
+    ]
+  },
+  {
+    "id": "145562",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Abb76c871-09f7-4464-96af-3349b8c74dc3",
+      "accountId": "712020:bb76c871-09f7-4464-96af-3349b8c74dc3",
+      "emailAddress": "namratha.matcha@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+        "24x24": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+        "16x16": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+        "32x32": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png"
+      },
+      "displayName": "Namratha Matcha",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-01-21T13:36:37.679-0500",
+    "items": [
+      {
+        "field": "Sprint",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10020",
+        "from": "",
+        "fromString": "",
+        "to": "3550",
+        "toString": "BOSL Digital Dev SP3"
+      }
+    ]
+  },
+  {
+    "id": "145638",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+      "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+      "emailAddress": "prachi.jangid@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+      },
+      "displayName": "Prachi Jangid",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-01-22T02:40:51.602-0500",
+    "items": [
+      {
+        "field": "reporter",
+        "fieldtype": "jira",
+        "fieldId": "reporter",
+        "from": "712020:ab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+        "fromString": "Richard Mena",
+        "to": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+        "toString": "Prachi Jangid",
+        "tmpFromAccountId": "712020:ab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+        "tmpToAccountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4"
+      }
+    ]
+  },
+  {
+    "id": "145639",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+      "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+      "emailAddress": "prachi.jangid@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+      },
+      "displayName": "Prachi Jangid",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-01-22T02:40:52.617-0500",
+    "items": [
+      {
+        "field": "assignee",
+        "fieldtype": "jira",
+        "fieldId": "assignee",
+        "from": null,
+        "fromString": null,
+        "to": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+        "toString": "Prachi Jangid",
+        "tmpFromAccountId": null,
+        "tmpToAccountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4"
+      }
+    ]
+  },
+  {
+    "id": "145640",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+      "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+      "emailAddress": "prachi.jangid@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+      },
+      "displayName": "Prachi Jangid",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-01-22T02:40:54.793-0500",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10025",
+        "fromString": "Backlog",
+        "to": "10599",
+        "toString": "In Refinement"
+      }
+    ]
+  },
+  {
+    "id": "145643",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+      "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+      "emailAddress": "prachi.jangid@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+      },
+      "displayName": "Prachi Jangid",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-01-22T03:19:59.493-0500",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "As a registered customer completing my application,\nI want to view and interact with the Instruction section, access picture requirements and compliance information, and navigate easily,\nSo that I can understand the required steps, review applicable requirements, and proceed confidently to complete the application process.\n\n \n\nAcceptance Criteria\n\n* Screen Layout\n* !image-20251120-205345.png|width=1436,alt=\"image-20251120-205345.png\"!\n\n** Haeder and Footer\" should be consistent on the community theme covered in story [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|smart-link]  and [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-96|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-96|smart-link]\n** Left Side component is consistent on the community theme covered by Jira Ticket [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|smart-link] \n* Instruction Section Content\n** The system should apply all product-specific instructions and eligibility rules as documented in all product-specific instructions and eligibility rules as documented in: \n*** [*Objects and Fields Details*|https://ksquaregroup.sharepoint.com/:x:/r/sites/ValueStreamManagement/_layouts/15/doc2.aspx?sourcedoc=%7BE4ECCB46-59DA-4F94-BCB1-851D50BEADA0%7D&file=Objects%20and%20Fields%20Details.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1][ |https://ksquaregroup.sharepoint.com/:x:/r/sites/ValueStreamManagement/_layouts/15/doc2.aspx?sourcedoc=%7BE4ECCB46-59DA-4F94-BCB1-851D50BEADA0%7D&file=Objects%20and%20Fields%20Details.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1](Products and Instructions tabs).\n*** [*Product Details Information file*|https://ecfhbosl.sharepoint.com/:x:/r/sites/DigitalBranchExpericeneCloudforDigitalbranch/_layouts/15/doc2.aspx?sourcedoc=%7BF9304AFF-1A0D-4948-BB94-D0C1CE901C83%7D&file=Product%20Details%20Information.xlsx&action=default&mobileredirect=true] (Instructions tab).\n* Compliance notice for U.S. citizens/residents regarding FATCA.\n*  Buttons Presented will be applicable for the different applicant’s residency types\n**  Individual (National) of ECCU Territories\n** Resident Nationals of CARICOM (except ECCU territories)\n** Non-Nationals/Residents Outside CARICOM\n** Self –Employed Individuals\n* Trigger\n** Clickiing on the applicable button to see documentation requirements\n\n||{color:#ffffff}*Customer Type/Button Label*{color}||{color:#ffffff}*Identification*{color}||{color:#ffffff}*Residential Address*{color}||{color:#ffffff}*Additional Notes*{color}||\n|# Individual (National) of ECCU Territories|One form of Valid (Unexpired) Government-Issued Picture Identification:\n* Passport\n* National Identification Card\n* Social Security card\n* Driver’s license\n* Voter’s card|*NO PROOF OF ADDRESS REQUIRED:*\na. For Saint Lucian Nationals and Residents unless Customer type is listed as Companies / Unlisted Corporations|*Specific to Minors*\n* Accounts on behalf of minors with no picture identification: parent/legal guardian subject to standard KYC requirements\n* Birth certificate of minor|\n|Resident Nationals of CARICOM\n(except ECCU territories)|One Form of Valid (unexpired) Government Issued Identification:\n* Passport and\n* Driver’s License or National identification Card|Confirmation of Residential Address is required by any of the following documents:\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential\n\\\\\nAddress. (The relationship must be in existence for at least 1 year);\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner,\n\\\\\nalong with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n|Non-Nationals/\nResidents\nOutside\nCARICOM|Two forms of valid (unexpired) Government Issued Identification\n* Passport\n* National Identification Card\n* Social Security card\n* Driver’s license\n* Voter’s card|Confirmation of Residential Address by way of any one of the following documents\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential\n\\\\\nAddress. (The relationship must be in existence for at least 1 year);\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner,\n\\\\\nalong with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n|Self –\nEmployed\nIndividuals|* One (1) form of Government-Issued Picture Identification in the case of\nNationals/Residents of ECCU and CARICOM.\n* Two (2) forms of Government- Issued Picture Identification in the case of Non\u0002Nationals/ Residents Outside of CARICOM|Confirmation of Residential Address by way of any one of the following documents\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential Address. (The relationship must be in existence for at least 1 year)\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner, along with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n\n* Behavior\n** Instructions will be displayed as an overlay\n** Clicking Print downloads complete instructions as PDF.\n** See Picture Requirements hyperlink opens in a new tab and displays picture guidelines.\n** Clicking Back returns to the previous popup.\n** Clicking Print downloads complete instructions as PDF.\n** See Picture Requirements hyperlink opens in a new tab and displays picture guidelines.\n** FATCA link under Important Compliance Notice opens in a new tab to the FATCA form page.\n** !image-20251120-205749.png|width=1128,alt=\"image-20251120-205749.png\"!\n\n* Navigation\n** Continue button navigates to the next section: Personal Information.\n** Save Progress button saves data and displays confirmation message:\n_“Your application progress has been saved.”_\n** !image-20251112-233759.png|width=246,alt=\"image-20251112-233759.png\"!\n\n** Back to Dashboard button navigates to dashboard with warning if unsaved changes exist.\n* Design Compliance\n** BOSL branding (colors, fonts, logo) applied consistently.\n** Responsive design verified across desktop and mobile.\n\n*Significance*\n\nThis section ensures customers understand application requirements and compliance obligations before proceeding. It improves transparency, reduces errors, and supports regulatory compliance while maintaining a consistent user experience.\n\n*Definition of Done*\n\n* Instruction section implemented per Figma design.\n* All hyperlinks and buttons open in a new tab and point to correct URLs.\n* FATCA link displayed under compliance notice and opens correctly.\n* Navigation buttons (Continue, Save Progress, Back to Dashboard) function as expected.\n* QA validates responsiveness and usability across devices.\n* Smoke tests pass successfully in staging environment.\n* UAT sign-off obtained from BOSL team.\n\n*Dependencies*\n\n* BOSL branding guidelines and reusable header/footer components.\n* Verified URLs for picture requirements, FATCA, and applicant requirement pages.\n* Backend readiness for saving progress and navigation logic.\n\n*Risks*\n\n* Incorrect or broken links may prevent users from accessing compliance information.\n* Navigation issues may block progress to the next section.\n* Branding inconsistencies may reduce trust and user confidence.\n\n\n\n* Figma Design Link\n* [https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1752-13933&t=OrDVZQ9W5ZMS9Syh-4|https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1752-13933&t=OrDVZQ9W5ZMS9Syh-4|smart-link] \n*  [https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=OrDVZQ9W5ZMS9Syh-4|https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=OrDVZQ9W5ZMS9Syh-4|smart-link] ",
+        "to": null,
+        "toString": "*As a* Customer,\n*I want to* view and interact with the Instruction section, access picture requirements and compliance information, and navigate easily,\n*So that* I can understand the required steps, review applicable requirements, and proceed confidently to complete the application process.\n\n*Screen UI:*\nThe complete screen of which the Instructions Section will be a part of-\n\n!image-20251120-205345.png|width=776,alt=\"image-20251120-205345.png\"!\n\nThis screen is the Registration Form screen, and the Instructions component will be placed within this screen as shown above.\n\nh3. *Acceptance Criteria*\n\n# Haeder and Footer\" should be consistent on the Registration Page covered in story [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|smart-link] \n# Left Side component is consistent on the Registration Page covered by Jira Ticket [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|smart-link] \n# Instruction Section:\n## !image-20260122-080238.png|width=1138,alt=\"image-20260122-080238.png\"!\n## Based on the products selected in the previous Select Product screen, product-specific instructions must appear as documented in:\n##* [*Objects and Fields Details*|https://ksquaregroup.sharepoint.com/:x:/r/sites/ValueStreamManagement/_layouts/15/doc2.aspx?sourcedoc=%7BE4ECCB46-59DA-4F94-BCB1-851D50BEADA0%7D&file=Objects%20and%20Fields%20Details.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1][ |https://ksquaregroup.sharepoint.com/:x:/r/sites/ValueStreamManagement/_layouts/15/doc2.aspx?sourcedoc=%7BE4ECCB46-59DA-4F94-BCB1-851D50BEADA0%7D&file=Objects%20and%20Fields%20Details.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1](Products)\n##* [*Product Details Information.xlsx*|https://ecfhbosl.sharepoint.com/:x:/r/sites/DigitalBranchExpericeneCloudforDigitalbranch/Shared%20Documents/Digital%20Branch%20Expericene%20Cloud%20for%20Digital%20branch/1-Initiation/Request%20from%20KSquare/Product%20Details%20Information.xlsx?d=w31b58cedcacf448385de724e493720b4&csf=1&web=1&e=2ldmkU] (Instructions tab)\n## Important Compliance notice for U.S. citizens/residents regarding FATCA.\n## Buttons Presented will be applicable for the different applicant’s residency types\n### Individual (National) of ECCU Territories\n### Resident Nationals of CARICOM (except ECCU territories)\n### Non-Nationals/Residents Outside CARICOM\n### Self –Employed Individuals\n# *On Button Click*\n#* Clicking on the applicable button to see documentation requirements\n\n||{color:#ffffff}*Customer Type/Button Label*{color}||{color:#ffffff}*Identification*{color}||{color:#ffffff}*Residential Address*{color}||{color:#ffffff}*Additional Notes*{color}||\n|# Individual (National) of ECCU Territories|One form of Valid (Unexpired) Government-Issued Picture Identification:\n* Passport\n* National Identification Card\n* Social Security card\n* Driver’s license\n* Voter’s card|*NO PROOF OF ADDRESS REQUIRED:*\na. For Saint Lucian Nationals and Residents unless Customer type is listed as Companies / Unlisted Corporations|*Specific to Minors*\n* Accounts on behalf of minors with no picture identification: parent/legal guardian subject to standard KYC requirements\n* Birth certificate of minor|\n|Resident Nationals of CARICOM\n(except ECCU territories)|One Form of Valid (unexpired) Government Issued Identification:\n* Passport and\n* Driver’s License or National identification Card|Confirmation of Residential Address is required by any of the following documents:\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential\n\\\\\nAddress. (The relationship must be in existence for at least 1 year);\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner,\n\\\\\nalong with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n|Non-Nationals/\nResidents\nOutside\nCARICOM|Two forms of valid (unexpired) Government Issued Identification\n* Passport\n* National Identification Card\n* Social Security card\n* Driver’s license\n* Voter’s card|Confirmation of Residential Address by way of any one of the following documents\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential\n\\\\\nAddress. (The relationship must be in existence for at least 1 year);\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner,\n\\\\\nalong with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n|Self –\nEmployed\nIndividuals|* One (1) form of Government-Issued Picture Identification in the case of\nNationals/Residents of ECCU and CARICOM.\n* Two (2) forms of Government- Issued Picture Identification in the case of Non\u0002Nationals/ Residents Outside of CARICOM|Confirmation of Residential Address by way of any one of the following documents\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential Address. (The relationship must be in existence for at least 1 year)\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner, along with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n\n* {color:#ff5630}*Behavior*{color}\n** {color:#ff5630}Instructions will be displayed as an overlay{color}\n** {color:#ff5630}Clicking Print downloads complete instructions as PDF.{color}\n** {color:#ff5630}See Picture Requirements hyperlink opens in a new tab and displays picture guidelines.{color}\n** {color:#ff5630}Clicking Back returns to the previous popup.{color}\n** {color:#ff5630}Clicking Print downloads complete instructions as PDF.{color}\n** {color:#ff5630}See Picture Requirements hyperlink opens in a new tab and displays picture guidelines.{color}\n** {color:#ff5630}FATCA link under Important Compliance Notice opens in a new tab to the FATCA form page.{color}\n** !image-20251120-205749.png|width=1128,alt=\"image-20251120-205749.png\"!\n\n* *Navigation*\n** +Continue+ button navigates to the next section: Personal Information.\n* *Design Compliance*\n** BOSL branding (colors, fonts, logo) applied consistently.\n** Responsive design verified across desktop and mobile.\n\n*Significance*\n\nThis section ensures customers understand application requirements and compliance obligations before proceeding. It improves transparency, reduces errors, and supports regulatory compliance while maintaining a consistent user experience.\n\n*Definition of Done*\n\n* Instruction section implemented per Figma design.\n* All hyperlinks and buttons open in a new tab and point to correct URLs.\n* FATCA link displayed under compliance notice and opens correctly.\n* Navigation buttons (Continue, Save Progress, Back to Dashboard) function as expected.\n* QA validates responsiveness and usability across devices.\n* Smoke tests pass successfully in staging environment.\n* UAT sign-off obtained from BOSL team.\n\n*Dependencies*\n\n* BOSL branding guidelines and reusable header/footer components.\n* Verified URLs for picture requirements, FATCA, and applicant requirement pages.\n* Backend readiness for saving progress and navigation logic.\n\n*Risks*\n\n* Incorrect or broken links may prevent users from accessing compliance information.\n* Navigation issues may block progress to the next section.\n* Branding inconsistencies may reduce trust and user confidence.\n\n\n\n* Figma Design Link\n* [https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1752-13933&t=OrDVZQ9W5ZMS9Syh-4|https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1752-13933&t=OrDVZQ9W5ZMS9Syh-4|smart-link] \n*  [https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=OrDVZQ9W5ZMS9Syh-4|https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=OrDVZQ9W5ZMS9Syh-4|smart-link] "
+      }
+    ]
+  },
+  {
+    "id": "145642",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+      "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+      "emailAddress": "prachi.jangid@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+      },
+      "displayName": "Prachi Jangid",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-01-22T03:20:00.041-0500",
+    "items": [
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "30232",
+        "toString": "image-20260122-080238.png"
+      }
+    ]
+  },
+  {
+    "id": "145757",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Abb76c871-09f7-4464-96af-3349b8c74dc3",
+      "accountId": "712020:bb76c871-09f7-4464-96af-3349b8c74dc3",
+      "emailAddress": "namratha.matcha@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+        "24x24": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+        "16x16": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+        "32x32": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png"
+      },
+      "displayName": "Namratha Matcha",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-01-22T08:56:37.629-0500",
+    "items": [
+      {
+        "field": "Link",
+        "fieldtype": "jira",
+        "from": null,
+        "fromString": null,
+        "to": "BDBP1-408",
+        "toString": "This work item blocks BDBP1-408"
+      }
+    ]
+  },
+  {
+    "id": "147439",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Abb76c871-09f7-4464-96af-3349b8c74dc3",
+      "accountId": "712020:bb76c871-09f7-4464-96af-3349b8c74dc3",
+      "emailAddress": "namratha.matcha@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+        "24x24": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+        "16x16": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+        "32x32": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png"
+      },
+      "displayName": "Namratha Matcha",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-01-29T06:13:43.728-0500",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10599",
+        "fromString": "In Refinement",
+        "to": "10731",
+        "toString": "Blocked"
+      }
+    ]
+  },
+  {
+    "id": "147459",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Abb76c871-09f7-4464-96af-3349b8c74dc3",
+      "accountId": "712020:bb76c871-09f7-4464-96af-3349b8c74dc3",
+      "emailAddress": "namratha.matcha@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+        "24x24": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+        "16x16": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+        "32x32": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png"
+      },
+      "displayName": "Namratha Matcha",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-01-29T07:24:38.471-0500",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "*As a* Customer,\n*I want to* view and interact with the Instruction section, access picture requirements and compliance information, and navigate easily,\n*So that* I can understand the required steps, review applicable requirements, and proceed confidently to complete the application process.\n\n*Screen UI:*\nThe complete screen of which the Instructions Section will be a part of-\n\n!image-20251120-205345.png|width=776,alt=\"image-20251120-205345.png\"!\n\nThis screen is the Registration Form screen, and the Instructions component will be placed within this screen as shown above.\n\nh3. *Acceptance Criteria*\n\n# Haeder and Footer\" should be consistent on the Registration Page covered in story [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|smart-link] \n# Left Side component is consistent on the Registration Page covered by Jira Ticket [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|smart-link] \n# Instruction Section:\n## !image-20260122-080238.png|width=1138,alt=\"image-20260122-080238.png\"!\n## Based on the products selected in the previous Select Product screen, product-specific instructions must appear as documented in:\n##* [*Objects and Fields Details*|https://ksquaregroup.sharepoint.com/:x:/r/sites/ValueStreamManagement/_layouts/15/doc2.aspx?sourcedoc=%7BE4ECCB46-59DA-4F94-BCB1-851D50BEADA0%7D&file=Objects%20and%20Fields%20Details.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1][ |https://ksquaregroup.sharepoint.com/:x:/r/sites/ValueStreamManagement/_layouts/15/doc2.aspx?sourcedoc=%7BE4ECCB46-59DA-4F94-BCB1-851D50BEADA0%7D&file=Objects%20and%20Fields%20Details.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1](Products)\n##* [*Product Details Information.xlsx*|https://ecfhbosl.sharepoint.com/:x:/r/sites/DigitalBranchExpericeneCloudforDigitalbranch/Shared%20Documents/Digital%20Branch%20Expericene%20Cloud%20for%20Digital%20branch/1-Initiation/Request%20from%20KSquare/Product%20Details%20Information.xlsx?d=w31b58cedcacf448385de724e493720b4&csf=1&web=1&e=2ldmkU] (Instructions tab)\n## Important Compliance notice for U.S. citizens/residents regarding FATCA.\n## Buttons Presented will be applicable for the different applicant’s residency types\n### Individual (National) of ECCU Territories\n### Resident Nationals of CARICOM (except ECCU territories)\n### Non-Nationals/Residents Outside CARICOM\n### Self –Employed Individuals\n# *On Button Click*\n#* Clicking on the applicable button to see documentation requirements\n\n||{color:#ffffff}*Customer Type/Button Label*{color}||{color:#ffffff}*Identification*{color}||{color:#ffffff}*Residential Address*{color}||{color:#ffffff}*Additional Notes*{color}||\n|# Individual (National) of ECCU Territories|One form of Valid (Unexpired) Government-Issued Picture Identification:\n* Passport\n* National Identification Card\n* Social Security card\n* Driver’s license\n* Voter’s card|*NO PROOF OF ADDRESS REQUIRED:*\na. For Saint Lucian Nationals and Residents unless Customer type is listed as Companies / Unlisted Corporations|*Specific to Minors*\n* Accounts on behalf of minors with no picture identification: parent/legal guardian subject to standard KYC requirements\n* Birth certificate of minor|\n|Resident Nationals of CARICOM\n(except ECCU territories)|One Form of Valid (unexpired) Government Issued Identification:\n* Passport and\n* Driver’s License or National identification Card|Confirmation of Residential Address is required by any of the following documents:\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential\n\\\\\nAddress. (The relationship must be in existence for at least 1 year);\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner,\n\\\\\nalong with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n|Non-Nationals/\nResidents\nOutside\nCARICOM|Two forms of valid (unexpired) Government Issued Identification\n* Passport\n* National Identification Card\n* Social Security card\n* Driver’s license\n* Voter’s card|Confirmation of Residential Address by way of any one of the following documents\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential\n\\\\\nAddress. (The relationship must be in existence for at least 1 year);\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner,\n\\\\\nalong with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n|Self –\nEmployed\nIndividuals|* One (1) form of Government-Issued Picture Identification in the case of\nNationals/Residents of ECCU and CARICOM.\n* Two (2) forms of Government- Issued Picture Identification in the case of Non\u0002Nationals/ Residents Outside of CARICOM|Confirmation of Residential Address by way of any one of the following documents\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential Address. (The relationship must be in existence for at least 1 year)\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner, along with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n\n* {color:#ff5630}*Behavior*{color}\n** {color:#ff5630}Instructions will be displayed as an overlay{color}\n** {color:#ff5630}Clicking Print downloads complete instructions as PDF.{color}\n** {color:#ff5630}See Picture Requirements hyperlink opens in a new tab and displays picture guidelines.{color}\n** {color:#ff5630}Clicking Back returns to the previous popup.{color}\n** {color:#ff5630}Clicking Print downloads complete instructions as PDF.{color}\n** {color:#ff5630}See Picture Requirements hyperlink opens in a new tab and displays picture guidelines.{color}\n** {color:#ff5630}FATCA link under Important Compliance Notice opens in a new tab to the FATCA form page.{color}\n** !image-20251120-205749.png|width=1128,alt=\"image-20251120-205749.png\"!\n\n* *Navigation*\n** +Continue+ button navigates to the next section: Personal Information.\n* *Design Compliance*\n** BOSL branding (colors, fonts, logo) applied consistently.\n** Responsive design verified across desktop and mobile.\n\n*Significance*\n\nThis section ensures customers understand application requirements and compliance obligations before proceeding. It improves transparency, reduces errors, and supports regulatory compliance while maintaining a consistent user experience.\n\n*Definition of Done*\n\n* Instruction section implemented per Figma design.\n* All hyperlinks and buttons open in a new tab and point to correct URLs.\n* FATCA link displayed under compliance notice and opens correctly.\n* Navigation buttons (Continue, Save Progress, Back to Dashboard) function as expected.\n* QA validates responsiveness and usability across devices.\n* Smoke tests pass successfully in staging environment.\n* UAT sign-off obtained from BOSL team.\n\n*Dependencies*\n\n* BOSL branding guidelines and reusable header/footer components.\n* Verified URLs for picture requirements, FATCA, and applicant requirement pages.\n* Backend readiness for saving progress and navigation logic.\n\n*Risks*\n\n* Incorrect or broken links may prevent users from accessing compliance information.\n* Navigation issues may block progress to the next section.\n* Branding inconsistencies may reduce trust and user confidence.\n\n\n\n* Figma Design Link\n* [https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1752-13933&t=OrDVZQ9W5ZMS9Syh-4|https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1752-13933&t=OrDVZQ9W5ZMS9Syh-4|smart-link] \n*  [https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=OrDVZQ9W5ZMS9Syh-4|https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=OrDVZQ9W5ZMS9Syh-4|smart-link] ",
+        "to": null,
+        "toString": "*As a* Customer,\n*I want to* view and interact with the Instruction section, access picture requirements and compliance information, and navigate easily,\n*So that* I can understand the required steps, review applicable requirements, and proceed confidently to complete the application process.\n\n*Screen UI:*\nThe complete screen of which the Instructions Section will be a part of-\n\n!image-20260129-122424.png|width=1208,alt=\"image-20260129-122424.png\"!\n\nThis screen is the Registration Form screen, and the Instructions component will be placed within this screen as shown above.\n\nh3. *Acceptance Criteria*\n\n# Haeder and Footer\" should be consistent on the Registration Page covered in story [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|smart-link] \n# Left Side component is consistent on the Registration Page covered by Jira Ticket [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|smart-link] \n# Instruction Section:\n## !image-20260122-080238.png|width=1138,alt=\"image-20260122-080238.png\"!\n## Based on the products selected in the previous Select Product screen, product-specific instructions must appear as documented in:\n##* [*Objects and Fields Details*|https://ksquaregroup.sharepoint.com/:x:/r/sites/ValueStreamManagement/_layouts/15/doc2.aspx?sourcedoc=%7BE4ECCB46-59DA-4F94-BCB1-851D50BEADA0%7D&file=Objects%20and%20Fields%20Details.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1][ |https://ksquaregroup.sharepoint.com/:x:/r/sites/ValueStreamManagement/_layouts/15/doc2.aspx?sourcedoc=%7BE4ECCB46-59DA-4F94-BCB1-851D50BEADA0%7D&file=Objects%20and%20Fields%20Details.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1](Products)\n##* [*Product Details Information.xlsx*|https://ecfhbosl.sharepoint.com/:x:/r/sites/DigitalBranchExpericeneCloudforDigitalbranch/Shared%20Documents/Digital%20Branch%20Expericene%20Cloud%20for%20Digital%20branch/1-Initiation/Request%20from%20KSquare/Product%20Details%20Information.xlsx?d=w31b58cedcacf448385de724e493720b4&csf=1&web=1&e=2ldmkU] (Instructions tab)\n## Important Compliance notice for U.S. citizens/residents regarding FATCA.\n## Buttons Presented will be applicable for the different applicant’s residency types\n### Individual (National) of ECCU Territories\n### Resident Nationals of CARICOM (except ECCU territories)\n### Non-Nationals/Residents Outside CARICOM\n### Self –Employed Individuals\n# *On Button Click*\n#* Clicking on the applicable button to see documentation requirements\n\n||{color:#ffffff}*Customer Type/Button Label*{color}||{color:#ffffff}*Identification*{color}||{color:#ffffff}*Residential Address*{color}||{color:#ffffff}*Additional Notes*{color}||\n|# Individual (National) of ECCU Territories|One form of Valid (Unexpired) Government-Issued Picture Identification:\n* Passport\n* National Identification Card\n* Social Security card\n* Driver’s license\n* Voter’s card|*NO PROOF OF ADDRESS REQUIRED:*\na. For Saint Lucian Nationals and Residents unless Customer type is listed as Companies / Unlisted Corporations|*Specific to Minors*\n* Accounts on behalf of minors with no picture identification: parent/legal guardian subject to standard KYC requirements\n* Birth certificate of minor|\n|Resident Nationals of CARICOM\n(except ECCU territories)|One Form of Valid (unexpired) Government Issued Identification:\n* Passport and\n* Driver’s License or National identification Card|Confirmation of Residential Address is required by any of the following documents:\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential\n\\\\\nAddress. (The relationship must be in existence for at least 1 year);\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner,\n\\\\\nalong with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n|Non-Nationals/\nResidents\nOutside\nCARICOM|Two forms of valid (unexpired) Government Issued Identification\n* Passport\n* National Identification Card\n* Social Security card\n* Driver’s license\n* Voter’s card|Confirmation of Residential Address by way of any one of the following documents\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential\n\\\\\nAddress. (The relationship must be in existence for at least 1 year);\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner,\n\\\\\nalong with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n|Self –\nEmployed\nIndividuals|* One (1) form of Government-Issued Picture Identification in the case of\nNationals/Residents of ECCU and CARICOM.\n* Two (2) forms of Government- Issued Picture Identification in the case of Non\u0002Nationals/ Residents Outside of CARICOM|Confirmation of Residential Address by way of any one of the following documents\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential Address. (The relationship must be in existence for at least 1 year)\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner, along with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n\n* {color:#ff5630}*Behavior*{color}\n** {color:#ff5630}Instructions will be displayed as an overlay{color}\n** {color:#ff5630}Clicking Print downloads complete instructions as PDF.{color}\n** {color:#ff5630}See Picture Requirements hyperlink opens in a new tab and displays picture guidelines.{color}\n** {color:#ff5630}Clicking Back returns to the previous popup.{color}\n** {color:#ff5630}Clicking Print downloads complete instructions as PDF.{color}\n** {color:#ff5630}See Picture Requirements hyperlink opens in a new tab and displays picture guidelines.{color}\n** {color:#ff5630}FATCA link under Important Compliance Notice opens in a new tab to the FATCA form page.{color}\n** !image-20251120-205749.png|width=1128,alt=\"image-20251120-205749.png\"!\n\n* *Navigation*\n** +Continue+ button navigates to the next section: Personal Information.\n* *Design Compliance*\n** BOSL branding (colors, fonts, logo) applied consistently.\n** Responsive design verified across desktop and mobile.\n\n*Significance*\n\nThis section ensures customers understand application requirements and compliance obligations before proceeding. It improves transparency, reduces errors, and supports regulatory compliance while maintaining a consistent user experience.\n\n*Definition of Done*\n\n* Instruction section implemented per Figma design.\n* All hyperlinks and buttons open in a new tab and point to correct URLs.\n* FATCA link displayed under compliance notice and opens correctly.\n* Navigation buttons (Continue, Save Progress, Back to Dashboard) function as expected.\n* QA validates responsiveness and usability across devices.\n* Smoke tests pass successfully in staging environment.\n* UAT sign-off obtained from BOSL team.\n\n*Dependencies*\n\n* BOSL branding guidelines and reusable header/footer components.\n* Verified URLs for picture requirements, FATCA, and applicant requirement pages.\n* Backend readiness for saving progress and navigation logic.\n\n*Risks*\n\n* Incorrect or broken links may prevent users from accessing compliance information.\n* Navigation issues may block progress to the next section.\n* Branding inconsistencies may reduce trust and user confidence.\n\n\n\n* Figma Design Link\n* [https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1752-13933&t=OrDVZQ9W5ZMS9Syh-4|https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1752-13933&t=OrDVZQ9W5ZMS9Syh-4|smart-link] \n*  [https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=OrDVZQ9W5ZMS9Syh-4|https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=OrDVZQ9W5ZMS9Syh-4|smart-link] "
+      }
+    ]
+  },
+  {
+    "id": "147458",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Abb76c871-09f7-4464-96af-3349b8c74dc3",
+      "accountId": "712020:bb76c871-09f7-4464-96af-3349b8c74dc3",
+      "emailAddress": "namratha.matcha@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+        "24x24": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+        "16x16": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+        "32x32": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png"
+      },
+      "displayName": "Namratha Matcha",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-01-29T07:24:38.747-0500",
+    "items": [
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "31450",
+        "toString": "image-20260129-122424.png"
+      }
+    ]
+  },
+  {
+    "id": "147733",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+      "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+      "emailAddress": "prachi.jangid@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+      },
+      "displayName": "Prachi Jangid",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-01-30T05:37:21.494-0500",
+    "items": [
+      {
+        "field": "Rank",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10019",
+        "from": "",
+        "fromString": "",
+        "to": "",
+        "toString": "Ranked higher"
+      }
+    ]
+  },
+  {
+    "id": "153132",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+      "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+      "emailAddress": "prachi.jangid@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+      },
+      "displayName": "Prachi Jangid",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-12T04:32:51.249-0500",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10731",
+        "fromString": "Blocked",
+        "to": "10025",
+        "toString": "Backlog"
+      }
+    ]
+  },
+  {
+    "id": "153133",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+      "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+      "emailAddress": "prachi.jangid@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+      },
+      "displayName": "Prachi Jangid",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-12T04:33:16.969-0500",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10025",
+        "fromString": "Backlog",
+        "to": "10599",
+        "toString": "In Refinement"
+      }
+    ]
+  },
+  {
+    "id": "153257",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Abb76c871-09f7-4464-96af-3349b8c74dc3",
+      "accountId": "712020:bb76c871-09f7-4464-96af-3349b8c74dc3",
+      "emailAddress": "namratha.matcha@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+        "24x24": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+        "16x16": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+        "32x32": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png"
+      },
+      "displayName": "Namratha Matcha",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-12T09:01:17.898-0500",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "*As a* Customer,\n*I want to* view and interact with the Instruction section, access picture requirements and compliance information, and navigate easily,\n*So that* I can understand the required steps, review applicable requirements, and proceed confidently to complete the application process.\n\n*Screen UI:*\nThe complete screen of which the Instructions Section will be a part of-\n\n!image-20260129-122424.png|width=1208,alt=\"image-20260129-122424.png\"!\n\nThis screen is the Registration Form screen, and the Instructions component will be placed within this screen as shown above.\n\nh3. *Acceptance Criteria*\n\n# Haeder and Footer\" should be consistent on the Registration Page covered in story [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|smart-link] \n# Left Side component is consistent on the Registration Page covered by Jira Ticket [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|smart-link] \n# Instruction Section:\n## !image-20260122-080238.png|width=1138,alt=\"image-20260122-080238.png\"!\n## Based on the products selected in the previous Select Product screen, product-specific instructions must appear as documented in:\n##* [*Objects and Fields Details*|https://ksquaregroup.sharepoint.com/:x:/r/sites/ValueStreamManagement/_layouts/15/doc2.aspx?sourcedoc=%7BE4ECCB46-59DA-4F94-BCB1-851D50BEADA0%7D&file=Objects%20and%20Fields%20Details.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1][ |https://ksquaregroup.sharepoint.com/:x:/r/sites/ValueStreamManagement/_layouts/15/doc2.aspx?sourcedoc=%7BE4ECCB46-59DA-4F94-BCB1-851D50BEADA0%7D&file=Objects%20and%20Fields%20Details.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1](Products)\n##* [*Product Details Information.xlsx*|https://ecfhbosl.sharepoint.com/:x:/r/sites/DigitalBranchExpericeneCloudforDigitalbranch/Shared%20Documents/Digital%20Branch%20Expericene%20Cloud%20for%20Digital%20branch/1-Initiation/Request%20from%20KSquare/Product%20Details%20Information.xlsx?d=w31b58cedcacf448385de724e493720b4&csf=1&web=1&e=2ldmkU] (Instructions tab)\n## Important Compliance notice for U.S. citizens/residents regarding FATCA.\n## Buttons Presented will be applicable for the different applicant’s residency types\n### Individual (National) of ECCU Territories\n### Resident Nationals of CARICOM (except ECCU territories)\n### Non-Nationals/Residents Outside CARICOM\n### Self –Employed Individuals\n# *On Button Click*\n#* Clicking on the applicable button to see documentation requirements\n\n||{color:#ffffff}*Customer Type/Button Label*{color}||{color:#ffffff}*Identification*{color}||{color:#ffffff}*Residential Address*{color}||{color:#ffffff}*Additional Notes*{color}||\n|# Individual (National) of ECCU Territories|One form of Valid (Unexpired) Government-Issued Picture Identification:\n* Passport\n* National Identification Card\n* Social Security card\n* Driver’s license\n* Voter’s card|*NO PROOF OF ADDRESS REQUIRED:*\na. For Saint Lucian Nationals and Residents unless Customer type is listed as Companies / Unlisted Corporations|*Specific to Minors*\n* Accounts on behalf of minors with no picture identification: parent/legal guardian subject to standard KYC requirements\n* Birth certificate of minor|\n|Resident Nationals of CARICOM\n(except ECCU territories)|One Form of Valid (unexpired) Government Issued Identification:\n* Passport and\n* Driver’s License or National identification Card|Confirmation of Residential Address is required by any of the following documents:\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential\n\\\\\nAddress. (The relationship must be in existence for at least 1 year);\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner,\n\\\\\nalong with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n|Non-Nationals/\nResidents\nOutside\nCARICOM|Two forms of valid (unexpired) Government Issued Identification\n* Passport\n* National Identification Card\n* Social Security card\n* Driver’s license\n* Voter’s card|Confirmation of Residential Address by way of any one of the following documents\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential\n\\\\\nAddress. (The relationship must be in existence for at least 1 year);\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner,\n\\\\\nalong with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n|Self –\nEmployed\nIndividuals|* One (1) form of Government-Issued Picture Identification in the case of\nNationals/Residents of ECCU and CARICOM.\n* Two (2) forms of Government- Issued Picture Identification in the case of Non\u0002Nationals/ Residents Outside of CARICOM|Confirmation of Residential Address by way of any one of the following documents\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential Address. (The relationship must be in existence for at least 1 year)\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner, along with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n\n* {color:#ff5630}*Behavior*{color}\n** {color:#ff5630}Instructions will be displayed as an overlay{color}\n** {color:#ff5630}Clicking Print downloads complete instructions as PDF.{color}\n** {color:#ff5630}See Picture Requirements hyperlink opens in a new tab and displays picture guidelines.{color}\n** {color:#ff5630}Clicking Back returns to the previous popup.{color}\n** {color:#ff5630}Clicking Print downloads complete instructions as PDF.{color}\n** {color:#ff5630}See Picture Requirements hyperlink opens in a new tab and displays picture guidelines.{color}\n** {color:#ff5630}FATCA link under Important Compliance Notice opens in a new tab to the FATCA form page.{color}\n** !image-20251120-205749.png|width=1128,alt=\"image-20251120-205749.png\"!\n\n* *Navigation*\n** +Continue+ button navigates to the next section: Personal Information.\n* *Design Compliance*\n** BOSL branding (colors, fonts, logo) applied consistently.\n** Responsive design verified across desktop and mobile.\n\n*Significance*\n\nThis section ensures customers understand application requirements and compliance obligations before proceeding. It improves transparency, reduces errors, and supports regulatory compliance while maintaining a consistent user experience.\n\n*Definition of Done*\n\n* Instruction section implemented per Figma design.\n* All hyperlinks and buttons open in a new tab and point to correct URLs.\n* FATCA link displayed under compliance notice and opens correctly.\n* Navigation buttons (Continue, Save Progress, Back to Dashboard) function as expected.\n* QA validates responsiveness and usability across devices.\n* Smoke tests pass successfully in staging environment.\n* UAT sign-off obtained from BOSL team.\n\n*Dependencies*\n\n* BOSL branding guidelines and reusable header/footer components.\n* Verified URLs for picture requirements, FATCA, and applicant requirement pages.\n* Backend readiness for saving progress and navigation logic.\n\n*Risks*\n\n* Incorrect or broken links may prevent users from accessing compliance information.\n* Navigation issues may block progress to the next section.\n* Branding inconsistencies may reduce trust and user confidence.\n\n\n\n* Figma Design Link\n* [https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1752-13933&t=OrDVZQ9W5ZMS9Syh-4|https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1752-13933&t=OrDVZQ9W5ZMS9Syh-4|smart-link] \n*  [https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=OrDVZQ9W5ZMS9Syh-4|https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=OrDVZQ9W5ZMS9Syh-4|smart-link] ",
+        "to": null,
+        "toString": "*As a* Customer,\n*I want to* view and interact with the Instruction section, access picture requirements and compliance information, and navigate easily,\n*So that* I can understand the required steps, review applicable requirements, and proceed confidently to complete the application process.\n\n*Screen UI:*\nThe complete screen of which the Instructions Section will be a part of-\n\n!image-20260129-122424.png|width=1208,alt=\"image-20260129-122424.png\"!\n\nThis screen is the Registration Form screen, and the Instructions component will be placed within this screen as shown above.\n\nh3. *Acceptance Criteria*\n\n# Haeder and Footer\" should be consistent on the Registration Page covered in story [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-94|smart-link] \n# Left Side component is consistent on the Registration Page covered by Jira Ticket [https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|https://theksquaregroupglobal.atlassian.net/browse/BDBP1-95|smart-link] \n# Instruction Section:\n## !image-20260122-080238.png|width=1138,alt=\"image-20260122-080238.png\"!\n## Based on the products selected in the previous Select Product screen, product-specific instructions must appear as documented in:\n##* [*Objects and Fields Details*|https://ksquaregroup.sharepoint.com/:x:/r/sites/ValueStreamManagement/_layouts/15/doc2.aspx?sourcedoc=%7BE4ECCB46-59DA-4F94-BCB1-851D50BEADA0%7D&file=Objects%20and%20Fields%20Details.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1][ |https://ksquaregroup.sharepoint.com/:x:/r/sites/ValueStreamManagement/_layouts/15/doc2.aspx?sourcedoc=%7BE4ECCB46-59DA-4F94-BCB1-851D50BEADA0%7D&file=Objects%20and%20Fields%20Details.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1](Products)\n##* [*Product Details Information.xlsx*|https://ecfhbosl.sharepoint.com/:x:/r/sites/DigitalBranchExpericeneCloudforDigitalbranch/Shared%20Documents/Digital%20Branch%20Expericene%20Cloud%20for%20Digital%20branch/1-Initiation/Request%20from%20KSquare/Product%20Details%20Information.xlsx?d=w31b58cedcacf448385de724e493720b4&csf=1&web=1&e=2ldmkU] (Instructions tab)\n## Important Compliance notice for U.S. citizens/residents regarding FATCA.\n## Buttons Presented will be applicable for the different applicant’s residency types\n### Individual (National) of ECCU Territories\n### Resident Nationals of CARICOM (except ECCU territories)\n### Non-Nationals/Residents Outside CARICOM\n### Self –Employed Individuals\n# *On Button Click*\n#* Clicking on the applicable button to see documentation requirements\n\n||{color:#ffffff}*Customer Type/Button Label*{color}||{color:#ffffff}*Identification*{color}||{color:#ffffff}*Residential Address*{color}||{color:#ffffff}*Additional Notes*{color}||\n|# Individual (National) of ECCU Territories|One form of Valid (Unexpired) Government-Issued Picture Identification:\n* Passport\n* National Identification Card\n* Social Security card\n* Driver’s license\n* Voter’s card|*NO PROOF OF ADDRESS REQUIRED:*\na. For Saint Lucian Nationals and Residents unless Customer type is listed as Companies / Unlisted Corporations|*Specific to Minors*\n* Accounts on behalf of minors with no picture identification: parent/legal guardian subject to standard KYC requirements\n* Birth certificate of minor|\n|Resident Nationals of CARICOM\n(except ECCU territories)|One Form of Valid (unexpired) Government Issued Identification:\n* Passport and\n* Driver’s License or National identification Card|Confirmation of Residential Address is required by any of the following documents:\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential\n\\\\\nAddress. (The relationship must be in existence for at least 1 year);\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner,\n\\\\\nalong with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n|Non-Nationals/\nResidents\nOutside\nCARICOM|Two forms of valid (unexpired) Government Issued Identification\n* Passport\n* National Identification Card\n* Social Security card\n* Driver’s license\n* Voter’s card|Confirmation of Residential Address by way of any one of the following documents\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential\n\\\\\nAddress. (The relationship must be in existence for at least 1 year);\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner,\n\\\\\nalong with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n|Self –\nEmployed\nIndividuals|* One (1) form of Government-Issued Picture Identification in the case of\nNationals/Residents of ECCU and CARICOM.\n* Two (2) forms of Government- Issued Picture Identification in the case of Non\u0002Nationals/ Residents Outside of CARICOM|Confirmation of Residential Address by way of any one of the following documents\n* Original utility bill in the Customer’s Name dated within the last 3 months\n* Tenancy agreement in the Customer’s Name\n* Reference Letter from a Regulated Financial Institution stating Permanent Residential Address. (The relationship must be in existence for at least 1 year)\n* Letter from Employer Confirming Address\n* For persons with combined living arrangements, a letter issued by the utility bill owner, along with copy of the ID of utility bill owner, and the original utility bill dated within the\nlast 3 months.\n* Bank statement issued within the last three (3) months showing the customer’s address.|N/A|\n\n* *Behaviour*\n** A collapsible accordion component must be provided for document requirement categories\n** Only one accordion section can be expanded at a time\n** The Accordion can be auto closed when another accordion is opened\n\n!image-20260212-135841.png|width=644,alt=\"image-20260212-135841.png\"!\n* *Navigation*\n** +Continue+ button navigates to the next section: Personal Information.\n* *Design Compliance*\n** BOSL branding (colors, fonts, logo) applied consistently.\n** Responsive design verified across desktop and mobile.\n\n*Significance*\n\nThis section ensures customers understand application requirements and compliance obligations before proceeding. It improves transparency, reduces errors, and supports regulatory compliance while maintaining a consistent user experience.\n\n*Definition of Done*\n\n* Instruction section implemented per Figma design.\n* All hyperlinks and buttons open in a new tab and point to correct URLs.\n* FATCA link displayed under compliance notice and opens correctly.\n* Navigation buttons (Continue, Save Progress, Back to Dashboard) function as expected.\n* QA validates responsiveness and usability across devices.\n* Smoke tests pass successfully in staging environment.\n* UAT sign-off obtained from BOSL team.\n\n*Dependencies*\n\n* BOSL branding guidelines and reusable header/footer components.\n* Verified URLs for picture requirements, FATCA, and applicant requirement pages.\n* Backend readiness for saving progress and navigation logic.\n\n*Risks*\n\n* Incorrect or broken links may prevent users from accessing compliance information.\n* Navigation issues may block progress to the next section.\n* Branding inconsistencies may reduce trust and user confidence.\n\n\n\n* Figma Design Link\n* [https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1752-13933&t=OrDVZQ9W5ZMS9Syh-4|https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1752-13933&t=OrDVZQ9W5ZMS9Syh-4|smart-link] \n*  [https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=OrDVZQ9W5ZMS9Syh-4|https://www.figma.com/design/qnSIfJ2qLOZQiEAZzasyDl/BOSL-%E2%80%93-Web-Banking%E2%80%8B?node-id=1182-6388&t=OrDVZQ9W5ZMS9Syh-4|smart-link] "
+      }
+    ]
+  },
+  {
+    "id": "153256",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Abb76c871-09f7-4464-96af-3349b8c74dc3",
+      "accountId": "712020:bb76c871-09f7-4464-96af-3349b8c74dc3",
+      "emailAddress": "namratha.matcha@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+        "24x24": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+        "16x16": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+        "32x32": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png"
+      },
+      "displayName": "Namratha Matcha",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-12T09:01:18.369-0500",
+    "items": [
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "34632",
+        "toString": "image-20260212-135841.png"
+      }
+    ]
+  },
+  {
+    "id": "153258",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Abb76c871-09f7-4464-96af-3349b8c74dc3",
+      "accountId": "712020:bb76c871-09f7-4464-96af-3349b8c74dc3",
+      "emailAddress": "namratha.matcha@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+        "24x24": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+        "16x16": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png",
+        "32x32": "https://secure.gravatar.com/avatar/0b1ef77023f31262605bd955867de985?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-1.png"
+      },
+      "displayName": "Namratha Matcha",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-12T09:01:34.464-0500",
+    "items": [
+      {
+        "field": "KITE - DOR - Independent",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10398",
+        "from": null,
+        "fromString": null,
+        "to": "10241",
+        "toString": "Yes"
+      },
+      {
+        "field": "KITE - DOR - Business Value",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10399",
+        "from": null,
+        "fromString": null,
+        "to": "10243",
+        "toString": "Yes"
+      },
+      {
+        "field": "KITE - DOR - Acceptance Criteria",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10400",
+        "from": null,
+        "fromString": null,
+        "to": "10245",
+        "toString": "Yes"
+      },
+      {
+        "field": "KITE - DOR - Estimation",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10401",
+        "from": null,
+        "fromString": null,
+        "to": "10248",
+        "toString": "No"
+      },
+      {
+        "field": "KITE - DOR - Testability",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10402",
+        "from": null,
+        "fromString": null,
+        "to": "10249",
+        "toString": "Yes"
+      },
+      {
+        "field": "KITE - DOR - Tasking",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10403",
+        "from": null,
+        "fromString": null,
+        "to": "10252",
+        "toString": "No"
+      },
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10599",
+        "fromString": "In Refinement",
+        "to": "10600",
+        "toString": "Ready for Development"
+      }
+    ]
+  },
+  {
+    "id": "153706",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A5690ddf8-01d0-4edd-861c-99d274d394cc",
+      "accountId": "712020:5690ddf8-01d0-4edd-861c-99d274d394cc",
+      "emailAddress": "ankit.bhatia@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/54254accb02ab6124a06a0bcba003190?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-4.png",
+        "24x24": "https://secure.gravatar.com/avatar/54254accb02ab6124a06a0bcba003190?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-4.png",
+        "16x16": "https://secure.gravatar.com/avatar/54254accb02ab6124a06a0bcba003190?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-4.png",
+        "32x32": "https://secure.gravatar.com/avatar/54254accb02ab6124a06a0bcba003190?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-4.png"
+      },
+      "displayName": "Ankit Bhatia",
+      "active": false,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-13T03:55:11.020-0500",
+    "items": [
+      {
+        "field": "Sprint",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10020",
+        "from": "3550",
+        "fromString": "BOSL Digital Dev SP3",
+        "to": "3685",
+        "toString": "BOSL Digital Dev SP4"
+      }
+    ]
+  },
+  {
+    "id": "155053",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A967faef8-3839-4452-bb43-6f44198552a4",
+      "accountId": "712020:967faef8-3839-4452-bb43-6f44198552a4",
+      "emailAddress": "agustin.galindo@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/953a0ccf76663804ff9c21c164d8094e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+        "24x24": "https://secure.gravatar.com/avatar/953a0ccf76663804ff9c21c164d8094e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+        "16x16": "https://secure.gravatar.com/avatar/953a0ccf76663804ff9c21c164d8094e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+        "32x32": "https://secure.gravatar.com/avatar/953a0ccf76663804ff9c21c164d8094e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png"
+      },
+      "displayName": "Agustin Galindo",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-18T06:56:35.192-0500",
+    "items": [
+      {
+        "field": "Sub-Task Rollup Estimate",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10762",
+        "from": null,
+        "fromString": null,
+        "to": null,
+        "toString": "7"
+      }
+    ],
+    "historyMetadata": {}
+  },
+  {
+    "id": "155081",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+      "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+      "emailAddress": "prachi.jangid@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+      },
+      "displayName": "Prachi Jangid",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-18T08:47:26.848-0500",
+    "items": [
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "35733",
+        "toString": "image-20260218-132511.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "35732",
+        "toString": "image-20260218-132413.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "35731",
+        "toString": "image-20260218-133053.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "35730",
+        "toString": "image-20260218-132349.png"
+      }
+    ]
+  },
+  {
+    "id": "155171",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A967faef8-3839-4452-bb43-6f44198552a4",
+      "accountId": "712020:967faef8-3839-4452-bb43-6f44198552a4",
+      "emailAddress": "agustin.galindo@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/953a0ccf76663804ff9c21c164d8094e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+        "24x24": "https://secure.gravatar.com/avatar/953a0ccf76663804ff9c21c164d8094e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+        "16x16": "https://secure.gravatar.com/avatar/953a0ccf76663804ff9c21c164d8094e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+        "32x32": "https://secure.gravatar.com/avatar/953a0ccf76663804ff9c21c164d8094e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png"
+      },
+      "displayName": "Agustin Galindo",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-18T11:36:56.610-0500",
+    "items": [
+      {
+        "field": "Sub-Task Rollup Estimate",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10762",
+        "from": null,
+        "fromString": "7",
+        "to": null,
+        "toString": "23"
+      }
+    ],
+    "historyMetadata": {}
+  },
+  {
+    "id": "155856",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A718d8a89-842e-4b65-8360-5391f2ce3814",
+      "accountId": "712020:718d8a89-842e-4b65-8360-5391f2ce3814",
+      "emailAddress": "arnav.gaddam@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+        "24x24": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+        "16x16": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+        "32x32": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png"
+      },
+      "displayName": "Arnav Gaddam",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-20T01:51:22.055-0500",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10600",
+        "fromString": "Ready for Development",
+        "to": "3",
+        "toString": "In Progress"
+      }
+    ]
+  },
+  {
+    "id": "155857",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A718d8a89-842e-4b65-8360-5391f2ce3814",
+      "accountId": "712020:718d8a89-842e-4b65-8360-5391f2ce3814",
+      "emailAddress": "arnav.gaddam@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+        "24x24": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+        "16x16": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+        "32x32": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png"
+      },
+      "displayName": "Arnav Gaddam",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-20T01:51:27.691-0500",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "3",
+        "fromString": "In Progress",
+        "to": "10601",
+        "toString": "Ready for QA"
+      }
+    ]
+  },
+  {
+    "id": "155994",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+      "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+      "emailAddress": "prachi.jangid@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+      },
+      "displayName": "Prachi Jangid",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-20T09:39:02.262-0500",
+    "items": [
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "36214",
+        "toString": "image-20260220-143823.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "36215",
+        "toString": "image-20260220-143838.png"
+      }
+    ]
+  },
+  {
+    "id": "156781",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A5eed3a43-4d0d-4318-a166-a9735cd0d118",
+      "accountId": "712020:5eed3a43-4d0d-4318-a166-a9735cd0d118",
+      "emailAddress": "madhu.gaddam@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "24x24": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "16x16": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "32x32": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png"
+      },
+      "displayName": "Madhu Latha Gaddam",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-24T05:26:03.013-0500",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10601",
+        "fromString": "Ready for QA",
+        "to": "10602",
+        "toString": "QA In Progress"
+      }
+    ]
+  },
+  {
+    "id": "156877",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A5eed3a43-4d0d-4318-a166-a9735cd0d118",
+      "accountId": "712020:5eed3a43-4d0d-4318-a166-a9735cd0d118",
+      "emailAddress": "madhu.gaddam@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "24x24": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "16x16": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "32x32": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png"
+      },
+      "displayName": "Madhu Latha Gaddam",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-24T09:52:30.371-0500",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10602",
+        "fromString": "QA In Progress",
+        "to": "10021",
+        "toString": "QA Failed"
+      }
+    ]
+  },
+  {
+    "id": "156878",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A5eed3a43-4d0d-4318-a166-a9735cd0d118",
+      "accountId": "712020:5eed3a43-4d0d-4318-a166-a9735cd0d118",
+      "emailAddress": "madhu.gaddam@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "24x24": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "16x16": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "32x32": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png"
+      },
+      "displayName": "Madhu Latha Gaddam",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-24T09:52:37.522-0500",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10021",
+        "fromString": "QA Failed",
+        "to": "3",
+        "toString": "In Progress"
+      }
+    ]
+  },
+  {
+    "id": "157235",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A718d8a89-842e-4b65-8360-5391f2ce3814",
+      "accountId": "712020:718d8a89-842e-4b65-8360-5391f2ce3814",
+      "emailAddress": "arnav.gaddam@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+        "24x24": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+        "16x16": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+        "32x32": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png"
+      },
+      "displayName": "Arnav Gaddam",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-25T08:58:06.990-0500",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "3",
+        "fromString": "In Progress",
+        "to": "10601",
+        "toString": "Ready for QA"
+      }
+    ]
+  },
+  {
+    "id": "157245",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A5eed3a43-4d0d-4318-a166-a9735cd0d118",
+      "accountId": "712020:5eed3a43-4d0d-4318-a166-a9735cd0d118",
+      "emailAddress": "madhu.gaddam@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "24x24": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "16x16": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "32x32": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png"
+      },
+      "displayName": "Madhu Latha Gaddam",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-25T09:18:23.712-0500",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10601",
+        "fromString": "Ready for QA",
+        "to": "10602",
+        "toString": "QA In Progress"
+      }
+    ]
+  },
+  {
+    "id": "157965",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A5eed3a43-4d0d-4318-a166-a9735cd0d118",
+      "accountId": "712020:5eed3a43-4d0d-4318-a166-a9735cd0d118",
+      "emailAddress": "madhu.gaddam@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "24x24": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "16x16": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "32x32": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png"
+      },
+      "displayName": "Madhu Latha Gaddam",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-27T09:45:52.629-0500",
+    "items": [
+      {
+        "field": "Link",
+        "fieldtype": "jira",
+        "from": null,
+        "fromString": null,
+        "to": "BDBP1-529",
+        "toString": "This work item relates to BDBP1-529"
+      }
+    ]
+  },
+  {
+    "id": "157971",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A5eed3a43-4d0d-4318-a166-a9735cd0d118",
+      "accountId": "712020:5eed3a43-4d0d-4318-a166-a9735cd0d118",
+      "emailAddress": "madhu.gaddam@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "24x24": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "16x16": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "32x32": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png"
+      },
+      "displayName": "Madhu Latha Gaddam",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-27T09:46:16.580-0500",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10602",
+        "fromString": "QA In Progress",
+        "to": "10021",
+        "toString": "QA Failed"
+      }
+    ]
+  },
+  {
+    "id": "157972",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A5eed3a43-4d0d-4318-a166-a9735cd0d118",
+      "accountId": "712020:5eed3a43-4d0d-4318-a166-a9735cd0d118",
+      "emailAddress": "madhu.gaddam@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "24x24": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "16x16": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "32x32": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png"
+      },
+      "displayName": "Madhu Latha Gaddam",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-27T09:46:19.555-0500",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10021",
+        "fromString": "QA Failed",
+        "to": "3",
+        "toString": "In Progress"
+      }
+    ]
+  },
+  {
+    "id": "159125",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A718d8a89-842e-4b65-8360-5391f2ce3814",
+      "accountId": "712020:718d8a89-842e-4b65-8360-5391f2ce3814",
+      "emailAddress": "arnav.gaddam@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+        "24x24": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+        "16x16": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+        "32x32": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png"
+      },
+      "displayName": "Arnav Gaddam",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-03T08:03:11.233-0500",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "3",
+        "fromString": "In Progress",
+        "to": "10601",
+        "toString": "Ready for QA"
+      }
+    ]
+  },
+  {
+    "id": "159245",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A5eed3a43-4d0d-4318-a166-a9735cd0d118",
+      "accountId": "712020:5eed3a43-4d0d-4318-a166-a9735cd0d118",
+      "emailAddress": "madhu.gaddam@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "24x24": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "16x16": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "32x32": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png"
+      },
+      "displayName": "Madhu Latha Gaddam",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-03T10:50:44.014-0500",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10601",
+        "fromString": "Ready for QA",
+        "to": "10602",
+        "toString": "QA In Progress"
+      }
+    ]
+  },
+  {
+    "id": "159512",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A5eed3a43-4d0d-4318-a166-a9735cd0d118",
+      "accountId": "712020:5eed3a43-4d0d-4318-a166-a9735cd0d118",
+      "emailAddress": "madhu.gaddam@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "24x24": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "16x16": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "32x32": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png"
+      },
+      "displayName": "Madhu Latha Gaddam",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-04T04:28:48.504-0500",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10602",
+        "fromString": "QA In Progress",
+        "to": "10603",
+        "toString": "QA Complete"
+      }
+    ]
+  },
+  {
+    "id": "159513",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A5eed3a43-4d0d-4318-a166-a9735cd0d118",
+      "accountId": "712020:5eed3a43-4d0d-4318-a166-a9735cd0d118",
+      "emailAddress": "madhu.gaddam@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "24x24": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "16x16": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "32x32": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png"
+      },
+      "displayName": "Madhu Latha Gaddam",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-04T04:28:53.928-0500",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10603",
+        "fromString": "QA Complete",
+        "to": "10609",
+        "toString": "UAT Deployed"
+      }
+    ]
+  },
+  {
+    "id": "159514",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A5eed3a43-4d0d-4318-a166-a9735cd0d118",
+      "accountId": "712020:5eed3a43-4d0d-4318-a166-a9735cd0d118",
+      "emailAddress": "madhu.gaddam@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "24x24": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "16x16": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png",
+        "32x32": "https://secure.gravatar.com/avatar/4132639e07b55ed93de7dd14f8e0a3fb?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-1.png"
+      },
+      "displayName": "Madhu Latha Gaddam",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-04T04:34:20.547-0500",
+    "items": [
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "38499",
+        "toString": "image-20260304-093113.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "38495",
+        "toString": "image-20260304-093146.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "38496",
+        "toString": "image-20260304-093045.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "38497",
+        "toString": "image-20260304-093100.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "38498",
+        "toString": "image-20260304-093131.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "38494",
+        "toString": "20260304-0932-05.1000314.mp4"
+      }
+    ]
+  }
+]

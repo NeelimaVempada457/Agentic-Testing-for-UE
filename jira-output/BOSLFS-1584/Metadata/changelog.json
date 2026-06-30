@@ -1,0 +1,1631 @@
+[
+  {
+    "id": "146371",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Ade8d557c-a40d-4f0e-bbc2-d47d027d3a63",
+      "accountId": "712020:de8d557c-a40d-4f0e-bbc2-d47d027d3a63",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png"
+      },
+      "displayName": "Vernette Symphorien",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-01-26T13:27:18.878-0500",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "Vin number for vehicle loans is not pulling to the MACA form. In this scenario the vehicle does not have a Chassis no. but it does have a Vin. The Vin number must also pull onto the MACA form. This happened in the live environment\n\n[^Missing VIN on MACA.pdf]\n\n",
+        "to": null,
+        "toString": "[~accountid:62e946413cc20c06c8ae8839] Vin number for vehicle loans is not pulling to the MACA form. In this scenario the vehicle does not have a Chassis no. but it does have a Vin. The Vin number must also pull onto the MACA form. This happened in the live environment [~accountid:712020:56ae8e42-105a-42ca-975d-78458889866f] \n\n[^Missing VIN on MACA.pdf]\n\n"
+      }
+    ]
+  },
+  {
+    "id": "146781",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-01-27T14:00:46.315-0500",
+    "items": [
+      {
+        "field": "IssueParentAssociation",
+        "fieldtype": "jira",
+        "from": null,
+        "fromString": null,
+        "to": "16044",
+        "toString": "BOSLFS-696"
+      }
+    ]
+  },
+  {
+    "id": "146784",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-01-27T14:17:12.000-0500",
+    "items": [
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "30981",
+        "toString": "image-20260127-191708.png"
+      }
+    ]
+  },
+  {
+    "id": "146785",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-01-27T14:18:26.344-0500",
+    "items": [
+      {
+        "field": "Severity",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10048",
+        "from": "10031",
+        "fromString": "Sev-3",
+        "to": null,
+        "toString": ""
+      },
+      {
+        "field": "issuetype",
+        "fieldtype": "jira",
+        "fieldId": "issuetype",
+        "from": "10060",
+        "fromString": "Bug",
+        "to": "10061",
+        "toString": "Story"
+      }
+    ]
+  },
+  {
+    "id": "150890",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-06T17:20:50.965-0500",
+    "items": [
+      {
+        "field": "priority",
+        "fieldtype": "jira",
+        "fieldId": "priority",
+        "from": "3",
+        "fromString": "Medium",
+        "to": "1",
+        "toString": "Highest"
+      }
+    ]
+  },
+  {
+    "id": "150891",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-06T17:20:58.204-0500",
+    "items": [
+      {
+        "field": "Sprint",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10020",
+        "from": "",
+        "fromString": "",
+        "to": "3480",
+        "toString": "BOSLFS February Release 3"
+      }
+    ]
+  },
+  {
+    "id": "151333",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-09T13:23:43.176-0500",
+    "items": [
+      {
+        "field": "timeestimate",
+        "fieldtype": "jira",
+        "fieldId": "timeestimate",
+        "from": null,
+        "fromString": null,
+        "to": "57600",
+        "toString": "57600"
+      },
+      {
+        "field": "timeoriginalestimate",
+        "fieldtype": "jira",
+        "fieldId": "timeoriginalestimate",
+        "from": null,
+        "fromString": null,
+        "to": "57600",
+        "toString": "57600"
+      }
+    ]
+  },
+  {
+    "id": "152113",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-10T14:12:20.314-0500",
+    "items": [
+      {
+        "field": "Sprint",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10020",
+        "from": "3480",
+        "fromString": "BOSLFS February Release 3",
+        "to": "",
+        "toString": ""
+      }
+    ]
+  },
+  {
+    "id": "152116",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-10T14:12:21.255-0500",
+    "items": [
+      {
+        "field": "Rank",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10019",
+        "from": "",
+        "fromString": "",
+        "to": "",
+        "toString": "Ranked lower"
+      }
+    ]
+  },
+  {
+    "id": "157260",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-25T09:58:05.834-0500",
+    "items": [
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "37062",
+        "toString": "image-20260225-145800.png"
+      }
+    ]
+  },
+  {
+    "id": "158700",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-02T08:57:24.043-0500",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "[~accountid:62e946413cc20c06c8ae8839] Vin number for vehicle loans is not pulling to the MACA form. In this scenario the vehicle does not have a Chassis no. but it does have a Vin. The Vin number must also pull onto the MACA form. This happened in the live environment [~accountid:712020:56ae8e42-105a-42ca-975d-78458889866f] \n\n[^Missing VIN on MACA.pdf]\n\n",
+        "to": null,
+        "toString": "[~accountid:62e946413cc20c06c8ae8839] Vin number for vehicle loans is not pulling to the MACA form. In this scenario the vehicle does not have a Chassis no. but it does have a Vin. The Vin number must also pull onto the MACA form. This happened in the live environment [~accountid:712020:56ae8e42-105a-42ca-975d-78458889866f] \n\n[^Missing VIN on MACA.pdf]\n\n[~accountid:626ff8c876b8d3006872261d]   Edit the Document to Place the Chasis NO / VIN NO: and add a conditional if the System read that the Chasis NO is Populated, will add this information, if is Blank and the VIN No is populated will add this information instead.\n\n!image-20260225-145800 (f63cad8d-723a-4722-8337-10f88e8339cd).png|width=659,alt=\"image-20260225-145800.png\"!"
+      }
+    ]
+  },
+  {
+    "id": "158699",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-02T08:57:24.459-0500",
+    "items": [
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "37835",
+        "toString": "image-20260225-145800 (f63cad8d-723a-4722-8337-10f88e8339cd).png"
+      }
+    ]
+  },
+  {
+    "id": "172111",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-09T15:46:11.889-0400",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "[~accountid:62e946413cc20c06c8ae8839] Vin number for vehicle loans is not pulling to the MACA form. In this scenario the vehicle does not have a Chassis no. but it does have a Vin. The Vin number must also pull onto the MACA form. This happened in the live environment [~accountid:712020:56ae8e42-105a-42ca-975d-78458889866f] \n\n[^Missing VIN on MACA.pdf]\n\n[~accountid:626ff8c876b8d3006872261d]   Edit the Document to Place the Chasis NO / VIN NO: and add a conditional if the System read that the Chasis NO is Populated, will add this information, if is Blank and the VIN No is populated will add this information instead.\n\n!image-20260225-145800 (f63cad8d-723a-4722-8337-10f88e8339cd).png|width=659,alt=\"image-20260225-145800.png\"!",
+        "to": null,
+        "toString": "[~accountid:62e946413cc20c06c8ae8839] Vin number for vehicle loans is not pulling to the MACA form. In this scenario the vehicle does not have a Chassis no. but it does have a Vin. The Vin number must also pull onto the MACA form. This happened in the live environment [~accountid:712020:56ae8e42-105a-42ca-975d-78458889866f] \n\n[^Missing VIN on MACA.pdf]\n\n[~accountid:626ff8c876b8d3006872261d]   Edit the Document to Place the Chasis NO / VIN NO: and add a conditional if the System read that the Chasis NO is Populated, will add this information, if is Blank and the VIN No is populated will add this information instead.\n\nAs system, I want to\n\n!image-20260225-145800 (f63cad8d-723a-4722-8337-10f88e8339cd).png|width=659,alt=\"image-20260225-145800.png\"!"
+      }
+    ]
+  },
+  {
+    "id": "172112",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-09T15:46:29.853-0400",
+    "items": [
+      {
+        "field": "assignee",
+        "fieldtype": "jira",
+        "fieldId": "assignee",
+        "from": "712020:0e889a33-e4af-4f5f-8789-4dfc1e756e4b",
+        "fromString": "Amarnath Marupilla",
+        "to": "626ff8c876b8d3006872261d",
+        "toString": "Alexander Peña Melikhov",
+        "tmpFromAccountId": "712020:0e889a33-e4af-4f5f-8789-4dfc1e756e4b",
+        "tmpToAccountId": "626ff8c876b8d3006872261d"
+      }
+    ]
+  },
+  {
+    "id": "172113",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-09T15:46:35.042-0400",
+    "items": [
+      {
+        "field": "Sprint",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10020",
+        "from": "",
+        "fromString": "",
+        "to": "3482",
+        "toString": "BOSLFS April Release 5"
+      }
+    ]
+  },
+  {
+    "id": "173695",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-14T12:33:48.871-0400",
+    "items": [
+      {
+        "field": "Rank",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10019",
+        "from": "",
+        "fromString": "",
+        "to": "",
+        "toString": "Ranked higher"
+      }
+    ]
+  },
+  {
+    "id": "175295",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-16T16:03:04.195-0400",
+    "items": [
+      {
+        "field": "IssueParentAssociation",
+        "fieldtype": "jira",
+        "from": "16044",
+        "fromString": "BOSLFS-696",
+        "to": "27828",
+        "toString": "BOSLFS-1500"
+      }
+    ]
+  },
+  {
+    "id": "178420",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=626ff8c876b8d3006872261d",
+      "accountId": "626ff8c876b8d3006872261d",
+      "emailAddress": "alexander.pena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png"
+      },
+      "displayName": "Alexander Peña Melikhov",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-24T09:00:09.048-0400",
+    "items": [
+      {
+        "field": "timeestimate",
+        "fieldtype": "jira",
+        "fieldId": "timeestimate",
+        "from": "57600",
+        "fromString": "57600",
+        "to": "28800",
+        "toString": "28800"
+      },
+      {
+        "field": "timeoriginalestimate",
+        "fieldtype": "jira",
+        "fieldId": "timeoriginalestimate",
+        "from": "57600",
+        "fromString": "57600",
+        "to": "28800",
+        "toString": "28800"
+      }
+    ]
+  },
+  {
+    "id": "178421",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=626ff8c876b8d3006872261d",
+      "accountId": "626ff8c876b8d3006872261d",
+      "emailAddress": "alexander.pena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png"
+      },
+      "displayName": "Alexander Peña Melikhov",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-24T09:00:26.392-0400",
+    "items": [
+      {
+        "field": "Start date",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10015",
+        "from": "2026-01-26",
+        "fromString": "26/ene/26",
+        "to": "2026-01-24",
+        "toString": "24/ene/26"
+      }
+    ]
+  },
+  {
+    "id": "178422",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=626ff8c876b8d3006872261d",
+      "accountId": "626ff8c876b8d3006872261d",
+      "emailAddress": "alexander.pena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png"
+      },
+      "displayName": "Alexander Peña Melikhov",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-24T09:00:41.310-0400",
+    "items": [
+      {
+        "field": "duedate",
+        "fieldtype": "jira",
+        "fieldId": "duedate",
+        "from": null,
+        "fromString": null,
+        "to": "2026-04-27",
+        "toString": "2026-04-27 00:00:00.0"
+      }
+    ]
+  },
+  {
+    "id": "178423",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=626ff8c876b8d3006872261d",
+      "accountId": "626ff8c876b8d3006872261d",
+      "emailAddress": "alexander.pena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png"
+      },
+      "displayName": "Alexander Peña Melikhov",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-24T09:01:38.550-0400",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10055",
+        "fromString": "New",
+        "to": "10060",
+        "toString": "In Refinement"
+      }
+    ]
+  },
+  {
+    "id": "178424",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=626ff8c876b8d3006872261d",
+      "accountId": "626ff8c876b8d3006872261d",
+      "emailAddress": "alexander.pena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png"
+      },
+      "displayName": "Alexander Peña Melikhov",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-24T09:01:43.739-0400",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10060",
+        "fromString": "In Refinement",
+        "to": "10063",
+        "toString": "Ready for Development"
+      }
+    ]
+  },
+  {
+    "id": "178425",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=626ff8c876b8d3006872261d",
+      "accountId": "626ff8c876b8d3006872261d",
+      "emailAddress": "alexander.pena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png"
+      },
+      "displayName": "Alexander Peña Melikhov",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-24T09:01:47.983-0400",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10063",
+        "fromString": "Ready for Development",
+        "to": "10056",
+        "toString": "In Progress"
+      }
+    ]
+  },
+  {
+    "id": "179520",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-27T14:42:48.833-0400",
+    "items": [
+      {
+        "field": "Rank",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10019",
+        "from": "",
+        "fromString": "",
+        "to": "",
+        "toString": "Ranked higher"
+      }
+    ]
+  },
+  {
+    "id": "179767",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=626ff8c876b8d3006872261d",
+      "accountId": "626ff8c876b8d3006872261d",
+      "emailAddress": "alexander.pena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png"
+      },
+      "displayName": "Alexander Peña Melikhov",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-28T05:25:31.808-0400",
+    "items": [
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "46805",
+        "toString": "2378 - Mortgage - Digital Technology INC-Movable Asset Collateral Agreement - Many Assets-a1JWA000007a6xJ2AQ.pdf"
+      }
+    ]
+  },
+  {
+    "id": "179768",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=626ff8c876b8d3006872261d",
+      "accountId": "626ff8c876b8d3006872261d",
+      "emailAddress": "alexander.pena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png"
+      },
+      "displayName": "Alexander Peña Melikhov",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-28T05:26:11.406-0400",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10056",
+        "fromString": "In Progress",
+        "to": "10066",
+        "toString": "Ready for QA"
+      }
+    ]
+  },
+  {
+    "id": "180233",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+      },
+      "displayName": "Shivaji Gundabattina",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-29T05:18:07.235-0400",
+    "items": [
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "46865",
+        "toString": "image-20260429-084321.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "46859",
+        "toString": "image-20260429-084018.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "46862",
+        "toString": "image-20260429-082537.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "46856",
+        "toString": "image-20260429-084223.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "46858",
+        "toString": "image-20260429-083817.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "46860",
+        "toString": "image-20260429-084330.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "46864",
+        "toString": "image-20260429-083747.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "46866",
+        "toString": "image-20260429-083906.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "46855",
+        "toString": "image-20260429-082326.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "46857",
+        "toString": "image-20260429-083602.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "46863",
+        "toString": "image-20260429-084111.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "46861",
+        "toString": "image-20260429-082439.png"
+      }
+    ]
+  },
+  {
+    "id": "180234",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+      },
+      "displayName": "Shivaji Gundabattina",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-29T05:18:33.485-0400",
+    "items": [
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "46867",
+        "toString": "image-20260429-091825.png"
+      }
+    ]
+  },
+  {
+    "id": "180235",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+      },
+      "displayName": "Shivaji Gundabattina",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-29T05:18:44.656-0400",
+    "items": [
+      {
+        "field": "assignee",
+        "fieldtype": "jira",
+        "fieldId": "assignee",
+        "from": "626ff8c876b8d3006872261d",
+        "fromString": "Alexander Peña Melikhov",
+        "to": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+        "toString": "Shivaji Gundabattina",
+        "tmpFromAccountId": "626ff8c876b8d3006872261d",
+        "tmpToAccountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29"
+      }
+    ]
+  },
+  {
+    "id": "180334",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+      },
+      "displayName": "Shivaji Gundabattina",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-29T09:12:18.562-0400",
+    "items": [
+      {
+        "field": "assignee",
+        "fieldtype": "jira",
+        "fieldId": "assignee",
+        "from": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+        "fromString": "Shivaji Gundabattina",
+        "to": "626ff8c876b8d3006872261d",
+        "toString": "Alexander Peña Melikhov",
+        "tmpFromAccountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+        "tmpToAccountId": "626ff8c876b8d3006872261d"
+      }
+    ]
+  },
+  {
+    "id": "180335",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+      },
+      "displayName": "Shivaji Gundabattina",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-29T09:12:22.419-0400",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10066",
+        "fromString": "Ready for QA",
+        "to": "11230",
+        "toString": "QA Failed"
+      }
+    ]
+  },
+  {
+    "id": "180336",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+      },
+      "displayName": "Shivaji Gundabattina",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-29T09:12:25.454-0400",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "11230",
+        "fromString": "QA Failed",
+        "to": "10056",
+        "toString": "In Progress"
+      }
+    ]
+  },
+  {
+    "id": "180675",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-29T18:00:01.090-0400",
+    "items": [
+      {
+        "field": "Sprint",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10020",
+        "from": "3482",
+        "fromString": "BOSLFS April Release 5",
+        "to": "3483",
+        "toString": "BOSLFS May Release 6"
+      }
+    ]
+  },
+  {
+    "id": "180696",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-29T18:00:06.814-0400",
+    "items": [
+      {
+        "field": "Rank",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10019",
+        "from": "",
+        "fromString": "",
+        "to": "",
+        "toString": "Ranked lower"
+      }
+    ]
+  },
+  {
+    "id": "181179",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-30T16:04:51.127-0400",
+    "items": [
+      {
+        "field": "summary",
+        "fieldtype": "jira",
+        "fieldId": "summary",
+        "from": null,
+        "fromString": "Vin number for vehicles is not being pulled to the Movable Asset Collateral Agreement",
+        "to": null,
+        "toString": "After SOW: Vin number for vehicles is not being pulled to the Movable Asset Collateral Agreement"
+      }
+    ]
+  },
+  {
+    "id": "181249",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-30T16:41:58.551-0400",
+    "items": [
+      {
+        "field": "summary",
+        "fieldtype": "jira",
+        "fieldId": "summary",
+        "from": null,
+        "fromString": "After SOW: Vin number for vehicles is not being pulled to the Movable Asset Collateral Agreement",
+        "to": null,
+        "toString": "Backlog Item:: Vin number for vehicles is not being pulled to the Movable Asset Collateral Agreement"
+      }
+    ]
+  },
+  {
+    "id": "182194",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=626ff8c876b8d3006872261d",
+      "accountId": "626ff8c876b8d3006872261d",
+      "emailAddress": "alexander.pena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png"
+      },
+      "displayName": "Alexander Peña Melikhov",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-05T04:57:02.431-0400",
+    "items": [
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "46997",
+        "toString": "2340 - Mortgage - Techland Limited-Movable Asset Collateral Agreement - Many Assets-a1JWA000007MCrJ2AW.pdf"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "46998",
+        "toString": "2373 - Mortgage - Gareth Edwards-Movable Asset Collateral Agreement - Many Assets-a1JWA000007XR3p2AG.pdf"
+      }
+    ]
+  },
+  {
+    "id": "182195",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=626ff8c876b8d3006872261d",
+      "accountId": "626ff8c876b8d3006872261d",
+      "emailAddress": "alexander.pena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png"
+      },
+      "displayName": "Alexander Peña Melikhov",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-05T04:58:05.499-0400",
+    "items": [
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "46999",
+        "toString": "image-20260505-085759.png"
+      }
+    ]
+  },
+  {
+    "id": "182196",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=626ff8c876b8d3006872261d",
+      "accountId": "626ff8c876b8d3006872261d",
+      "emailAddress": "alexander.pena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/9d38d3ff39a2cd0b1f915759e0b8ace3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-5.png"
+      },
+      "displayName": "Alexander Peña Melikhov",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-05T04:58:14.233-0400",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10056",
+        "fromString": "In Progress",
+        "to": "10066",
+        "toString": "Ready for QA"
+      }
+    ]
+  },
+  {
+    "id": "182469",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+      },
+      "displayName": "Shivaji Gundabattina",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-05T10:14:15.587-0400",
+    "items": [
+      {
+        "field": "assignee",
+        "fieldtype": "jira",
+        "fieldId": "assignee",
+        "from": "626ff8c876b8d3006872261d",
+        "fromString": "Alexander Peña Melikhov",
+        "to": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+        "toString": "Shivaji Gundabattina",
+        "tmpFromAccountId": "626ff8c876b8d3006872261d",
+        "tmpToAccountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29"
+      }
+    ]
+  },
+  {
+    "id": "182575",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+      },
+      "displayName": "Shivaji Gundabattina",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-05T12:19:39.853-0400",
+    "items": [
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "47044",
+        "toString": "image-20260505-161701.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "47045",
+        "toString": "image-20260505-161850.png"
+      }
+    ]
+  },
+  {
+    "id": "182576",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+      },
+      "displayName": "Shivaji Gundabattina",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-05T12:21:43.902-0400",
+    "items": [
+      {
+        "field": "assignee",
+        "fieldtype": "jira",
+        "fieldId": "assignee",
+        "from": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+        "fromString": "Shivaji Gundabattina",
+        "to": "712020:de8d557c-a40d-4f0e-bbc2-d47d027d3a63",
+        "toString": "Vernette Symphorien",
+        "tmpFromAccountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+        "tmpToAccountId": "712020:de8d557c-a40d-4f0e-bbc2-d47d027d3a63"
+      }
+    ]
+  },
+  {
+    "id": "182577",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+      },
+      "displayName": "Shivaji Gundabattina",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-05T12:22:30.787-0400",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10066",
+        "fromString": "Ready for QA",
+        "to": "10065",
+        "toString": "QA Completed"
+      }
+    ]
+  },
+  {
+    "id": "182578",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+      },
+      "displayName": "Shivaji Gundabattina",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-05T12:22:33.977-0400",
+    "items": [
+      {
+        "field": "resolution",
+        "fieldtype": "jira",
+        "fieldId": "resolution",
+        "from": null,
+        "fromString": null,
+        "to": "10000",
+        "toString": "Done"
+      },
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10065",
+        "fromString": "QA Completed",
+        "to": "10064",
+        "toString": "UAT Deployed"
+      }
+    ]
+  },
+  {
+    "id": "182705",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-05T14:25:34.502-0400",
+    "items": [
+      {
+        "field": "Rank",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10019",
+        "from": "",
+        "fromString": "",
+        "to": "",
+        "toString": "Ranked higher"
+      }
+    ]
+  },
+  {
+    "id": "183634",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Ade8d557c-a40d-4f0e-bbc2-d47d027d3a63",
+      "accountId": "712020:de8d557c-a40d-4f0e-bbc2-d47d027d3a63",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/b2927e760de713d2c07d9fd95dabf438?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-2.png"
+      },
+      "displayName": "Vernette Symphorien",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-07T08:54:06.794-0400",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10064",
+        "fromString": "UAT Deployed",
+        "to": "10057",
+        "toString": "UAT Complete"
+      }
+    ]
+  },
+  {
+    "id": "183980",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-07T18:44:37.634-0400",
+    "items": [
+      {
+        "field": "labels",
+        "fieldtype": "jira",
+        "fieldId": "labels",
+        "from": null,
+        "fromString": "",
+        "to": null,
+        "toString": "BOSLLOS1.8.0"
+      }
+    ]
+  },
+  {
+    "id": "184372",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-08T17:42:15.977-0400",
+    "items": [
+      {
+        "field": "Rank",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10019",
+        "from": "",
+        "fromString": "",
+        "to": "",
+        "toString": "Ranked higher"
+      }
+    ]
+  },
+  {
+    "id": "185042",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-11T12:30:17.902-0400",
+    "items": [
+      {
+        "field": "summary",
+        "fieldtype": "jira",
+        "fieldId": "summary",
+        "from": null,
+        "fromString": "Backlog Item:: Vin number for vehicles is not being pulled to the Movable Asset Collateral Agreement",
+        "to": null,
+        "toString": "Backlog Item: Vin number for vehicles is not being pulled to the Movable Asset Collateral Agreement"
+      }
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(node .claude/skills/fetch-jira-details/scripts/fetch-jira-details.js*)",
+      "Bash(node .claude/skills/fetch-jira-details/scripts/fetch-jira-details.js*)",
+      "PowerShell(node .claude/skills/generate-gherkin/scripts/prepare-context.js*)",
+      "Bash(node .claude/skills/generate-gherkin/scripts/prepare-context.js*)",
+      "PowerShell(node .claude/skills/generate-gherkin/scripts/setup-folders.js*)",
+      "Bash(node .claude/skills/generate-gherkin/scripts/setup-folders.js*)",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "mcp__playwright-test__browser_snapshot",
+      "mcp__playwright-test__browser_click",
+      "mcp__playwright-test__browser_type",
+      "mcp__playwright-test__browser_evaluate",
+      "mcp__playwright-test__browser_run_code_unsafe",
+      "mcp__playwright-test__browser_navigate",
+      "mcp__playwright-test__browser_take_screenshot",
+      "mcp__playwright-test__browser_wait_for",
+      "mcp__playwright-test__browser_press_key",
+      "Bash(Test-Path \"C:\\\\Users\\\\NeelmaVempada\\\\First_Project_Agentic\\\\test-artifacts\\\\UWB-1\\\\application-analysis\\\\app-flow-analysis.md\")",
+      "mcp__playwright-test__planner_save_plan",
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\NeelmaVempada\\\\First_Project_Agentic\\\\.claude\" -Recurse -Force 2>$null | Select-Object FullName | ForEach-Object {$_.FullName})",
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\NeelmaVempada\\\\First_Project_Agentic\" -Force | Where-Object {-not $_.PSIsContainer} | ForEach-Object {$_.Name})",
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\NeelmaVempada\\\\First_Project_Agentic\" -Force | Where-Object {$_.PSIsContainer} | ForEach-Object {$_.Name})",
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\NeelmaVempada\\\\First_Project_Agentic\\\\src\" -Recurse -Force | Select-Object FullName | ForEach-Object {$_.FullName})",
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\NeelmaVempada\\\\First_Project_Agentic\\\\.claude\\\\skills\\\\fetch-jira-details\\\\scripts\" -Force | ForEach-Object {$_.Name})",
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\NeelmaVempada\\\\First_Project_Agentic\\\\.claude\\\\skills\\\\early-defect-consolidator\\\\scripts\" -Force | ForEach-Object {$_.Name})",
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\NeelmaVempada\\\\First_Project_Agentic\\\\.claude\\\\skills\\\\generate-gherkin\\\\scripts\" -Force | ForEach-Object {$_.Name})",
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\NeelmaVempada\\\\First_Project_Agentic\\\\.claude\\\\commands\" -Force | ForEach-Object {$_.Name})",
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\NeelmaVempada\\\\First_Project_Agentic\\\\.claude\\\\agents\" -Force | ForEach-Object {$_.Name})",
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\NeelmaVempada\\\\First_Project_Agentic\\\\reports\" -Force | ForEach-Object {$_.Name})",
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\NeelmaVempada\\\\First_Project_Agentic\\\\test-artifacts\" -Recurse -Force | Select-Object FullName | ForEach-Object {$_.FullName})",
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\NeelmaVempada\\\\First_Project_Agentic\\\\jira-output\" -Recurse -Force | Select-Object FullName | ForEach-Object {$_.FullName})",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:7788)",
+      "mcp__playwright-test__planner_setup_page"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "playwright-test"
+  ]
+}

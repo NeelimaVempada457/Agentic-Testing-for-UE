@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Agentic QA Platform — Technical Architecture</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #070b14;
+    color: #e2e8f0;
+    padding: 48px 52px 60px;
+    min-width: 1600px;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 44px;
+  }
+  .header-left { }
+  .badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #7c3aed;
+    background: rgba(124,58,237,0.12);
+    border: 1px solid rgba(124,58,237,0.35);
+    border-radius: 4px;
+    padding: 4px 10px;
+    margin-bottom: 12px;
+  }
+  .header h1 {
+    font-size: 32px;
+    font-weight: 800;
+    background: linear-gradient(135deg, #e2e8f0 0%, #a78bfa 50%, #38bdf8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1.2;
+    margin-bottom: 8px;
+  }
+  .header-sub {
+    font-size: 13.5px;
+    color: #64748b;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+  }
+  .header-meta {
+    text-align: right;
+  }
+  .meta-pill {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    color: #38bdf8;
+    background: rgba(56,189,248,0.08);
+    border: 1px solid rgba(56,189,248,0.2);
+    border-radius: 20px;
+    padding: 5px 13px;
+    margin-left: 8px;
+    margin-bottom: 6px;
+  }
+  .meta-pill.purple { color: #a78bfa; background: rgba(167,139,250,0.08); border-color: rgba(167,139,250,0.2); }
+  .meta-pill.green  { color: #34d399; background: rgba(52,211,153,0.08); border-color: rgba(52,211,153,0.2); }
+  .meta-pill.amber  { color: #fbbf24; background: rgba(251,191,36,0.08); border-color: rgba(251,191,36,0.2); }
+
+  /* ── LAYOUT ── */
+  .arch-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  /* ── LAYER CARD ── */
+  .layer {
+    border-radius: 16px;
+    padding: 24px 28px 28px;
+    position: relative;
+    overflow: hidden;
+  }
+  .layer::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    border-radius: 16px 16px 0 0;
+  }
+  .layer-1 {
+    background: linear-gradient(135deg, #0f172a 0%, #111827 100%);
+    border: 1px solid rgba(56,189,248,0.18);
+    box-shadow: 0 0 40px rgba(56,189,248,0.06), inset 0 1px 0 rgba(56,189,248,0.08);
+  }
+  .layer-1::before { background: linear-gradient(90deg, #38bdf8, #818cf8, #38bdf8); }
+
+  .layer-2 {
+    background: linear-gradient(135deg, #0f0a1f 0%, #130d2a 100%);
+    border: 1px solid rgba(167,139,250,0.18);
+    box-shadow: 0 0 40px rgba(167,139,250,0.07), inset 0 1px 0 rgba(167,139,250,0.08);
+  }
+  .layer-2::before { background: linear-gradient(90deg, #7c3aed, #a78bfa, #c084fc, #7c3aed); }
+
+  .layer-3 {
+    background: linear-gradient(135deg, #071018 0%, #091520 100%);
+    border: 1px solid rgba(52,211,153,0.18);
+    box-shadow: 0 0 40px rgba(52,211,153,0.06), inset 0 1px 0 rgba(52,211,153,0.08);
+  }
+  .layer-3::before { background: linear-gradient(90deg, #059669, #34d399, #10b981, #059669); }
+
+  /* ── LAYER HEADER ── */
+  .layer-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 22px;
+  }
+  .layer-icon {
+    width: 40px; height: 40px;
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+  .layer-1 .layer-icon { background: rgba(56,189,248,0.12); border: 1px solid rgba(56,189,248,0.25); }
+  .layer-2 .layer-icon { background: rgba(167,139,250,0.12); border: 1px solid rgba(167,139,250,0.25); }
+  .layer-3 .layer-icon { background: rgba(52,211,153,0.12); border: 1px solid rgba(52,211,153,0.25); }
+
+  .layer-title-group { }
+  .layer-number {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+  }
+  .layer-1 .layer-number { color: #38bdf8; }
+  .layer-2 .layer-number { color: #a78bfa; }
+  .layer-3 .layer-number { color: #34d399; }
+
+  .layer-title {
+    font-size: 17px;
+    font-weight: 700;
+    color: #f1f5f9;
+  }
+  .layer-subtitle {
+    font-size: 11.5px;
+    color: #64748b;
+    margin-top: 2px;
+  }
+
+  /* ── COMPONENT GRID ── */
+  .comp-grid {
+    display: grid;
+    gap: 14px;
+  }
+  .grid-4 { grid-template-columns: repeat(4, 1fr); }
+  .grid-3 { grid-template-columns: repeat(3, 1fr); }
+  .grid-2 { grid-template-columns: repeat(2, 1fr); }
+  .grid-5 { grid-template-columns: repeat(5, 1fr); }
+
+  /* ── COMPONENT CARD ── */
+  .comp {
+    border-radius: 12px;
+    padding: 16px 18px;
+    position: relative;
+    transition: all 0.2s;
+  }
+  .comp-blue {
+    background: rgba(56,189,248,0.05);
+    border: 1px solid rgba(56,189,248,0.18);
+  }
+  .comp-purple {
+    background: rgba(167,139,250,0.05);
+    border: 1px solid rgba(167,139,250,0.18);
+  }
+  .comp-violet {
+    background: rgba(124,58,237,0.07);
+    border: 1px solid rgba(124,58,237,0.22);
+  }
+  .comp-green {
+    background: rgba(52,211,153,0.05);
+    border: 1px solid rgba(52,211,153,0.18);
+  }
+  .comp-amber {
+    background: rgba(251,191,36,0.05);
+    border: 1px solid rgba(251,191,36,0.18);
+  }
+  .comp-rose {
+    background: rgba(251,113,133,0.05);
+    border: 1px solid rgba(251,113,133,0.18);
+  }
+  .comp-slate {
+    background: rgba(100,116,139,0.07);
+    border: 1px solid rgba(100,116,139,0.2);
+  }
+  .comp-teal {
+    background: rgba(45,212,191,0.05);
+    border: 1px solid rgba(45,212,191,0.18);
+  }
+
+  .comp-header {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 11px;
+  }
+  .comp-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .dot-blue   { background: #38bdf8; box-shadow: 0 0 6px rgba(56,189,248,0.6); }
+  .dot-purple { background: #a78bfa; box-shadow: 0 0 6px rgba(167,139,250,0.6); }
+  .dot-violet { background: #7c3aed; box-shadow: 0 0 6px rgba(124,58,237,0.6); }
+  .dot-green  { background: #34d399; box-shadow: 0 0 6px rgba(52,211,153,0.6); }
+  .dot-amber  { background: #fbbf24; box-shadow: 0 0 6px rgba(251,191,36,0.6); }
+  .dot-rose   { background: #fb7185; box-shadow: 0 0 6px rgba(251,113,133,0.6); }
+  .dot-teal   { background: #2dd4bf; box-shadow: 0 0 6px rgba(45,212,191,0.6); }
+
+  .comp-name {
+    font-size: 12.5px;
+    font-weight: 700;
+    color: #e2e8f0;
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  .comp-items {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .comp-item {
+    font-size: 10.5px;
+    color: #94a3b8;
+    padding: 2px 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    line-height: 1.5;
+  }
+  .comp-item::before {
+    content: '›';
+    color: #475569;
+    font-size: 12px;
+    flex-shrink: 0;
+    margin-top: -1px;
+  }
+  .comp-item strong {
+    color: #cbd5e1;
+    font-weight: 600;
+  }
+
+  /* ── SECTION LABEL ── */
+  .section-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    color: #475569;
+    margin-bottom: 10px;
+    margin-top: 18px;
+    padding-left: 2px;
+  }
+  .section-label:first-child { margin-top: 0; }
+
+  /* ── FLOW CONNECTOR ── */
+  .flow-connector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 0;
+    gap: 12px;
+    position: relative;
+  }
+  .flow-line {
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #334155, transparent);
+  }
+  .flow-center {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #0f172a;
+    padding: 6px 16px;
+    border-radius: 20px;
+    border: 1px solid #1e293b;
+  }
+  .flow-arrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+  }
+  .flow-text {
+    font-size: 10px;
+    color: #475569;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+  }
+  .arrow-icon {
+    font-size: 16px;
+    color: #334155;
+    line-height: 1;
+  }
+
+  /* ── SKILLS GRID SPECIAL ── */
+  .skills-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+    margin-bottom: 14px;
+  }
+
+  /* ── AGENTS ROW ── */
+  .agents-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    margin-bottom: 14px;
+  }
+
+  /* ── MCP FULL-WIDTH ── */
+  .mcp-bar {
+    border-radius: 12px;
+    padding: 14px 20px;
+    background: rgba(124,58,237,0.06);
+    border: 1px solid rgba(124,58,237,0.2);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .mcp-label {
+    font-size: 11px;
+    font-weight: 700;
+    color: #a78bfa;
+    font-family: 'JetBrains Mono', monospace;
+    white-space: nowrap;
+    min-width: 130px;
+  }
+  .mcp-tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .mcp-tool {
+    font-size: 9.5px;
+    font-family: 'JetBrains Mono', monospace;
+    color: #7c3aed;
+    background: rgba(124,58,237,0.1);
+    border: 1px solid rgba(124,58,237,0.2);
+    border-radius: 4px;
+    padding: 2px 7px;
+    white-space: nowrap;
+  }
+
+  /* ── SYSTEM GRID ── */
+  .system-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 0.8fr 1fr;
+    gap: 14px;
+    margin-bottom: 14px;
+  }
+
+  /* ── ARTIFACT STORE ── */
+  .artifact-bar {
+    border-radius: 12px;
+    padding: 16px 20px;
+    background: rgba(52,211,153,0.04);
+    border: 1px solid rgba(52,211,153,0.15);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+  }
+  .artifact-col {
+    padding: 0 16px;
+    border-right: 1px solid rgba(52,211,153,0.1);
+  }
+  .artifact-col:first-child { padding-left: 4px; }
+  .artifact-col:last-child  { border-right: none; }
+  .artifact-title {
+    font-size: 10px;
+    font-weight: 700;
+    color: #34d399;
+    font-family: 'JetBrains Mono', monospace;
+    margin-bottom: 6px;
+    letter-spacing: 0.5px;
+  }
+  .artifact-path {
+    font-size: 9.5px;
+    color: #475569;
+    font-family: 'JetBrains Mono', monospace;
+    line-height: 1.9;
+  }
+  .artifact-path span {
+    color: #64748b;
+  }
+  .artifact-path .highlight {
+    color: #34d399;
+    font-weight: 500;
+  }
+
+  /* ── DATA FLOW ── */
+  .flow-section {
+    border-radius: 14px;
+    padding: 20px 24px;
+    background: rgba(15,23,42,0.8);
+    border: 1px solid #1e293b;
+    margin-top: 18px;
+  }
+  .flow-title {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #475569;
+    margin-bottom: 16px;
+  }
+  .flow-steps {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0;
+    position: relative;
+  }
+  .flow-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    padding: 0 8px;
+  }
+  .flow-step::after {
+    content: '→';
+    position: absolute;
+    right: -8px;
+    top: 14px;
+    color: #334155;
+    font-size: 16px;
+  }
+  .flow-step:last-child::after { display: none; }
+  .flow-step-num {
+    width: 32px; height: 32px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+  .step-blue   { background: rgba(56,189,248,0.12); border: 1.5px solid rgba(56,189,248,0.4); color: #38bdf8; }
+  .step-purple { background: rgba(167,139,250,0.12); border: 1.5px solid rgba(167,139,250,0.4); color: #a78bfa; }
+  .step-violet { background: rgba(124,58,237,0.12); border: 1.5px solid rgba(124,58,237,0.4); color: #7c3aed; }
+  .step-green  { background: rgba(52,211,153,0.12); border: 1.5px solid rgba(52,211,153,0.4); color: #34d399; }
+  .step-amber  { background: rgba(251,191,36,0.12); border: 1.5px solid rgba(251,191,36,0.4); color: #fbbf24; }
+
+  .flow-step-label {
+    font-size: 10px;
+    font-weight: 600;
+    color: #94a3b8;
+    text-align: center;
+    line-height: 1.4;
+  }
+  .flow-step-cmd {
+    font-size: 9px;
+    font-family: 'JetBrains Mono', monospace;
+    color: #475569;
+    text-align: center;
+  }
+
+  /* ── PRINCIPLES ROW ── */
+  .principles-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-top: 18px;
+  }
+  .principle {
+    border-radius: 10px;
+    padding: 12px 14px;
+    background: rgba(15,23,42,0.6);
+    border: 1px solid #1e293b;
+  }
+  .principle-icon { font-size: 16px; margin-bottom: 6px; }
+  .principle-name {
+    font-size: 10px;
+    font-weight: 700;
+    color: #94a3b8;
+    margin-bottom: 4px;
+    letter-spacing: 0.3px;
+  }
+  .principle-desc {
+    font-size: 9.5px;
+    color: #475569;
+    line-height: 1.5;
+  }
+
+  /* ── TECH STACK ── */
+  .tech-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid #1e293b;
+  }
+  .tech-pill {
+    font-size: 10px;
+    font-weight: 600;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .tech-blue   { color: #38bdf8; background: rgba(56,189,248,0.08); border: 1px solid rgba(56,189,248,0.2); }
+  .tech-purple { color: #a78bfa; background: rgba(167,139,250,0.08); border: 1px solid rgba(167,139,250,0.2); }
+  .tech-green  { color: #34d399; background: rgba(52,211,153,0.08); border: 1px solid rgba(52,211,153,0.2); }
+  .tech-amber  { color: #fbbf24; background: rgba(251,191,36,0.08); border: 1px solid rgba(251,191,36,0.2); }
+  .tech-rose   { color: #fb7185; background: rgba(251,113,133,0.08); border: 1px solid rgba(251,113,133,0.2); }
+  .tech-teal   { color: #2dd4bf; background: rgba(45,212,191,0.08); border: 1px solid rgba(45,212,191,0.2); }
+  .tech-slate  { color: #94a3b8; background: rgba(100,116,139,0.08); border: 1px solid rgba(100,116,139,0.2); }
+
+  /* ── FOOTER ── */
+  .footer {
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    border-top: 1px solid #1e293b;
+  }
+  .footer-left {
+    font-size: 10.5px;
+    color: #334155;
+  }
+  .footer-right {
+    font-size: 10px;
+    color: #1e293b;
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  /* ── SKILL TAG ── */
+  .skill-tag {
+    display: inline-block;
+    font-size: 8.5px;
+    font-family: 'JetBrains Mono', monospace;
+    padding: 1px 6px;
+    border-radius: 3px;
+    margin-top: 5px;
+    font-weight: 600;
+  }
+  .tag-blue   { color: #38bdf8; background: rgba(56,189,248,0.1); border: 1px solid rgba(56,189,248,0.25); }
+  .tag-purple { color: #a78bfa; background: rgba(167,139,250,0.1); border: 1px solid rgba(167,139,250,0.25); }
+  .tag-green  { color: #34d399; background: rgba(52,211,153,0.1); border: 1px solid rgba(52,211,153,0.25); }
+  .tag-amber  { color: #fbbf24; background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.25); }
+  .tag-rose   { color: #fb7185; background: rgba(251,113,133,0.1); border: 1px solid rgba(251,113,133,0.25); }
+
+  .divider-label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 6px 0 16px;
+  }
+  .divider-label::before, .divider-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+  }
+  .layer-2 .divider-label::before, .layer-2 .divider-label::after { background: rgba(167,139,250,0.15); }
+  .layer-1 .divider-label::before, .layer-1 .divider-label::after { background: rgba(56,189,248,0.15); }
+  .layer-3 .divider-label::before, .layer-3 .divider-label::after { background: rgba(52,211,153,0.15); }
+  .divider-text {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .layer-2 .divider-text { color: rgba(167,139,250,0.5); }
+  .layer-1 .divider-text { color: rgba(56,189,248,0.5); }
+  .layer-3 .divider-text { color: rgba(52,211,153,0.5); }
+
+  /* glow lines between layers */
+  .inter-layer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 36px;
+  }
+  .inter-line {
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+  }
+  .inter-pill {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #0c111d;
+    border: 1px solid #1e293b;
+    border-radius: 20px;
+    padding: 5px 22px;
+  }
+  .inter-tag {
+    font-size: 9.5px;
+    color: #475569;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .inter-dot {
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: #334155;
+  }
+  .v-line {
+    width: 1px;
+    background: linear-gradient(to bottom, transparent, #334155, transparent);
+    position: absolute;
+    left: 50%;
+    top: 0; bottom: 0;
+    z-index: -1;
+  }
+
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-left">
+    <div class="badge">Enterprise Architecture</div>
+    <h1>Agentic QA Automation Platform</h1>
+    <div class="header-sub">3-Layer Technical Architecture &nbsp;·&nbsp; Powered by Claude Code &nbsp;·&nbsp; Anthropic AI</div>
+  </div>
+  <div class="header-meta">
+    <div>
+      <span class="meta-pill">v2.0</span>
+      <span class="meta-pill purple">claude-sonnet-4-6</span>
+    </div>
+    <div style="margin-top:4px">
+      <span class="meta-pill green">Playwright 1.60</span>
+      <span class="meta-pill amber">Jira REST API v2</span>
+    </div>
+    <div style="margin-top:4px; font-size:10px; color:#334155; font-family:'JetBrains Mono',monospace;">
+      First Project Agentic &nbsp;·&nbsp; 2026-05-28
+    </div>
+  </div>
+</div>
+
+<div class="arch-wrapper">
+
+  <!-- ════════════════════════════════════════════════ -->
+  <!-- LAYER 1 — USER EXPERIENCE                        -->
+  <!-- ════════════════════════════════════════════════ -->
+  <div class="layer layer-1">
+    <div class="layer-header">
+      <div class="layer-icon">🖥️</div>
+      <div class="layer-title-group">
+        <div class="layer-number">Layer 1</div>
+        <div class="layer-title">User Experience &amp; IDE Interface</div>
+        <div class="layer-subtitle">Developer / QA Engineer &nbsp;·&nbsp; VS Code / JetBrains &nbsp;·&nbsp; Claude Code Extension</div>
+      </div>
+    </div>
+
+    <div class="comp-grid grid-4">
+
+      <!-- IDE Integration -->
+      <div class="comp comp-blue">
+        <div class="comp-header">
+          <div class="comp-dot dot-blue"></div>
+          <div class="comp-name">IDE Integration</div>
+        </div>
+        <div class="comp-items">
+          <div class="comp-item"><strong>VS Code</strong> — Native extension + inline chat</div>
+          <div class="comp-item"><strong>JetBrains</strong> — Plugin + slash commands</div>
+          <div class="comp-item"><strong>claude.ai/code</strong> — Browser interface</div>
+          <div class="comp-item"><strong>CLI</strong> — <code style="font-size:9px;color:#7c3aed">claude</code> terminal command</div>
+          <div class="comp-item">File diffs, terminal, code lens</div>
+        </div>
+      </div>
+
+      <!-- Slash Commands -->
+      <div class="comp comp-blue">
+        <div class="comp-header">
+          <div class="comp-dot dot-blue"></div>
+          <div class="comp-name">Slash Commands</div>
+        </div>
+        <div class="comp-items">
+          <div class="comp-item"><span style="color:#38bdf8;font-family:'JetBrains Mono',monospace;font-size:9.5px">/fetch-jira-details</span></div>
+          <div class="comp-item"><span style="color:#38bdf8;font-family:'JetBrains Mono',monospace;font-size:9.5px">/generate-test-cases</span></div>
+          <div class="comp-item"><span style="color:#38bdf8;font-family:'JetBrains Mono',monospace;font-size:9.5px">/generate-gherkin</span></div>
+          <div class="comp-item"><span style="color:#38bdf8;font-family:'JetBrains Mono',monospace;font-size:9.5px">/early-defect-consolidator</span></div>
+          <div class="comp-item">Registered via <strong>.claude/commands/</strong></div>
+        </div>
+      </div>
+
+      <!-- Human Review Loop -->
+      <div class="comp comp-blue">
+        <div class="comp-header">
+          <div class="comp-dot dot-blue"></div>
+          <div class="comp-name">Human Review Loop</div>
+        </div>
+        <div class="comp-items">
+          <div class="comp-item"><strong>APPROVE</strong> — Accept all findings</div>
+          <div class="comp-item"><strong>EXCLUDE</strong> — Remove defect IDs</div>
+          <div class="comp-item"><strong>MERGE</strong> — Combine root causes</div>
+          <div class="comp-item"><strong>UPDATE</strong> — Edit severity/desc</div>
+          <div class="comp-item"><strong>FINAL_APPROVE</strong> — Only Jira trigger</div>
+        </div>
+        <div>
+          <span class="skill-tag tag-rose">Human-in-the-Loop Gate</span>
+        </div>
+      </div>
+
+      <!-- Configuration Layer -->
+      <div class="comp comp-blue">
+        <div class="comp-header">
+          <div class="comp-dot dot-blue"></div>
+          <div class="comp-name">Configuration</div>
+        </div>
+        <div class="comp-items">
+          <div class="comp-item"><strong>.env</strong> — Jira credentials</div>
+          <div class="comp-item"><strong>CLAUDE.md</strong> — Project rules</div>
+          <div class="comp-item"><strong>settings.local.json</strong> — Permissions</div>
+          <div class="comp-item"><strong>memory/</strong> — Cross-session memory</div>
+          <div class="comp-item"><strong>tsconfig.json</strong> — TS strict mode</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- INTER-LAYER CONNECTOR 1→2 -->
+  <div class="inter-layer">
+    <div class="v-line"></div>
+    <div class="inter-line">
+      <div class="inter-pill">
+        <div class="inter-tag"><div class="inter-dot"></div> Prompt / Response</div>
+        <div class="inter-tag"><div class="inter-dot"></div> Tool Calls</div>
+        <div class="inter-tag"><div class="inter-dot"></div> Artifacts</div>
+        <div class="inter-tag"><div class="inter-dot"></div> Skill Execution</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════════════ -->
+  <!-- LAYER 2 — AI ORCHESTRATION                       -->
+  <!-- ════════════════════════════════════════════════ -->
+  <div class="layer layer-2">
+    <div class="layer-header">
+      <div class="layer-icon">🧠</div>
+      <div class="layer-title-group">
+        <div class="layer-number">Layer 2</div>
+        <div class="layer-title">AI Orchestration Engine</div>
+        <div class="layer-subtitle">Claude claude-sonnet-4-6 &nbsp;·&nbsp; Skills Engine &nbsp;·&nbsp; Agent Fleet &nbsp;·&nbsp; MCP Server</div>
+      </div>
+    </div>
+
+    <!-- SKILLS -->
+    <div class="divider-label"><span class="divider-text">Skills Engine · .claude/skills/ + .claude/commands/</span></div>
+    <div class="skills-row">
+
+      <div class="comp comp-purple">
+        <div class="comp-header">
+          <div class="comp-dot dot-purple"></div>
+          <div class="comp-name">fetch-jira-details</div>
+        </div>
+        <div class="comp-items">
+          <div class="comp-item">5-script Node.js engine</div>
+          <div class="comp-item">ADF → Markdown conversion</div>
+          <div class="comp-item">SHA-256 attachment dedup</div>
+          <div class="comp-item">Exponential backoff retry</div>
+          <div class="comp-item">Batch ticket processing</div>
+          <div class="comp-item">Cloud/Server auto-detect</div>
+        </div>
+        <div><span class="skill-tag tag-purple">REST API v2</span></div>
+      </div>
+
+      <div class="comp comp-purple">
+        <div class="comp-header">
+          <div class="comp-dot dot-purple"></div>
+          <div class="comp-name">generate-test-cases</div>
+        </div>
+        <div class="comp-items">
+          <div class="comp-item">9-step skill workflow</div>
+          <div class="comp-item">JIRA_AND_URL dual mode</div>
+          <div class="comp-item">Screenshot per discrepancy</div>
+          <div class="comp-item">9 test scenario categories</div>
+          <div class="comp-item">Gherkin BDD generation</div>
+          <div class="comp-item">RTM + Coverage reports</div>
+        </div>
+        <div><span class="skill-tag tag-blue">Playwright + Jira</span></div>
+      </div>
+
+      <div class="comp comp-purple">
+        <div class="comp-header">
+          <div class="comp-dot dot-purple"></div>
+          <div class="comp-name">generate-gherkin</div>
+        </div>
+        <div class="comp-items">
+          <div class="comp-item">AC → BDD transformation</div>
+          <div class="comp-item">Scenario Outline + Examples</div>
+          <div class="comp-item">Analysis framework rules</div>
+          <div class="comp-item">Risk analysis report</div>
+          <div class="comp-item">Coverage JSON output</div>
+          <div class="comp-item">Gherkin syntax rules enforced</div>
+        </div>
+        <div><span class="skill-tag tag-purple">Jira Only Mode</span></div>
+      </div>
+
+      <div class="comp comp-violet">
+        <div class="comp-header">
+          <div class="comp-dot dot-violet"></div>
+          <div class="comp-name">early-defect-consolidator</div>
+        </div>
+        <div class="comp-items">
+          <div class="comp-item">10-step validation pipeline</div>
+          <div class="comp-item">6-axis AC validation</div>
+          <div class="comp-item">Root-cause grouping</div>
+          <div class="comp-item">Human-gated Jira creation</div>
+          <div class="comp-item">Screenshot auto-attachment</div>
+          <div class="comp-item">Single bug per review cycle</div>
+        </div>
+        <div><span class="skill-tag tag-rose">FINAL_APPROVE gate</span></div>
+      </div>
+
+    </div>
+
+    <!-- AGENTS -->
+    <div class="divider-label"><span class="divider-text">Agent Fleet · Specialized Subagent Types</span></div>
+    <div class="agents-row">
+
+      <div class="comp comp-violet">
+        <div class="comp-header">
+          <div class="comp-dot dot-violet"></div>
+          <div class="comp-name">playwright-test-planner</div>
+        </div>
+        <div class="comp-items">
+          <div class="comp-item">Live app navigation + auth</div>
+          <div class="comp-item">Full page inventory crawl</div>
+          <div class="comp-item">Form field + flow analysis</div>
+          <div class="comp-item">Jira AC cross-reference</div>
+          <div class="comp-item">DISC-NNN screenshot capture</div>
+          <div class="comp-item">discrepancies.md generation</div>
+        </div>
+        <div><span class="skill-tag tag-purple">50+ MCP tools</span></div>
+      </div>
+
+      <div class="comp comp-violet">
+        <div class="comp-header">
+          <div class="comp-dot dot-violet"></div>
+          <div class="comp-name">playwright-test-generator</div>
+        </div>
+        <div class="comp-items">
+          <div class="comp-item">.feature → .spec.ts conversion</div>
+          <div class="comp-item">Page Object Model patterns</div>
+          <div class="comp-item">Playwright assertion authoring</div>
+          <div class="comp-item">Test data extraction</div>
+          <div class="comp-item">helpers.ts generation</div>
+          <div class="comp-item">TypeScript strict compliance</div>
+        </div>
+        <div><span class="skill-tag tag-blue">Gherkin → TS</span></div>
+      </div>
+
+      <div class="comp comp-violet">
+        <div class="comp-header">
+          <div class="comp-dot dot-violet"></div>
+          <div class="comp-name">playwright-test-healer</div>
+        </div>
+        <div class="comp-items">
+          <div class="comp-item">Failing test auto-diagnosis</div>
+          <div class="comp-item">Locator regeneration</div>
+          <div class="comp-item">CSS/XPath selector repair</div>
+          <div class="comp-item">Network request inspection</div>
+          <div class="comp-item">Test re-run verification</div>
+          <div class="comp-item">Healed spec file output</div>
+        </div>
+        <div><span class="skill-tag tag-green">Self-healing</span></div>
+      </div>
+
+    </div>
+
+    <!-- MCP SERVER -->
+    <div class="divider-label"><span class="divider-text">MCP Server · Model Context Protocol · playwright-test</span></div>
+    <div class="mcp-bar">
+      <div class="mcp-label">playwright-test<br/><span style="font-size:8px;color:#475569">npx playwright run-test-mcp-server</span></div>
+      <div class="mcp-tools">
+        <span class="mcp-tool">browser_navigate</span>
+        <span class="mcp-tool">browser_snapshot</span>
+        <span class="mcp-tool">browser_take_screenshot</span>
+        <span class="mcp-tool">browser_click</span>
+        <span class="mcp-tool">browser_type</span>
+        <span class="mcp-tool">browser_fill_form</span>
+        <span class="mcp-tool">browser_evaluate</span>
+        <span class="mcp-tool">browser_hover</span>
+        <span class="mcp-tool">browser_select_option</span>
+        <span class="mcp-tool">browser_generate_locator</span>
+        <span class="mcp-tool">browser_console_messages</span>
+        <span class="mcp-tool">browser_network_requests</span>
+        <span class="mcp-tool">browser_start_tracing</span>
+        <span class="mcp-tool">browser_start_video</span>
+        <span class="mcp-tool">browser_cookie_set</span>
+        <span class="mcp-tool">browser_localstorage_get</span>
+        <span class="mcp-tool">browser_route</span>
+        <span class="mcp-tool">browser_resize</span>
+        <span class="mcp-tool">test_run</span>
+        <span class="mcp-tool">test_debug</span>
+        <span class="mcp-tool">planner_setup_page</span>
+        <span class="mcp-tool">planner_save_plan</span>
+        <span class="mcp-tool">+ 30 more</span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- INTER-LAYER CONNECTOR 2→3 -->
+  <div class="inter-layer">
+    <div class="v-line"></div>
+    <div class="inter-line">
+      <div class="inter-pill">
+        <div class="inter-tag"><div class="inter-dot"></div> REST APIs</div>
+        <div class="inter-tag"><div class="inter-dot"></div> File I/O</div>
+        <div class="inter-tag"><div class="inter-dot"></div> Node.js Scripts</div>
+        <div class="inter-tag"><div class="inter-dot"></div> Browser Automation</div>
+        <div class="inter-tag"><div class="inter-dot"></div> HTTP Multipart</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════════════ -->
+  <!-- LAYER 3 — SYSTEM INTEGRATION                     -->
+  <!-- ════════════════════════════════════════════════ -->
+  <div class="layer layer-3">
+    <div class="layer-header">
+      <div class="layer-icon">⚙️</div>
+      <div class="layer-title-group">
+        <div class="layer-number">Layer 3</div>
+        <div class="layer-title">System Integration &amp; Infrastructure</div>
+        <div class="layer-subtitle">Jira Cloud &nbsp;·&nbsp; Playwright Engine &nbsp;·&nbsp; GitHub &nbsp;·&nbsp; Target Applications &nbsp;·&nbsp; Artifact Store</div>
+      </div>
+    </div>
+
+    <!-- SYSTEM CARDS -->
+    <div class="system-grid">
+
+      <div class="comp comp-green">
+        <div class="comp-header">
+          <div class="comp-dot dot-green"></div>
+          <div class="comp-name">Jira Cloud</div>
+        </div>
+        <div class="comp-items">
+          <div class="comp-item"><strong>GET</strong> /rest/api/2/issue/{"{key}"}</div>
+          <div class="comp-item"><strong>GET</strong> /issue/{"{key}"}/comment</div>
+          <div class="comp-item"><strong>GET</strong> /issue/{"{key}"}/attachment</div>
+          <div class="comp-item"><strong>POST</strong> /rest/api/2/issue</div>
+          <div class="comp-item"><strong>POST</strong> /issue/{"{key}"}/attachments</div>
+          <div class="comp-item">Auth: Basic base64(email:token)</div>
+          <div class="comp-item">Retry: 1s→2s→4s backoff</div>
+          <div class="comp-item">ADF → Markdown conversion</div>
+          <div class="comp-item">SHA-256 deduplication</div>
+        </div>
+        <div><span class="skill-tag tag-green">REST API v2</span></div>
+      </div>
+
+      <div class="comp comp-green">
+        <div class="comp-header">
+          <div class="comp-dot dot-green"></div>
+          <div class="comp-name">Playwright Engine</div>
+        </div>
+        <div class="comp-items">
+          <div class="comp-item">@playwright/test <strong>v1.60.0</strong></div>
+          <div class="comp-item">Chromium · Firefox · WebKit</div>
+          <div class="comp-item">Test timeout: 30s · Action: 10s</div>
+          <div class="comp-item">Retries: 2 (CI) / 0 (local)</div>
+          <div class="comp-item">Fully parallel (local)</div>
+          <div class="comp-item">Trace on-first-retry</div>
+          <div class="comp-item">Screenshot + video on fail</div>
+          <div class="comp-item">HTML + JSON + list reporters</div>
+        </div>
+        <div><span class="skill-tag tag-blue">INSTR-FUNC-001→008</span></div>
+      </div>
+
+      <div class="comp comp-green">
+        <div class="comp-header">
+          <div class="comp-dot dot-green"></div>
+          <div class="comp-name">GitHub</div>
+        </div>
+        <div class="comp-items">
+          <div class="comp-item">Version control for skills</div>
+          <div class="comp-item">Test cases + Gherkin tracked</div>
+          <div class="comp-item">CI/CD via GitHub Actions</div>
+          <div class="comp-item">1 worker on CI pipeline</div>
+          <div class="comp-item">HTML report as artifact</div>
+          <div class="comp-item">Jira IDs in branch names</div>
+        </div>
+        <div><span class="skill-tag tag-green">CI/CD</span></div>
+      </div>
+
+      <div class="comp comp-teal">
+        <div class="comp-header">
+          <div class="comp-dot dot-teal"></div>
+          <div class="comp-name">Target Applications</div>
+        </div>
+        <div class="comp-items">
+          <div class="comp-item"><strong>United Educators</strong> — Vercel + Salesforce</div>
+          <div class="comp-item"><strong>Bank of St. Lucia</strong> — QA Sandbox</div>
+          <div class="comp-item"><strong>Loan Platform</strong> — BOSLFS tickets</div>
+          <div class="comp-item">React SPA · Auth-gated</div>
+          <div class="comp-item">API-integrated forms</div>
+          <div class="comp-item">Multi-step wizard flows</div>
+        </div>
+        <div><span class="skill-tag tag-teal">Any SaaS App</span></div>
+      </div>
+
+    </div>
+
+    <!-- ARTIFACT STORE -->
+    <div class="divider-label"><span class="divider-text">Artifact File System · Structured Output Store</span></div>
+    <div class="artifact-bar">
+      <div class="artifact-col">
+        <div class="artifact-title">jira-output/[TICKET]/</div>
+        <div class="artifact-path">
+          <span>Summary/</span> ticket_summary.md<br/>
+          <span>Comments/</span> comments.md<br/>
+          <span>Attachments/</span> [files]<br/>
+          <span>Links/</span> dependency_graph.md<br/>
+          <span>Metadata/</span> issue_details.json<br/>
+          <span>Subtasks/</span> subtasks.json<br/>
+          <span class="highlight">★ complete_ticket_context.md</span>
+        </div>
+      </div>
+      <div class="artifact-col">
+        <div class="artifact-title">test-artifacts/[TICKET]/</div>
+        <div class="artifact-path">
+          application-analysis/<br/>
+          <span>  </span>app-flow-analysis.md<br/>
+          <span>  </span>requirements-vs-app.md<br/>
+          <span class="highlight">  ★ discrepancies.md</span><br/>
+          <span>  </span>screenshots/ DISC-NNN.png<br/>
+          test-cases/ [9 categories]<br/>
+          reports/ coverage · rtm · risk<br/>
+          <span class="highlight">  EarlyDefectReviewReport.md</span>
+        </div>
+      </div>
+      <div class="artifact-col">
+        <div class="artifact-title">features/[TICKET]/</div>
+        <div class="artifact-path">
+          smoke/<br/>
+          functional/<br/>
+          negative/<br/>
+          edge-cases/<br/>
+          boundary/<br/>
+          security/<br/>
+          accessibility/<br/>
+          <span class="highlight">regression/</span>
+        </div>
+      </div>
+      <div class="artifact-col">
+        <div class="artifact-title">test-results/</div>
+        <div class="artifact-path">
+          results.json<br/>
+          <span class="highlight">playwright-report/</span><br/>
+          &nbsp; index.html<br/>
+          &nbsp; trace.zip<br/>
+          &nbsp; video.webm<br/>
+          &nbsp; screenshot.png<br/>
+          logs/ execution.log
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ════════════════════════════════════════════════ -->
+  <!-- DATA FLOW                                        -->
+  <!-- ════════════════════════════════════════════════ -->
+  <div class="flow-section">
+    <div class="flow-title">End-to-End Workflow</div>
+    <div class="flow-steps">
+      <div class="flow-step">
+        <div class="flow-step-num step-blue">1</div>
+        <div class="flow-step-label">Fetch<br/>Requirements</div>
+        <div class="flow-step-cmd">/fetch-jira-details</div>
+      </div>
+      <div class="flow-step">
+        <div class="flow-step-num step-purple">2</div>
+        <div class="flow-step-label">Crawl Live<br/>Application</div>
+        <div class="flow-step-cmd">/generate-test-cases</div>
+      </div>
+      <div class="flow-step">
+        <div class="flow-step-num step-violet">3</div>
+        <div class="flow-step-label">Generate Tests<br/>+ Gherkin + RTM</div>
+        <div class="flow-step-cmd">~100 test cases</div>
+      </div>
+      <div class="flow-step">
+        <div class="flow-step-num step-amber">4</div>
+        <div class="flow-step-label">Validate &amp;<br/>Consolidate Bugs</div>
+        <div class="flow-step-cmd">/early-defect-consolidator</div>
+      </div>
+      <div class="flow-step">
+        <div class="flow-step-num step-green">5</div>
+        <div class="flow-step-label">FINAL_APPROVE →<br/>Jira Bug + Screenshots</div>
+        <div class="flow-step-cmd">1 bug · full traceability</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════════════ -->
+  <!-- DESIGN PRINCIPLES                                -->
+  <!-- ════════════════════════════════════════════════ -->
+  <div class="principles-row">
+    <div class="principle">
+      <div class="principle-icon">🔒</div>
+      <div class="principle-name">Human-in-the-Loop</div>
+      <div class="principle-desc">FINAL_APPROVE is the only gate for Jira creation. No automated bug filing.</div>
+    </div>
+    <div class="principle">
+      <div class="principle-icon">🔗</div>
+      <div class="principle-name">Traceability First</div>
+      <div class="principle-desc">Full chain: AC → Test → App Status → Bug → Screenshot → Jira.</div>
+    </div>
+    <div class="principle">
+      <div class="principle-icon">📸</div>
+      <div class="principle-name">Evidence-Driven QA</div>
+      <div class="principle-desc">Every discrepancy has a named DISC-NNN screenshot auto-attached to Jira.</div>
+    </div>
+    <div class="principle">
+      <div class="principle-icon">🎯</div>
+      <div class="principle-name">Single Bug Per Cycle</div>
+      <div class="principle-desc">One consolidated Jira bug per story. Root-cause grouping eliminates noise.</div>
+    </div>
+    <div class="principle">
+      <div class="principle-icon">⚡</div>
+      <div class="principle-name">Resilient APIs</div>
+      <div class="principle-desc">Exponential backoff 1s→2s→4s. 429 + 5xx handled. Zero unnecessary deps.</div>
+    </div>
+  </div>
+
+  <!-- TECH STACK -->
+  <div class="tech-row">
+    <span style="font-size:9.5px;color:#334155;font-weight:600;letter-spacing:1px;text-transform:uppercase;margin-right:4px">Stack</span>
+    <span class="tech-pill tech-purple">Claude claude-sonnet-4-6</span>
+    <span class="tech-pill tech-purple">Claude Code</span>
+    <span class="tech-pill tech-purple">MCP Protocol</span>
+    <span class="tech-pill tech-blue">Playwright 1.60</span>
+    <span class="tech-pill tech-blue">TypeScript ESNext</span>
+    <span class="tech-pill tech-blue">Node.js 18+</span>
+    <span class="tech-pill tech-amber">Jira REST API v2</span>
+    <span class="tech-pill tech-amber">Axios 1.7</span>
+    <span class="tech-pill tech-green">GitHub Actions</span>
+    <span class="tech-pill tech-green">Gherkin BDD</span>
+    <span class="tech-pill tech-teal">VS Code Extension</span>
+    <span class="tech-pill tech-rose">dotenv 16</span>
+    <span class="tech-pill tech-slate">Windows 11</span>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <div class="footer-left">
+    Agentic QA Automation Platform &nbsp;·&nbsp; Technical Architecture v2.0 &nbsp;·&nbsp; First Project Agentic
+  </div>
+  <div class="footer-right">
+    Powered by Claude Code · Anthropic AI · 2026-05-28
+  </div>
+</div>
+
+</body>
+</html>

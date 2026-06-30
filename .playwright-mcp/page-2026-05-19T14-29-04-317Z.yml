@@ -1,0 +1,309 @@
+- generic [ref=e554]:
+  - complementary [ref=e555]:
+    - generic [ref=e556]:
+      - img "United Educators" [ref=e558]
+      - button "Expand sidebar" [ref=e979] [cursor=pointer]:
+        - img [ref=e980]
+    - navigation [ref=e563]:
+      - button "Dashboard" [ref=e564] [cursor=pointer]:
+        - img [ref=e565]
+      - button "Submissions" [ref=e571] [cursor=pointer]:
+        - img [ref=e572]
+      - button "Renewals" [ref=e576] [cursor=pointer]:
+        - img [ref=e577]
+      - button "Inbox" [ref=e580] [cursor=pointer]:
+        - img [ref=e581]
+      - button "Tasks" [ref=e585] [cursor=pointer]:
+        - img [ref=e586]
+      - button "Approvals" [ref=e590] [cursor=pointer]:
+        - img [ref=e591]
+      - button "Notifications" [ref=e594] [cursor=pointer]:
+        - img [ref=e595]
+      - button "Activity" [ref=e599] [cursor=pointer]:
+        - img [ref=e600]
+      - button "Portfolio" [ref=e603] [cursor=pointer]:
+        - img [ref=e604]
+    - button "JM" [ref=e983] [cursor=pointer]:
+      - generic [ref=e608]: JM
+  - main [ref=e615]:
+    - generic [ref=e616]:
+      - generic [ref=e619]:
+        - button "Submissions" [ref=e620] [cursor=pointer]:
+          - img [ref=e621]
+          - text: Submissions
+        - img [ref=e623]
+        - generic [ref=e625]:
+          - generic [ref=e626]:
+            - heading "Create New Submission" [level=1] [ref=e627]
+            - generic [ref=e628]:
+              - img [ref=e629]
+              - text: Individual
+          - paragraph [ref=e632]: Initiate the underwriting process · Complete all required fields
+      - generic [ref=e633]:
+        - button "Dashboard" [ref=e634] [cursor=pointer]
+        - generic [ref=e635]: /
+        - button "Submissions" [ref=e636] [cursor=pointer]
+        - generic [ref=e637]: /
+        - generic [ref=e638]: New Submission
+      - generic [ref=e641]:
+        - generic [ref=e642]:
+          - generic [ref=e643]:
+            - generic [ref=e644]:
+              - img [ref=e646]
+              - heading "Submission Documents" [level=3] [ref=e648]
+            - button "Add Document" [ref=e649] [cursor=pointer]:
+              - img [ref=e650]
+              - text: Add Document
+          - generic [ref=e651]:
+            - generic [ref=e652] [cursor=pointer]:
+              - generic [ref=e653]:
+                - img [ref=e654]
+                - generic [ref=e656]: Drop files here or click to browse
+              - paragraph [ref=e657]: PDF, DOCX, XLSX, PNG · Max 25 MB per file
+            - paragraph [ref=e658]: No documents attached yet · Drag & drop or click above to add
+        - generic [ref=e659]:
+          - generic [ref=e661]:
+            - img [ref=e663]
+            - heading "Submission Type & Kind" [level=3] [ref=e666]
+          - generic [ref=e668]:
+            - generic [ref=e669]:
+              - generic [ref=e670]:
+                - text: Type
+                - generic [ref=e671]: "*"
+              - generic [ref=e672]:
+                - combobox [ref=e673] [cursor=pointer]:
+                  - option "New Business" [selected]
+                  - option "Cross-Sell"
+                - generic:
+                  - img
+              - paragraph [ref=e674]: First-time submission from a new member account
+            - generic [ref=e675]:
+              - generic [ref=e676]:
+                - text: Kind
+                - generic [ref=e677]: "*"
+              - generic [ref=e678]:
+                - combobox [ref=e679] [cursor=pointer]:
+                  - option "Individual Account" [selected]
+                  - option "Group / Multi-Member"
+                - generic:
+                  - img
+              - paragraph [ref=e680]: Single member account · one risk profile, one rule set
+        - generic [ref=e681]:
+          - generic [ref=e683]:
+            - img [ref=e685]
+            - heading "Account" [level=3] [ref=e689]
+          - generic [ref=e692]:
+            - generic [ref=e693]:
+              - text: Account Name
+              - generic [ref=e694]: "*"
+            - 'button "Brookfield Day School #3001 · Westport, CT · Private K-12" [ref=e1089] [cursor=pointer]':
+              - img [ref=e697]
+              - generic [ref=e1090]:
+                - generic [ref=e1091]: Brookfield Day School
+                - generic [ref=e1092]: "#3001 · Westport, CT · Private K-12"
+              - img [ref=e1094]
+            - paragraph [ref=e1097]:
+              - img [ref=e1098]
+              - text: "Account #3001 resolved · Brokerage & team auto-populated"
+        - generic [ref=e704]:
+          - generic [ref=e706]:
+            - img [ref=e708]
+            - heading "Policy" [level=3] [ref=e710]
+          - generic [ref=e712]:
+            - generic [ref=e713]:
+              - generic [ref=e714]:
+                - generic [ref=e715]:
+                  - text: Need By Date
+                  - generic [ref=e716]: "*"
+                - generic [ref=e717]:
+                  - textbox [ref=e718] [cursor=pointer]
+                  - button [ref=e719] [cursor=pointer]:
+                    - img [ref=e720]
+              - generic [ref=e722]:
+                - generic [ref=e723]:
+                  - text: Effective Date
+                  - generic [ref=e724]: "*"
+                - generic [ref=e725]:
+                  - textbox [ref=e726] [cursor=pointer]
+                  - button [ref=e727] [cursor=pointer]:
+                    - img [ref=e728]
+              - generic [ref=e730]:
+                - generic [ref=e731]: Expiration Date
+                - generic [ref=e732]:
+                  - textbox [ref=e733] [cursor=pointer]
+                  - button [ref=e734] [cursor=pointer]:
+                    - img [ref=e735]
+            - generic [ref=e737]:
+              - generic [ref=e738]:
+                - text: Product(s)
+                - generic [ref=e739]: "*"
+              - button "Select one or more products…" [ref=e741] [cursor=pointer]:
+                - generic [ref=e742]: Select one or more products…
+                - img [ref=e744]
+        - generic [ref=e746]:
+          - generic [ref=e747]:
+            - generic [ref=e748]:
+              - img [ref=e750]
+              - heading "Brokerage" [level=3] [ref=e754]
+            - generic [ref=e755]:
+              - img [ref=e756]
+              - generic [ref=e759]: Auto-populated
+          - generic [ref=e761]:
+            - generic [ref=e762]:
+              - generic [ref=e763]:
+                - generic [ref=e764]: Brokerage
+                - generic [ref=e765]:
+                  - img [ref=e767]
+                  - generic [ref=e1100]: Gallagher Education, Inc.
+                  - img [ref=e772]
+              - generic [ref=e775]:
+                - generic [ref=e776]: Broker Contact
+                - generic [ref=e777]:
+                  - img [ref=e779]
+                  - generic [ref=e782]:
+                    - generic [ref=e1101]: Karen Hollis
+                    - text: K-12 Specialist
+                  - img [ref=e783]
+            - generic [ref=e786]:
+              - generic [ref=e787]:
+                - generic [ref=e788]: Broker Email
+                - generic [ref=e789]:
+                  - img [ref=e791]
+                  - generic [ref=e1102]: k.hollis@gallaghered.com
+                  - img [ref=e795]
+              - generic [ref=e798]:
+                - generic [ref=e799]: Broker Phone
+                - generic [ref=e800]:
+                  - img [ref=e802]
+                  - generic [ref=e1103]: (800) 555-7891
+                  - img [ref=e805]
+        - generic [ref=e808]:
+          - generic [ref=e809]:
+            - generic [ref=e810]:
+              - img [ref=e812]
+              - heading "Underwriting Team" [level=3] [ref=e815]
+            - generic [ref=e816]:
+              - img [ref=e817]
+              - generic [ref=e820]: Auto-populated
+          - generic [ref=e822]:
+            - generic [ref=e823]:
+              - generic [ref=e824]: Underwriter
+              - generic [ref=e825]:
+                - generic:
+                  - img
+                - combobox [ref=e826] [cursor=pointer]:
+                  - option "Select underwriter…"
+                  - option "Sarah Mitchell — Underwriter"
+                  - option "John Michaels — Sr. Underwriter" [selected]
+                  - option "Patricia Hoffman — UW Manager"
+                  - option "Robert Chen — UW Director"
+                  - option "Tom Lee — Underwriter"
+                  - option "Angela Torres — Underwriter"
+                - generic:
+                  - img
+            - generic [ref=e827]:
+              - generic [ref=e828]: Underwriting Specialist
+              - generic [ref=e829]:
+                - generic:
+                  - img
+                - combobox [ref=e830] [cursor=pointer]:
+                  - option "Select specialist…"
+                  - option "David Park — UW Specialist"
+                  - option "Jessica Turner — Sr. UW Specialist" [selected]
+                  - option "Marcus Webb — UW Specialist"
+                  - option "Linda Osei — UW Specialist"
+                - generic:
+                  - img
+        - generic [ref=e831]:
+          - generic [ref=e833]:
+            - img [ref=e835]
+            - heading "Notes" [level=3] [ref=e837]
+          - generic [ref=e839]:
+            - generic [ref=e840]: Internal Notes
+            - generic [ref=e841]:
+              - generic:
+                - img
+              - textbox "Add any internal notes, context, or observations for this submission…" [ref=e842]
+            - generic [ref=e843]:
+              - paragraph [ref=e844]: Notes are visible to all underwriting team members
+              - paragraph [ref=e845]: 0 characters
+        - generic [ref=e846]:
+          - generic [ref=e848]:
+            - img [ref=e850]
+            - heading "Submission Stage" [level=3] [ref=e854]
+          - generic [ref=e856]:
+            - generic [ref=e857]: Current Stage
+            - button "Intake & Triage Incomplete Submission" [ref=e859] [cursor=pointer]:
+              - generic [ref=e861]:
+                - generic [ref=e862]: Intake & Triage
+                - text: Incomplete Submission
+              - img [ref=e863]
+        - generic [ref=e865]:
+          - img [ref=e866]
+          - paragraph [ref=e868]:
+            - strong [ref=e869]: "Required:"
+            - text: Account Name, Product(s), Need By Date, and Effective Date.
+        - generic [ref=e870]:
+          - button "Cancel" [ref=e871] [cursor=pointer]:
+            - generic [ref=e872]:
+              - img [ref=e873]
+              - text: Cancel
+          - generic [ref=e876]:
+            - button "Preview" [ref=e877] [cursor=pointer]:
+              - generic [ref=e878]:
+                - img [ref=e879]
+                - text: Preview
+            - button "Create Submission" [ref=e882] [cursor=pointer]:
+              - generic [ref=e883]:
+                - img [ref=e884]
+                - text: Create Submission
+  - complementary [ref=e885]:
+    - generic [ref=e886]:
+      - generic [ref=e887]: Live · agentic
+      - generic [ref=e889]:
+        - button "Reset thread" [ref=e890] [cursor=pointer]:
+          - img [ref=e891]
+        - button "Collapse" [ref=e894] [cursor=pointer]:
+          - img [ref=e895]
+    - generic [ref=e899]:
+      - img [ref=e905]
+      - generic [ref=e909]:
+        - generic [ref=e910]: Companion
+        - generic [ref=e911]: Create Submission · Brookfield Day School
+    - generic [ref=e913]:
+      - generic [ref=e914]:
+        - img [ref=e920]
+        - generic [ref=e924]: Brookfield Day School — auto-populated from the account record. Pick the product line(s) and I'll list the docs you should request from Gallagher Education, Inc..
+      - generic [ref=e925]:
+        - generic [ref=e926]:
+          - img [ref=e927]
+          - text: Suggested follow-ups
+        - generic [ref=e930]:
+          - button "Pull details from uploaded packet" [ref=e931] [cursor=pointer]:
+            - img [ref=e932]
+            - generic [ref=e935]: Pull details from uploaded packet
+            - img [ref=e936]
+          - button "Documents to request from broker" [ref=e938] [cursor=pointer]:
+            - img [ref=e939]
+            - generic [ref=e942]: Documents to request from broker
+            - img [ref=e943]
+          - button "Show prior UE history on account" [ref=e945] [cursor=pointer]:
+            - img [ref=e946]
+            - generic [ref=e950]: Show prior UE history on account
+            - img [ref=e951]
+          - button "Sanity-check effective & need-by" [ref=e953] [cursor=pointer]:
+            - img [ref=e954]
+            - generic [ref=e956]: Sanity-check effective & need-by
+            - img [ref=e957]
+          - button "Is this ready to save?" [ref=e959] [cursor=pointer]:
+            - img [ref=e960]
+            - generic [ref=e963]: Is this ready to save?
+            - img [ref=e964]
+    - generic [ref=e968]:
+      - generic [ref=e969]:
+        - button [ref=e970] [cursor=pointer]:
+          - img [ref=e971]
+        - textbox "Ask about create submission…" [ref=e972]
+        - button [disabled] [ref=e973] [cursor=pointer]:
+          - img [ref=e974]
+      - generic [ref=e977]: Watching this page — every action is deterministic and traceable.

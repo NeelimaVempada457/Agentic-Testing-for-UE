@@ -1,0 +1,432 @@
+- generic [ref=e979]:
+  - complementary [ref=e980]:
+    - generic [ref=e981]:
+      - img "United Educators" [ref=e983]
+      - button "Collapse sidebar" [ref=e984] [cursor=pointer]:
+        - img [ref=e985]
+    - navigation [ref=e988]:
+      - button "Dashboard" [ref=e989] [cursor=pointer]:
+        - img [ref=e990]
+        - generic [ref=e995]: Dashboard
+      - button "Submissions" [ref=e996] [cursor=pointer]:
+        - img [ref=e997]
+        - generic [ref=e1000]: Submissions
+      - button "Renewals" [ref=e1001] [cursor=pointer]:
+        - img [ref=e1002]
+        - generic [ref=e1004]: Renewals
+      - button "Inbox" [ref=e1005] [cursor=pointer]:
+        - img [ref=e1006]
+        - generic [ref=e1009]: Inbox
+      - button "Tasks" [ref=e1010] [cursor=pointer]:
+        - img [ref=e1011]
+        - generic [ref=e1014]: Tasks
+      - button "Approvals" [ref=e1015] [cursor=pointer]:
+        - img [ref=e1016]
+        - generic [ref=e1018]: Approvals
+      - button "Notifications" [ref=e1019] [cursor=pointer]:
+        - img [ref=e1020]
+        - generic [ref=e1023]: Notifications
+      - button "Activity" [ref=e1024] [cursor=pointer]:
+        - img [ref=e1025]
+        - generic [ref=e1027]: Activity
+      - button "Portfolio" [ref=e1028] [cursor=pointer]:
+        - img [ref=e1029]
+        - generic [ref=e1030]: Portfolio
+    - button "JM John Michaels Sr. Underwriter" [ref=e1032] [cursor=pointer]:
+      - generic [ref=e1033]: JM
+      - generic [ref=e1034]:
+        - paragraph [ref=e1035]: John Michaels
+        - paragraph [ref=e1036]: Sr. Underwriter
+      - img [ref=e1037]
+  - main [ref=e1040]:
+    - generic [ref=e1041]:
+      - generic [ref=e1043]:
+        - button "Dashboard" [ref=e1044] [cursor=pointer]
+        - generic [ref=e1045]: /
+        - button "Submissions" [ref=e1046] [cursor=pointer]
+        - generic [ref=e1047]: /
+        - generic [ref=e1048]: Brookfield Day School
+        - generic [ref=e1049]: /
+        - generic [ref=e1050]: Review
+      - generic [ref=e1053]:
+        - generic [ref=e1054]:
+          - generic [ref=e1055]:
+            - heading "Brookfield Day School" [level=1] [ref=e1056]
+            - generic [ref=e1057]: SUB-7842
+            - generic [ref=e1058]: M 473
+            - generic [ref=e1059]: Private K-12 · 842 students · Westport, CT · since 2014
+          - button "Underwriting Review In Progress" [ref=e1062] [cursor=pointer]:
+            - generic [ref=e1064]:
+              - generic [ref=e1065]: Underwriting
+              - text: Review In Progress
+            - img [ref=e1067]
+        - generic [ref=e1070]:
+          - button "Hide Submission Details" [expanded] [ref=e1071] [cursor=pointer]:
+            - img [ref=e1072]
+            - generic [ref=e1074]: Hide Submission Details
+          - generic [ref=e1075]: 10 fields
+        - generic [ref=e1078]:
+          - generic [ref=e1079]:
+            - generic [ref=e1080]:
+              - generic [ref=e1081]:
+                - generic [ref=e1082]: Expiring Premium
+                - img [ref=e1084]
+              - generic [ref=e1086]: $132,400
+              - generic [ref=e1087]: 2025 policy
+            - generic [ref=e1088]:
+              - generic [ref=e1089]:
+                - generic [ref=e1090]: Quoted Premium
+                - img [ref=e1092]
+              - generic [ref=e1095]: $142,800
+              - generic [ref=e1096]: +7.8% indicated
+            - generic [ref=e1097]:
+              - generic [ref=e1098]:
+                - generic [ref=e1099]: Bound Premium
+                - img [ref=e1101]
+              - generic [ref=e1103]: —
+              - generic [ref=e1104]: Not yet bound
+            - generic [ref=e1105]:
+              - generic [ref=e1106]:
+                - generic [ref=e1107]: Loss Ratio · 6Y
+                - img [ref=e1109]
+              - generic [ref=e1112]:
+                - generic [ref=e1113]:
+                  - img [ref=e1114]
+                  - generic [ref=e1117]: 58%
+                - generic [ref=e1118]:
+                  - generic [ref=e1119]: 2 open claims
+                  - generic [ref=e1120]: 6-year average
+          - generic [ref=e1121]:
+            - generic [ref=e1122]:
+              - img [ref=e1124]
+              - generic [ref=e1126]:
+                - generic [ref=e1127]: Effective Date
+                - generic [ref=e1128]: Jun 1, 2026
+                - generic [ref=e1129]: Policy start
+            - generic [ref=e1130]:
+              - img [ref=e1132]
+              - generic [ref=e1134]:
+                - generic [ref=e1135]: Expiration Date
+                - generic [ref=e1136]: Jun 1, 2027
+                - generic [ref=e1137]: Auto-renews
+            - generic [ref=e1138]:
+              - img [ref=e1140]
+              - generic [ref=e1142]:
+                - generic [ref=e1143]: Need-By Date
+                - generic [ref=e1144]: Apr 28, 2026
+                - generic [ref=e1145]: 7 days left
+            - generic [ref=e1146]:
+              - img [ref=e1148]
+              - generic [ref=e1150]:
+                - generic [ref=e1151]: Brokerage
+                - generic [ref=e1152]: Marsh McLennan
+                - generic [ref=e1153]: T. Owens
+            - generic [ref=e1154]:
+              - generic [ref=e1155]: MK
+              - generic [ref=e1156]:
+                - generic [ref=e1157]: Underwriter
+                - generic [ref=e1158]: Maya Khanna
+                - generic [ref=e1159]: Sr. UW · Northeast
+            - generic [ref=e1160]:
+              - generic [ref=e1161]: DC
+              - generic [ref=e1162]:
+                - generic [ref=e1163]: Underwriting Specialist
+                - generic [ref=e1164]: Devon Carter
+                - generic [ref=e1165]: Assistant UW
+      - generic [ref=e1167]:
+        - button "Review" [ref=e1168] [cursor=pointer]:
+          - img [ref=e1170]
+          - generic [ref=e1174]: Review
+        - button "Details" [ref=e1175] [cursor=pointer]:
+          - img [ref=e1177]
+          - generic [ref=e1182]: Details
+        - button "Member & Brokerage" [ref=e1183] [cursor=pointer]:
+          - img [ref=e1185]
+          - generic [ref=e1190]: Member & Brokerage
+        - button "Risk & Exposure" [ref=e1191] [cursor=pointer]:
+          - img [ref=e1193]
+          - generic [ref=e1195]: Risk & Exposure
+        - button "Loss History" [ref=e1196] [cursor=pointer]:
+          - img [ref=e1198]
+          - generic [ref=e1201]: Loss History
+        - button "Conditions" [ref=e1202] [cursor=pointer]:
+          - img [ref=e1204]
+          - generic [ref=e1207]: Conditions
+        - button "Underwriting" [ref=e1208] [cursor=pointer]:
+          - img [ref=e1210]
+          - generic [ref=e1212]: Underwriting
+        - button "Documents" [ref=e1213] [cursor=pointer]:
+          - img [ref=e1215]
+          - generic [ref=e1217]: Documents
+        - button "Correspondence 2" [ref=e1218] [cursor=pointer]:
+          - img [ref=e1220]
+          - generic: Correspondence
+          - generic [ref=e1223]: "2"
+        - button "Notes" [ref=e1224] [cursor=pointer]:
+          - img [ref=e1226]
+          - generic [ref=e1228]: Notes
+        - button "Tasks" [ref=e1229] [cursor=pointer]:
+          - img [ref=e1231]
+          - generic [ref=e1234]: Tasks
+        - button "Approvals" [ref=e1235] [cursor=pointer]:
+          - img [ref=e1237]
+          - generic [ref=e1239]: Approvals
+        - button "Audit Trail" [ref=e1240] [cursor=pointer]:
+          - img [ref=e1242]
+          - generic [ref=e1245]: Audit Trail
+      - generic [ref=e1247]:
+        - generic [ref=e1249]:
+          - generic [ref=e1250]:
+            - img [ref=e1252]
+            - generic [ref=e1256]:
+              - heading "Underwriting Review Checklist" [level=2] [ref=e1257]
+              - paragraph [ref=e1258]: 6 dimensions · validated against submitted documents
+          - generic [ref=e1259]:
+            - generic [ref=e1260]:
+              - generic [ref=e1261]: "3"
+              - text: Pass
+            - generic [ref=e1262]:
+              - generic [ref=e1263]: "2"
+              - text: Caution
+            - generic [ref=e1264]:
+              - generic [ref=e1265]: "0"
+              - text: Fail
+            - generic [ref=e1266]:
+              - generic [ref=e1267]: "1"
+              - text: Missing
+            - generic [ref=e1269]:
+              - generic [ref=e1270]: "0"
+              - text: Approved
+            - generic [ref=e1271]:
+              - generic [ref=e1272]: "0"
+              - text: Referred
+            - generic [ref=e1273]:
+              - generic [ref=e1274]: "6"
+              - text: Pending
+        - generic [ref=e1275]:
+          - generic [ref=e1276] [cursor=pointer]:
+            - generic [ref=e1277]:
+              - generic [ref=e1278]: "01"
+              - img [ref=e1280]
+            - generic [ref=e1282]:
+              - generic [ref=e1283]:
+                - generic [ref=e1284]: Loss Run & Claims History Analysis
+                - generic [ref=e1285]:
+                  - img [ref=e1286]
+                  - text: Caution
+                - generic [ref=e1288]: Pending Decision
+              - paragraph [ref=e1289]: Identify frequency/severity patterns, recurring claim types, reserve adequacy, and layer-piercing.
+              - generic [ref=e1290]:
+                - generic [ref=e1291]:
+                  - img [ref=e1292]
+                  - strong [ref=e1295]: 4/4
+                  - text: docs received
+                - generic [ref=e1296]: ·
+                - generic [ref=e1297]: 3 required
+            - generic [ref=e1298]:
+              - button "Approve" [ref=e1299]:
+                - img [ref=e1300]
+                - text: Approve
+              - button "Refer" [ref=e1302]:
+                - img [ref=e1303]
+                - text: Refer
+              - button "Analytics" [ref=e1305]:
+                - text: Analytics
+                - img [ref=e1306]
+          - generic [ref=e1308] [cursor=pointer]:
+            - generic [ref=e1309]:
+              - generic [ref=e1310]: "02"
+              - img [ref=e1312]
+            - generic [ref=e1315]:
+              - generic [ref=e1316]:
+                - generic [ref=e1317]: Financial Document Review (FDM)
+                - generic [ref=e1318]:
+                  - img [ref=e1319]
+                  - text: Pass
+                - generic [ref=e1322]: Pending Decision
+              - paragraph [ref=e1323]: Confirm institutional capacity to fund deductibles/SIR and overall member-fit.
+              - generic [ref=e1324]:
+                - generic [ref=e1325]:
+                  - img [ref=e1326]
+                  - strong [ref=e1329]: 4/4
+                  - text: docs received
+                - generic [ref=e1330]: ·
+                - generic [ref=e1331]: 3 required
+            - generic [ref=e1332]:
+              - button "Approve" [ref=e1333]:
+                - img [ref=e1334]
+                - text: Approve
+              - button "Refer" [ref=e1336]:
+                - img [ref=e1337]
+                - text: Refer
+              - button "Analytics" [ref=e1339]:
+                - text: Analytics
+                - img [ref=e1340]
+          - generic [ref=e1342] [cursor=pointer]:
+            - generic [ref=e1343]:
+              - generic [ref=e1344]: "03"
+              - img [ref=e1346]
+            - generic [ref=e1348]:
+              - generic [ref=e1349]:
+                - generic [ref=e1350]: Operational & Exposure Review
+                - generic [ref=e1351]:
+                  - img [ref=e1352]
+                  - text: Pass
+                - generic [ref=e1355]: Pending Decision
+              - paragraph [ref=e1356]: Map physical and programmatic activities to specific liability exposures.
+              - generic [ref=e1357]:
+                - generic [ref=e1358]:
+                  - img [ref=e1359]
+                  - strong [ref=e1362]: 4/4
+                  - text: docs received
+                - generic [ref=e1363]: ·
+                - generic [ref=e1364]: 3 required
+            - generic [ref=e1365]:
+              - button "Approve" [ref=e1366]:
+                - img [ref=e1367]
+                - text: Approve
+              - button "Refer" [ref=e1369]:
+                - img [ref=e1370]
+                - text: Refer
+              - button "Analytics" [ref=e1372]:
+                - text: Analytics
+                - img [ref=e1373]
+          - generic [ref=e1375] [cursor=pointer]:
+            - generic [ref=e1376]:
+              - generic [ref=e1377]: "04"
+              - img [ref=e1379]
+            - generic [ref=e1383]:
+              - generic [ref=e1384]:
+                - generic [ref=e1385]: Governance & Management Liability Scrub
+                - generic [ref=e1386]:
+                  - img [ref=e1387]
+                  - text: Missing Docs
+                - generic [ref=e1389]: Pending Decision
+              - paragraph [ref=e1390]: Review HR, admissions, and Title IX procedures driving ELL/SBL exposure.
+              - generic [ref=e1391]:
+                - generic [ref=e1392]:
+                  - img [ref=e1393]
+                  - strong [ref=e1396]: 4/5
+                  - text: docs received
+                - generic [ref=e1397]: ·
+                - generic [ref=e1398]: 4 required
+                - generic [ref=e1399]: ·
+                - generic [ref=e1400]: 1 outstanding
+            - generic [ref=e1401]:
+              - button "Approve" [ref=e1402]:
+                - img [ref=e1403]
+                - text: Approve
+              - button "Refer" [ref=e1405]:
+                - img [ref=e1406]
+                - text: Refer
+              - button "Analytics" [ref=e1408]:
+                - text: Analytics
+                - img [ref=e1409]
+          - generic [ref=e1411] [cursor=pointer]:
+            - generic [ref=e1412]:
+              - generic [ref=e1413]: "05"
+              - img [ref=e1415]
+            - generic [ref=e1419]:
+              - generic [ref=e1420]:
+                - generic [ref=e1421]: Contractual & Risk Control Review
+                - generic [ref=e1422]:
+                  - img [ref=e1423]
+                  - text: Caution
+                - generic [ref=e1425]: Pending Decision
+              - paragraph [ref=e1426]: Assess vendor COI program, indemnity language, and training participation.
+              - generic [ref=e1427]:
+                - generic [ref=e1428]:
+                  - img [ref=e1429]
+                  - strong [ref=e1432]: 4/4
+                  - text: docs received
+                - generic [ref=e1433]: ·
+                - generic [ref=e1434]: 3 required
+            - generic [ref=e1435]:
+              - button "Approve" [ref=e1436]:
+                - img [ref=e1437]
+                - text: Approve
+              - button "Refer" [ref=e1439]:
+                - img [ref=e1440]
+                - text: Refer
+              - button "Analytics" [ref=e1442]:
+                - text: Analytics
+                - img [ref=e1443]
+          - generic [ref=e1445] [cursor=pointer]:
+            - generic [ref=e1446]:
+              - generic [ref=e1447]: "06"
+              - img [ref=e1449]
+            - generic [ref=e1454]:
+              - generic [ref=e1455]:
+                - generic [ref=e1456]: Comparable Risk Benchmarking
+                - generic [ref=e1457]:
+                  - img [ref=e1458]
+                  - text: Pass
+                - generic [ref=e1461]: Pending Decision
+              - paragraph [ref=e1462]: Position the institution against industry data and large-loss patterns.
+              - generic [ref=e1463]:
+                - generic [ref=e1464]:
+                  - img [ref=e1465]
+                  - strong [ref=e1468]: 2/2
+                  - text: docs received
+                - generic [ref=e1469]: ·
+                - generic [ref=e1470]: 1 required
+            - generic [ref=e1471]:
+              - button "Approve" [ref=e1472]:
+                - img [ref=e1473]
+                - text: Approve
+              - button "Refer" [ref=e1475]:
+                - img [ref=e1476]
+                - text: Refer
+              - button "Analytics" [ref=e1478]:
+                - text: Analytics
+                - img [ref=e1479]
+  - complementary [ref=e1481]:
+    - generic [ref=e1482]:
+      - generic [ref=e1483]: Live · agentic
+      - generic [ref=e1485]:
+        - button "Reset thread" [ref=e1486] [cursor=pointer]:
+          - img [ref=e1487]
+        - button "Collapse" [ref=e1490] [cursor=pointer]:
+          - img [ref=e1491]
+    - generic [ref=e1495]:
+      - img [ref=e1501]
+      - generic [ref=e1505]:
+        - generic [ref=e1506]: Companion
+        - generic [ref=e1507]: Brookfield Day School · SUB-7842 · Underwriting Review · Private K-12 · Westport, CT
+    - generic [ref=e1509]:
+      - generic [ref=e1510]:
+        - img [ref=e1516]
+        - generic [ref=e1520]: "Reading Brookfield Day School (SUB-7842): expiring $132,400, indicated $142,800, loss ratio 58%. Want a summary, a broker draft, or a gap check?"
+      - generic [ref=e1521]:
+        - generic [ref=e1522]:
+          - img [ref=e1523]
+          - text: Suggested follow-ups
+        - generic [ref=e1526]:
+          - button "Summarize this submission" [ref=e1527] [cursor=pointer]:
+            - img [ref=e1528]
+            - generic [ref=e1531]: Summarize this submission
+            - img [ref=e1532]
+          - button "Draft broker email" [ref=e1534] [cursor=pointer]:
+            - img [ref=e1535]
+            - generic [ref=e1538]: Draft broker email
+            - img [ref=e1539]
+          - button "Open Quote Builder" [ref=e1541] [cursor=pointer]:
+            - img [ref=e1542]
+            - generic [ref=e1545]: Open Quote Builder
+            - img [ref=e1546]
+          - button "What's still missing?" [ref=e1548] [cursor=pointer]:
+            - img [ref=e1549]
+            - generic [ref=e1551]: What's still missing?
+            - img [ref=e1552]
+          - button "Why is loss ratio elevated?" [ref=e1554] [cursor=pointer]:
+            - img [ref=e1555]
+            - generic [ref=e1557]: Why is loss ratio elevated?
+            - img [ref=e1558]
+    - generic [ref=e1562]:
+      - generic [ref=e1563]:
+        - button [ref=e1564] [cursor=pointer]:
+          - img [ref=e1565]
+        - textbox "Ask about brookfield day school · sub-7842…" [ref=e1566]
+        - button [disabled] [ref=e1567] [cursor=pointer]:
+          - img [ref=e1568]
+      - generic [ref=e1571]: Watching this page — every action is deterministic and traceable.

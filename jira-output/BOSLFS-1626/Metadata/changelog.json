@@ -1,0 +1,1213 @@
+[
+  {
+    "id": "156957",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-24T14:47:46.857-0500",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "*  As a ___ user\n\n* I want to do _____ (action/goal)\n\n* so that ____ (benefit) and I can overcome this _____ issue\n\n* Acceptance criteria of the user story for marking it to DONE\n\n",
+        "to": null,
+        "toString": "*As a* System Administrator,\n\n*I want to* configure a specific \" Credit Administrator\" Role and Permission Set,\n\n*So that* external users can audit Disbursed loan applications without accessing sensitive \"New\" or \"Proposed\" data.\n\nh3. *Business Context*\n\nCurrently, Credit Risk require a view that mimics the Boarding perspective but with restricted scope. They must be nested within the *Credit and Risk Department* hierarchy to ensure proper data visibility and reporting alignment.\n\n----\n\nh3. *Technical Requirements*\n\n# *Role Hierarchy:* Create a new Role: {{ Credit Administrator}}. Parent Role must be {{Credit and Risk Department}}.\n# *Permission Set:* Create {{Credit_Administrator_Read_Only}}.\n#* *Clone Source:* Use {{Boarding}} as a base template  and update the fields to be (Read-Only).\n#* *Object Permissions:* Read-only access to Loan Applications and related objects.\n# *Data Filtering:*  Auditors must *only* see Loan Applications where {{Status = Boarded/Completed}}.\n#* Exclude all records where {{Status}} is {{New}}, {{Inprogress}}, or {{Pending}}.\n#* _Note: This may require a Sharing Rule or a Scoping Rule depending on your Org's OWD (Org-Wide Defaults)._"
+      }
+    ]
+  },
+  {
+    "id": "159341",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-03T14:51:46.673-0500",
+    "items": [
+      {
+        "field": "Sprint",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10020",
+        "from": "",
+        "fromString": "",
+        "to": "3481",
+        "toString": "BOSLFS March Release 4"
+      }
+    ]
+  },
+  {
+    "id": "159351",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-03T15:03:53.558-0500",
+    "items": [
+      {
+        "field": "assignee",
+        "fieldtype": "jira",
+        "fieldId": "assignee",
+        "from": "712020:0e889a33-e4af-4f5f-8789-4dfc1e756e4b",
+        "fromString": "Amarnath Marupilla",
+        "to": "712020:d50a6949-ce30-456c-94d7-d68ea20b3763",
+        "toString": "Veera Sai Prakash Devu",
+        "tmpFromAccountId": "712020:0e889a33-e4af-4f5f-8789-4dfc1e756e4b",
+        "tmpToAccountId": "712020:d50a6949-ce30-456c-94d7-d68ea20b3763"
+      }
+    ]
+  },
+  {
+    "id": "159352",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-03T15:03:58.334-0500",
+    "items": [
+      {
+        "field": "IssueParentAssociation",
+        "fieldtype": "jira",
+        "from": null,
+        "fromString": null,
+        "to": "16044",
+        "toString": "BOSLFS-696"
+      }
+    ]
+  },
+  {
+    "id": "159573",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-04T08:53:46.175-0500",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "*As a* System Administrator,\n\n*I want to* configure a specific \" Credit Administrator\" Role and Permission Set,\n\n*So that* external users can audit Disbursed loan applications without accessing sensitive \"New\" or \"Proposed\" data.\n\nh3. *Business Context*\n\nCurrently, Credit Risk require a view that mimics the Boarding perspective but with restricted scope. They must be nested within the *Credit and Risk Department* hierarchy to ensure proper data visibility and reporting alignment.\n\n----\n\nh3. *Technical Requirements*\n\n# *Role Hierarchy:* Create a new Role: {{ Credit Administrator}}. Parent Role must be {{Credit and Risk Department}}.\n# *Permission Set:* Create {{Credit_Administrator_Read_Only}}.\n#* *Clone Source:* Use {{Boarding}} as a base template  and update the fields to be (Read-Only).\n#* *Object Permissions:* Read-only access to Loan Applications and related objects.\n# *Data Filtering:*  Auditors must *only* see Loan Applications where {{Status = Boarded/Completed}}.\n#* Exclude all records where {{Status}} is {{New}}, {{Inprogress}}, or {{Pending}}.\n#* _Note: This may require a Sharing Rule or a Scoping Rule depending on your Org's OWD (Org-Wide Defaults)._",
+        "to": null,
+        "toString": "*As a* System Administrator,\n\n*I want to* configure a specific \" Credit Administrator\" Role and Permission Set,\n\n*So that* external users can audit Disbursed loan applications without accessing sensitive \"New\" or \"Proposed\" data.\n\nh3. *Business Context*\n\nCurrently, Credit Risk require a view that mimics the Boarding perspective but with restricted scope. They must be nested within the *Credit and Risk Department* hierarchy to ensure proper data visibility and reporting alignment.\n\n----\n\nh3. *Technical Requirements*\n\n# *Role Hierarchy:* Create a new Role: {{ Credit Administrator}}. Parent Role must be {{Credit and Risk Department}}.\n# *Permission Set:* Create {{Credit_Administrator_Read_Only}}.\n#* *Clone Source:* Use {{Boarding}} as a base template  and update the fields to be (Read-Only).\n#* *Object Permissions:* Read-only access to Loan Applications and related objects.\n# *Data Filtering:*  Auditors must *only* see Loan Applications where {{Status = Boarded/Completed}}.\n#* Exclude all records where {{Status}} is  {{In progress}}, {{Declined, Amenmdment, Cancelled}}.\n#* _Note: This may require a Sharing Rule or a Scoping Rule depending on your Org's OWD (Org-Wide Defaults)._"
+      }
+    ]
+  },
+  {
+    "id": "159588",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-04T09:37:35.305-0500",
+    "items": [
+      {
+        "field": "timeestimate",
+        "fieldtype": "jira",
+        "fieldId": "timeestimate",
+        "from": null,
+        "fromString": null,
+        "to": "86400",
+        "toString": "86400"
+      },
+      {
+        "field": "timeoriginalestimate",
+        "fieldtype": "jira",
+        "fieldId": "timeoriginalestimate",
+        "from": null,
+        "fromString": null,
+        "to": "86400",
+        "toString": "86400"
+      }
+    ]
+  },
+  {
+    "id": "159839",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Ad50a6949-ce30-456c-94d7-d68ea20b3763",
+      "accountId": "712020:d50a6949-ce30-456c-94d7-d68ea20b3763",
+      "emailAddress": "veerasaiprakash.devu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png"
+      },
+      "displayName": "Veera Sai Prakash Devu",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-05T05:37:57.319-0500",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10055",
+        "fromString": "New",
+        "to": "10060",
+        "toString": "In Refinement"
+      }
+    ]
+  },
+  {
+    "id": "159840",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Ad50a6949-ce30-456c-94d7-d68ea20b3763",
+      "accountId": "712020:d50a6949-ce30-456c-94d7-d68ea20b3763",
+      "emailAddress": "veerasaiprakash.devu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png"
+      },
+      "displayName": "Veera Sai Prakash Devu",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-05T05:37:59.222-0500",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10060",
+        "fromString": "In Refinement",
+        "to": "10063",
+        "toString": "Ready for Development"
+      }
+    ]
+  },
+  {
+    "id": "159841",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Ad50a6949-ce30-456c-94d7-d68ea20b3763",
+      "accountId": "712020:d50a6949-ce30-456c-94d7-d68ea20b3763",
+      "emailAddress": "veerasaiprakash.devu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png"
+      },
+      "displayName": "Veera Sai Prakash Devu",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-05T05:38:01.432-0500",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10063",
+        "fromString": "Ready for Development",
+        "to": "10056",
+        "toString": "In Progress"
+      }
+    ]
+  },
+  {
+    "id": "161210",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-09T09:40:07.727-0400",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "*As a* System Administrator,\n\n*I want to* configure a specific \" Credit Administrator\" Role and Permission Set,\n\n*So that* external users can audit Disbursed loan applications without accessing sensitive \"New\" or \"Proposed\" data.\n\nh3. *Business Context*\n\nCurrently, Credit Risk require a view that mimics the Boarding perspective but with restricted scope. They must be nested within the *Credit and Risk Department* hierarchy to ensure proper data visibility and reporting alignment.\n\n----\n\nh3. *Technical Requirements*\n\n# *Role Hierarchy:* Create a new Role: {{ Credit Administrator}}. Parent Role must be {{Credit and Risk Department}}.\n# *Permission Set:* Create {{Credit_Administrator_Read_Only}}.\n#* *Clone Source:* Use {{Boarding}} as a base template  and update the fields to be (Read-Only).\n#* *Object Permissions:* Read-only access to Loan Applications and related objects.\n# *Data Filtering:*  Auditors must *only* see Loan Applications where {{Status = Boarded/Completed}}.\n#* Exclude all records where {{Status}} is  {{In progress}}, {{Declined, Amenmdment, Cancelled}}.\n#* _Note: This may require a Sharing Rule or a Scoping Rule depending on your Org's OWD (Org-Wide Defaults)._",
+        "to": null,
+        "toString": "*As a* System Administrator,\n\n*I want to* configure a specific \" Credit Administrator\" Role and Permission Set,\n\n*So that* external users can audit Disbursed loan applications without accessing sensitive \"New\" or \"Proposed\" data.\n\nh3. *Business Context*\n\nCurrently, Credit Risk require a view that mimics the Boarding perspective but with restricted scope. They must be nested within the *Credit and Risk Department* hierarchy to ensure proper data visibility and reporting alignment.\n\n----\n\nh3. *Technical Requirements*\n\n# *Role Hierarchy:* Create a new Role: {{ Credit Administrator}}. Parent Role must be {{Credit and Risk Department}}.\n# *Permission Set:* Create {{Credit_Administrator_Read_Only}}.\n#* *Clone Source:* Use {{Boarding}} as a base template  and update the fields to be (Read-Only).\n#* *Object Permissions:* Read-only access to Loan Applications and related objects.\n# *Data Filtering:*  Auditors must *only* see Loan Applications where {{Status = Boarded/Completed/Drawdown}}.\n#* Exclude all records where {{Status}} is  {{In progress}}, {{Declined, Amenmdment, Cancelled}}.\n#* _Note: This may require a Sharing Rule or a Scoping Rule depending on your Org's OWD (Org-Wide Defaults)._"
+      }
+    ]
+  },
+  {
+    "id": "161211",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-09T09:48:58.975-0400",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "*As a* System Administrator,\n\n*I want to* configure a specific \" Credit Administrator\" Role and Permission Set,\n\n*So that* external users can audit Disbursed loan applications without accessing sensitive \"New\" or \"Proposed\" data.\n\nh3. *Business Context*\n\nCurrently, Credit Risk require a view that mimics the Boarding perspective but with restricted scope. They must be nested within the *Credit and Risk Department* hierarchy to ensure proper data visibility and reporting alignment.\n\n----\n\nh3. *Technical Requirements*\n\n# *Role Hierarchy:* Create a new Role: {{ Credit Administrator}}. Parent Role must be {{Credit and Risk Department}}.\n# *Permission Set:* Create {{Credit_Administrator_Read_Only}}.\n#* *Clone Source:* Use {{Boarding}} as a base template  and update the fields to be (Read-Only).\n#* *Object Permissions:* Read-only access to Loan Applications and related objects.\n# *Data Filtering:*  Auditors must *only* see Loan Applications where {{Status = Boarded/Completed/Drawdown}}.\n#* Exclude all records where {{Status}} is  {{In progress}}, {{Declined, Amenmdment, Cancelled}}.\n#* _Note: This may require a Sharing Rule or a Scoping Rule depending on your Org's OWD (Org-Wide Defaults)._",
+        "to": null,
+        "toString": "*As a* System Administrator,\n\n*I want to* configure a specific \" Credit Administrator\" Role and Permission Set,\n\n*So that* external users can audit Disbursed loan applications without accessing sensitive \"New\" or \"Proposed\" data.\n\nh3. *Business Context*\n\nCurrently, Credit Risk require a view that mimics the Boarding perspective but with restricted scope. They must be nested within the *Credit and Risk Department* hierarchy to ensure proper data visibility and reporting alignment.\n\n----\n\nh3. *Technical Requirements*\n\n# *Role Hierarchy:* Create a new Role: {{ Credit Administrator}}. Parent Role must be {{Credit and Risk Department}}.\n# *Permission Set:* Create {{Credit_Administrator_Read_Only}}.\n#* *Clone Source:* Use {{Boarding}} as a base template  and update the fields to be (Read-Only).\n#* *Object Permissions:* Read-only access to Loan Applications and related objects.\n#** Loan Package\n#** Loan \n#** Party Involveld in Trasanction\n#** Party Liabilities\n#** Party Monthly Commitments\n#** Party Monthly Income\n#** Party Additional Income\n#** Other Liabilities\n#** Pay off Assigments\n#** Cash Configurations \n#** Collateral Loan Application\n#** Collaterals\n#** Disbursement Conditions\n#** Disbursement Transactions\n#** Special Condisitions\n#** Recommendations\n#** Approval\n#** Fee\n#** Loan Terms and Conditions\n#** Commitment Letter Statements\n# *Data Filtering:*  Auditors must *only* see Loan Applications where {{Status = Boarded/Completed/Drawdown}}.\n#* Exclude all records where {{Status}} is  {{In progress}}, {{Declined, Amenmdment, Cancelled}}.\n#* _Note: This may require a Sharing Rule or a Scoping Rule depending on your Org's OWD (Org-Wide Defaults)._"
+      }
+    ]
+  },
+  {
+    "id": "161632",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-10T10:02:30.482-0400",
+    "items": [
+      {
+        "field": "Rank",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10019",
+        "from": "",
+        "fromString": "",
+        "to": "",
+        "toString": "Ranked higher"
+      }
+    ]
+  },
+  {
+    "id": "162189",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-11T14:05:46.821-0400",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "*As a* System Administrator,\n\n*I want to* configure a specific \" Credit Administrator\" Role and Permission Set,\n\n*So that* external users can audit Disbursed loan applications without accessing sensitive \"New\" or \"Proposed\" data.\n\nh3. *Business Context*\n\nCurrently, Credit Risk require a view that mimics the Boarding perspective but with restricted scope. They must be nested within the *Credit and Risk Department* hierarchy to ensure proper data visibility and reporting alignment.\n\n----\n\nh3. *Technical Requirements*\n\n# *Role Hierarchy:* Create a new Role: {{ Credit Administrator}}. Parent Role must be {{Credit and Risk Department}}.\n# *Permission Set:* Create {{Credit_Administrator_Read_Only}}.\n#* *Clone Source:* Use {{Boarding}} as a base template  and update the fields to be (Read-Only).\n#* *Object Permissions:* Read-only access to Loan Applications and related objects.\n#** Loan Package\n#** Loan \n#** Party Involveld in Trasanction\n#** Party Liabilities\n#** Party Monthly Commitments\n#** Party Monthly Income\n#** Party Additional Income\n#** Other Liabilities\n#** Pay off Assigments\n#** Cash Configurations \n#** Collateral Loan Application\n#** Collaterals\n#** Disbursement Conditions\n#** Disbursement Transactions\n#** Special Condisitions\n#** Recommendations\n#** Approval\n#** Fee\n#** Loan Terms and Conditions\n#** Commitment Letter Statements\n# *Data Filtering:*  Auditors must *only* see Loan Applications where {{Status = Boarded/Completed/Drawdown}}.\n#* Exclude all records where {{Status}} is  {{In progress}}, {{Declined, Amenmdment, Cancelled}}.\n#* _Note: This may require a Sharing Rule or a Scoping Rule depending on your Org's OWD (Org-Wide Defaults)._",
+        "to": null,
+        "toString": "*As a* System Administrator,\n\n*I want to* configure a specific \" Credit Administrator\" Role and Permission Set,\n\n*So that* external users can audit Disbursed loan applications without accessing sensitive \"New\" or \"Proposed\" data.\n\nh3. *Business Context*\n\nCurrently, Credit Risk require a view that mimics the Boarding perspective but with restricted scope. They must be nested within the *Credit and Risk Department* hierarchy to ensure proper data visibility and reporting alignment.\n\n----\n\nh3. *Technical Requirements*\n\n# *Role Hierarchy:* Create a new Role: {{ Credit Administrator}}. Parent Role must be {{Credit and Risk Department}}.\n# *Permission Set:* Create {{Credit_Administrator_Read_Only}}.\n#* *Clone Source:* Use {{Boarding}} as a base template  and update the fields to be (Read-Only).\n#* *Object Permissions:* Read-only access to Loan Applications and related objects.\n#** Loan Package\n#** Loan \n#** Party Involveld in Trasanction\n#** Party Liabilities\n#** Party Monthly Commitments\n#** Party Monthly Income\n#** Party Additional Income\n#** Other Liabilities\n#** Pay off Assigments\n#** Cash Configurations \n#** Collateral Loan Application\n#** Collaterals\n#** Disbursement Conditions\n#** Disbursement Transactions\n#** Special Condisitions\n#** Recommendations\n#** Approval\n#** Fee\n#** Loan Terms and Conditions\n#** Commitment Letter Statements\n# *Data Filtering:*  Auditors must *only* see Loan Applications where {{Status = Completed}}. \n#* Exclude all records where {{Status}} is  {{In progress}}, {{Declined, Amenmdment, Cancelled}}.\n#* _Note: This may require a Sharing Rule or a Scoping Rule depending on your Org's OWD (Org-Wide Defaults)._"
+      }
+    ]
+  },
+  {
+    "id": "162657",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Ad50a6949-ce30-456c-94d7-d68ea20b3763",
+      "accountId": "712020:d50a6949-ce30-456c-94d7-d68ea20b3763",
+      "emailAddress": "veerasaiprakash.devu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png"
+      },
+      "displayName": "Veera Sai Prakash Devu",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-12T14:13:52.433-0400",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10056",
+        "fromString": "In Progress",
+        "to": "10066",
+        "toString": "Ready for QA"
+      }
+    ]
+  },
+  {
+    "id": "162658",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Ad50a6949-ce30-456c-94d7-d68ea20b3763",
+      "accountId": "712020:d50a6949-ce30-456c-94d7-d68ea20b3763",
+      "emailAddress": "veerasaiprakash.devu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png"
+      },
+      "displayName": "Veera Sai Prakash Devu",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-12T14:14:08.454-0400",
+    "items": [
+      {
+        "field": "assignee",
+        "fieldtype": "jira",
+        "fieldId": "assignee",
+        "from": "712020:d50a6949-ce30-456c-94d7-d68ea20b3763",
+        "fromString": "Veera Sai Prakash Devu",
+        "to": "712020:1ac4f31e-894c-4b36-b90f-2a2d3ee970ab",
+        "toString": "Neelima Vempada",
+        "tmpFromAccountId": "712020:d50a6949-ce30-456c-94d7-d68ea20b3763",
+        "tmpToAccountId": "712020:1ac4f31e-894c-4b36-b90f-2a2d3ee970ab"
+      }
+    ]
+  },
+  {
+    "id": "162858",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+      },
+      "displayName": "Shivaji Gundabattina",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-13T07:37:15.961-0400",
+    "items": [
+      {
+        "field": "assignee",
+        "fieldtype": "jira",
+        "fieldId": "assignee",
+        "from": "712020:1ac4f31e-894c-4b36-b90f-2a2d3ee970ab",
+        "fromString": "Neelima Vempada",
+        "to": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+        "toString": "Shivaji Gundabattina",
+        "tmpFromAccountId": "712020:1ac4f31e-894c-4b36-b90f-2a2d3ee970ab",
+        "tmpToAccountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29"
+      }
+    ]
+  },
+  {
+    "id": "162934",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+      },
+      "displayName": "Shivaji Gundabattina",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-13T11:35:59.341-0400",
+    "items": [
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40629",
+        "toString": "image-20260313-153313.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40631",
+        "toString": "image-20260313-153529.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40630",
+        "toString": "image-20260313-152815.png"
+      }
+    ]
+  },
+  {
+    "id": "163158",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+      },
+      "displayName": "Shivaji Gundabattina",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-16T04:30:21.917-0400",
+    "items": [
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40751",
+        "toString": "image-20260316-082827.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40752",
+        "toString": "image-20260316-083012.png"
+      }
+    ]
+  },
+  {
+    "id": "163165",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+      },
+      "displayName": "Shivaji Gundabattina",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-16T04:51:54.236-0400",
+    "items": [
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40757",
+        "toString": "image-20260316-083905.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40754",
+        "toString": "image-20260316-083309.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40756",
+        "toString": "image-20260316-084832.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40764",
+        "toString": "image-20260316-083407.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40760",
+        "toString": "image-20260316-084035.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40755",
+        "toString": "image-20260316-084112.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40765",
+        "toString": "image-20260316-083616.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40761",
+        "toString": "image-20260316-084228.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40763",
+        "toString": "image-20260316-085020.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40762",
+        "toString": "image-20260316-084928.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40758",
+        "toString": "image-20260316-083943.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40759",
+        "toString": "image-20260316-083225.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40766",
+        "toString": "image-20260316-083127.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40753",
+        "toString": "image-20260316-084148.png"
+      }
+    ]
+  },
+  {
+    "id": "163169",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+      },
+      "displayName": "Shivaji Gundabattina",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-16T05:23:16.225-0400",
+    "items": [
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40771",
+        "toString": "image-20260316-085301.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40778",
+        "toString": "image-20260316-090613.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40770",
+        "toString": "image-20260316-085401.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40775",
+        "toString": "image-20260316-091153.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40769",
+        "toString": "image-20260316-090119.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40772",
+        "toString": "image-20260316-090231.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40774",
+        "toString": "image-20260316-085936.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40777",
+        "toString": "image-20260316-090035.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40773",
+        "toString": "image-20260316-085213.png"
+      },
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "40776",
+        "toString": "image-20260316-085645.png"
+      }
+    ]
+  },
+  {
+    "id": "163170",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+      },
+      "displayName": "Shivaji Gundabattina",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-16T05:23:44.913-0400",
+    "items": [
+      {
+        "field": "assignee",
+        "fieldtype": "jira",
+        "fieldId": "assignee",
+        "from": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+        "fromString": "Shivaji Gundabattina",
+        "to": "62e946413cc20c06c8ae8839",
+        "toString": "jean.lopez",
+        "tmpFromAccountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+        "tmpToAccountId": "62e946413cc20c06c8ae8839"
+      }
+    ]
+  },
+  {
+    "id": "163171",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+      },
+      "displayName": "Shivaji Gundabattina",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-16T05:24:07.542-0400",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10066",
+        "fromString": "Ready for QA",
+        "to": "10065",
+        "toString": "QA Completed"
+      }
+    ]
+  },
+  {
+    "id": "163172",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+      },
+      "displayName": "Shivaji Gundabattina",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-16T05:24:10.150-0400",
+    "items": [
+      {
+        "field": "resolution",
+        "fieldtype": "jira",
+        "fieldId": "resolution",
+        "from": null,
+        "fromString": null,
+        "to": "10000",
+        "toString": "Done"
+      },
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "10065",
+        "fromString": "QA Completed",
+        "to": "10064",
+        "toString": "UAT Deployed"
+      }
+    ]
+  },
+  {
+    "id": "163271",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-16T10:37:11.042-0400",
+    "items": [
+      {
+        "field": "Rank",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10019",
+        "from": "",
+        "fromString": "",
+        "to": "",
+        "toString": "Ranked higher"
+      }
+    ]
+  },
+  {
+    "id": "164239",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-18T13:23:28.999-0400",
+    "items": [
+      {
+        "field": "assignee",
+        "fieldtype": "jira",
+        "fieldId": "assignee",
+        "from": "62e946413cc20c06c8ae8839",
+        "fromString": "jean.lopez",
+        "to": "712020:7a385414-e139-4863-a543-162449da6907",
+        "toString": "Marcia George",
+        "tmpFromAccountId": "62e946413cc20c06c8ae8839",
+        "tmpToAccountId": "712020:7a385414-e139-4863-a543-162449da6907"
+      }
+    ]
+  },
+  {
+    "id": "169229",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-01T09:53:37.243-0400",
+    "items": [
+      {
+        "field": "Sprint",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10020",
+        "from": "3481",
+        "fromString": "BOSLFS March Release 4",
+        "to": "3482",
+        "toString": "BOSLFS April Release 5"
+      }
+    ]
+  },
+  {
+    "id": "169253",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-01T09:53:43.711-0400",
+    "items": [
+      {
+        "field": "Rank",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10019",
+        "from": "",
+        "fromString": "",
+        "to": "",
+        "toString": "Ranked lower"
+      }
+    ]
+  },
+  {
+    "id": "175320",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-16T16:04:18.497-0400",
+    "items": [
+      {
+        "field": "IssueParentAssociation",
+        "fieldtype": "jira",
+        "from": "16044",
+        "fromString": "BOSLFS-696",
+        "to": "27828",
+        "toString": "BOSLFS-1500"
+      }
+    ]
+  },
+  {
+    "id": "180682",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-29T18:00:02.167-0400",
+    "items": [
+      {
+        "field": "Sprint",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10020",
+        "from": "3482",
+        "fromString": "BOSLFS April Release 5",
+        "to": "3483",
+        "toString": "BOSLFS May Release 6"
+      }
+    ]
+  },
+  {
+    "id": "180692",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-29T18:00:05.401-0400",
+    "items": [
+      {
+        "field": "Rank",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10019",
+        "from": "",
+        "fromString": "",
+        "to": "",
+        "toString": "Ranked lower"
+      }
+    ]
+  },
+  {
+    "id": "180991",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-30T09:16:17.986-0400",
+    "items": [
+      {
+        "field": "labels",
+        "fieldtype": "jira",
+        "fieldId": "labels",
+        "from": null,
+        "fromString": "",
+        "to": null,
+        "toString": "AprilRelease"
+      }
+    ]
+  },
+  {
+    "id": "181174",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-30T16:01:03.108-0400",
+    "items": [
+      {
+        "field": "summary",
+        "fieldtype": "jira",
+        "fieldId": "summary",
+        "from": null,
+        "fromString": "Credit Administrator Role",
+        "to": null,
+        "toString": "After SOW: Credit Administrator Role"
+      }
+    ]
+  }
+]

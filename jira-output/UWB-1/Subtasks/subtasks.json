@@ -1,0 +1,353 @@
+[
+  {
+    "id": "119274",
+    "key": "UWB-45",
+    "self": "https://unitededucators.atlassian.net/rest/api/2/issue/119274",
+    "fields": {
+      "summary": "Frontend Creation",
+      "status": {
+        "self": "https://unitededucators.atlassian.net/rest/api/2/status/12906",
+        "description": "",
+        "iconUrl": "https://unitededucators.atlassian.net/",
+        "name": "In Progress",
+        "id": "12906",
+        "statusCategory": {
+          "self": "https://unitededucators.atlassian.net/rest/api/2/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      "priority": {
+        "self": "https://unitededucators.atlassian.net/rest/api/2/priority/3",
+        "iconUrl": "https://unitededucators.atlassian.net/images/icons/priorities/major_new.svg",
+        "name": "Medium",
+        "id": "3"
+      },
+      "issuetype": {
+        "self": "https://unitededucators.atlassian.net/rest/api/2/issuetype/11791",
+        "id": "11791",
+        "description": "Subtasks track small pieces of work that are part of a larger task.",
+        "iconUrl": "https://unitededucators.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "name": "Subtask",
+        "subtask": true,
+        "avatarId": 10316,
+        "entityId": "ef3c17ed-e457-44bd-a4af-b80f9dce52c9",
+        "hierarchyLevel": -1
+      }
+    }
+  },
+  {
+    "id": "119275",
+    "key": "UWB-46",
+    "self": "https://unitededucators.atlassian.net/rest/api/2/issue/119275",
+    "fields": {
+      "summary": "Submission API Backend Implementation",
+      "status": {
+        "self": "https://unitededucators.atlassian.net/rest/api/2/status/12905",
+        "description": "",
+        "iconUrl": "https://unitededucators.atlassian.net/",
+        "name": "To Do",
+        "id": "12905",
+        "statusCategory": {
+          "self": "https://unitededucators.atlassian.net/rest/api/2/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      "priority": {
+        "self": "https://unitededucators.atlassian.net/rest/api/2/priority/3",
+        "iconUrl": "https://unitededucators.atlassian.net/images/icons/priorities/major_new.svg",
+        "name": "Medium",
+        "id": "3"
+      },
+      "issuetype": {
+        "self": "https://unitededucators.atlassian.net/rest/api/2/issuetype/11791",
+        "id": "11791",
+        "description": "Subtasks track small pieces of work that are part of a larger task.",
+        "iconUrl": "https://unitededucators.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "name": "Subtask",
+        "subtask": true,
+        "avatarId": 10316,
+        "entityId": "ef3c17ed-e457-44bd-a4af-b80f9dce52c9",
+        "hierarchyLevel": -1
+      }
+    }
+  },
+  {
+    "id": "119276",
+    "key": "UWB-47",
+    "self": "https://unitededucators.atlassian.net/rest/api/2/issue/119276",
+    "fields": {
+      "summary": "Database Creation",
+      "status": {
+        "self": "https://unitededucators.atlassian.net/rest/api/2/status/12905",
+        "description": "",
+        "iconUrl": "https://unitededucators.atlassian.net/",
+        "name": "To Do",
+        "id": "12905",
+        "statusCategory": {
+          "self": "https://unitededucators.atlassian.net/rest/api/2/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      "priority": {
+        "self": "https://unitededucators.atlassian.net/rest/api/2/priority/3",
+        "iconUrl": "https://unitededucators.atlassian.net/images/icons/priorities/major_new.svg",
+        "name": "Medium",
+        "id": "3"
+      },
+      "issuetype": {
+        "self": "https://unitededucators.atlassian.net/rest/api/2/issuetype/11791",
+        "id": "11791",
+        "description": "Subtasks track small pieces of work that are part of a larger task.",
+        "iconUrl": "https://unitededucators.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "name": "Subtask",
+        "subtask": true,
+        "avatarId": 10316,
+        "entityId": "ef3c17ed-e457-44bd-a4af-b80f9dce52c9",
+        "hierarchyLevel": -1
+      }
+    }
+  },
+  {
+    "id": "119277",
+    "key": "UWB-48",
+    "self": "https://unitededucators.atlassian.net/rest/api/2/issue/119277",
+    "fields": {
+      "summary": "Salesforce API Integration",
+      "status": {
+        "self": "https://unitededucators.atlassian.net/rest/api/2/status/12905",
+        "description": "",
+        "iconUrl": "https://unitededucators.atlassian.net/",
+        "name": "To Do",
+        "id": "12905",
+        "statusCategory": {
+          "self": "https://unitededucators.atlassian.net/rest/api/2/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "To Do"
+        }
+      },
+      "priority": {
+        "self": "https://unitededucators.atlassian.net/rest/api/2/priority/3",
+        "iconUrl": "https://unitededucators.atlassian.net/images/icons/priorities/major_new.svg",
+        "name": "Medium",
+        "id": "3"
+      },
+      "issuetype": {
+        "self": "https://unitededucators.atlassian.net/rest/api/2/issuetype/11791",
+        "id": "11791",
+        "description": "Subtasks track small pieces of work that are part of a larger task.",
+        "iconUrl": "https://unitededucators.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "name": "Subtask",
+        "subtask": true,
+        "avatarId": 10316,
+        "entityId": "ef3c17ed-e457-44bd-a4af-b80f9dce52c9",
+        "hierarchyLevel": -1
+      }
+    }
+  },
+  {
+    "id": "119278",
+    "key": "UWB-49",
+    "self": "https://unitededucators.atlassian.net/rest/api/2/issue/119278",
+    "fields": {
+      "summary": "Pluggable Components Implementation - Blob Storage",
+      "status": {
+        "self": "https://unitededucators.atlassian.net/rest/api/2/status/12907",
+        "description": "",
+        "iconUrl": "https://unitededucators.atlassian.net/",
+        "name": "Done",
+        "id": "12907",
+        "statusCategory": {
+          "self": "https://unitededucators.atlassian.net/rest/api/2/statuscategory/3",
+          "id": 3,
+          "key": "done",
+          "colorName": "green",
+          "name": "Done"
+        }
+      },
+      "priority": {
+        "self": "https://unitededucators.atlassian.net/rest/api/2/priority/3",
+        "iconUrl": "https://unitededucators.atlassian.net/images/icons/priorities/major_new.svg",
+        "name": "Medium",
+        "id": "3"
+      },
+      "issuetype": {
+        "self": "https://unitededucators.atlassian.net/rest/api/2/issuetype/11791",
+        "id": "11791",
+        "description": "Subtasks track small pieces of work that are part of a larger task.",
+        "iconUrl": "https://unitededucators.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "name": "Subtask",
+        "subtask": true,
+        "avatarId": 10316,
+        "entityId": "ef3c17ed-e457-44bd-a4af-b80f9dce52c9",
+        "hierarchyLevel": -1
+      }
+    }
+  },
+  {
+    "id": "119279",
+    "key": "UWB-50",
+    "self": "https://unitededucators.atlassian.net/rest/api/2/issue/119279",
+    "fields": {
+      "summary": "Pluggable Components Implementation - Azure Event Bus",
+      "status": {
+        "self": "https://unitededucators.atlassian.net/rest/api/2/status/12907",
+        "description": "",
+        "iconUrl": "https://unitededucators.atlassian.net/",
+        "name": "Done",
+        "id": "12907",
+        "statusCategory": {
+          "self": "https://unitededucators.atlassian.net/rest/api/2/statuscategory/3",
+          "id": 3,
+          "key": "done",
+          "colorName": "green",
+          "name": "Done"
+        }
+      },
+      "priority": {
+        "self": "https://unitededucators.atlassian.net/rest/api/2/priority/3",
+        "iconUrl": "https://unitededucators.atlassian.net/images/icons/priorities/major_new.svg",
+        "name": "Medium",
+        "id": "3"
+      },
+      "issuetype": {
+        "self": "https://unitededucators.atlassian.net/rest/api/2/issuetype/11791",
+        "id": "11791",
+        "description": "Subtasks track small pieces of work that are part of a larger task.",
+        "iconUrl": "https://unitededucators.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "name": "Subtask",
+        "subtask": true,
+        "avatarId": 10316,
+        "entityId": "ef3c17ed-e457-44bd-a4af-b80f9dce52c9",
+        "hierarchyLevel": -1
+      }
+    }
+  },
+  {
+    "id": "120219",
+    "key": "UWB-51",
+    "self": "https://unitededucators.atlassian.net/rest/api/2/issue/120219",
+    "fields": {
+      "summary": "Build Core Infrastructure and Communication Pluggable Components",
+      "status": {
+        "self": "https://unitededucators.atlassian.net/rest/api/2/status/12906",
+        "description": "",
+        "iconUrl": "https://unitededucators.atlassian.net/",
+        "name": "In Progress",
+        "id": "12906",
+        "statusCategory": {
+          "self": "https://unitededucators.atlassian.net/rest/api/2/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      "priority": {
+        "self": "https://unitededucators.atlassian.net/rest/api/2/priority/3",
+        "iconUrl": "https://unitededucators.atlassian.net/images/icons/priorities/major_new.svg",
+        "name": "Medium",
+        "id": "3"
+      },
+      "issuetype": {
+        "self": "https://unitededucators.atlassian.net/rest/api/2/issuetype/11791",
+        "id": "11791",
+        "description": "Subtasks track small pieces of work that are part of a larger task.",
+        "iconUrl": "https://unitededucators.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "name": "Subtask",
+        "subtask": true,
+        "avatarId": 10316,
+        "entityId": "ef3c17ed-e457-44bd-a4af-b80f9dce52c9",
+        "hierarchyLevel": -1
+      }
+    }
+  },
+  {
+    "id": "120221",
+    "key": "UWB-52",
+    "self": "https://unitededucators.atlassian.net/rest/api/2/issue/120221",
+    "fields": {
+      "summary": "Build Business Logic & Integration Related Pluggable Components",
+      "status": {
+        "self": "https://unitededucators.atlassian.net/rest/api/2/status/12906",
+        "description": "",
+        "iconUrl": "https://unitededucators.atlassian.net/",
+        "name": "In Progress",
+        "id": "12906",
+        "statusCategory": {
+          "self": "https://unitededucators.atlassian.net/rest/api/2/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      "priority": {
+        "self": "https://unitededucators.atlassian.net/rest/api/2/priority/3",
+        "iconUrl": "https://unitededucators.atlassian.net/images/icons/priorities/major_new.svg",
+        "name": "Medium",
+        "id": "3"
+      },
+      "issuetype": {
+        "self": "https://unitededucators.atlassian.net/rest/api/2/issuetype/11791",
+        "id": "11791",
+        "description": "Subtasks track small pieces of work that are part of a larger task.",
+        "iconUrl": "https://unitededucators.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "name": "Subtask",
+        "subtask": true,
+        "avatarId": 10316,
+        "entityId": "ef3c17ed-e457-44bd-a4af-b80f9dce52c9",
+        "hierarchyLevel": -1
+      }
+    }
+  },
+  {
+    "id": "120223",
+    "key": "UWB-53",
+    "self": "https://unitededucators.atlassian.net/rest/api/2/issue/120223",
+    "fields": {
+      "summary": "Build AI & Python Related Pluggable Components",
+      "status": {
+        "self": "https://unitededucators.atlassian.net/rest/api/2/status/12940",
+        "description": "",
+        "iconUrl": "https://unitededucators.atlassian.net/",
+        "name": "IN CODE REVIEW",
+        "id": "12940",
+        "statusCategory": {
+          "self": "https://unitededucators.atlassian.net/rest/api/2/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      "priority": {
+        "self": "https://unitededucators.atlassian.net/rest/api/2/priority/3",
+        "iconUrl": "https://unitededucators.atlassian.net/images/icons/priorities/major_new.svg",
+        "name": "Medium",
+        "id": "3"
+      },
+      "issuetype": {
+        "self": "https://unitededucators.atlassian.net/rest/api/2/issuetype/11791",
+        "id": "11791",
+        "description": "Subtasks track small pieces of work that are part of a larger task.",
+        "iconUrl": "https://unitededucators.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "name": "Subtask",
+        "subtask": true,
+        "avatarId": 10316,
+        "entityId": "ef3c17ed-e457-44bd-a4af-b80f9dce52c9",
+        "hierarchyLevel": -1
+      }
+    }
+  }
+]

@@ -1,0 +1,32 @@
+[2026-05-21T09:25:00Z] INFO  Starting test case generation for UWB-2: Submission Tasks View
+[2026-05-21T09:25:01Z] INFO  Target URL: https://united-educators-application.vercel.app/submissions
+[2026-05-21T09:25:01Z] INFO  Login credentials: Admin / KSG@2026UE
+[2026-05-21T09:25:02Z] INFO  Navigating to application...
+[2026-05-21T09:25:05Z] INFO  Login successful — user: John Michaels, role: Sr. Underwriter
+[2026-05-21T09:25:06Z] INFO  Navigating to /submissions via sidebar nav button
+[2026-05-21T09:25:08Z] INFO  Page loaded: UW Workbench — Submissions
+[2026-05-21T09:25:08Z] INFO  Analysing page structure...
+[2026-05-21T09:25:08Z] INFO  Detected H1: "Submissions"
+[2026-05-21T09:25:08Z] INFO  Detected subtitle: "Underwriting Pipeline · 18 Total Submissions"
+[2026-05-21T09:25:08Z] INFO  Detected 2 header action buttons: Export, New Submission
+[2026-05-21T09:25:08Z] INFO  Detected 6 summary bar cards:
+[2026-05-21T09:25:08Z] INFO    - Open Submissions: 13 [interactive filter]
+[2026-05-21T09:25:08Z] INFO    - New This Week: 3 [interactive filter]
+[2026-05-21T09:25:08Z] INFO    - Awaiting Info: 2 [interactive filter]
+[2026-05-21T09:25:08Z] INFO    - Ready for Review: 5 [interactive filter]
+[2026-05-21T09:25:08Z] INFO    - Avg. Time in Queue: 2.4d [disabled/read-only]
+[2026-05-21T09:25:08Z] INFO    - SLA At Risk: 3 [disabled/read-only]
+[2026-05-21T09:25:09Z] WARN  DISCREPANCY D-01: Summary bar metrics differ from UWB-2 spec (High)
+[2026-05-21T09:25:09Z] WARN  DISCREPANCY D-02: Default tab is My Queue, not All (Medium)
+[2026-05-21T09:25:09Z] WARN  DISCREPANCY D-03: Subtitle wording differs (Low)
+[2026-05-21T09:25:09Z] WARN  DISCREPANCY D-04: Bound Premium stat card not present (Medium)
+[2026-05-21T09:25:09Z] WARN  DISCREPANCY D-05: Stat cards are interactive filters, not read-only (Medium)
+[2026-05-21T09:25:10Z] INFO  Writing application analysis files...
+[2026-05-21T09:26:00Z] INFO  Writing 8 test case files (smoke, functional, negative, edge, boundary, regression, security, accessibility)...
+[2026-05-21T09:27:00Z] INFO  Writing 8 Gherkin feature files...
+[2026-05-21T09:28:00Z] INFO  Writing reports (coverage, risk, RTM)...
+[2026-05-21T09:29:00Z] INFO  === GENERATION COMPLETE ===
+[2026-05-21T09:29:00Z] INFO  Total test cases written: 47
+[2026-05-21T09:29:00Z] INFO  Total feature scenarios written: 35
+[2026-05-21T09:29:00Z] INFO  Total discrepancies found: 5 (High: 1, Medium: 3, Low: 1)
+[2026-05-21T09:29:00Z] INFO  All files written under: test-artifacts/UWB-2/

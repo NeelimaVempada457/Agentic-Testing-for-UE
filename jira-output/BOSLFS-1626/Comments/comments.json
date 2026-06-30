@@ -1,0 +1,78 @@
+[
+  {
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/36208/comment/44161",
+    "id": "44161",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Ad50a6949-ce30-456c-94d7-d68ea20b3763",
+      "accountId": "712020:d50a6949-ce30-456c-94d7-d68ea20b3763",
+      "emailAddress": "veerasaiprakash.devu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png"
+      },
+      "displayName": "Veera Sai Prakash Devu",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "body": "Hi @Neelima Vempada , Please use ‘Credit Administrator Test’ user to validate the requirement in Staging.",
+    "updateAuthor": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Ad50a6949-ce30-456c-94d7-d68ea20b3763",
+      "accountId": "712020:d50a6949-ce30-456c-94d7-d68ea20b3763",
+      "emailAddress": "veerasaiprakash.devu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png"
+      },
+      "displayName": "Veera Sai Prakash Devu",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-12T14:12:39.286-0400",
+    "updated": "2026-03-12T14:12:39.286-0400",
+    "jsdPublic": true
+  },
+  {
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/36208/comment/44271",
+    "id": "44271",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+      },
+      "displayName": "Shivaji Gundabattina",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "body": "Hi @jean.lopez / @Veera Sai Prakash Devu , Now I see '*Credit Administrator Test*' have right permissions to all objects. Please review the below test cases.\n\n*Test Cases:*\n\n# As a System Administrator, I want to see {{Credit Administrator}} role under {{Credit and Risk Department}} parent role. {color:#36b37e}*-PASS*{color}\n!image-20260313-152815.png|width=501,alt=\"image-20260313-152815.png\"!\n# As a System Administrator, I want to see {{Credit_Administrator_Read_Only}} permission set assigned to *Credit Administrator Test*. {color:#36b37e}*-PASS*{color}\n!image-20260313-153313.png|width=501,alt=\"image-20260313-153313.png\"!\n# As a *Credit Administrator Test*, I want to see only the Loans that have Status as *Completed*. {color:#36b37e}*-PASS*{color}\n!image-20260313-153529.png|width=501,alt=\"image-20260313-153529.png\"!\nAs a System Admin when I put a filter with Status = ‘Completed’, 52 items got displayed\n!image-20260316-082827.png|width=501,alt=\"image-20260316-082827.png\"!\n52 records were displayed to *Credit Administrator Test* without any filter applied\n!image-20260316-083012.png|width=501,alt=\"image-20260316-083012.png\"!\n# As a *Credit Administrator Test*, I want to have *read-only* access to the below objects. {color:#36b37e}*-PASS*{color}\n*Loan Package* - Edit Pencil Icon is not displayed for the fields of Loan Package\n!image-20260316-083127.png|width=501,alt=\"image-20260316-083127.png\"!\n!image-20260316-083225.png|width=501,alt=\"image-20260316-083225.png\"!\n!image-20260316-083309.png|width=501,alt=\"image-20260316-083309.png\"!\n*Loan* - Edit Pencil Icon is not displayed for the fields of Loan\n!image-20260316-083407.png|width=501,alt=\"image-20260316-083407.png\"!\n!image-20260316-083616.png|width=501,alt=\"image-20260316-083616.png\"!\n*Party Involved in Transaction* - Edit Pencil Icon is not displayed for the fields of Party Involved in Transaction.\n!image-20260316-083905.png|width=501,alt=\"image-20260316-083905.png\"!\n*Party Liabilities* - Edit Pencil Icon is not displayed for the fields of Party Liabilities.\n!image-20260316-083943.png|width=501,alt=\"image-20260316-083943.png\"!\n*Party Monthly Commitments* - Edit Pencil Icon is not displayed for the fields of Party Monthly Commitment\n!image-20260316-084035.png|width=501,alt=\"image-20260316-084035.png\"!\n*Party Monthly Income* - Edit Pencil Icon is not displayed for the fields of Party Monthly Income\n!image-20260316-084112.png|width=501,alt=\"image-20260316-084112.png\"!\n*Party Additional Income* - Edit Pencil Icon is not displayed for the fields of Party Additional Income\n!image-20260316-084148.png|width=501,alt=\"image-20260316-084148.png\"!\n*Other Liabilities* - Edit Pencil Icon is not displayed for the fields of Other Liabilities\n!image-20260316-084228.png|width=501,alt=\"image-20260316-084228.png\"!\n*Pay off Assignments* - Edit Pencil Icon is not displayed for the fields of Pay off Assignments.\n!image-20260316-084832.png|width=501,alt=\"image-20260316-084832.png\"!\n*Cash Configurations* - Edit Pencil Icon is not displayed for the fields of Cash Configurations\n!image-20260316-084928.png|width=501,alt=\"image-20260316-084928.png\"!\n*Collateral Loan Application* - Edit Pencil Icon is not displayed for the fields of Collateral Loan Application.\n!image-20260316-085020.png|width=501,alt=\"image-20260316-085020.png\"!\n*Collaterals* - Edit Pencil Icon is not displayed for the fields of Collaterals\n!image-20260316-085213.png|width=501,alt=\"image-20260316-085213.png\"!\n!image-20260316-085301.png|width=501,alt=\"image-20260316-085301.png\"!\n*Disbursement Conditions* - Edit Pencil Icon is not displayed for the fields of Disbursement Conditions\n!image-20260316-085401.png|width=501,alt=\"image-20260316-085401.png\"!\n*Disbursement Transactions* - Edit Pencil Icon is not displayed for the fields of Disbursement Transactions.\n!image-20260316-085645.png|width=501,alt=\"image-20260316-085645.png\"!\n*Special Conditions* - Edit Pencil Icon is not displayed for the fields of Special Conditions\n!image-20260316-085936.png|width=501,alt=\"image-20260316-085936.png\"!\n*Recommendations* - Edit Pencil Icon is not displayed for the fields of Recommendations.\n!image-20260316-090035.png|width=501,alt=\"image-20260316-090035.png\"!\n*Approval* - Edit Pencil Icon is not displayed for the fields of Approval Request\n!image-20260316-090119.png|width=501,alt=\"image-20260316-090119.png\"!\n*Fee* - Edit Pencil Icon is not displayed for the fields of Fees.\n!image-20260316-090231.png|width=501,alt=\"image-20260316-090231.png\"!\n*Loan Terms and Conditions* - Edit Pencil Icon is not displayed for the fields of Loan Terms and Conditions\n!image-20260316-090613.png|width=501,alt=\"image-20260316-090613.png\"!\n*Commitment Letter Statements* - Edit Pencil Icon is not displayed for the fields of Commitment Letter Statements\n!image-20260316-091153.png|width=501,alt=\"image-20260316-091153.png\"!",
+    "updateAuthor": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+      "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+      },
+      "displayName": "Shivaji Gundabattina",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-03-13T07:22:17.376-0400",
+    "updated": "2026-03-16T05:23:16.508-0400",
+    "jsdPublic": true
+  }
+]

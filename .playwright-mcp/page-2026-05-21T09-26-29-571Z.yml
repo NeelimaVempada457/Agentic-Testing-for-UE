@@ -1,0 +1,299 @@
+- generic [ref=e554]:
+  - complementary [ref=e555]:
+    - generic [ref=e556]:
+      - img "United Educators" [ref=e558]
+      - button "Collapse sidebar" [ref=e559] [cursor=pointer]:
+        - img [ref=e560]
+    - navigation [ref=e563]:
+      - button "Dashboard" [ref=e564] [cursor=pointer]:
+        - img [ref=e565]
+        - generic [ref=e570]: Dashboard
+      - button "Submissions" [ref=e571] [cursor=pointer]:
+        - img [ref=e572]
+        - generic [ref=e575]: Submissions
+      - button "Renewals" [ref=e576] [cursor=pointer]:
+        - img [ref=e577]
+        - generic [ref=e579]: Renewals
+      - button "Inbox" [ref=e580] [cursor=pointer]:
+        - img [ref=e581]
+        - generic [ref=e584]: Inbox
+      - button "Tasks" [ref=e585] [cursor=pointer]:
+        - img [ref=e586]
+        - generic [ref=e589]: Tasks
+      - button "Approvals" [ref=e590] [cursor=pointer]:
+        - img [ref=e591]
+        - generic [ref=e593]: Approvals
+      - button "Notifications" [ref=e594] [cursor=pointer]:
+        - img [ref=e595]
+        - generic [ref=e598]: Notifications
+      - button "Activity" [ref=e599] [cursor=pointer]:
+        - img [ref=e600]
+        - generic [ref=e602]: Activity
+      - button "Portfolio" [ref=e603] [cursor=pointer]:
+        - img [ref=e604]
+        - generic [ref=e605]: Portfolio
+    - button "JM John Michaels Sr. Underwriter" [ref=e607] [cursor=pointer]:
+      - generic [ref=e608]: JM
+      - generic [ref=e609]:
+        - paragraph [ref=e610]: John Michaels
+        - paragraph [ref=e611]: Sr. Underwriter
+      - img [ref=e612]
+  - main [ref=e615]:
+    - generic [ref=e617]:
+      - generic [ref=e620]:
+        - generic [ref=e621]:
+          - heading "Submissions" [level=1] [ref=e622]
+          - paragraph [ref=e623]: Underwriting Pipeline · 18 Total Submissions
+        - generic [ref=e624]:
+          - button "Export" [ref=e625] [cursor=pointer]:
+            - generic [ref=e626]:
+              - img [ref=e627]
+              - generic [ref=e630]: Export
+          - button "New Submission" [ref=e631] [cursor=pointer]:
+            - generic [ref=e632]:
+              - img [ref=e633]
+              - generic [ref=e634]: New Submission
+      - generic [ref=e635]:
+        - 'button "Open Submissions: 13 — across all stages (filter active)" [pressed] [ref=e636] [cursor=pointer]':
+          - paragraph [ref=e638]: Open Submissions
+          - paragraph [ref=e639]: "13"
+          - generic [ref=e641]: across all stages
+        - 'button "New This Week: 3 — vs. 14 last week (filter)" [ref=e642] [cursor=pointer]':
+          - paragraph [ref=e644]: New This Week
+          - paragraph [ref=e645]: "3"
+          - generic [ref=e647]: vs. 14 last week
+        - 'button "Awaiting Info: 2 — broker follow-up (filter)" [ref=e648] [cursor=pointer]':
+          - paragraph [ref=e650]: Awaiting Info
+          - paragraph [ref=e651]: "2"
+          - generic [ref=e653]: broker follow-up
+        - 'button "Ready for Review: 5 — complete submissions (filter)" [ref=e654] [cursor=pointer]':
+          - paragraph [ref=e656]: Ready for Review
+          - paragraph [ref=e657]: "5"
+          - generic [ref=e659]: complete submissions
+        - 'button "Avg. Time in Queue: 2.4d — rolling 7 days" [disabled] [ref=e660]':
+          - paragraph [ref=e662]: Avg. Time in Queue
+          - paragraph [ref=e663]: 2.4d
+          - generic [ref=e665]: rolling 7 days
+        - 'button "SLA At Risk: 3 — within 24h" [disabled] [ref=e666]':
+          - paragraph [ref=e668]: SLA At Risk
+          - paragraph [ref=e669]: "3"
+          - generic [ref=e671]: within 24h
+      - generic [ref=e672]:
+        - generic [ref=e673]:
+          - generic [ref=e674]:
+            - button "My Queue" [ref=e675] [cursor=pointer]
+            - button "My Team" [ref=e676] [cursor=pointer]
+            - button "All" [ref=e677] [cursor=pointer]
+          - generic [ref=e678]:
+            - img
+            - textbox "Search member, broker, sub ID…" [ref=e679]
+          - generic [ref=e680]:
+            - generic [ref=e681]: 18 results
+            - button "Filters" [ref=e682] [cursor=pointer]:
+              - img [ref=e683]
+              - text: Filters
+        - generic [ref=e685]:
+          - generic [ref=e686]:
+            - generic [ref=e688]:
+              - generic [ref=e689]: Member / Institution
+              - generic [ref=e690]: Type
+              - generic [ref=e691]: Products
+              - generic [ref=e692]: Stage
+              - generic [ref=e693]: Underwriter
+              - generic [ref=e694]: Appetite
+              - button "Premium" [ref=e695] [cursor=pointer]:
+                - text: Premium
+                - img [ref=e696]
+              - button "Need By" [ref=e699] [cursor=pointer]:
+                - text: Need By
+                - img [ref=e700]
+              - button "Effective" [ref=e702] [cursor=pointer]:
+                - text: Effective
+                - img [ref=e703]
+            - generic [ref=e706] [cursor=pointer]:
+              - generic [ref=e708]:
+                - generic [ref=e709]:
+                  - paragraph [ref=e710]: Montgomery County Public Schools
+                  - generic [ref=e711]: M-1219
+                - generic [ref=e712]:
+                  - generic [ref=e713]: SUB-7842
+                  - generic [ref=e715]: MD
+                  - generic [ref=e717]: Lockton Companies
+              - generic [ref=e718]: New Business
+              - generic [ref=e719]:
+                - generic [ref=e720]: EPL
+                - generic [ref=e721]: ELL
+                - generic [ref=e722]: ML
+                - generic [ref=e723]: "+1"
+              - generic [ref=e727]: Pending Info
+              - generic [ref=e729]:
+                - generic [ref=e730]: JM
+                - generic [ref=e731]: John
+              - generic [ref=e733]: 76%
+              - generic [ref=e734]: $88,300
+              - generic [ref=e735]: Jun 30
+              - generic [ref=e736]:
+                - generic [ref=e737]: Sep 1, 24
+                - img [ref=e738]
+            - generic [ref=e740] [cursor=pointer]:
+              - generic [ref=e742]:
+                - generic [ref=e743]:
+                  - paragraph [ref=e744]: Fairfax County Public Schools
+                  - generic [ref=e745]: M-1241
+                - generic [ref=e746]:
+                  - generic [ref=e747]: SUB-7839
+                  - generic [ref=e749]: VA
+                  - generic [ref=e751]: Alliant Insurance Services
+              - generic [ref=e752]: New Business
+              - generic [ref=e753]:
+                - generic [ref=e754]: EPL
+                - generic [ref=e755]: ELL
+                - generic [ref=e756]: ML
+                - generic [ref=e757]: "+1"
+              - generic [ref=e761]: In Review
+              - generic [ref=e763]:
+                - generic [ref=e764]: JM
+                - generic [ref=e765]: John
+              - generic [ref=e767]: 87%
+              - generic [ref=e768]: $96,700
+              - generic [ref=e769]: Jun 25
+              - generic [ref=e770]:
+                - generic [ref=e771]: Sep 1, 24
+                - img [ref=e772]
+            - generic [ref=e774] [cursor=pointer]:
+              - generic [ref=e776]:
+                - generic [ref=e777]:
+                  - paragraph [ref=e778]: Seattle Public Schools
+                  - generic [ref=e779]: M-1129
+                - generic [ref=e780]:
+                  - generic [ref=e781]: SUB-7833
+                  - generic [ref=e783]: WA
+                  - generic [ref=e785]: Alliant Insurance Services
+              - generic [ref=e786]: New Business
+              - generic [ref=e787]:
+                - generic [ref=e788]: EPL
+                - generic [ref=e789]: ML
+                - generic [ref=e790]: Cyber
+              - generic [ref=e794]: Pending Info
+              - generic [ref=e796]:
+                - generic [ref=e797]: SM
+                - generic [ref=e798]: Sarah
+              - generic [ref=e800]: 71%
+              - generic [ref=e801]: $64,800
+              - generic [ref=e802]: Jun 20
+              - generic [ref=e803]:
+                - generic [ref=e804]: Sep 1, 24
+                - img [ref=e805]
+            - generic [ref=e807] [cursor=pointer]:
+              - generic [ref=e809]:
+                - generic [ref=e810]:
+                  - paragraph [ref=e811]: Houston ISD
+                  - generic [ref=e812]: M-0986
+                - generic [ref=e813]:
+                  - generic [ref=e814]: SUB-7834
+                  - generic [ref=e816]: TX
+                  - generic [ref=e818]: Arthur J. Gallagher & Co.
+              - generic [ref=e819]: New Business
+              - generic [ref=e820]:
+                - generic [ref=e821]: EPL
+                - generic [ref=e822]: ELL
+                - generic [ref=e823]: GL
+              - generic [ref=e827]: New
+              - generic [ref=e829]:
+                - generic [ref=e830]: "?"
+                - generic [ref=e831]: Unassigned
+              - generic [ref=e833]: 84%
+              - generic [ref=e834]: $92,100
+              - generic [ref=e835]: Jun 10
+              - generic [ref=e836]:
+                - generic [ref=e837]: Aug 1, 24
+                - img [ref=e838]
+            - generic [ref=e840] [cursor=pointer]:
+              - generic [ref=e842]:
+                - generic [ref=e843]:
+                  - paragraph [ref=e844]: Wake County Public School System
+                  - generic [ref=e845]: M-1304
+                - generic [ref=e846]:
+                  - generic [ref=e847]: SUB-7840
+                  - generic [ref=e849]: NC
+                  - generic [ref=e851]: Arthur J. Gallagher & Co.
+              - generic [ref=e852]: New Business
+              - generic [ref=e853]:
+                - generic [ref=e854]: EPL
+                - generic [ref=e855]: GL
+                - generic [ref=e856]: Cyber
+              - generic [ref=e860]: New
+              - generic [ref=e862]:
+                - generic [ref=e863]: "?"
+                - generic [ref=e864]: Unassigned
+              - generic [ref=e866]: 83%
+              - generic [ref=e867]: $72,400
+              - generic [ref=e868]: Jun 8
+              - generic [ref=e869]:
+                - generic [ref=e870]: Aug 1, 24
+                - img [ref=e871]
+          - generic [ref=e873]:
+            - generic [ref=e874]:
+              - generic [ref=e875]: Showing 1 – 5 of 18 submissions
+              - generic [ref=e877]: Page 1 of 4
+            - generic [ref=e878]:
+              - button "Previous" [disabled] [ref=e879]:
+                - img [ref=e880]
+                - text: Previous
+              - button "1" [ref=e882] [cursor=pointer]
+              - button "2" [ref=e883] [cursor=pointer]
+              - button "3" [ref=e884] [cursor=pointer]
+              - button "4" [ref=e885] [cursor=pointer]
+              - button "Next" [ref=e886] [cursor=pointer]:
+                - text: Next
+                - img [ref=e887]
+  - complementary [ref=e889]:
+    - generic [ref=e890]:
+      - generic [ref=e891]: Live · agentic
+      - generic [ref=e893]:
+        - button "Reset thread" [ref=e894] [cursor=pointer]:
+          - img [ref=e895]
+        - button "Collapse" [ref=e898] [cursor=pointer]:
+          - img [ref=e899]
+    - generic [ref=e903]:
+      - img [ref=e909]
+      - generic [ref=e913]:
+        - generic [ref=e914]: Companion
+        - generic [ref=e915]: Submissions · Queue · 18
+    - generic [ref=e917]:
+      - generic [ref=e918]:
+        - img [ref=e924]
+        - generic [ref=e928]: "I'm looking at 18 submissions: 5 in review, 3 quoted, 3 bound YTD. What would help?"
+      - generic [ref=e929]:
+        - generic [ref=e930]:
+          - img [ref=e931]
+          - text: Suggested follow-ups
+        - generic [ref=e934]:
+          - button "Show overdue submissions" [ref=e935] [cursor=pointer]:
+            - img [ref=e936]
+            - generic [ref=e938]: Show overdue submissions
+            - img [ref=e939]
+          - button "Break down by status" [ref=e941] [cursor=pointer]:
+            - img [ref=e942]
+            - generic [ref=e945]: Break down by status
+            - img [ref=e946]
+          - button "Summarize the queue" [ref=e948] [cursor=pointer]:
+            - img [ref=e949]
+            - generic [ref=e952]: Summarize the queue
+            - img [ref=e953]
+          - button "Start a new submission" [ref=e955] [cursor=pointer]:
+            - img [ref=e956]
+            - generic [ref=e957]: Start a new submission
+            - img [ref=e958]
+          - button "Open Portfolio" [ref=e960] [cursor=pointer]:
+            - img [ref=e961]
+            - generic [ref=e963]: Open Portfolio
+            - img [ref=e964]
+    - generic [ref=e968]:
+      - generic [ref=e969]:
+        - button [ref=e970] [cursor=pointer]:
+          - img [ref=e971]
+        - textbox "Ask about submissions…" [ref=e972]
+        - button [disabled] [ref=e973] [cursor=pointer]:
+          - img [ref=e974]
+      - generic [ref=e977]: Watching this page — every action is deterministic and traceable.

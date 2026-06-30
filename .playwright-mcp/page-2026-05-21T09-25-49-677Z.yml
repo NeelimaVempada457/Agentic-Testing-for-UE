@@ -1,0 +1,457 @@
+- generic [active]:
+  - generic:
+    - generic:
+      - generic:
+        - complementary:
+          - generic:
+            - generic:
+              - img
+            - button:
+              - img
+          - navigation:
+            - button:
+              - img
+              - generic: Dashboard
+            - button:
+              - img
+              - generic: Submissions
+            - button:
+              - img
+              - generic: Renewals
+            - button:
+              - img
+              - generic: Inbox
+            - button:
+              - img
+              - generic: Tasks
+            - button:
+              - img
+              - generic: Approvals
+            - button:
+              - img
+              - generic: Notifications
+            - button:
+              - img
+              - generic: Activity
+            - button:
+              - img
+              - generic: Portfolio
+          - generic:
+            - button:
+              - generic: JM
+              - generic:
+                - paragraph: John Michaels
+                - paragraph: Sr. Underwriter
+              - img
+        - generic:
+          - main:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - generic: Thursday, May 21, 2026
+                    - heading [level=1]: Good afternoon, John.
+                    - paragraph: You have 2 critical alerts and 3 overdue tasks waiting.
+                  - generic:
+                    - button:
+                      - generic:
+                        - img
+                        - text: New Submission
+              - generic:
+                - group:
+                  - generic:
+                    - paragraph: My In Review
+                    - generic:
+                      - img
+                  - paragraph: "4"
+                  - generic:
+                    - img
+                    - generic: Active
+                - group:
+                  - generic:
+                    - paragraph: Quoted This Month
+                    - generic:
+                      - img
+                  - paragraph: "9"
+                  - generic:
+                    - img
+                    - generic: +1 vs. last month
+                - group:
+                  - generic:
+                    - paragraph: Bound This Month
+                    - generic:
+                      - img
+                  - paragraph: "4"
+                  - generic:
+                    - img
+                    - generic: $1.45M premium
+                - group:
+                  - generic:
+                    - paragraph: Avg. Days to Quote
+                    - generic:
+                      - img
+                  - paragraph: 3.2d
+                  - generic:
+                    - img
+                    - generic: Best on team
+                - group:
+                  - generic:
+                    - paragraph: Hit Ratio (YTD)
+                    - generic:
+                      - img
+                  - paragraph: 74%
+                  - generic:
+                    - img
+                    - generic: +6pp vs. last yr
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+                      - heading [level=3]: Submissions
+                    - generic: "3"
+                  - generic:
+                    - generic:
+                      - button: My Submissions
+                      - button: Team
+                    - generic:
+                      - button:
+                        - img
+                        - text: All
+                        - img
+                  - generic:
+                    - table:
+                      - rowgroup:
+                        - row:
+                          - columnheader: ID
+                          - columnheader: Member
+                          - columnheader: Type
+                          - columnheader: Assignee
+                          - columnheader: Premium
+                          - columnheader: Status
+                          - columnheader: Priority
+                          - columnheader: Effective
+                          - columnheader
+                      - rowgroup:
+                        - row:
+                          - cell: SUB-7832
+                          - cell:
+                            - paragraph: Vanderbilt University
+                            - generic:
+                              - img
+                              - generic: TN
+                          - cell: Higher Ed
+                          - cell:
+                            - generic:
+                              - generic: JM
+                              - generic: John
+                          - cell: $620,000
+                          - cell:
+                            - generic:
+                              - generic: In Review
+                          - cell:
+                            - generic: Medium
+                          - cell: Sep 1, 2024
+                          - cell:
+                            - img
+                        - row:
+                          - cell: SUB-7836
+                          - cell:
+                            - paragraph: Massachusetts Inst. of Technology
+                            - generic:
+                              - img
+                              - generic: MA
+                          - cell: Higher Ed
+                          - cell:
+                            - generic:
+                              - generic: JM
+                              - generic: John
+                          - cell: $890,000
+                          - cell:
+                            - generic:
+                              - generic: Quoted
+                          - cell:
+                            - generic: Medium
+                          - cell: Jul 1, 2024
+                          - cell:
+                            - img
+                        - row:
+                          - cell: SUB-7840
+                          - cell:
+                            - paragraph: Georgetown University
+                            - generic:
+                              - img
+                              - generic: DC
+                          - cell: Higher Ed
+                          - cell:
+                            - generic:
+                              - generic: JM
+                              - generic: John
+                          - cell: $540,000
+                          - cell:
+                            - generic:
+                              - generic: Quoted
+                          - cell:
+                            - generic: Medium
+                          - cell: Aug 1, 2024
+                          - cell:
+                            - img
+                  - generic:
+                    - generic: Showing 1 – 3 of 3
+                    - generic:
+                      - button [disabled]:
+                        - img
+                        - text: Prev
+                      - button: "1"
+                      - button [disabled]:
+                        - text: Next
+                        - img
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+                      - heading [level=3]: Open Tasks
+                    - generic:
+                      - button: All
+                      - button: Mine
+                      - button:
+                        - text: Overdue
+                        - generic: "3"
+                  - generic:
+                    - generic:
+                      - generic:
+                        - paragraph: Obtain open claims detail from broker
+                        - generic: High
+                      - generic:
+                        - generic: SUB-7829
+                        - generic:
+                          - img
+                          - text: Apr 20, 2024
+                    - generic:
+                      - generic:
+                        - paragraph: Verify background check documentation
+                        - generic: High
+                      - generic:
+                        - generic: SUB-7829
+                        - generic:
+                          - img
+                          - text: Apr 22, 2024
+                    - generic:
+                      - generic:
+                        - paragraph: Review GASB 68 pension liability report
+                        - generic: Medium
+                      - generic:
+                        - generic: SUB-7832
+                        - generic:
+                          - img
+                          - text: Apr 18, 2024
+                    - generic:
+                      - generic:
+                        - paragraph: Request missing safety questionnaire
+                        - generic: Critical
+                      - generic:
+                        - generic: SUB-7835
+                        - generic:
+                          - img
+                          - text: Apr 19, 2024
+                    - generic:
+                      - generic:
+                        - paragraph: Send indicative quote to Gallagher
+                        - generic: High
+                      - generic:
+                        - generic: SUB-7829
+                        - generic:
+                          - img
+                          - text: May 5, 2024
+                    - generic:
+                      - generic:
+                        - paragraph: Confirm earthquake zone with surveyor
+                        - generic: Medium
+                      - generic:
+                        - generic: SUB-7831
+                        - generic:
+                          - img
+                          - text: Apr 28, 2024
+                  - generic:
+                    - generic: 8 total tasks
+                    - button:
+                      - text: View all
+                      - img
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                        - heading [level=3]: Alerts & Flags
+                      - generic:
+                        - button: All
+                        - button: Critical
+                        - button: Warning
+                    - generic:
+                      - generic:
+                        - generic:
+                          - paragraph: "Missing: Safety Questionnaire"
+                          - generic: 2h ago
+                        - paragraph: SUB-7835 (Seattle PS) — required document not received.
+                        - generic: SUB-7835 →
+                      - generic:
+                        - generic:
+                          - paragraph: Review Overdue — 16 Days
+                          - generic: Today
+                        - paragraph: SUB-7831 (Austin ISD) has been pending for 16 days.
+                        - generic: SUB-7831 →
+                      - generic:
+                        - generic:
+                          - paragraph: Open Litigation Flagged
+                          - generic: Mar 18
+                        - paragraph: SUB-7829 (Riverside USD) — CLM-2021-027 in mediation.
+                        - generic: SUB-7829 →
+                      - generic:
+                        - generic:
+                          - paragraph: "Low Appetite Score: 41/100"
+                          - generic: Mar 25
+                        - paragraph: SUB-7834 (Phoenix Charter) — below threshold of 50.
+                        - generic: SUB-7834 →
+                      - generic:
+                        - generic:
+                          - paragraph: Quote Expiring in 5 Days
+                          - generic: Today
+                        - paragraph: SUB-7830 (San Diego City) quote expires Apr 24.
+                        - generic: SUB-7830 →
+                      - generic:
+                        - generic:
+                          - paragraph: "Missing: Background Check Policy"
+                          - generic: 3d ago
+                        - paragraph: SUB-7838 (Chicago Lab) — compliance doc outstanding.
+                        - generic: SUB-7838 →
+                    - generic:
+                      - generic: 2 critical · 3 warnings
+                      - button:
+                        - text: View all
+                        - img
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                        - heading [level=3]: Portfolio Snapshot
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                            - generic: Total Submissions (MTD)
+                          - generic: "22"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                            - generic: Quoted Pipeline
+                          - generic: $4.2M
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                            - generic: Bound YTD
+                          - generic: $3.1M
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                            - generic: Avg. Appetite Score
+                          - generic: 81/100
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                            - generic: Submissions in SLA
+                          - generic: 91%
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                            - generic: Docs Incomplete
+                          - generic: 4 subs
+        - complementary:
+          - generic:
+            - generic: Live · agentic
+            - generic:
+              - button:
+                - img
+              - button:
+                - img
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+              - generic:
+                - generic: Companion
+                - generic: Dashboard · Today's workbench
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                - generic: "Three things ready: one submission is ready to quote, one referral is past SLA, and two appetite scores moved overnight. Want a chart of today's pipeline?"
+              - generic:
+                - generic:
+                  - img
+                  - text: Suggested follow-ups
+                - generic:
+                  - button:
+                    - img
+                    - generic: Show today's pipeline
+                    - img
+                  - button:
+                    - img
+                    - generic: What's urgent?
+                    - img
+                  - button:
+                    - img
+                    - generic: Open Submissions
+                    - img
+                  - button:
+                    - img
+                    - generic: Start a new submission
+                    - img
+          - generic:
+            - generic:
+              - generic:
+                - button:
+                  - img
+                - textbox:
+                  - /placeholder: Ask about dashboard…
+                - button [disabled]:
+                  - img
+              - generic: Watching this page — every action is deterministic and traceable.
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - img [ref=e6]
+        - generic [ref=e9]:
+          - paragraph [ref=e10]: United Educators
+          - heading "UW Workbench" [level=1] [ref=e11]
+      - generic [ref=e12]:
+        - paragraph [ref=e13]: Sign in to access the workbench
+        - generic [ref=e14]:
+          - generic [ref=e15]: Username
+          - textbox "Username" [ref=e16]:
+            - /placeholder: Enter username
+        - generic [ref=e17]:
+          - generic [ref=e18]: Password
+          - generic [ref=e19]:
+            - textbox "Password" [ref=e20]:
+              - /placeholder: Enter password
+            - button "Show password" [ref=e21] [cursor=pointer]:
+              - img [ref=e22]
+        - button "Access Workbench" [ref=e25] [cursor=pointer]
+        - paragraph [ref=e26]: Protected access — authorized personnel only

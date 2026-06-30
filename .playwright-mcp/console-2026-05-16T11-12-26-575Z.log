@@ -1,0 +1,7 @@
+[    1389ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://bankofstlucia--digitalqa.sandbox.my.site.com/webruntime/framework/b84f5999fe/prod/lwr_bootstrap_locker:22
+[    1463ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://bankofstlucia--digitalqa.sandbox.my.site.com/webruntime/framework/b84f5999fe/prod/lwr_bootstrap_locker:22
+[    1489ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://bankofstlucia--digitalqa.sandbox.my.site.com/webruntime/framework/b84f5999fe/prod/lwr_bootstrap_locker:22
+[    3162ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bankofstlucia--digitalqa.sandbox.my.site.com/favicon.ico:0
+[   95806ms] [LOG] Current Page Name: Register @ https://bankofstlucia--digitalqa.sandbox.my.site.com/webruntime/framework/b84f5999fe/prod/lwr_bootstrap_locker:20
+[   95807ms] [LOG] Current Page Name: Register @ https://bankofstlucia--digitalqa.sandbox.my.site.com/webruntime/framework/b84f5999fe/prod/lwr_bootstrap_locker:20
+[   96868ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bankofstlucia--digitalqa.sandbox.my.site.com/assets/styles/images/themes/oneSalesforce/banner-brand-default.png:0

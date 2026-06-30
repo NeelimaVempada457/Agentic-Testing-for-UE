@@ -1,0 +1,11 @@
+[    1813ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://bankofstlucia--digitalqa.sandbox.my.site.com/webruntime/framework/b84f5999fe/prod/lwr_bootstrap_locker:22
+[    2023ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://bankofstlucia--digitalqa.sandbox.my.site.com/webruntime/framework/b84f5999fe/prod/lwr_bootstrap_locker:22
+[    2141ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://bankofstlucia--digitalqa.sandbox.my.site.com/webruntime/framework/b84f5999fe/prod/lwr_bootstrap_locker:22
+[    7206ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bankofstlucia--digitalqa.sandbox.my.site.com/favicon.ico:0
+[   71176ms] [LOG] Current Page Name: Register @ https://bankofstlucia--digitalqa.sandbox.my.site.com/webruntime/framework/b84f5999fe/prod/lwr_bootstrap_locker:20
+[   71177ms] [LOG] Current Page Name: Register @ https://bankofstlucia--digitalqa.sandbox.my.site.com/webruntime/framework/b84f5999fe/prod/lwr_bootstrap_locker:20
+[   72678ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bankofstlucia--digitalqa.sandbox.my.site.com/assets/styles/images/themes/oneSalesforce/banner-brand-default.png:0
+[  212906ms] [LOG] Back to Home button clicked @ https://bankofstlucia--digitalqa.sandbox.my.site.com/webruntime/framework/b84f5999fe/prod/lwr_bootstrap_locker:20
+[  251552ms] [LOG] Current Page Name: Home @ https://bankofstlucia--digitalqa.sandbox.my.site.com/webruntime/framework/b84f5999fe/prod/lwr_bootstrap_locker:20
+[  322460ms] [LOG] Current Page Name: Register @ https://bankofstlucia--digitalqa.sandbox.my.site.com/webruntime/framework/b84f5999fe/prod/lwr_bootstrap_locker:20
+[  322461ms] [LOG] Current Page Name: Register @ https://bankofstlucia--digitalqa.sandbox.my.site.com/webruntime/framework/b84f5999fe/prod/lwr_bootstrap_locker:20

@@ -1,0 +1,1094 @@
+{
+  "key": "BOSLFS-1626",
+  "id": "36208",
+  "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/36208",
+  "summary": "After SOW: Credit Administrator Role",
+  "status": "UAT Deployed",
+  "priority": "Medium",
+  "issuetype": "Story",
+  "assignee": {
+    "displayName": "Marcia George"
+  },
+  "reporter": {
+    "displayName": "jean.lopez",
+    "emailAddress": "jean.lopez@theksquaregroup.com"
+  },
+  "labels": [
+    "AprilRelease"
+  ],
+  "components": [],
+  "fixVersions": [],
+  "affectsVersions": [],
+  "storyPoints": null,
+  "sprint": {
+    "id": 3483,
+    "name": "BOSLFS May Release 6",
+    "state": "active",
+    "boardId": 12,
+    "goal": "",
+    "startDate": "2026-05-04T06:32:51.672Z",
+    "endDate": "2026-05-29T05:00:00.000Z"
+  },
+  "epic": null,
+  "environment": null,
+  "created": "2026-02-24T14:44:11.474-0500",
+  "updated": "2026-04-30T16:01:03.108-0400",
+  "dueDate": null,
+  "resolution": "Done",
+  "resolutionDate": "2026-03-16T05:24:10.116-0400",
+  "votes": 0,
+  "watches": 3,
+  "customFields": {
+    "customfield_10020": [
+      {
+        "id": 3483,
+        "name": "BOSLFS May Release 6",
+        "state": "active",
+        "boardId": 12,
+        "goal": "",
+        "startDate": "2026-05-04T06:32:51.672Z",
+        "endDate": "2026-05-29T05:00:00.000Z"
+      }
+    ],
+    "customfield_10019": "0|i003nb:mnwcnv8zzzzzqzzz0zzzzzzzr8y",
+    "customfield_10000": "{pullrequest={dataType=pullrequest, state=MERGED, stateCount=1}, json={\"cachedValue\":{\"errors\":[],\"summary\":{\"pullrequest\":{\"overall\":{\"count\":1,\"lastUpdated\":\"2026-03-12T21:02:04.000+0530\",\"stateCount\":1,\"state\":\"MERGED\",\"dataType\":\"pullrequest\",\"open\":false},\"byInstanceType\":{\"GitHub\":{\"count\":1,\"name\":\"GitHub\"}}}}},\"isStale\":true}}"
+  },
+  "rawFields": {
+    "statuscategorychangedate": "2026-03-16T05:24:10.151-0400",
+    "issuetype": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issuetype/10061",
+      "id": "10061",
+      "description": "Stories track functionality or features expressed as user goals.",
+      "iconUrl": "https://theksquaregroupglobal.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+      "name": "Story",
+      "subtask": false,
+      "avatarId": 10315,
+      "entityId": "d535cd4d-73a8-4dc4-916b-cdc7b5c59dab",
+      "hierarchyLevel": 0
+    },
+    "parent": {
+      "id": "27828",
+      "key": "BOSLFS-1500",
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/27828",
+      "fields": {
+        "summary": "Enhancements and Support after SOW",
+        "status": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/status/10055",
+          "description": "",
+          "iconUrl": "https://theksquaregroupglobal.atlassian.net/",
+          "name": "New",
+          "id": "10055",
+          "statusCategory": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+          }
+        },
+        "priority": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://theksquaregroupglobal.atlassian.net/images/icons/priorities/medium_new.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "issuetype": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issuetype/10058",
+          "id": "10058",
+          "description": "Epics track collections of related bugs, stories, and tasks.",
+          "iconUrl": "https://theksquaregroupglobal.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+          "name": "Epic",
+          "subtask": false,
+          "avatarId": 10307,
+          "entityId": "6a22c516-d659-40d8-a715-0d3ad16df728",
+          "hierarchyLevel": 1
+        }
+      }
+    },
+    "timespent": null,
+    "project": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/project/10012",
+      "id": "10012",
+      "key": "BOSLFS",
+      "name": "BOSL Financial Services",
+      "projectTypeKey": "software",
+      "simplified": true,
+      "avatarUrls": {
+        "48x48": "https://theksquaregroupglobal.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10404",
+        "24x24": "https://theksquaregroupglobal.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10404?size=small",
+        "16x16": "https://theksquaregroupglobal.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10404?size=xsmall",
+        "32x32": "https://theksquaregroupglobal.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10404?size=medium"
+      }
+    },
+    "fixVersions": [],
+    "customfield_10033": null,
+    "aggregatetimespent": null,
+    "statusCategory": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/statuscategory/3",
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Done"
+    },
+    "resolution": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/resolution/10000",
+      "id": "10000",
+      "description": "Work has been completed on this work item.",
+      "name": "Done"
+    },
+    "customfield_10104": null,
+    "resolutiondate": "2026-03-16T05:24:10.116-0400",
+    "workratio": 0,
+    "issuerestriction": {
+      "issuerestrictions": {},
+      "shouldDisplay": true
+    },
+    "watches": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/BOSLFS-1626/watchers",
+      "watchCount": 3,
+      "isWatching": false
+    },
+    "lastViewed": "2026-05-15T05:59:49.882-0400",
+    "created": "2026-02-24T14:44:11.474-0500",
+    "customfield_10020": [
+      {
+        "id": 3483,
+        "name": "BOSLFS May Release 6",
+        "state": "active",
+        "boardId": 12,
+        "goal": "",
+        "startDate": "2026-05-04T06:32:51.672Z",
+        "endDate": "2026-05-29T05:00:00.000Z"
+      }
+    ],
+    "customfield_10021": null,
+    "customfield_10066": null,
+    "priority": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/priority/3",
+      "iconUrl": "https://theksquaregroupglobal.atlassian.net/images/icons/priorities/medium_new.svg",
+      "name": "Medium",
+      "id": "3"
+    },
+    "customfield_10068": null,
+    "labels": [
+      "AprilRelease"
+    ],
+    "customfield_10016": null,
+    "customfield_10019": "0|i003nb:mnwcnv8zzzzzqzzz0zzzzzzzr8y",
+    "timeestimate": 86400,
+    "aggregatetimeoriginalestimate": 86400,
+    "versions": [],
+    "issuelinks": [],
+    "assignee": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A7a385414-e139-4863-a543-162449da6907",
+      "accountId": "712020:7a385414-e139-4863-a543-162449da6907",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/0d5698a9b33b74b88026624e4cb8fc09?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/0d5698a9b33b74b88026624e4cb8fc09?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/0d5698a9b33b74b88026624e4cb8fc09?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/0d5698a9b33b74b88026624e4cb8fc09?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMG-0.png"
+      },
+      "displayName": "Marcia George",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "updated": "2026-04-30T16:01:03.108-0400",
+    "status": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/status/10064",
+      "description": "",
+      "iconUrl": "https://theksquaregroupglobal.atlassian.net/",
+      "name": "UAT Deployed",
+      "id": "10064",
+      "statusCategory": {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/statuscategory/3",
+        "id": 3,
+        "key": "done",
+        "colorName": "green",
+        "name": "Done"
+      }
+    },
+    "components": [],
+    "timeoriginalestimate": 86400,
+    "description": "*As a* System Administrator,\n\n*I want to* configure a specific \" Credit Administrator\" Role and Permission Set,\n\n*So that* external users can audit Disbursed loan applications without accessing sensitive \"New\" or \"Proposed\" data.\n\nh3. *Business Context*\n\nCurrently, Credit Risk require a view that mimics the Boarding perspective but with restricted scope. They must be nested within the *Credit and Risk Department* hierarchy to ensure proper data visibility and reporting alignment.\n\n----\n\nh3. *Technical Requirements*\n\n# *Role Hierarchy:* Create a new Role: {{ Credit Administrator}}. Parent Role must be {{Credit and Risk Department}}.\n# *Permission Set:* Create {{Credit_Administrator_Read_Only}}.\n#* *Clone Source:* Use {{Boarding}} as a base template  and update the fields to be (Read-Only).\n#* *Object Permissions:* Read-only access to Loan Applications and related objects.\n#** Loan Package\n#** Loan \n#** Party Involveld in Trasanction\n#** Party Liabilities\n#** Party Monthly Commitments\n#** Party Monthly Income\n#** Party Additional Income\n#** Other Liabilities\n#** Pay off Assigments\n#** Cash Configurations \n#** Collateral Loan Application\n#** Collaterals\n#** Disbursement Conditions\n#** Disbursement Transactions\n#** Special Condisitions\n#** Recommendations\n#** Approval\n#** Fee\n#** Loan Terms and Conditions\n#** Commitment Letter Statements\n# *Data Filtering:*  Auditors must *only* see Loan Applications where {{Status = Completed}}. \n#* Exclude all records where {{Status}} is  {{In progress}}, {{Declined, Amenmdment, Cancelled}}.\n#* _Note: This may require a Sharing Rule or a Scoping Rule depending on your Org's OWD (Org-Wide Defaults)._",
+    "customfield_10331": null,
+    "timetracking": {
+      "originalEstimate": "3d",
+      "remainingEstimate": "3d",
+      "originalEstimateSeconds": 86400,
+      "remainingEstimateSeconds": 86400
+    },
+    "customfield_10015": null,
+    "security": null,
+    "attachment": [
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40630",
+        "id": "40630",
+        "filename": "image-20260313-152815.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-13T11:35:58.583-0400",
+        "size": 85184,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40630",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40630"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40629",
+        "id": "40629",
+        "filename": "image-20260313-153313.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-13T11:35:58.140-0400",
+        "size": 195028,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40629",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40629"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40631",
+        "id": "40631",
+        "filename": "image-20260313-153529.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-13T11:35:58.963-0400",
+        "size": 264111,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40631",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40631"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40751",
+        "id": "40751",
+        "filename": "image-20260316-082827.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-16T04:30:20.880-0400",
+        "size": 233299,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40751",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40751"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40752",
+        "id": "40752",
+        "filename": "image-20260316-083012.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-16T04:30:21.512-0400",
+        "size": 264670,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40752",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40752"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40766",
+        "id": "40766",
+        "filename": "image-20260316-083127.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-16T04:51:53.806-0400",
+        "size": 197765,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40766",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40766"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40759",
+        "id": "40759",
+        "filename": "image-20260316-083225.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-16T04:51:51.057-0400",
+        "size": 172314,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40759",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40759"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40754",
+        "id": "40754",
+        "filename": "image-20260316-083309.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-16T04:51:48.950-0400",
+        "size": 143684,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40754",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40754"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40764",
+        "id": "40764",
+        "filename": "image-20260316-083407.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-16T04:51:53.090-0400",
+        "size": 166920,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40764",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40764"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40765",
+        "id": "40765",
+        "filename": "image-20260316-083616.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-16T04:51:53.473-0400",
+        "size": 131268,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40765",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40765"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40757",
+        "id": "40757",
+        "filename": "image-20260316-083905.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-16T04:51:50.164-0400",
+        "size": 127989,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40757",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40757"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40758",
+        "id": "40758",
+        "filename": "image-20260316-083943.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-16T04:51:50.575-0400",
+        "size": 166553,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40758",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40758"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40760",
+        "id": "40760",
+        "filename": "image-20260316-084035.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-16T04:51:51.454-0400",
+        "size": 130114,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40760",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40760"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40755",
+        "id": "40755",
+        "filename": "image-20260316-084112.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-16T04:51:49.345-0400",
+        "size": 163609,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40755",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40755"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40753",
+        "id": "40753",
+        "filename": "image-20260316-084148.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-16T04:51:48.472-0400",
+        "size": 163113,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40753",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40753"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40761",
+        "id": "40761",
+        "filename": "image-20260316-084228.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-16T04:51:51.907-0400",
+        "size": 173683,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40761",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40761"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40756",
+        "id": "40756",
+        "filename": "image-20260316-084832.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-16T04:51:49.754-0400",
+        "size": 239769,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40756",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40756"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40762",
+        "id": "40762",
+        "filename": "image-20260316-084928.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-16T04:51:52.317-0400",
+        "size": 206939,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40762",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40762"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40763",
+        "id": "40763",
+        "filename": "image-20260316-085020.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-16T04:51:52.660-0400",
+        "size": 236542,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40763",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40763"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40773",
+        "id": "40773",
+        "filename": "image-20260316-085213.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-16T05:23:13.420-0400",
+        "size": 142577,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40773",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40773"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40771",
+        "id": "40771",
+        "filename": "image-20260316-085301.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-16T05:23:12.530-0400",
+        "size": 123078,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40771",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40771"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40770",
+        "id": "40770",
+        "filename": "image-20260316-085401.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-16T05:23:12.113-0400",
+        "size": 166900,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40770",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40770"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40776",
+        "id": "40776",
+        "filename": "image-20260316-085645.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-16T05:23:14.930-0400",
+        "size": 165539,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40776",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40776"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40774",
+        "id": "40774",
+        "filename": "image-20260316-085936.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-16T05:23:13.994-0400",
+        "size": 141583,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40774",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40774"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40777",
+        "id": "40777",
+        "filename": "image-20260316-090035.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-16T05:23:15.371-0400",
+        "size": 210177,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40777",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40777"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40769",
+        "id": "40769",
+        "filename": "image-20260316-090119.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-16T05:23:11.669-0400",
+        "size": 150597,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40769",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40769"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40772",
+        "id": "40772",
+        "filename": "image-20260316-090231.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-16T05:23:12.986-0400",
+        "size": 189785,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40772",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40772"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40778",
+        "id": "40778",
+        "filename": "image-20260316-090613.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-16T05:23:15.794-0400",
+        "size": 182789,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40778",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40778"
+      },
+      {
+        "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/40775",
+        "id": "40775",
+        "filename": "image-20260316-091153.png",
+        "author": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+          "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+          },
+          "displayName": "Shivaji Gundabattina",
+          "active": true,
+          "timeZone": "America/New_York",
+          "accountType": "atlassian"
+        },
+        "created": "2026-03-16T05:23:14.466-0400",
+        "size": 215801,
+        "mimeType": "image/png",
+        "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/40775",
+        "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/40775"
+      }
+    ],
+    "aggregatetimeestimate": 86400,
+    "summary": "After SOW: Credit Administrator Role",
+    "creator": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "subtasks": [],
+    "reporter": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=62e946413cc20c06c8ae8839",
+      "accountId": "62e946413cc20c06c8ae8839",
+      "emailAddress": "jean.lopez@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "24x24": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "16x16": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png",
+        "32x32": "https://secure.gravatar.com/avatar/e87c50056a6483f3b0255576e286df0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJ-0.png"
+      },
+      "displayName": "jean.lopez",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 86400,
+      "percent": 0
+    },
+    "customfield_10000": "{pullrequest={dataType=pullrequest, state=MERGED, stateCount=1}, json={\"cachedValue\":{\"errors\":[],\"summary\":{\"pullrequest\":{\"overall\":{\"count\":1,\"lastUpdated\":\"2026-03-12T21:02:04.000+0530\",\"stateCount\":1,\"state\":\"MERGED\",\"dataType\":\"pullrequest\",\"open\":false},\"byInstanceType\":{\"GitHub\":{\"count\":1,\"name\":\"GitHub\"}}}}},\"isStale\":true}}",
+    "customfield_10364": null,
+    "customfield_10001": null,
+    "environment": null,
+    "duedate": null,
+    "progress": {
+      "progress": 0,
+      "total": 86400,
+      "percent": 0
+    },
+    "votes": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/BOSLFS-1626/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "comment": {
+      "comments": [
+        {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/36208/comment/44161",
+          "id": "44161",
+          "author": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Ad50a6949-ce30-456c-94d7-d68ea20b3763",
+            "accountId": "712020:d50a6949-ce30-456c-94d7-d68ea20b3763",
+            "emailAddress": "veerasaiprakash.devu@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png",
+              "24x24": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png",
+              "16x16": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png",
+              "32x32": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png"
+            },
+            "displayName": "Veera Sai Prakash Devu",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "body": "Hi [~accountid:712020:1ac4f31e-894c-4b36-b90f-2a2d3ee970ab] , Please use ‘Credit Administrator Test’ user to validate the requirement in Staging.",
+          "updateAuthor": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Ad50a6949-ce30-456c-94d7-d68ea20b3763",
+            "accountId": "712020:d50a6949-ce30-456c-94d7-d68ea20b3763",
+            "emailAddress": "veerasaiprakash.devu@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png",
+              "24x24": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png",
+              "16x16": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png",
+              "32x32": "https://secure.gravatar.com/avatar/c09e3a66dd42aa11ce72c02947193787?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVD-0.png"
+            },
+            "displayName": "Veera Sai Prakash Devu",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "created": "2026-03-12T14:12:39.286-0400",
+          "updated": "2026-03-12T14:12:39.286-0400",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/36208/comment/44271",
+          "id": "44271",
+          "author": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+            "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+            "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+              "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+              "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+              "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+            },
+            "displayName": "Shivaji Gundabattina",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "body": "Hi [~accountid:62e946413cc20c06c8ae8839] / [~accountid:712020:d50a6949-ce30-456c-94d7-d68ea20b3763] , Now I see '*Credit Administrator Test*' have right permissions to all objects. Please review the below test cases.\n\n*Test Cases:*\n\n# As a System Administrator, I want to see {{Credit Administrator}} role under {{Credit and Risk Department}} parent role. {color:#36b37e}*-PASS*{color}\n!image-20260313-152815.png|width=501,alt=\"image-20260313-152815.png\"!\n# As a System Administrator, I want to see {{Credit_Administrator_Read_Only}} permission set assigned to *Credit Administrator Test*. {color:#36b37e}*-PASS*{color}\n!image-20260313-153313.png|width=501,alt=\"image-20260313-153313.png\"!\n# As a *Credit Administrator Test*, I want to see only the Loans that have Status as *Completed*. {color:#36b37e}*-PASS*{color}\n!image-20260313-153529.png|width=501,alt=\"image-20260313-153529.png\"!\nAs a System Admin when I put a filter with Status = ‘Completed’, 52 items got displayed\n!image-20260316-082827.png|width=501,alt=\"image-20260316-082827.png\"!\n52 records were displayed to *Credit Administrator Test* without any filter applied\n!image-20260316-083012.png|width=501,alt=\"image-20260316-083012.png\"!\n# As a *Credit Administrator Test*, I want to have *read-only* access to the below objects. {color:#36b37e}*-PASS*{color}\n*Loan Package* - Edit Pencil Icon is not displayed for the fields of Loan Package\n!image-20260316-083127.png|width=501,alt=\"image-20260316-083127.png\"!\n!image-20260316-083225.png|width=501,alt=\"image-20260316-083225.png\"!\n!image-20260316-083309.png|width=501,alt=\"image-20260316-083309.png\"!\n*Loan* - Edit Pencil Icon is not displayed for the fields of Loan\n!image-20260316-083407.png|width=501,alt=\"image-20260316-083407.png\"!\n!image-20260316-083616.png|width=501,alt=\"image-20260316-083616.png\"!\n*Party Involved in Transaction* - Edit Pencil Icon is not displayed for the fields of Party Involved in Transaction.\n!image-20260316-083905.png|width=501,alt=\"image-20260316-083905.png\"!\n*Party Liabilities* - Edit Pencil Icon is not displayed for the fields of Party Liabilities.\n!image-20260316-083943.png|width=501,alt=\"image-20260316-083943.png\"!\n*Party Monthly Commitments* - Edit Pencil Icon is not displayed for the fields of Party Monthly Commitment\n!image-20260316-084035.png|width=501,alt=\"image-20260316-084035.png\"!\n*Party Monthly Income* - Edit Pencil Icon is not displayed for the fields of Party Monthly Income\n!image-20260316-084112.png|width=501,alt=\"image-20260316-084112.png\"!\n*Party Additional Income* - Edit Pencil Icon is not displayed for the fields of Party Additional Income\n!image-20260316-084148.png|width=501,alt=\"image-20260316-084148.png\"!\n*Other Liabilities* - Edit Pencil Icon is not displayed for the fields of Other Liabilities\n!image-20260316-084228.png|width=501,alt=\"image-20260316-084228.png\"!\n*Pay off Assignments* - Edit Pencil Icon is not displayed for the fields of Pay off Assignments.\n!image-20260316-084832.png|width=501,alt=\"image-20260316-084832.png\"!\n*Cash Configurations* - Edit Pencil Icon is not displayed for the fields of Cash Configurations\n!image-20260316-084928.png|width=501,alt=\"image-20260316-084928.png\"!\n*Collateral Loan Application* - Edit Pencil Icon is not displayed for the fields of Collateral Loan Application.\n!image-20260316-085020.png|width=501,alt=\"image-20260316-085020.png\"!\n*Collaterals* - Edit Pencil Icon is not displayed for the fields of Collaterals\n!image-20260316-085213.png|width=501,alt=\"image-20260316-085213.png\"!\n!image-20260316-085301.png|width=501,alt=\"image-20260316-085301.png\"!\n*Disbursement Conditions* - Edit Pencil Icon is not displayed for the fields of Disbursement Conditions\n!image-20260316-085401.png|width=501,alt=\"image-20260316-085401.png\"!\n*Disbursement Transactions* - Edit Pencil Icon is not displayed for the fields of Disbursement Transactions.\n!image-20260316-085645.png|width=501,alt=\"image-20260316-085645.png\"!\n*Special Conditions* - Edit Pencil Icon is not displayed for the fields of Special Conditions\n!image-20260316-085936.png|width=501,alt=\"image-20260316-085936.png\"!\n*Recommendations* - Edit Pencil Icon is not displayed for the fields of Recommendations.\n!image-20260316-090035.png|width=501,alt=\"image-20260316-090035.png\"!\n*Approval* - Edit Pencil Icon is not displayed for the fields of Approval Request\n!image-20260316-090119.png|width=501,alt=\"image-20260316-090119.png\"!\n*Fee* - Edit Pencil Icon is not displayed for the fields of Fees.\n!image-20260316-090231.png|width=501,alt=\"image-20260316-090231.png\"!\n*Loan Terms and Conditions* - Edit Pencil Icon is not displayed for the fields of Loan Terms and Conditions\n!image-20260316-090613.png|width=501,alt=\"image-20260316-090613.png\"!\n*Commitment Letter Statements* - Edit Pencil Icon is not displayed for the fields of Commitment Letter Statements\n!image-20260316-091153.png|width=501,alt=\"image-20260316-091153.png\"!",
+          "updateAuthor": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A19907123-a895-4ae1-bb45-0fdad9c21c29",
+            "accountId": "712020:19907123-a895-4ae1-bb45-0fdad9c21c29",
+            "emailAddress": "shivaji.gundabattina@theksquaregroup.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+              "24x24": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+              "16x16": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+              "32x32": "https://secure.gravatar.com/avatar/7c2ff420b7c2ba788154e04c940a8acc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png"
+            },
+            "displayName": "Shivaji Gundabattina",
+            "active": true,
+            "timeZone": "America/New_York",
+            "accountType": "atlassian"
+          },
+          "created": "2026-03-13T07:22:17.376-0400",
+          "updated": "2026-03-16T05:23:16.508-0400",
+          "jsdPublic": true
+        }
+      ],
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/36208/comment",
+      "maxResults": 2,
+      "total": 2,
+      "startAt": 0
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": []
+    }
+  }
+}

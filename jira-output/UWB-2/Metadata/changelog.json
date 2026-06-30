@@ -1,0 +1,606 @@
+[
+  {
+    "id": "981234",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A5021b219-a9e2-414e-877f-1e2f93e2215f",
+      "accountId": "712020:5021b219-a9e2-414e-877f-1e2f93e2215f",
+      "emailAddress": "abdul.adnan@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a87f58342e22fecbacf808327e16b5a3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-1.png",
+        "24x24": "https://secure.gravatar.com/avatar/a87f58342e22fecbacf808327e16b5a3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-1.png",
+        "16x16": "https://secure.gravatar.com/avatar/a87f58342e22fecbacf808327e16b5a3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-1.png",
+        "32x32": "https://secure.gravatar.com/avatar/a87f58342e22fecbacf808327e16b5a3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-1.png"
+      },
+      "displayName": "Abdul Adnan",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-24T19:54:01.288+0530",
+    "items": [
+      {
+        "field": "assignee",
+        "fieldtype": "jira",
+        "fieldId": "assignee",
+        "from": null,
+        "fromString": null,
+        "to": "712020:5021b219-a9e2-414e-877f-1e2f93e2215f",
+        "toString": "Abdul Adnan",
+        "tmpFromAccountId": null,
+        "tmpToAccountId": "712020:5021b219-a9e2-414e-877f-1e2f93e2215f"
+      }
+    ]
+  },
+  {
+    "id": "981713",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-27T19:21:24.092+0530",
+    "items": [
+      {
+        "field": "summary",
+        "fieldtype": "jira",
+        "fieldId": "summary",
+        "from": null,
+        "fromString": "ticket 2",
+        "to": null,
+        "toString": "NB-02: Add Products to New Business Submission"
+      }
+    ]
+  },
+  {
+    "id": "981759",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-27T20:30:18.122+0530",
+    "items": [
+      {
+        "field": "summary",
+        "fieldtype": "jira",
+        "fieldId": "summary",
+        "from": null,
+        "fromString": "NB-02: Add Products to New Business Submission",
+        "to": null,
+        "toString": "NB-02: Add Products to Submission"
+      }
+    ]
+  },
+  {
+    "id": "981812",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-27T23:56:12.715+0530",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "after manual creation. \n\nWe need the following fields displayed:\n\n*Submission: Header at top of page*\n\n|Submission Name|Account Name-Submission Type-Submission Number-2026|\n|Submission Number|Submission Number|\n|Submitted Date|date of submission creation|\n|Brokerage| |\n\nsubmission stage\n\nability to move submission to next stage\n\nappetite fit: developed later after appetite logic is defined\n\nEffective Date\n\nExpiration Date\n\n\n\n*Overview Page:*\n\nSubmission Details section: \n\n||Field||Value||\n|Account Name| |\n|Type|Cross-Sell, New Business, Renewal|\n|Need By Date|date|\n|Policy Effective Date|date|\n|Policy Expiration Date|date|\n|Stage| |\n|Quoted Premium|int|\n|Bound Premium|int|\n|Territory|East|\n\nSection 2:\n\nCoverage Summary:\n\nCoverage: text\n\nLimit: \n\nAggregate Limit:\n\nRetention:\n\nPremium\n\nTotal Premium: A summa at the bottom\n\n*Loss Experience:*\n\nempty for now\n\n*Risk Indicators:*\n\nempty for now",
+        "to": null,
+        "toString": "As a Territory Manager or any user who has given access for New Submission, when I am setting up a new business submission (from NB-01), I need to add the products the broker has requested. This gives the Underwriter a starting point with the basic coverage information. The system should allow me to select products from UE's catalog and enter initial details like potential premium, current limits, and incumbent carrier.\n\n\n\n|*#*|*Acceptance Criteria*|\n|1|During submission creation (after saving NB-01), user is taken to the submission detail page where they can add products|\n|2|User can access the Products section/tab to manage products for the submission|\n|3|User can click \"Add Product\" to add a new product to the submission|\n|4|System displays a product picker with products from UE's catalog|\n|5|After selecting a product, user can enter basic product information|\n\nLOB|Product|Coverage Mapping attached\n\n*Basic Product Fields (during creation):*\n\n||Field||Data Type||Required||\n|Product|Picklist|Yes|\n|Potential Premium|Currency|No|\n|Current Limit|Text|No|\n|Current SIR/Deductible|Text|No|\n|Current Competitor Carrier|Text|No|\n\n|#|Acceptance Criteria|\n|6|When a product is added, system automatically associates all coverages for that product from UE_LOBs_Products_and_Coverages.xlsx|\n|7|Coverages are for reference only during creation (read-only) and will be visible to the Underwriter during review|\n|8|User can add multiple products to the same submission|\n|9|User can edit or delete a product from the submission before it moves to Underwriting Review|\n|10|System displays added products in a table with columns: Product, Quoted Premium (blank initially), Bound Premium (blank), Initial Rank, Final Rank, Actions|\n|11|When a Product is added to a submission, the system automatically selects *all* Coverages associated with that Product in the master data (Reference: Product-to-Coverage Mapping).|\n|12|The Underwriter has the ability to *deselect* (exclude) or *re-select* (include) individual Coverages for a Product.|\n|13|If a Coverage is deselected, the system excludes it from the quote, premium calculation, and final policy documents (provided the underlying rating engine supports coverage-level removal).|\n|14|If deselection of a Coverage violates a business rule (e.g., a \"Core Coverage\" cannot be removed, or a required endorsement is missing), the system displays a validation error and prevents saving until the rule is satisfied.|\n\n[~accountid:557058:e0e50699-b67e-4c72-9c63-628991326903] we need fields related to Coverage selection here"
+      }
+    ]
+  },
+  {
+    "id": "981813",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-27T23:58:10.442+0530",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "12905",
+        "fromString": "To Do",
+        "to": "12906",
+        "toString": "In Progress"
+      }
+    ]
+  },
+  {
+    "id": "981814",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-27T23:58:10.991+0530",
+    "items": [
+      {
+        "field": "Rank",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10011",
+        "from": "",
+        "fromString": "",
+        "to": "",
+        "toString": "Ranked higher"
+      }
+    ]
+  },
+  {
+    "id": "981892",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-28T00:53:22.487+0530",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "As a Territory Manager or any user who has given access for New Submission, when I am setting up a new business submission (from NB-01), I need to add the products the broker has requested. This gives the Underwriter a starting point with the basic coverage information. The system should allow me to select products from UE's catalog and enter initial details like potential premium, current limits, and incumbent carrier.\n\n\n\n|*#*|*Acceptance Criteria*|\n|1|During submission creation (after saving NB-01), user is taken to the submission detail page where they can add products|\n|2|User can access the Products section/tab to manage products for the submission|\n|3|User can click \"Add Product\" to add a new product to the submission|\n|4|System displays a product picker with products from UE's catalog|\n|5|After selecting a product, user can enter basic product information|\n\nLOB|Product|Coverage Mapping attached\n\n*Basic Product Fields (during creation):*\n\n||Field||Data Type||Required||\n|Product|Picklist|Yes|\n|Potential Premium|Currency|No|\n|Current Limit|Text|No|\n|Current SIR/Deductible|Text|No|\n|Current Competitor Carrier|Text|No|\n\n|#|Acceptance Criteria|\n|6|When a product is added, system automatically associates all coverages for that product from UE_LOBs_Products_and_Coverages.xlsx|\n|7|Coverages are for reference only during creation (read-only) and will be visible to the Underwriter during review|\n|8|User can add multiple products to the same submission|\n|9|User can edit or delete a product from the submission before it moves to Underwriting Review|\n|10|System displays added products in a table with columns: Product, Quoted Premium (blank initially), Bound Premium (blank), Initial Rank, Final Rank, Actions|\n|11|When a Product is added to a submission, the system automatically selects *all* Coverages associated with that Product in the master data (Reference: Product-to-Coverage Mapping).|\n|12|The Underwriter has the ability to *deselect* (exclude) or *re-select* (include) individual Coverages for a Product.|\n|13|If a Coverage is deselected, the system excludes it from the quote, premium calculation, and final policy documents (provided the underlying rating engine supports coverage-level removal).|\n|14|If deselection of a Coverage violates a business rule (e.g., a \"Core Coverage\" cannot be removed, or a required endorsement is missing), the system displays a validation error and prevents saving until the rule is satisfied.|\n\n[~accountid:557058:e0e50699-b67e-4c72-9c63-628991326903] we need fields related to Coverage selection here",
+        "to": null,
+        "toString": "As a Territory Manager or any user who has given access for New Submission, when I am setting up a new business submission (from NB-01), I need to add the products the broker has requested. This gives the Underwriter a starting point with the basic coverage information. The system should allow me to select products from UE's catalog and enter initial details like potential premium, current limits, and incumbent carrier.\n\n\n\n|*#*|*Acceptance Criteria*|\n|1|During submission creation (after saving NB-01), user is taken to the submission detail page where they can add products|\n|2|User can access the Products section/tab to manage products for the submission|\n|3|User can click \"Add Product\" to add a new product to the submission|\n|4|System displays a product picker with products from UE's catalog|\n|5|After selecting a product, user can enter basic product information|\n\nLOB|Product|Coverage Mapping attached\n\n*Basic Product Fields (during creation):*\n\n||Field||Data Type||Required||\n|Product|Picklist|Yes|\n|Potential Premium|Currency|No|\n|Current Limit|Text|No|\n|Current SIR/Deductible|Text|No|\n|Current Competitor Carrier|Text|No|\n\n|#|Acceptance Criteria|\n|6|When a product is added, system automatically associates all coverages for that product from UE_LOBs_Products_and_Coverages.xlsx|\n|7|Coverages are for reference only during creation (read-only) and will be visible to the Underwriter during review|\n|8|User can add multiple products to the same submission|\n|9|User can edit or delete a product from the submission before it moves to Underwriting Review|\n|10|System displays added products in a table with columns: Product, Quoted Premium (blank initially), Bound Premium (blank), Initial Rank, Final Rank, Actions|\n|11|When a Product is added to a submission, the system automatically selects *all* Coverages associated with that Product in the master data (Reference: Product-to-Coverage Mapping).|\n|12|The Underwriter has the ability to *deselect* (exclude) or *re-select* (include) individual Coverages for a Product.|\n|13|If a Coverage is deselected, the system excludes it from the quote, premium calculation, and final policy documents (provided the underlying rating engine supports coverage-level removal).|\n|14|If deselection of a Coverage violates a business rule (e.g., a \"Core Coverage\" cannot be removed, or a required endorsement is missing), the system displays a validation error and prevents saving until the rule is satisfied.|\n\n[~accountid:557058:e0e50699-b67e-4c72-9c63-628991326903] we need fields related to Coverage selection here\n\n[^UE_LOBs_Products_and_Coverages.xlsx]\n\n"
+      }
+    ]
+  },
+  {
+    "id": "981891",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-28T00:53:22.822+0530",
+    "items": [
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "248515",
+        "toString": "UE_LOBs_Products_and_Coverages.xlsx"
+      }
+    ]
+  },
+  {
+    "id": "984600",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-05T18:23:48.054+0530",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "12906",
+        "fromString": "In Progress",
+        "to": "12905",
+        "toString": "To Do"
+      }
+    ]
+  },
+  {
+    "id": "984601",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-05T18:23:48.701+0530",
+    "items": [
+      {
+        "field": "Rank",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10011",
+        "from": "",
+        "fromString": "",
+        "to": "",
+        "toString": "Ranked lower"
+      }
+    ]
+  },
+  {
+    "id": "984620",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-05T18:37:56.496+0530",
+    "items": [
+      {
+        "field": "summary",
+        "fieldtype": "jira",
+        "fieldId": "summary",
+        "from": null,
+        "fromString": "NB-02: Add Products to Submission",
+        "to": null,
+        "toString": "Submission Tasks View - UW/US"
+      }
+    ]
+  },
+  {
+    "id": "985035",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-06T14:22:53.944+0530",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "As a Territory Manager or any user who has given access for New Submission, when I am setting up a new business submission (from NB-01), I need to add the products the broker has requested. This gives the Underwriter a starting point with the basic coverage information. The system should allow me to select products from UE's catalog and enter initial details like potential premium, current limits, and incumbent carrier.\n\n\n\n|*#*|*Acceptance Criteria*|\n|1|During submission creation (after saving NB-01), user is taken to the submission detail page where they can add products|\n|2|User can access the Products section/tab to manage products for the submission|\n|3|User can click \"Add Product\" to add a new product to the submission|\n|4|System displays a product picker with products from UE's catalog|\n|5|After selecting a product, user can enter basic product information|\n\nLOB|Product|Coverage Mapping attached\n\n*Basic Product Fields (during creation):*\n\n||Field||Data Type||Required||\n|Product|Picklist|Yes|\n|Potential Premium|Currency|No|\n|Current Limit|Text|No|\n|Current SIR/Deductible|Text|No|\n|Current Competitor Carrier|Text|No|\n\n|#|Acceptance Criteria|\n|6|When a product is added, system automatically associates all coverages for that product from UE_LOBs_Products_and_Coverages.xlsx|\n|7|Coverages are for reference only during creation (read-only) and will be visible to the Underwriter during review|\n|8|User can add multiple products to the same submission|\n|9|User can edit or delete a product from the submission before it moves to Underwriting Review|\n|10|System displays added products in a table with columns: Product, Quoted Premium (blank initially), Bound Premium (blank), Initial Rank, Final Rank, Actions|\n|11|When a Product is added to a submission, the system automatically selects *all* Coverages associated with that Product in the master data (Reference: Product-to-Coverage Mapping).|\n|12|The Underwriter has the ability to *deselect* (exclude) or *re-select* (include) individual Coverages for a Product.|\n|13|If a Coverage is deselected, the system excludes it from the quote, premium calculation, and final policy documents (provided the underlying rating engine supports coverage-level removal).|\n|14|If deselection of a Coverage violates a business rule (e.g., a \"Core Coverage\" cannot be removed, or a required endorsement is missing), the system displays a validation error and prevents saving until the rule is satisfied.|\n\n[~accountid:557058:e0e50699-b67e-4c72-9c63-628991326903] we need fields related to Coverage selection here\n\n[^UE_LOBs_Products_and_Coverages.xlsx]\n\n",
+        "to": null,
+        "toString": "*Navigation*: \n\nHomepage/Submissions\n\n*Story:*\n\nAs an Underwriter or Business User, I want to view the Submissions list page with pipeline summary statistics so that I can quickly assess the overall health and volume of my underwriting pipeline at a glance.\n\n*Fields & Behavior* \n\n|*Field*|*Section*|*Type*|*Behavior*|*Validation*|\n|Total Submissions|Summary Bar|Read-only Count|Displays total count of all submissions|—|\n|In Review|Summary Bar|Read-only Count|Displays count of submissions in Review stage|—|\n|Quoted|Summary Bar|Read-only Count|Displays count of quoted submissions|—|\n|Bound (YTD)|Summary Bar|Read-only Count|Displays year-to-date bound count|—|\n|Bound Premium (YTD)|Summary Bar|Read-only Currency|Displays YTD bound premium in USD; highlighted in gold|—|\n|Export|Header|Button|Downloads the current filtered submission list|—|\n|+ New Submission|Header|Button|Navigates to New Submission form|—|\n\n \n\n*Key Rules*\n\n* Metrics are computed in real time from submission records\n* Bound Premium (YTD) is displayed in gold/amber to distinguish monetary value\n* All metric counts reflect the active tab and filter context\n\n*Acceptance Criteria*\n\n* Page displays header: 'Submissions' with subtitle 'Education insurance underwriting pipeline (TBD) · N total submissions'\n* Summary bar shows Total Submissions, In Review, Quoted, Bound (YTD), and Bound Premium (YTD)\n* Bound Premium is formatted as currency (e.g., $552,200)\n* Export and + New Submission buttons are visible and accessible from the header\n* Page loads with the 'All' tab active by default\n\n*Dependencies:*  Live submission data from Workbench database"
+      }
+    ]
+  },
+  {
+    "id": "985036",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-06T14:24:02.116+0530",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "12905",
+        "fromString": "To Do",
+        "to": "12906",
+        "toString": "In Progress"
+      }
+    ]
+  },
+  {
+    "id": "985037",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-06T14:24:02.680+0530",
+    "items": [
+      {
+        "field": "Rank",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10011",
+        "from": "",
+        "fromString": "",
+        "to": "",
+        "toString": "Ranked higher"
+      }
+    ]
+  },
+  {
+    "id": "985038",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-06T14:24:10.496+0530",
+    "items": [
+      {
+        "field": "assignee",
+        "fieldtype": "jira",
+        "fieldId": "assignee",
+        "from": "712020:5021b219-a9e2-414e-877f-1e2f93e2215f",
+        "fromString": "Abdul Adnan",
+        "to": "614dcf9f41af83007156944d",
+        "toString": "Sahitya Muppireddy",
+        "tmpFromAccountId": "712020:5021b219-a9e2-414e-877f-1e2f93e2215f",
+        "tmpToAccountId": "614dcf9f41af83007156944d"
+      }
+    ]
+  },
+  {
+    "id": "985039",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-06T14:26:26.335+0530",
+    "items": [
+      {
+        "field": "summary",
+        "fieldtype": "jira",
+        "fieldId": "summary",
+        "from": null,
+        "fromString": "Submission Tasks View - UW/US",
+        "to": null,
+        "toString": "SUB-01: Submission Tasks View - UW/US"
+      }
+    ]
+  },
+  {
+    "id": "985042",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-06T14:30:04.856+0530",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "*Navigation*: \n\nHomepage/Submissions\n\n*Story:*\n\nAs an Underwriter or Business User, I want to view the Submissions list page with pipeline summary statistics so that I can quickly assess the overall health and volume of my underwriting pipeline at a glance.\n\n*Fields & Behavior* \n\n|*Field*|*Section*|*Type*|*Behavior*|*Validation*|\n|Total Submissions|Summary Bar|Read-only Count|Displays total count of all submissions|—|\n|In Review|Summary Bar|Read-only Count|Displays count of submissions in Review stage|—|\n|Quoted|Summary Bar|Read-only Count|Displays count of quoted submissions|—|\n|Bound (YTD)|Summary Bar|Read-only Count|Displays year-to-date bound count|—|\n|Bound Premium (YTD)|Summary Bar|Read-only Currency|Displays YTD bound premium in USD; highlighted in gold|—|\n|Export|Header|Button|Downloads the current filtered submission list|—|\n|+ New Submission|Header|Button|Navigates to New Submission form|—|\n\n \n\n*Key Rules*\n\n* Metrics are computed in real time from submission records\n* Bound Premium (YTD) is displayed in gold/amber to distinguish monetary value\n* All metric counts reflect the active tab and filter context\n\n*Acceptance Criteria*\n\n* Page displays header: 'Submissions' with subtitle 'Education insurance underwriting pipeline (TBD) · N total submissions'\n* Summary bar shows Total Submissions, In Review, Quoted, Bound (YTD), and Bound Premium (YTD)\n* Bound Premium is formatted as currency (e.g., $552,200)\n* Export and + New Submission buttons are visible and accessible from the header\n* Page loads with the 'All' tab active by default\n\n*Dependencies:*  Live submission data from Workbench database",
+        "to": null,
+        "toString": "*Navigation*: \n\nHomepage/Submissions\n\n*Story:*\n\n|*As a*|Underwriter / Business User|\n|*I want to*|view the Submissions list page with pipeline summary statistics|\n|*So that*|I can quickly assess the overall health and volume of my underwriting pipeline at a glance|\n\n*Fields & Behavior* \n\n|*Field*|*Section*|*Type*|*Behavior*|*Validation*|\n|Total Submissions|Summary Bar|Read-only Count|Displays total count of all submissions|—|\n|In Review|Summary Bar|Read-only Count|Displays count of submissions in Review stage|—|\n|Quoted|Summary Bar|Read-only Count|Displays count of quoted submissions|—|\n|Bound (YTD)|Summary Bar|Read-only Count|Displays year-to-date bound count|—|\n|Bound Premium (YTD)|Summary Bar|Read-only Currency|Displays YTD bound premium in USD; highlighted in gold|—|\n|Export|Header|Button|Downloads the current filtered submission list|—|\n|+ New Submission|Header|Button|Navigates to New Submission form|—|\n\n \n\n*Key Rules*\n\n* Metrics are computed in real time from submission records\n* Bound Premium (YTD) is displayed in gold/amber to distinguish monetary value\n* All metric counts reflect the active tab and filter context\n\n*Acceptance Criteria*\n\n* Page displays header: 'Submissions' with subtitle 'Education insurance underwriting pipeline (TBD) · N total submissions'\n* Summary bar shows Total Submissions, In Review, Quoted, Bound (YTD), and Bound Premium (YTD)\n* Bound Premium is formatted as currency (e.g., $552,200)\n* Export and + New Submission buttons are visible and accessible from the header\n* Page loads with the 'All' tab active by default\n\n*Dependencies:*  Live submission data from Workbench database"
+      }
+    ]
+  },
+  {
+    "id": "985653",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=557058%3Ae0e50699-b67e-4c72-9c63-628991326903",
+      "accountId": "557058:e0e50699-b67e-4c72-9c63-628991326903",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png"
+      },
+      "displayName": "Ziad Elharaoui",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-07T00:04:18.255+0530",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "*Navigation*: \n\nHomepage/Submissions\n\n*Story:*\n\n|*As a*|Underwriter / Business User|\n|*I want to*|view the Submissions list page with pipeline summary statistics|\n|*So that*|I can quickly assess the overall health and volume of my underwriting pipeline at a glance|\n\n*Fields & Behavior* \n\n|*Field*|*Section*|*Type*|*Behavior*|*Validation*|\n|Total Submissions|Summary Bar|Read-only Count|Displays total count of all submissions|—|\n|In Review|Summary Bar|Read-only Count|Displays count of submissions in Review stage|—|\n|Quoted|Summary Bar|Read-only Count|Displays count of quoted submissions|—|\n|Bound (YTD)|Summary Bar|Read-only Count|Displays year-to-date bound count|—|\n|Bound Premium (YTD)|Summary Bar|Read-only Currency|Displays YTD bound premium in USD; highlighted in gold|—|\n|Export|Header|Button|Downloads the current filtered submission list|—|\n|+ New Submission|Header|Button|Navigates to New Submission form|—|\n\n \n\n*Key Rules*\n\n* Metrics are computed in real time from submission records\n* Bound Premium (YTD) is displayed in gold/amber to distinguish monetary value\n* All metric counts reflect the active tab and filter context\n\n*Acceptance Criteria*\n\n* Page displays header: 'Submissions' with subtitle 'Education insurance underwriting pipeline (TBD) · N total submissions'\n* Summary bar shows Total Submissions, In Review, Quoted, Bound (YTD), and Bound Premium (YTD)\n* Bound Premium is formatted as currency (e.g., $552,200)\n* Export and + New Submission buttons are visible and accessible from the header\n* Page loads with the 'All' tab active by default\n\n*Dependencies:*  Live submission data from Workbench database",
+        "to": null,
+        "toString": "*Navigation*: \n\nHomepage/Submissions\n\n*Story:*\n\n|*As a*|Underwriter / BD User|\n|*I want to*|view the Submissions list page with pipeline summary statistics|\n|*So that*|I can quickly assess the overall health and volume of my underwriting pipeline at a glance|\n\n*Fields & Behavior* \n\n|*Field*|*Section*|*Type*|*Behavior*|*Validation*|\n|Total Submissions|Summary Bar|Read-only Count|Displays total count of all submissions|—|\n|In Review|Summary Bar|Read-only Count|Displays count of submissions in Review stage|—|\n|Quoted|Summary Bar|Read-only Count|Displays count of quoted submissions|—|\n|Bound (YTD)|Summary Bar|Read-only Count|Displays year-to-date bound count|—|\n|Bound Premium (YTD)|Summary Bar|Read-only Currency|Displays YTD bound premium in USD; highlighted in gold|—|\n|Export|Header|Button|Downloads the current filtered submission list|—|\n|+ New Submission|Header|Button|Navigates to New Submission form|—|\n\n \n\n*Key Rules*\n\n* Metrics are computed in real time from submission records\n* Bound Premium (YTD) is displayed in gold/amber to distinguish monetary value\n* All metric counts reflect the active tab and filter context\n\n*Acceptance Criteria*\n\n* Page displays header: 'Submissions' with subtitle 'Education insurance underwriting pipeline (TBD) · N total submissions'\n* Summary bar shows Total Submissions, In Review, Quoted, Bound (YTD), and Bound Premium (YTD)\n* Bound Premium is formatted as currency (e.g., $552,200)\n* Export and + New Submission buttons are visible and accessible from the header\n* Page loads with the 'All' tab active by default\n\n*Dependencies:*  Live submission data from Workbench database"
+      }
+    ]
+  },
+  {
+    "id": "991442",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=557058%3Ae0e50699-b67e-4c72-9c63-628991326903",
+      "accountId": "557058:e0e50699-b67e-4c72-9c63-628991326903",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png"
+      },
+      "displayName": "Ziad Elharaoui",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-15T02:13:44.576+0530",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "12906",
+        "fromString": "In Progress",
+        "to": "13044",
+        "toString": "IN BA"
+      }
+    ]
+  },
+  {
+    "id": "993863",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-19T15:26:55.320+0530",
+    "items": [
+      {
+        "field": "assignee",
+        "fieldtype": "jira",
+        "fieldId": "assignee",
+        "from": "614dcf9f41af83007156944d",
+        "fromString": "Sahitya Muppireddy",
+        "to": "712020:b841cce5-af49-487b-9f3b-2cf8d84ad891",
+        "toString": "Naresh Kotha",
+        "tmpFromAccountId": "614dcf9f41af83007156944d",
+        "tmpToAccountId": "712020:b841cce5-af49-487b-9f3b-2cf8d84ad891"
+      }
+    ]
+  }
+]

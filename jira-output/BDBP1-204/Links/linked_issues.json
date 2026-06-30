@@ -1,0 +1,247 @@
+[
+  {
+    "id": "17247",
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issueLink/17247",
+    "type": {
+      "id": "10003",
+      "name": "Relates",
+      "inward": "relates to",
+      "outward": "relates to",
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issueLinkType/10003"
+    },
+    "outwardIssue": {
+      "id": "24046",
+      "key": "BDBP1-99",
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/24046",
+      "fields": {
+        "summary": "Landing Page: Application to Approval Simplified Section ",
+        "status": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/status/10609",
+          "description": "",
+          "iconUrl": "https://theksquaregroupglobal.atlassian.net/images/icons/statuses/generic.png",
+          "name": "UAT Deployed",
+          "id": "10609",
+          "statusCategory": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "priority": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/priority/2",
+          "iconUrl": "https://theksquaregroupglobal.atlassian.net/images/icons/priorities/high_new.svg",
+          "name": "High",
+          "id": "2"
+        },
+        "issuetype": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issuetype/10011",
+          "id": "10011",
+          "description": "Stories track functionality or features expressed as user goals.",
+          "iconUrl": "https://theksquaregroupglobal.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10300?size=medium",
+          "name": "Story",
+          "subtask": false,
+          "avatarId": 10300,
+          "hierarchyLevel": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "17688",
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issueLink/17688",
+    "type": {
+      "id": "10000",
+      "name": "Blocks",
+      "inward": "is blocked by",
+      "outward": "blocks",
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issueLinkType/10000"
+    },
+    "outwardIssue": {
+      "id": "31209",
+      "key": "BDBP1-408",
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/31209",
+      "fields": {
+        "summary": "Controlled Step Navigation for Account Registration Flow",
+        "status": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/status/10609",
+          "description": "",
+          "iconUrl": "https://theksquaregroupglobal.atlassian.net/images/icons/statuses/generic.png",
+          "name": "UAT Deployed",
+          "id": "10609",
+          "statusCategory": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "priority": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://theksquaregroupglobal.atlassian.net/images/icons/priorities/medium_new.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "issuetype": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issuetype/10011",
+          "id": "10011",
+          "description": "Stories track functionality or features expressed as user goals.",
+          "iconUrl": "https://theksquaregroupglobal.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10300?size=medium",
+          "name": "Story",
+          "subtask": false,
+          "avatarId": 10300,
+          "hierarchyLevel": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "17725",
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issueLink/17725",
+    "type": {
+      "id": "10000",
+      "name": "Blocks",
+      "inward": "is blocked by",
+      "outward": "blocks",
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issueLinkType/10000"
+    },
+    "outwardIssue": {
+      "id": "31278",
+      "key": "BDBP1-410",
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/31278",
+      "fields": {
+        "summary": "Repurpose",
+        "status": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/status/10025",
+          "description": "",
+          "iconUrl": "https://theksquaregroupglobal.atlassian.net/",
+          "name": "Backlog",
+          "id": "10025",
+          "statusCategory": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+          }
+        },
+        "priority": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://theksquaregroupglobal.atlassian.net/images/icons/priorities/medium_new.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "issuetype": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issuetype/10011",
+          "id": "10011",
+          "description": "Stories track functionality or features expressed as user goals.",
+          "iconUrl": "https://theksquaregroupglobal.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10300?size=medium",
+          "name": "Story",
+          "subtask": false,
+          "avatarId": 10300,
+          "hierarchyLevel": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "17862",
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issueLink/17862",
+    "type": {
+      "id": "10003",
+      "name": "Relates",
+      "inward": "relates to",
+      "outward": "relates to",
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issueLinkType/10003"
+    },
+    "outwardIssue": {
+      "id": "24303",
+      "key": "BDBP1-159",
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/24303",
+      "fields": {
+        "summary": "Design Login Page and Sign Up Navigation",
+        "status": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/status/10609",
+          "description": "",
+          "iconUrl": "https://theksquaregroupglobal.atlassian.net/images/icons/statuses/generic.png",
+          "name": "UAT Deployed",
+          "id": "10609",
+          "statusCategory": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "priority": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://theksquaregroupglobal.atlassian.net/images/icons/priorities/medium_new.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "issuetype": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issuetype/10011",
+          "id": "10011",
+          "description": "Stories track functionality or features expressed as user goals.",
+          "iconUrl": "https://theksquaregroupglobal.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10300?size=medium",
+          "name": "Story",
+          "subtask": false,
+          "avatarId": 10300,
+          "hierarchyLevel": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "18537",
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issueLink/18537",
+    "type": {
+      "id": "10003",
+      "name": "Relates",
+      "inward": "relates to",
+      "outward": "relates to",
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issueLinkType/10003"
+    },
+    "outwardIssue": {
+      "id": "34388",
+      "key": "BDBP1-491",
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issue/34388",
+      "fields": {
+        "summary": "BOSL Digital QA Bug – Select Product screen UI and component configuration do not meet design requirements",
+        "status": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/status/10010",
+          "description": "This was auto-generated by Jira Service Management during workflow import",
+          "iconUrl": "https://theksquaregroupglobal.atlassian.net/images/icons/status_generic.gif",
+          "name": "Completed",
+          "id": "10010",
+          "statusCategory": {
+            "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "priority": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/priority/2",
+          "iconUrl": "https://theksquaregroupglobal.atlassian.net/images/icons/priorities/high_new.svg",
+          "name": "High",
+          "id": "2"
+        },
+        "issuetype": {
+          "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/issuetype/10029",
+          "id": "10029",
+          "description": "A problem or error.",
+          "iconUrl": "https://theksquaregroupglobal.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+          "name": "Bug",
+          "subtask": false,
+          "avatarId": 10303,
+          "hierarchyLevel": 0
+        }
+      }
+    }
+  }
+]

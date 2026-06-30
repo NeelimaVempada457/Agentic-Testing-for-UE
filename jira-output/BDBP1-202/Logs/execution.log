@@ -1,0 +1,130 @@
+[2026-05-15T11:57:57.681Z] [INFO   ] ──────────────────── BDBP1-202 ────────────────────
+[2026-05-15T11:57:57.682Z] [INFO   ] Validating ticket BDBP1-202…
+[2026-05-15T11:57:58.874Z] [SUCCESS] Ticket found
+[2026-05-15T11:57:58.883Z] [INFO   ] Folder structure ready: C:\Users\NeelmaVempada\First_Project_Agentic\jira-output\BDBP1-202
+[2026-05-15T11:57:58.884Z] [INFO   ] Fetching issue: BDBP1-202
+[2026-05-15T11:57:58.888Z] [INFO   ] Fetching comments…
+[2026-05-15T11:57:58.893Z] [INFO   ] Fetching changelog…
+[2026-05-15T11:58:00.130Z] [INFO   ]   → 14 comment(s)
+[2026-05-15T11:58:00.243Z] [INFO   ]   → 46 history entries
+[2026-05-15T11:58:00.383Z] [INFO   ] Fetching epic: BDBP1-153
+[2026-05-15T11:58:00.801Z] [INFO   ] Fetching remote links…
+[2026-05-15T11:58:01.831Z] [INFO   ] Resolving 8 mentioned user(s)…
+[2026-05-15T11:58:02.925Z] [INFO   ]   → resolved: Creselda Alexander, Prachi Jangid, Richard Mena, Yusuf Khan, Namratha Matcha, Ankit Bhatia, Madhu Latha Gaddam, Nirdesh Banala
+[2026-05-15T11:58:02.927Z] [INFO   ] Saving metadata…
+[2026-05-15T11:58:02.934Z] [INFO   ] Generating summary files…
+[2026-05-15T11:58:02.962Z] [INFO   ] Saving comments…
+[2026-05-15T11:58:02.965Z] [INFO   ] Saving links…
+[2026-05-15T11:58:02.967Z] [INFO   ] Saving subtasks…
+[2026-05-15T11:58:02.968Z] [INFO   ] Downloading 0 attachment(s)…
+[2026-05-15T11:58:02.968Z] [INFO   ] Building complete_ticket_context.md…
+[2026-05-15T11:58:02.970Z] [INFO   ] ──────────────────── DONE ────────────────────
+[2026-05-15T11:58:02.971Z] [SUCCESS] Output: C:\Users\NeelmaVempada\First_Project_Agentic\jira-output\BDBP1-202
+[2026-05-15T12:06:55.004Z] [INFO   ] ──────────────────── BDBP1-202 ────────────────────
+[2026-05-15T12:06:55.006Z] [INFO   ] Validating ticket BDBP1-202…
+[2026-05-15T12:06:56.216Z] [SUCCESS] Ticket found
+[2026-05-15T12:06:56.220Z] [INFO   ] Folder structure ready: C:\Users\NeelmaVempada\First_Project_Agentic\jira-output\BDBP1-202
+[2026-05-15T12:06:56.221Z] [INFO   ] Fetching issue: BDBP1-202
+[2026-05-15T12:06:56.225Z] [INFO   ] Fetching comments…
+[2026-05-15T12:06:56.227Z] [INFO   ] Fetching changelog…
+[2026-05-15T12:06:56.721Z] [INFO   ]   → 46 history entries
+[2026-05-15T12:06:57.311Z] [INFO   ]   → 14 comment(s)
+[2026-05-15T12:06:57.312Z] [INFO   ] Fetching epic: BDBP1-153
+[2026-05-15T12:06:58.393Z] [INFO   ] Fetching remote links…
+[2026-05-15T12:06:58.739Z] [INFO   ] Resolving 8 mentioned user(s)…
+[2026-05-15T12:06:59.807Z] [INFO   ]   → resolved: Creselda Alexander, Prachi Jangid, Richard Mena, Yusuf Khan, Namratha Matcha, Ankit Bhatia, Madhu Latha Gaddam, Nirdesh Banala
+[2026-05-15T12:06:59.808Z] [INFO   ] Saving metadata…
+[2026-05-15T12:06:59.816Z] [INFO   ] Generating summary files…
+[2026-05-15T12:06:59.837Z] [INFO   ] Saving comments…
+[2026-05-15T12:06:59.838Z] [INFO   ] Saving links…
+[2026-05-15T12:06:59.840Z] [INFO   ] Saving subtasks…
+[2026-05-15T12:06:59.840Z] [INFO   ] Downloading 16 attachment(s)…
+[2026-05-15T12:06:59.840Z] [INFO   ]   ↓ 20260304-0932-05.1000314.mp4 (12378.6 KB)
+[2026-05-15T12:07:04.654Z] [SUCCESS]   ✓ 20260304-0932-05.1000314.mp4
+[2026-05-15T12:07:04.654Z] [INFO   ]   ↓ image-20260122-080238.png (91.0 KB)
+[2026-05-15T12:07:05.697Z] [SUCCESS]   ✓ image-20260122-080238.png
+[2026-05-15T12:07:05.698Z] [INFO   ]   ↓ image-20260129-122424.png (703.3 KB)
+[2026-05-15T12:07:07.973Z] [SUCCESS]   ✓ image-20260129-122424.png
+[2026-05-15T12:07:07.974Z] [INFO   ]   ↓ image-20260212-135841.png (414.8 KB)
+[2026-05-15T12:07:09.313Z] [SUCCESS]   ✓ image-20260212-135841.png
+[2026-05-15T12:07:09.316Z] [INFO   ]   ↓ image-20260218-132349.png (23.8 KB)
+[2026-05-15T12:07:10.405Z] [SUCCESS]   ✓ image-20260218-132349.png
+[2026-05-15T12:07:10.406Z] [INFO   ]   ↓ image-20260218-132413.png (26.4 KB)
+[2026-05-15T12:07:11.994Z] [SUCCESS]   ✓ image-20260218-132413.png
+[2026-05-15T12:07:11.995Z] [INFO   ]   ↓ image-20260218-132511.png (21.0 KB)
+[2026-05-15T12:07:13.553Z] [SUCCESS]   ✓ image-20260218-132511.png
+[2026-05-15T12:07:13.555Z] [INFO   ]   ↓ image-20260218-133053.png (33.7 KB)
+[2026-05-15T12:07:15.085Z] [SUCCESS]   ✓ image-20260218-133053.png
+[2026-05-15T12:07:15.087Z] [INFO   ]   ↓ image-20260220-143823.png (74.9 KB)
+[2026-05-15T12:07:16.065Z] [SUCCESS]   ✓ image-20260220-143823.png
+[2026-05-15T12:07:16.066Z] [INFO   ]   ↓ image-20260220-143838.png (89.7 KB)
+[2026-05-15T12:07:17.015Z] [SUCCESS]   ✓ image-20260220-143838.png
+[2026-05-15T12:07:17.017Z] [INFO   ]   ↓ image-20260304-093045.png (194.1 KB)
+[2026-05-15T12:07:18.758Z] [SUCCESS]   ✓ image-20260304-093045.png
+[2026-05-15T12:07:18.760Z] [INFO   ]   ↓ image-20260304-093100.png (185.9 KB)
+[2026-05-15T12:07:19.818Z] [SUCCESS]   ✓ image-20260304-093100.png
+[2026-05-15T12:07:19.819Z] [INFO   ]   ↓ image-20260304-093113.png (188.8 KB)
+[2026-05-15T12:07:21.907Z] [SUCCESS]   ✓ image-20260304-093113.png
+[2026-05-15T12:07:21.907Z] [INFO   ]   ↓ image-20260304-093131.png (174.2 KB)
+[2026-05-15T12:07:22.844Z] [SUCCESS]   ✓ image-20260304-093131.png
+[2026-05-15T12:07:22.845Z] [INFO   ]   ↓ image-20260304-093146.png (159.0 KB)
+[2026-05-15T12:07:24.463Z] [SUCCESS]   ✓ image-20260304-093146.png
+[2026-05-15T12:07:24.466Z] [INFO   ]   ↓ Retail & Corporate KYC Checklist 2025 (1).pdf (256.9 KB)
+[2026-05-15T12:07:27.079Z] [SUCCESS]   ✓ Retail_&_Corporate_KYC_Checklist_2025_(1).pdf
+[2026-05-15T12:07:27.081Z] [INFO   ] Building complete_ticket_context.md…
+[2026-05-15T12:07:27.089Z] [INFO   ] ──────────────────── DONE ────────────────────
+[2026-05-15T12:07:27.089Z] [SUCCESS] Output: C:\Users\NeelmaVempada\First_Project_Agentic\jira-output\BDBP1-202
+[2026-05-18T12:53:34.139Z] [INFO   ] ──────────────────── BDBP1-202 ────────────────────
+[2026-05-18T12:53:34.142Z] [INFO   ] Validating ticket BDBP1-202…
+[2026-05-18T12:53:35.222Z] [SUCCESS] Ticket found
+[2026-05-18T12:53:35.224Z] [INFO   ] Folder structure ready: C:\Users\NeelmaVempada\First_Project_Agentic\jira-output\BDBP1-202
+[2026-05-18T12:53:35.225Z] [INFO   ] Fetching issue: BDBP1-202
+[2026-05-18T12:53:35.226Z] [INFO   ] Fetching comments…
+[2026-05-18T12:53:35.229Z] [INFO   ] Fetching changelog…
+[2026-05-18T12:53:35.708Z] [INFO   ]   → 14 comment(s)
+[2026-05-18T12:53:35.739Z] [INFO   ]   → 46 history entries
+[2026-05-18T12:53:35.876Z] [INFO   ] Fetching epic: BDBP1-153
+[2026-05-18T12:53:36.836Z] [INFO   ] Fetching remote links…
+[2026-05-18T12:53:37.219Z] [INFO   ] Resolving 8 mentioned user(s)…
+[2026-05-18T12:53:38.240Z] [INFO   ]   → resolved: Creselda Alexander, Prachi Jangid, Richard Mena, Yusuf Khan, Namratha Matcha, Ankit Bhatia, Madhu Latha Gaddam, Nirdesh Banala
+[2026-05-18T12:53:38.240Z] [INFO   ] Saving metadata…
+[2026-05-18T12:53:38.244Z] [INFO   ] Generating summary files…
+[2026-05-18T12:53:38.258Z] [INFO   ] Saving comments…
+[2026-05-18T12:53:38.261Z] [INFO   ] Saving links…
+[2026-05-18T12:53:38.262Z] [INFO   ] Saving subtasks…
+[2026-05-18T12:53:38.263Z] [INFO   ] Downloading 16 attachment(s)…
+[2026-05-18T12:53:38.264Z] [INFO   ]   ↓ 20260304-0932-05.1000314.mp4 (12378.6 KB)
+[2026-05-18T12:53:48.304Z] [SUCCESS]   ✓ 20260304-0932-05.1000314.mp4
+[2026-05-18T12:53:48.305Z] [INFO   ]   ↓ image-20260122-080238.png (91.0 KB)
+[2026-05-18T12:53:49.838Z] [SUCCESS]   ✓ image-20260122-080238.png
+[2026-05-18T12:53:49.840Z] [INFO   ]   ↓ image-20260129-122424.png (703.3 KB)
+[2026-05-18T12:53:53.325Z] [SUCCESS]   ✓ image-20260129-122424.png
+[2026-05-18T12:53:53.325Z] [INFO   ]   ↓ image-20260212-135841.png (414.8 KB)
+[2026-05-18T12:53:54.215Z] [SUCCESS]   ✓ image-20260212-135841.png
+[2026-05-18T12:53:54.217Z] [INFO   ]   ↓ image-20260218-132349.png (23.8 KB)
+[2026-05-18T12:53:55.150Z] [SUCCESS]   ✓ image-20260218-132349.png
+[2026-05-18T12:53:55.153Z] [INFO   ]   ↓ image-20260218-132413.png (26.4 KB)
+[2026-05-18T12:53:56.787Z] [SUCCESS]   ✓ image-20260218-132413.png
+[2026-05-18T12:53:56.788Z] [INFO   ]   ↓ image-20260218-132511.png (21.0 KB)
+[2026-05-18T12:53:57.822Z] [SUCCESS]   ✓ image-20260218-132511.png
+[2026-05-18T12:53:57.822Z] [INFO   ]   ↓ image-20260218-133053.png (33.7 KB)
+[2026-05-18T12:54:00.340Z] [SUCCESS]   ✓ image-20260218-133053.png
+[2026-05-18T12:54:00.341Z] [INFO   ]   ↓ image-20260220-143823.png (74.9 KB)
+[2026-05-18T12:54:01.942Z] [SUCCESS]   ✓ image-20260220-143823.png
+[2026-05-18T12:54:01.943Z] [INFO   ]   ↓ image-20260220-143838.png (89.7 KB)
+[2026-05-18T12:54:02.925Z] [SUCCESS]   ✓ image-20260220-143838.png
+[2026-05-18T12:54:02.925Z] [INFO   ]   ↓ image-20260304-093045.png (194.1 KB)
+[2026-05-18T12:54:04.394Z] [SUCCESS]   ✓ image-20260304-093045.png
+[2026-05-18T12:54:04.394Z] [INFO   ]   ↓ image-20260304-093100.png (185.9 KB)
+[2026-05-18T12:54:05.461Z] [SUCCESS]   ✓ image-20260304-093100.png
+[2026-05-18T12:54:05.462Z] [INFO   ]   ↓ image-20260304-093113.png (188.8 KB)
+[2026-05-18T12:54:07.016Z] [SUCCESS]   ✓ image-20260304-093113.png
+[2026-05-18T12:54:07.017Z] [INFO   ]   ↓ image-20260304-093131.png (174.2 KB)
+[2026-05-18T12:54:08.984Z] [SUCCESS]   ✓ image-20260304-093131.png
+[2026-05-18T12:54:08.985Z] [INFO   ]   ↓ image-20260304-093146.png (159.0 KB)
+[2026-05-18T12:54:10.424Z] [SUCCESS]   ✓ image-20260304-093146.png
+[2026-05-18T12:54:10.425Z] [INFO   ]   ↓ Retail & Corporate KYC Checklist 2025 (1).pdf (256.9 KB)
+[2026-05-18T12:54:12.548Z] [SUCCESS]   ✓ Retail_&_Corporate_KYC_Checklist_2025_(1).pdf
+[2026-05-18T12:54:12.550Z] [INFO   ] Building complete_ticket_context.md…
+[2026-05-18T12:54:12.558Z] [INFO   ] ──────────────────── DONE ────────────────────
+[2026-05-18T12:54:12.558Z] [SUCCESS] Output: C:\Users\NeelmaVempada\First_Project_Agentic\jira-output\BDBP1-202

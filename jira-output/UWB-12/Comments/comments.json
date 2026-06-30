@@ -1,0 +1,76 @@
+[
+  {
+    "self": "https://unitededucators.atlassian.net/rest/api/2/issue/117323/comment/376443",
+    "id": "376443",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "body": "@Milica Kosic @Sahitya Muppireddy  @Ziad Elharaoui- Could you please review and provide your signoff?",
+    "updateAuthor": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-20T01:37:25.152+0530",
+    "updated": "2026-05-20T01:37:25.152+0530",
+    "jsdPublic": true
+  },
+  {
+    "self": "https://unitededucators.atlassian.net/rest/api/2/issue/117323/comment/382391",
+    "id": "382391",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=614dcf9f41af83007156944d",
+      "accountId": "614dcf9f41af83007156944d",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/8e35cb1231a0a85695ff815479090919?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSM-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/8e35cb1231a0a85695ff815479090919?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSM-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/8e35cb1231a0a85695ff815479090919?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSM-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/8e35cb1231a0a85695ff815479090919?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSM-2.png"
+      },
+      "displayName": "Sahitya Muppireddy",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "body": "@Mythili T We reviewed this and it looks good. I just want to confirm companion policy aspect with Ziad.\n\n@Ziad Elharaoui @Milica Kosic ",
+    "updateAuthor": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=614dcf9f41af83007156944d",
+      "accountId": "614dcf9f41af83007156944d",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/8e35cb1231a0a85695ff815479090919?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSM-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/8e35cb1231a0a85695ff815479090919?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSM-2.png",
+        "16x16": "https://secure.gravatar.com/avatar/8e35cb1231a0a85695ff815479090919?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSM-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/8e35cb1231a0a85695ff815479090919?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSM-2.png"
+      },
+      "displayName": "Sahitya Muppireddy",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-06-10T01:25:16.240+0530",
+    "updated": "2026-06-10T01:25:16.240+0530",
+    "jsdPublic": true
+  }
+]

@@ -1,0 +1,323 @@
+{
+  "key": "BOSLFS-1584",
+  "summary": "Backlog Item: Vin number for vehicles is not being pulled to the Movable Asset Collateral Agreement",
+  "description": {
+    "type": "doc",
+    "version": 1,
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "mention",
+            "attrs": {
+              "id": "62e946413cc20c06c8ae8839",
+              "text": "@jean.lopez",
+              "accessLevel": "",
+              "localId": "63a70e58-57d7-4fee-af79-9ff212838975"
+            }
+          },
+          {
+            "type": "text",
+            "text": " Vin number for vehicle loans is not pulling to the MACA form. In this scenario the vehicle does not have a Chassis no. but it does have a Vin. The Vin number must also pull onto the MACA form. This happened in the live environment "
+          },
+          {
+            "type": "mention",
+            "attrs": {
+              "id": "712020:56ae8e42-105a-42ca-975d-78458889866f",
+              "text": "@Dwain Peter",
+              "accessLevel": "",
+              "localId": "ee39aa08-b871-417b-94cc-dd94fc3f900a"
+            }
+          },
+          {
+            "type": "text",
+            "text": " "
+          }
+        ]
+      },
+      {
+        "type": "mediaGroup",
+        "content": [
+          {
+            "type": "media",
+            "attrs": {
+              "type": "file",
+              "id": "de396bb6-b044-4c58-955e-9488bc8aefcf",
+              "collection": ""
+            }
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "mention",
+            "attrs": {
+              "id": "626ff8c876b8d3006872261d",
+              "text": "@Alexander Peña Melikhov",
+              "accessLevel": "",
+              "localId": "eb801136-59d8-488f-bff6-272b7ba530d3"
+            }
+          },
+          {
+            "type": "text",
+            "text": "   Edit the Document to Place the Chasis NO / VIN NO: and add a conditional if the System read that the Chasis NO is Populated, will add this information, if is Blank and the VIN No is populated will add this information instead."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "As system, I want to"
+          }
+        ]
+      },
+      {
+        "type": "mediaSingle",
+        "attrs": {
+          "width": 659,
+          "widthType": "pixel",
+          "layout": "center"
+        },
+        "content": [
+          {
+            "type": "media",
+            "attrs": {
+              "type": "file",
+              "id": "f63cad8d-723a-4722-8337-10f88e8339cd",
+              "alt": "image-20260225-145800.png",
+              "collection": "",
+              "height": 734,
+              "width": 1846
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "status": "UAT Complete",
+  "priority": "Highest",
+  "assignee": "Vernette Symphorien",
+  "reporter": "Vernette Symphorien",
+  "created": "2026-01-26T13:25:41.427-0500",
+  "updated": "2026-05-11T12:30:17.902-0400",
+  "issueType": "Story",
+  "labels": [
+    "BOSLLOS1.8.0"
+  ],
+  "components": [],
+  "attachments": [
+    {
+      "id": "46997",
+      "filename": "2340 - Mortgage - Techland Limited-Movable Asset Collateral Agreement - Many Assets-a1JWA000007MCrJ2AW.pdf",
+      "mimeType": "application/pdf",
+      "size": 161478,
+      "created": "2026-05-05T04:57:01.882-0400",
+      "author": "Alexander Peña Melikhov",
+      "savedPath": "jira-output/BOSLFS-1584/attachments/2340_-_Mortgage_-_Techland_Limited-Movable_Asset_Collateral_Agreement_-_Many_Assets-a1JWA000007MCrJ2AW.pdf"
+    },
+    {
+      "id": "46998",
+      "filename": "2373 - Mortgage - Gareth Edwards-Movable Asset Collateral Agreement - Many Assets-a1JWA000007XR3p2AG.pdf",
+      "mimeType": "application/pdf",
+      "size": 151908,
+      "created": "2026-05-05T04:57:02.153-0400",
+      "author": "Alexander Peña Melikhov",
+      "savedPath": "jira-output/BOSLFS-1584/attachments/2373_-_Mortgage_-_Gareth_Edwards-Movable_Asset_Collateral_Agreement_-_Many_Assets-a1JWA000007XR3p2AG.pdf"
+    },
+    {
+      "id": "46805",
+      "filename": "2378 - Mortgage - Digital Technology INC-Movable Asset Collateral Agreement - Many Assets-a1JWA000007a6xJ2AQ.pdf",
+      "mimeType": "application/pdf",
+      "size": 151161,
+      "created": "2026-04-28T05:25:31.517-0400",
+      "author": "Alexander Peña Melikhov",
+      "savedPath": "jira-output/BOSLFS-1584/attachments/2378_-_Mortgage_-_Digital_Technology_INC-Movable_Asset_Collateral_Agreement_-_Many_Assets-a1JWA000007a6xJ2AQ.pdf"
+    },
+    {
+      "id": "30981",
+      "filename": "image-20260127-191708.png",
+      "mimeType": "image/png",
+      "size": 89072,
+      "created": "2026-01-27T14:17:11.628-0500",
+      "author": "jean.lopez",
+      "savedPath": "jira-output/BOSLFS-1584/attachments/image-20260127-191708.png"
+    },
+    {
+      "id": "37062",
+      "filename": "image-20260225-145800.png",
+      "mimeType": "image/png",
+      "size": 164060,
+      "created": "2026-02-25T09:58:05.354-0500",
+      "author": "jean.lopez",
+      "savedPath": "jira-output/BOSLFS-1584/attachments/image-20260225-145800.png"
+    },
+    {
+      "id": "37835",
+      "filename": "image-20260225-145800 (f63cad8d-723a-4722-8337-10f88e8339cd).png",
+      "mimeType": "image/png",
+      "size": 164060,
+      "created": "2026-03-02T08:57:24.062-0500",
+      "author": "jean.lopez",
+      "savedPath": "jira-output/BOSLFS-1584/attachments/image-20260225-145800_(f63cad8d-723a-4722-8337-10f88e8339cd).png"
+    },
+    {
+      "id": "46855",
+      "filename": "image-20260429-082326.png",
+      "mimeType": "image/png",
+      "size": 139617,
+      "created": "2026-04-29T05:18:02.026-0400",
+      "author": "Shivaji Gundabattina",
+      "savedPath": "jira-output/BOSLFS-1584/attachments/image-20260429-082326.png"
+    },
+    {
+      "id": "46861",
+      "filename": "image-20260429-082439.png",
+      "mimeType": "image/png",
+      "size": 92550,
+      "created": "2026-04-29T05:18:04.767-0400",
+      "author": "Shivaji Gundabattina",
+      "savedPath": "jira-output/BOSLFS-1584/attachments/image-20260429-082439.png"
+    },
+    {
+      "id": "46862",
+      "filename": "image-20260429-082537.png",
+      "mimeType": "image/png",
+      "size": 105412,
+      "created": "2026-04-29T05:18:05.270-0400",
+      "author": "Shivaji Gundabattina",
+      "savedPath": "jira-output/BOSLFS-1584/attachments/image-20260429-082537.png"
+    },
+    {
+      "id": "46857",
+      "filename": "image-20260429-083602.png",
+      "mimeType": "image/png",
+      "size": 135466,
+      "created": "2026-04-29T05:18:03.084-0400",
+      "author": "Shivaji Gundabattina",
+      "savedPath": "jira-output/BOSLFS-1584/attachments/image-20260429-083602.png"
+    },
+    {
+      "id": "46864",
+      "filename": "image-20260429-083747.png",
+      "mimeType": "image/png",
+      "size": 68580,
+      "created": "2026-04-29T05:18:06.157-0400",
+      "author": "Shivaji Gundabattina",
+      "savedPath": "jira-output/BOSLFS-1584/attachments/image-20260429-083747.png"
+    },
+    {
+      "id": "46858",
+      "filename": "image-20260429-083817.png",
+      "mimeType": "image/png",
+      "size": 68586,
+      "created": "2026-04-29T05:18:03.546-0400",
+      "author": "Shivaji Gundabattina",
+      "savedPath": "jira-output/BOSLFS-1584/attachments/image-20260429-083817.png"
+    },
+    {
+      "id": "46866",
+      "filename": "image-20260429-083906.png",
+      "mimeType": "image/png",
+      "size": 60073,
+      "created": "2026-04-29T05:18:06.909-0400",
+      "author": "Shivaji Gundabattina",
+      "savedPath": "jira-output/BOSLFS-1584/attachments/image-20260429-083906.png"
+    },
+    {
+      "id": "46859",
+      "filename": "image-20260429-084018.png",
+      "mimeType": "image/png",
+      "size": 60111,
+      "created": "2026-04-29T05:18:03.910-0400",
+      "author": "Shivaji Gundabattina",
+      "savedPath": "jira-output/BOSLFS-1584/attachments/image-20260429-084018.png"
+    },
+    {
+      "id": "46863",
+      "filename": "image-20260429-084111.png",
+      "mimeType": "image/png",
+      "size": 129981,
+      "created": "2026-04-29T05:18:05.692-0400",
+      "author": "Shivaji Gundabattina",
+      "savedPath": "jira-output/BOSLFS-1584/attachments/image-20260429-084111.png"
+    },
+    {
+      "id": "46856",
+      "filename": "image-20260429-084223.png",
+      "mimeType": "image/png",
+      "size": 149870,
+      "created": "2026-04-29T05:18:02.639-0400",
+      "author": "Shivaji Gundabattina",
+      "savedPath": "jira-output/BOSLFS-1584/attachments/image-20260429-084223.png"
+    },
+    {
+      "id": "46865",
+      "filename": "image-20260429-084321.png",
+      "mimeType": "image/png",
+      "size": 33237,
+      "created": "2026-04-29T05:18:06.564-0400",
+      "author": "Shivaji Gundabattina",
+      "savedPath": "jira-output/BOSLFS-1584/attachments/image-20260429-084321.png"
+    },
+    {
+      "id": "46860",
+      "filename": "image-20260429-084330.png",
+      "mimeType": "image/png",
+      "size": 33237,
+      "created": "2026-04-29T05:18:04.303-0400",
+      "author": "Shivaji Gundabattina",
+      "savedPath": "jira-output/BOSLFS-1584/attachments/image-20260429-084330.png"
+    },
+    {
+      "id": "46867",
+      "filename": "image-20260429-091825.png",
+      "mimeType": "image/png",
+      "size": 62741,
+      "created": "2026-04-29T05:18:33.156-0400",
+      "author": "Shivaji Gundabattina",
+      "savedPath": "jira-output/BOSLFS-1584/attachments/image-20260429-091825.png"
+    },
+    {
+      "id": "46999",
+      "filename": "image-20260505-085759.png",
+      "mimeType": "image/png",
+      "size": 47012,
+      "created": "2026-05-05T04:58:05.203-0400",
+      "author": "Alexander Peña Melikhov",
+      "savedPath": "jira-output/BOSLFS-1584/attachments/image-20260505-085759.png"
+    },
+    {
+      "id": "47044",
+      "filename": "image-20260505-161701.png",
+      "mimeType": "image/png",
+      "size": 47842,
+      "created": "2026-05-05T12:19:39.240-0400",
+      "author": "Shivaji Gundabattina",
+      "savedPath": "jira-output/BOSLFS-1584/attachments/image-20260505-161701.png"
+    },
+    {
+      "id": "47045",
+      "filename": "image-20260505-161850.png",
+      "mimeType": "image/png",
+      "size": 57660,
+      "created": "2026-05-05T12:19:39.609-0400",
+      "author": "Shivaji Gundabattina",
+      "savedPath": "jira-output/BOSLFS-1584/attachments/image-20260505-161850.png"
+    },
+    {
+      "id": "30728",
+      "filename": "Missing VIN on MACA.pdf",
+      "mimeType": "application/pdf",
+      "size": 90469,
+      "created": "2026-01-26T13:25:41.585-0500",
+      "author": "Vernette Symphorien",
+      "savedPath": "jira-output/BOSLFS-1584/attachments/Missing_VIN_on_MACA.pdf"
+    }
+  ],
+  "fetchedAt": "2026-05-15T08:19:41.378Z"
+}

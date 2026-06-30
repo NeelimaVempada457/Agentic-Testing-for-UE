@@ -1,0 +1,30 @@
+[2026-05-21T09:25:00Z] INFO  Starting test case generation for UWB-3: View Submissions in Tabular List
+[2026-05-21T09:25:01Z] INFO  Target URL: https://united-educators-application.vercel.app/submissions
+[2026-05-21T09:25:01Z] INFO  Login credentials: Admin / KSG@2026UE
+[2026-05-21T09:25:02Z] INFO  Navigating to application...
+[2026-05-21T09:25:05Z] INFO  Login successful — user: John Michaels, role: Sr. Underwriter
+[2026-05-21T09:25:06Z] INFO  Navigating to /submissions
+[2026-05-21T09:25:08Z] INFO  Page loaded: 18 total submissions found
+[2026-05-21T09:25:08Z] INFO  Analysing table structure...
+[2026-05-21T09:25:08Z] INFO  Detected 9 table columns: Member/Institution, Type, Products, Stage, Underwriter, Appetite, Premium, Need By, Effective
+[2026-05-21T09:25:08Z] INFO  Detected 3 sortable columns: Premium, Need By, Effective
+[2026-05-21T09:25:08Z] INFO  Detected 3 tabs: My Queue, My Team, All (My Queue active)
+[2026-05-21T09:25:08Z] INFO  Detected pagination: 5 rows/page, 4 pages, Previous/Next + numbered buttons
+[2026-05-21T09:25:08Z] INFO  Detected 2 unassigned rows (? + Unassigned text)
+[2026-05-21T09:25:08Z] INFO  Stage values observed: New, In Review, Pending Info
+[2026-05-21T09:25:09Z] INFO  Testing row click navigation...
+[2026-05-21T09:25:12Z] INFO  Row click for SUB-7842 → navigated to /submission/SUB-7842
+[2026-05-21T09:25:12Z] WARN  DISCREPANCY D-01: URL is /submission/{SUB-ID} not /submissions/{SUB-ID} (High)
+[2026-05-21T09:25:12Z] WARN  DISCREPANCY D-02: Column order differs — Underwriter/Appetite before Premium (Medium)
+[2026-05-21T09:25:12Z] WARN  DISCREPANCY D-03: Premium additionally sortable beyond spec (Low)
+[2026-05-21T09:25:12Z] WARN  DISCREPANCY D-04: Stage "Pending Info" not in UWB-1 colour spec (Medium)
+[2026-05-21T09:25:12Z] WARN  DISCREPANCY D-05: Button label is "New Submission" not "+ New Submission" (Medium)
+[2026-05-21T09:25:13Z] INFO  Writing application analysis files...
+[2026-05-21T09:26:00Z] INFO  Writing 8 test case files (smoke, functional, negative, edge, boundary, regression, security, accessibility)...
+[2026-05-21T09:27:00Z] INFO  Writing 8 Gherkin feature files...
+[2026-05-21T09:28:00Z] INFO  Writing reports (coverage, risk, RTM)...
+[2026-05-21T09:29:00Z] INFO  === GENERATION COMPLETE ===
+[2026-05-21T09:29:00Z] INFO  Total test cases written: 57
+[2026-05-21T09:29:00Z] INFO  Total feature scenarios written: 44
+[2026-05-21T09:29:00Z] INFO  Total discrepancies found: 5 (High: 1, Medium: 3, Low: 1)
+[2026-05-21T09:29:00Z] INFO  All files written under: test-artifacts/UWB-3/

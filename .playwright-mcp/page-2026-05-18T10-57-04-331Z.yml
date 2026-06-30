@@ -1,0 +1,7 @@
+- generic [ref=e9]:
+  - link "Skip to Main" [ref=e10] [cursor=pointer]:
+    - /url: javascript:void(0);
+  - banner
+  - main [ref=e11]:
+    - heading "Invalid Page" [level=1] [ref=e29]
+  - contentinfo

@@ -1,0 +1,114 @@
+[
+  {
+    "self": "https://unitededucators.atlassian.net/rest/api/2/issue/117314/comment/367896",
+    "id": "367896",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "body": " @Milica Kosic @Sahitya Muppireddy  @Ziad Elharaoui- Could you please review and provide your signoff?\nCC: @annapurna.rudrabhatla @Rahul Dube @Abdul Adnan @Akhelaaditya",
+    "updateAuthor": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-06T17:22:55.039+0530",
+    "updated": "2026-05-06T17:22:55.039+0530",
+    "jsdPublic": true
+  },
+  {
+    "self": "https://unitededucators.atlassian.net/rest/api/2/issue/117314/comment/368087",
+    "id": "368087",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=557058%3Ae0e50699-b67e-4c72-9c63-628991326903",
+      "accountId": "557058:e0e50699-b67e-4c72-9c63-628991326903",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png"
+      },
+      "displayName": "Ziad Elharaoui",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "body": "@Mythili T  We reviewed this ticket. We made some changes. We also did a strikethrough some words. Here is a summary:\n\nAdded New Submission button to create the new submission below the fields and behavior \nField - Changed to Institution from Member/Institution\nType- New Business, Renewal- Added these\nProducts- 3rd column Selected products codes \nStage- 3rd column change- \nPremium- we do not need enrolled- currency is default USD\n\nAdded Filters section",
+    "updateAuthor": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=557058%3Ae0e50699-b67e-4c72-9c63-628991326903",
+      "accountId": "557058:e0e50699-b67e-4c72-9c63-628991326903",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png"
+      },
+      "displayName": "Ziad Elharaoui",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-07T00:02:23.995+0530",
+    "updated": "2026-05-07T00:03:32.641+0530",
+    "jsdPublic": true
+  },
+  {
+    "self": "https://unitededucators.atlassian.net/rest/api/2/issue/117314/comment/376777",
+    "id": "376777",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "body": "A new [Story |https://unitededucators.atlassian.net/browse/UWB-13]created for Appetite Scoring ",
+    "updateAuthor": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-21T02:45:25.022+0530",
+    "updated": "2026-05-21T02:45:25.022+0530",
+    "jsdPublic": true
+  }
+]

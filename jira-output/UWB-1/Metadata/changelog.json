@@ -1,0 +1,806 @@
+[
+  {
+    "id": "978122",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=557058%3A6b94df16-6c2e-4a89-b731-83275ccba325",
+      "accountId": "557058:6b94df16-6c2e-4a89-b731-83275ccba325",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/0b6be1f69b0894e67a580abf565ef1d1?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FZI-1.png",
+        "24x24": "https://secure.gravatar.com/avatar/0b6be1f69b0894e67a580abf565ef1d1?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FZI-1.png",
+        "16x16": "https://secure.gravatar.com/avatar/0b6be1f69b0894e67a580abf565ef1d1?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FZI-1.png",
+        "32x32": "https://secure.gravatar.com/avatar/0b6be1f69b0894e67a580abf565ef1d1?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FZI-1.png"
+      },
+      "displayName": "Zain Ibrahim",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-14T21:16:56.483+0530",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "12905",
+        "fromString": "To Do",
+        "to": "12906",
+        "toString": "In Progress"
+      }
+    ]
+  },
+  {
+    "id": "981214",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=557058%3Ae0e50699-b67e-4c72-9c63-628991326903",
+      "accountId": "557058:e0e50699-b67e-4c72-9c63-628991326903",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png"
+      },
+      "displayName": "Ziad Elharaoui",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-24T18:56:33.997+0530",
+    "items": [
+      {
+        "field": "summary",
+        "fieldtype": "jira",
+        "fieldId": "summary",
+        "from": null,
+        "fromString": "test",
+        "to": null,
+        "toString": "Manual submission ingestion"
+      }
+    ]
+  },
+  {
+    "id": "981219",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=557058%3Ae0e50699-b67e-4c72-9c63-628991326903",
+      "accountId": "557058:e0e50699-b67e-4c72-9c63-628991326903",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png"
+      },
+      "displayName": "Ziad Elharaoui",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-24T19:01:49.986+0530",
+    "items": [
+      {
+        "field": "summary",
+        "fieldtype": "jira",
+        "fieldId": "summary",
+        "from": null,
+        "fromString": "Manual submission ingestion",
+        "to": null,
+        "toString": "Manual submission creation"
+      }
+    ]
+  },
+  {
+    "id": "981225",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=557058%3Ae0e50699-b67e-4c72-9c63-628991326903",
+      "accountId": "557058:e0e50699-b67e-4c72-9c63-628991326903",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png"
+      },
+      "displayName": "Ziad Elharaoui",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-24T19:16:54.644+0530",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": null,
+        "to": null,
+        "toString": "As a user, I want new (new business and cross-sell) to be created manually into the platform so that I xxxxx\n\n*Acceptance Criteria:*\n\nAbility to create a new submission manually\n\nAbility to select the type of submission (New Business, Cross-Sell, Renewal)\n\nAbility to fill out the following fields:\n\nAccount Number: int\n\nAccount Name: pre-populated based on account number. read-only\n\nNeed By Date: date\n\nEffective Date: date\n\nExpiration Date: date\n\n----\n\nStage: drop down (Pre-qualification, Gather Information, Underwriting Review, Quote Negotiation, \n\nClosed Won, Closed Other, Closed Not Taken, Closed Declined, Closed Partial)\n\n*Intake & Triage*\n\n* New Submission, Incomplete Submission, Declined to Quote\n\n*Underwriting*\n\n* Information Gathering, UW Review In Progress, Referred to Senior UW, Referred to Reinsurance\n\n*Quoting*\n\n* Quote Prepared, Quote Sent, Quote Negotiation, Revised Quote\n\n*Decision*\n\n* Bound, Closed Won, Closed Not Taken, Closed Declined, Closed Competitor, Closed No Response\n\n*Post-Bind*\n\n* Pending Issuance, Issued, Cancelled\n\n----\n\nNotes: text\n\n\n\n*Story Notes:*"
+      }
+    ]
+  },
+  {
+    "id": "981558",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-27T14:46:11.815+0530",
+    "items": [
+      {
+        "field": "summary",
+        "fieldtype": "jira",
+        "fieldId": "summary",
+        "from": null,
+        "fromString": "Manual submission creation",
+        "to": null,
+        "toString": "Manual submission creation "
+      }
+    ]
+  },
+  {
+    "id": "981559",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-27T14:49:37.988+0530",
+    "items": [
+      {
+        "field": "summary",
+        "fieldtype": "jira",
+        "fieldId": "summary",
+        "from": null,
+        "fromString": "Manual submission creation ",
+        "to": null,
+        "toString": "Manual submission creation - Screen 1"
+      }
+    ]
+  },
+  {
+    "id": "981562",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-27T14:49:49.394+0530",
+    "items": [
+      {
+        "field": "Link",
+        "fieldtype": "jira",
+        "from": null,
+        "fromString": null,
+        "to": "UWB-43",
+        "toString": "This work item is cloned by UWB-43"
+      }
+    ]
+  },
+  {
+    "id": "981574",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-27T15:56:06.793+0530",
+    "items": [
+      {
+        "field": "summary",
+        "fieldtype": "jira",
+        "fieldId": "summary",
+        "from": null,
+        "fromString": "Manual submission creation - Screen 1",
+        "to": null,
+        "toString": "Manual submission creation - Section 1"
+      }
+    ]
+  },
+  {
+    "id": "981679",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-27T19:08:01.495+0530",
+    "items": [
+      {
+        "field": "summary",
+        "fieldtype": "jira",
+        "fieldId": "summary",
+        "from": null,
+        "fromString": "Manual submission creation - Section 1",
+        "to": null,
+        "toString": "NB-01: Create New Business Submission with Core Fields"
+      }
+    ]
+  },
+  {
+    "id": "981708",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-27T19:18:28.507+0530",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "As a user, I want new (new business and cross-sell) to be created manually into the platform so that I xxxxx\n\n*Acceptance Criteria:*\n\nAbility to create a new submission manually\n\nAbility to select the type of submission (New Business, Cross-Sell, Renewal)\n\nAbility to fill out the following fields:\n\nAccount Number: int\n\nAccount Name: pre-populated based on account number. read-only\n\nNeed By Date: date\n\nEffective Date: date\n\nExpiration Date: date\n\n----\n\nStage: drop down (Pre-qualification, Gather Information, Underwriting Review, Quote Negotiation, \n\nClosed Won, Closed Other, Closed Not Taken, Closed Declined, Closed Partial)\n\n*Intake & Triage*\n\n* New Submission, Incomplete Submission, Declined to Quote\n\n*Underwriting*\n\n* Information Gathering, UW Review In Progress, Referred to Senior UW, Referred to Reinsurance\n\n*Quoting*\n\n* Quote Prepared, Quote Sent, Quote Negotiation, Revised Quote\n\n*Decision*\n\n* Bound, Closed Won, Closed Not Taken, Closed Declined, Closed Competitor, Closed No Response\n\n*Post-Bind*\n\n* Pending Issuance, Issued, Cancelled\n\n----\n\nNotes: text\n\n\n\n*Story Notes:*",
+        "to": null,
+        "toString": "As a Territory Manager or any user who has given access for New Submission, I need to manually create a new business submission in the Workbench when a broker sends me a new opportunity. I must be able to enter the submission details manually. The system should require only the essential fields to start, with optional fields available for additional context.\n\n|*Fields from Screenshot*|*Phase 1 Inclusion*|*Notes*|\n|Submission Name|✅ Auto-generated|User can override|\n|Account Name|✅ Required|Search from Salesforce|\n|Group|✅ Optional|Search from Salesforce|\n|Type|✅ Required|Default \"New Business\"|\n|Submission Record Type|✅ Required|\"Insurance\" for new business|\n|Product Line|⏳ Phase 2|Set during quoting|\n|Broker Contact|✅ Optional|Search from Salesforce|\n|Brokerage (Lookup)|✅ Optional|Search from Salesforce|\n|Incumbent Brokerage|✅ Optional|Free text or lookup|\n|Parent Brokerage|❌ Out of Scope|Low priority|\n|First Quote Date|⏳ Phase 2|Set when quote created|\n|1st Binder Follow-up Date|⏳ Phase 2|Set during binding|\n|Underwriting Specialist|⏳ Phase 2|Set via routing|\n|Underwriter|⏳ Phase 2|Set via routing|\n|Submission Notes|✅ Optional|Free text field|\n|Probability (%)|❌ Out of Scope|Not used in Phase 1|\n|Primary Reason Won|⏳ Phase 2|Set at close|\n|Reason Lost|⏳ Phase 2|Set at close|\n\n|*#*|*Acceptance Criteria*|\n|1|User can access \"New Submission\" button from the Submission Dashboard|\n|2|System displays a form with the following Required Fields: Submission Name (auto-generated or user-entered), Account Name (search/lookup from Salesforce), Type (New Business), Need By Date, Effective Date (optional in Phase 1, default to Need By Date + 30 days)|\n|3|System displays the following Optional Fields: Group (search/lookup if part of a group), Broker Contact (search from Salesforce), Brokerage (lookup from Salesforce), Incumbent Brokerage, Parent Brokerage|\n|4|System displays the following Read-only/System Fields: Submission Owner (defaults to current user), Created By, Created Date|\n|5|User can search for existing Account Name using type-ahead search that queries Salesforce API|\n|6|System auto-generates Submission Name in format: {Account Name}-{Type}-{YYMMDD} (e.g., \"Academy of Art University-New Business-260101\")|\n|7|User can click \"Save\" to create the submission record or \"Save & New\" to create another|\n|8|After save, system creates submission record in Workbench DB and syncs to Salesforce via API|\n|9|User is redirected to the Submission Drill-Down page (SCR-03) upon successful save|\n\n----\n\n*Stage*: drop down (Pre-qualification, Gather Information, Underwriting Review, Quote Negotiation, \n\nClosed Won, Closed Other, Closed Not Taken, Closed Declined, Closed Partial)\n\n\n\n*Intake & Triage*\n\n* New Submission, Incomplete Submission, Declined to Quote\n\n*Underwriting*\n\n* Information Gathering, UW Review In Progress, Referred to Senior UW, Referred to Reinsurance\n\n*Quoting*\n\n* Quote Prepared, Quote Sent, Quote Negotiation, Revised Quote\n\n*Decision*\n\n* Bound, Closed Won, Closed Not Taken, Closed Declined, Closed Competitor, Closed No Response\n\n*Post-Bind*\n\n* Pending Issuance, Issued, Cancelled\n\n----\n\n*Dependencies:* Salesforce API access for Account/Contact search"
+      }
+    ]
+  },
+  {
+    "id": "981887",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=557058%3Ae0e50699-b67e-4c72-9c63-628991326903",
+      "accountId": "557058:e0e50699-b67e-4c72-9c63-628991326903",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png"
+      },
+      "displayName": "Ziad Elharaoui",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-28T00:51:49.784+0530",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "As a Territory Manager or any user who has given access for New Submission, I need to manually create a new business submission in the Workbench when a broker sends me a new opportunity. I must be able to enter the submission details manually. The system should require only the essential fields to start, with optional fields available for additional context.\n\n|*Fields from Screenshot*|*Phase 1 Inclusion*|*Notes*|\n|Submission Name|✅ Auto-generated|User can override|\n|Account Name|✅ Required|Search from Salesforce|\n|Group|✅ Optional|Search from Salesforce|\n|Type|✅ Required|Default \"New Business\"|\n|Submission Record Type|✅ Required|\"Insurance\" for new business|\n|Product Line|⏳ Phase 2|Set during quoting|\n|Broker Contact|✅ Optional|Search from Salesforce|\n|Brokerage (Lookup)|✅ Optional|Search from Salesforce|\n|Incumbent Brokerage|✅ Optional|Free text or lookup|\n|Parent Brokerage|❌ Out of Scope|Low priority|\n|First Quote Date|⏳ Phase 2|Set when quote created|\n|1st Binder Follow-up Date|⏳ Phase 2|Set during binding|\n|Underwriting Specialist|⏳ Phase 2|Set via routing|\n|Underwriter|⏳ Phase 2|Set via routing|\n|Submission Notes|✅ Optional|Free text field|\n|Probability (%)|❌ Out of Scope|Not used in Phase 1|\n|Primary Reason Won|⏳ Phase 2|Set at close|\n|Reason Lost|⏳ Phase 2|Set at close|\n\n|*#*|*Acceptance Criteria*|\n|1|User can access \"New Submission\" button from the Submission Dashboard|\n|2|System displays a form with the following Required Fields: Submission Name (auto-generated or user-entered), Account Name (search/lookup from Salesforce), Type (New Business), Need By Date, Effective Date (optional in Phase 1, default to Need By Date + 30 days)|\n|3|System displays the following Optional Fields: Group (search/lookup if part of a group), Broker Contact (search from Salesforce), Brokerage (lookup from Salesforce), Incumbent Brokerage, Parent Brokerage|\n|4|System displays the following Read-only/System Fields: Submission Owner (defaults to current user), Created By, Created Date|\n|5|User can search for existing Account Name using type-ahead search that queries Salesforce API|\n|6|System auto-generates Submission Name in format: {Account Name}-{Type}-{YYMMDD} (e.g., \"Academy of Art University-New Business-260101\")|\n|7|User can click \"Save\" to create the submission record or \"Save & New\" to create another|\n|8|After save, system creates submission record in Workbench DB and syncs to Salesforce via API|\n|9|User is redirected to the Submission Drill-Down page (SCR-03) upon successful save|\n\n----\n\n*Stage*: drop down (Pre-qualification, Gather Information, Underwriting Review, Quote Negotiation, \n\nClosed Won, Closed Other, Closed Not Taken, Closed Declined, Closed Partial)\n\n\n\n*Intake & Triage*\n\n* New Submission, Incomplete Submission, Declined to Quote\n\n*Underwriting*\n\n* Information Gathering, UW Review In Progress, Referred to Senior UW, Referred to Reinsurance\n\n*Quoting*\n\n* Quote Prepared, Quote Sent, Quote Negotiation, Revised Quote\n\n*Decision*\n\n* Bound, Closed Won, Closed Not Taken, Closed Declined, Closed Competitor, Closed No Response\n\n*Post-Bind*\n\n* Pending Issuance, Issued, Cancelled\n\n----\n\n*Dependencies:* Salesforce API access for Account/Contact search",
+        "to": null,
+        "toString": "As a Territory Manager or any user who has given access for New Submission, I need to manually create a new business submission in the Workbench when a broker sends me a new opportunity. I must be able to enter the submission details manually. The system should require only the essential fields to start, with optional fields available for additional context.\n\n|*Fields from Screenshot*|*Phase 1 Inclusion*|*Notes*|\n|Submission Name|✅ Auto-generated|User can override|\n|Account Name|✅ Required|Search from Salesforce|\n|Group|✅ Optional|Search from Salesforce|\n|Type|✅ Required|Default \"New Business\"|\n|Submission Record Type|✅ Required|\"Insurance\" for new business|\n|Product Line|⏳ Phase 2|Set during quoting|\n|Broker Contact|✅ Optional|Search from Salesforce|\n|Brokerage (Lookup)|✅ Optional|Search from Salesforce|\n|Incumbent Brokerage|✅ Optional|Free text or lookup|\n|Parent Brokerage|❌ Out of Scope|Low priority|\n|First Quote Date|⏳ Phase 2|Set when quote created|\n|1st Binder Follow-up Date|⏳ Phase 2|Set during binding|\n|Underwriting Specialist|⏳ Phase 2|Set via routing|\n|Underwriter|⏳ Phase 2|Set via routing|\n|Submission Notes|✅ Optional|Free text field|\n|Probability (%)|❌ Out of Scope|Not used in Phase 1|\n|Primary Reason Won|⏳ Phase 2|Set at close|\n|Reason Lost|⏳ Phase 2|Set at close|\n\n|*#*|*Acceptance Criteria*|\n|1|User can access \"New Submission\" button from the Submission Dashboard|\n|2|System displays a form with the following Required Fields: Submission Name (auto-generated or user-entered), Account Name (search/lookup from Salesforce), Type (New Business), Need By Date, Effective Date (optional in Phase 1, default to Need By Date + 30 days)|\n|3|System displays the following Optional Fields: Group (search/lookup if part of a group), Broker Contact (search from Salesforce), Brokerage (lookup from Salesforce), Incumbent Brokerage, Parent Brokerage|\n|4|System displays the following Read-only/System Fields: Submission Owner (defaults to current user), Created By, Created Date|\n|5|User can search for existing Account Name using type-ahead search that queries Salesforce API|\n|6|System auto-generates Submission Name in format: {Account Name}-{Type}-{YYMMDD} (e.g., \"Academy of Art University-New Business-260101\")|\n|7|User can click \"Save\" to create the submission record or \"Save & New\" to create another|\n|8|After save, system creates submission record in Workbench DB and syncs to Salesforce via API|\n|9|User is redirected to the Submission Drill-Down page (SCR-03) upon successful save|\n\n----\n\n*Stage*: drop down (Pre-qualification, Gather Information, Underwriting Review, Quote Negotiation, \n\nClosed Won, Closed Other, Closed Not Taken, Closed Declined, Closed Partial)\n\n\n\n*Intake & Triage*\n\n* Incomplete Submission, Complete Submission, Declined to Quote\n\n*Underwriting*\n\n* Information Gathering, Review In Progress, Referred\n\n*Quoting*\n\n* Quote In Progress, Quote Sent, Quote Negotiation, Revised Quote\n\n*Decision*\n\n* Bound, UE Non-Renewed, Member Declined, Member No Response \n\n*Post-Bind*\n\n* Pending Issuance, Issued, Cancelled, Endorsed\n\n----\n\n*Dependencies:* Salesforce API access for Account/Contact search"
+      }
+    ]
+  },
+  {
+    "id": "981906",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=557058%3Ae0e50699-b67e-4c72-9c63-628991326903",
+      "accountId": "557058:e0e50699-b67e-4c72-9c63-628991326903",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png"
+      },
+      "displayName": "Ziad Elharaoui",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-28T01:17:28.063+0530",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "As a Territory Manager or any user who has given access for New Submission, I need to manually create a new business submission in the Workbench when a broker sends me a new opportunity. I must be able to enter the submission details manually. The system should require only the essential fields to start, with optional fields available for additional context.\n\n|*Fields from Screenshot*|*Phase 1 Inclusion*|*Notes*|\n|Submission Name|✅ Auto-generated|User can override|\n|Account Name|✅ Required|Search from Salesforce|\n|Group|✅ Optional|Search from Salesforce|\n|Type|✅ Required|Default \"New Business\"|\n|Submission Record Type|✅ Required|\"Insurance\" for new business|\n|Product Line|⏳ Phase 2|Set during quoting|\n|Broker Contact|✅ Optional|Search from Salesforce|\n|Brokerage (Lookup)|✅ Optional|Search from Salesforce|\n|Incumbent Brokerage|✅ Optional|Free text or lookup|\n|Parent Brokerage|❌ Out of Scope|Low priority|\n|First Quote Date|⏳ Phase 2|Set when quote created|\n|1st Binder Follow-up Date|⏳ Phase 2|Set during binding|\n|Underwriting Specialist|⏳ Phase 2|Set via routing|\n|Underwriter|⏳ Phase 2|Set via routing|\n|Submission Notes|✅ Optional|Free text field|\n|Probability (%)|❌ Out of Scope|Not used in Phase 1|\n|Primary Reason Won|⏳ Phase 2|Set at close|\n|Reason Lost|⏳ Phase 2|Set at close|\n\n|*#*|*Acceptance Criteria*|\n|1|User can access \"New Submission\" button from the Submission Dashboard|\n|2|System displays a form with the following Required Fields: Submission Name (auto-generated or user-entered), Account Name (search/lookup from Salesforce), Type (New Business), Need By Date, Effective Date (optional in Phase 1, default to Need By Date + 30 days)|\n|3|System displays the following Optional Fields: Group (search/lookup if part of a group), Broker Contact (search from Salesforce), Brokerage (lookup from Salesforce), Incumbent Brokerage, Parent Brokerage|\n|4|System displays the following Read-only/System Fields: Submission Owner (defaults to current user), Created By, Created Date|\n|5|User can search for existing Account Name using type-ahead search that queries Salesforce API|\n|6|System auto-generates Submission Name in format: {Account Name}-{Type}-{YYMMDD} (e.g., \"Academy of Art University-New Business-260101\")|\n|7|User can click \"Save\" to create the submission record or \"Save & New\" to create another|\n|8|After save, system creates submission record in Workbench DB and syncs to Salesforce via API|\n|9|User is redirected to the Submission Drill-Down page (SCR-03) upon successful save|\n\n----\n\n*Stage*: drop down (Pre-qualification, Gather Information, Underwriting Review, Quote Negotiation, \n\nClosed Won, Closed Other, Closed Not Taken, Closed Declined, Closed Partial)\n\n\n\n*Intake & Triage*\n\n* Incomplete Submission, Complete Submission, Declined to Quote\n\n*Underwriting*\n\n* Information Gathering, Review In Progress, Referred\n\n*Quoting*\n\n* Quote In Progress, Quote Sent, Quote Negotiation, Revised Quote\n\n*Decision*\n\n* Bound, UE Non-Renewed, Member Declined, Member No Response \n\n*Post-Bind*\n\n* Pending Issuance, Issued, Cancelled, Endorsed\n\n----\n\n*Dependencies:* Salesforce API access for Account/Contact search",
+        "to": null,
+        "toString": "As a Territory Manager or any user who has given access for New Submission, I need to manually create a new business submission in the Workbench when a broker sends me a new opportunity. I must be able to enter the submission details manually. The system should require only the essential fields to start, with optional fields available for additional context.\n\n|*Fields from Screenshot*|*Phase 1 Inclusion*|*Notes*|\n|Submission Name|✅ Auto-generated| |\n|Account Name|✅ Required|Search from Salesforce|\n|Group|✅ Optional|Search from Salesforce|\n|Type|✅ Required|Default \"New Business\"|\n|Product Line|⏳ Phase 2|Set during quoting|\n|Broker Contact|✅ Optional|Search from Salesforce|\n|Brokerage (Lookup)|✅ Optional|Search from Salesforce|\n|Incumbent Brokerage|✅ Optional|Free text or lookup|\n|Parent Brokerage|❌ Out of Scope|Low priority|\n|First Quote Date|⏳ Phase 2|Set when quote created|\n|1st Binder Follow-up Date|⏳ Phase 2|Set during binding|\n|Underwriting Specialist|⏳ Phase 2|Set via routing|\n|Underwriter|⏳ Phase 2|Set via routing|\n|Submission Notes|✅ Optional|Free text field|\n|Probability (%)|❌ Out of Scope|Not used in Phase 1|\n|Primary Reason Won|⏳ Phase 2|Set at close|\n|Reason Lost|⏳ Phase 2|Set at close|\n\n|*#*|*Acceptance Criteria*|\n|1|User can access \"New Submission\" button from the Submission Dashboard|\n|2|System displays a form with the following Required Fields: Submission Name (auto-generated or user-entered), Account Name (search/lookup from Salesforce), Type (New Business), Need By Date, Effective Date (optional in Phase 1, default to Need By Date + 30 days)|\n|3|System displays the following Optional Fields: Group (search/lookup if part of a group), Broker Contact (search from Salesforce), Brokerage (lookup from Salesforce), Incumbent Brokerage, Parent Brokerage|\n|4|System displays the following Read-only/System Fields: Submission Owner (defaults to current user), Created By, Created Date|\n|5|User can search for existing Account Name using type-ahead search that queries Salesforce API|\n|6|System auto-generates Submission Name in format: {Account Name}-{Type}-{YYMMDD} (e.g., \"Academy of Art University-New Business-260101\")|\n|7|User can click \"Save\" to create the submission record or \"Save & New\" to create another|\n|8|After save, system creates submission record in Workbench DB and syncs to Salesforce via API|\n|9|User is redirected to the Submission Drill-Down page (SCR-03) upon successful save|\n\n----\n\n*Stage*: drop down (Pre-qualification, Gather Information, Underwriting Review, Quote Negotiation, \n\nClosed Won, Closed Other, Closed Not Taken, Closed Declined, Closed Partial)\n\n\n\n*Intake & Triage*\n\n* Incomplete Submission, Complete Submission, Declined to Quote\n\n*Underwriting*\n\n* Information Gathering, Review In Progress, Referred\n\n*Quoting*\n\n* Quote In Progress, Quote Sent, Quote Negotiation, Revised Quote\n\n*Decision*\n\n* Bound, UE Non-Renewed, Member Declined, Member No Response \n\n*Post-Bind*\n\n* Pending Issuance, Issued, Cancelled, Endorsed\n\n----\n\n*Dependencies:* Salesforce API access for Account/Contact search"
+      }
+    ]
+  },
+  {
+    "id": "981907",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=557058%3Ae0e50699-b67e-4c72-9c63-628991326903",
+      "accountId": "557058:e0e50699-b67e-4c72-9c63-628991326903",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png"
+      },
+      "displayName": "Ziad Elharaoui",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-04-28T01:17:45.953+0530",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "As a Territory Manager or any user who has given access for New Submission, I need to manually create a new business submission in the Workbench when a broker sends me a new opportunity. I must be able to enter the submission details manually. The system should require only the essential fields to start, with optional fields available for additional context.\n\n|*Fields from Screenshot*|*Phase 1 Inclusion*|*Notes*|\n|Submission Name|✅ Auto-generated| |\n|Account Name|✅ Required|Search from Salesforce|\n|Group|✅ Optional|Search from Salesforce|\n|Type|✅ Required|Default \"New Business\"|\n|Product Line|⏳ Phase 2|Set during quoting|\n|Broker Contact|✅ Optional|Search from Salesforce|\n|Brokerage (Lookup)|✅ Optional|Search from Salesforce|\n|Incumbent Brokerage|✅ Optional|Free text or lookup|\n|Parent Brokerage|❌ Out of Scope|Low priority|\n|First Quote Date|⏳ Phase 2|Set when quote created|\n|1st Binder Follow-up Date|⏳ Phase 2|Set during binding|\n|Underwriting Specialist|⏳ Phase 2|Set via routing|\n|Underwriter|⏳ Phase 2|Set via routing|\n|Submission Notes|✅ Optional|Free text field|\n|Probability (%)|❌ Out of Scope|Not used in Phase 1|\n|Primary Reason Won|⏳ Phase 2|Set at close|\n|Reason Lost|⏳ Phase 2|Set at close|\n\n|*#*|*Acceptance Criteria*|\n|1|User can access \"New Submission\" button from the Submission Dashboard|\n|2|System displays a form with the following Required Fields: Submission Name (auto-generated or user-entered), Account Name (search/lookup from Salesforce), Type (New Business), Need By Date, Effective Date (optional in Phase 1, default to Need By Date + 30 days)|\n|3|System displays the following Optional Fields: Group (search/lookup if part of a group), Broker Contact (search from Salesforce), Brokerage (lookup from Salesforce), Incumbent Brokerage, Parent Brokerage|\n|4|System displays the following Read-only/System Fields: Submission Owner (defaults to current user), Created By, Created Date|\n|5|User can search for existing Account Name using type-ahead search that queries Salesforce API|\n|6|System auto-generates Submission Name in format: {Account Name}-{Type}-{YYMMDD} (e.g., \"Academy of Art University-New Business-260101\")|\n|7|User can click \"Save\" to create the submission record or \"Save & New\" to create another|\n|8|After save, system creates submission record in Workbench DB and syncs to Salesforce via API|\n|9|User is redirected to the Submission Drill-Down page (SCR-03) upon successful save|\n\n----\n\n*Stage*: drop down (Pre-qualification, Gather Information, Underwriting Review, Quote Negotiation, \n\nClosed Won, Closed Other, Closed Not Taken, Closed Declined, Closed Partial)\n\n\n\n*Intake & Triage*\n\n* Incomplete Submission, Complete Submission, Declined to Quote\n\n*Underwriting*\n\n* Information Gathering, Review In Progress, Referred\n\n*Quoting*\n\n* Quote In Progress, Quote Sent, Quote Negotiation, Revised Quote\n\n*Decision*\n\n* Bound, UE Non-Renewed, Member Declined, Member No Response \n\n*Post-Bind*\n\n* Pending Issuance, Issued, Cancelled, Endorsed\n\n----\n\n*Dependencies:* Salesforce API access for Account/Contact search",
+        "to": null,
+        "toString": "As a Territory Manager or any user who has given access for New Submission, I need to manually create a new business submission in the Workbench when a broker sends me a new opportunity. I must be able to enter the submission details manually. The system should require only the essential fields to start, with optional fields available for additional context.\n\n|*Fields from Screenshot*|*Phase 1 Inclusion*|*Notes*|\n|Submission Name|✅ Auto-generated| |\n|Account Name|✅ Required|Search from Salesforce|\n|Group|✅ Optional|Search from Salesforce|\n|Type|✅ Required|Default \"New Business\"|\n|Product Line|⏳ Phase 2|Set during quoting|\n|Broker Contact|✅ Optional|Search from Salesforce|\n|Brokerage (Lookup)|✅ Optional|Search from Salesforce|\n|Incumbent Brokerage|✅ Optional|Free text or lookup|\n|Parent Brokerage|❌ Out of Scope|Low priority|\n|First Quote Date|⏳ Phase 2|Set when quote created|\n|1st Binder Follow-up Date|⏳ Phase 2|Set during binding|\n|Underwriting Specialist|⏳ Phase 2|Set via routing|\n|Underwriter|⏳ Phase 2|Set via routing|\n|Submission Notes|✅ Optional|Free text field|\n|Probability (%)|❌ Out of Scope|Not used in Phase 1|\n|Primary Reason Won|⏳ Phase 2|Set at close|\n|Reason Lost|⏳ Phase 2|Set at close|\n\n|*#*|*Acceptance Criteria*|\n|1|User can access \"New Submission\" button from the Submission Dashboard|\n|2|System displays a form with the following Required Fields: Submission Name (auto-generated or user-entered), Account Name (search/lookup from Salesforce), Type (New Business), Need By Date, Effective Date (optional in Phase 1, default to Need By Date + 30 days)|\n|3|System displays the following Optional Fields: Group (search/lookup if part of a group), Broker Contact (search from Salesforce), Brokerage (lookup from Salesforce), Incumbent Brokerage, Parent Brokerage|\n|4|System displays the following Read-only/System Fields: Submission Owner (defaults to current user), Created By, Created Date|\n|5|User can search for existing Account Name using type-ahead search that queries Salesforce API|\n|6|System auto-generates Submission Name in format: {Account Name}-{Type}-{YYMMDD} (e.g., \"Academy of Art University-New Business-260101\")|\n|7|User can click \"Save\" to create the submission record or \"Save & New\" to create another|\n|8|After save, system creates submission record in Workbench DB and syncs to Salesforce via API|\n|9|User is redirected to the Submission Drill-Down page (SCR-03) upon successful save|\n\n----\n\n[~accountid:712020:969bebc2-b867-48a4-8ef7-c2e0c555434d] here are the submission statuses:\n\n*Intake & Triage*\n\n* Incomplete Submission, Complete Submission, Declined to Quote\n\n*Underwriting*\n\n* Information Gathering, Review In Progress, Referred\n\n*Quoting*\n\n* Quote In Progress, Quote Sent, Quote Negotiation, Revised Quote\n\n*Decision*\n\n* Bound, UE Non-Renewed, Member Declined, Member No Response \n\n*Post-Bind*\n\n* Pending Issuance, Issued, Cancelled, Endorsed\n\n----\n\n*Dependencies:* Salesforce API access for Account/Contact search"
+      }
+    ]
+  },
+  {
+    "id": "984584",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-05T17:33:03.300+0530",
+    "items": [
+      {
+        "field": "summary",
+        "fieldtype": "jira",
+        "fieldId": "summary",
+        "from": null,
+        "fromString": "NB-01: Create New Business Submission with Core Fields",
+        "to": null,
+        "toString": "NB-01: Create New Submission"
+      }
+    ]
+  },
+  {
+    "id": "984597",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-05T18:20:00.760+0530",
+    "items": [
+      {
+        "field": "Link",
+        "fieldtype": "jira",
+        "from": "UWB-43",
+        "fromString": "This work item is cloned by UWB-43",
+        "to": null,
+        "toString": null
+      }
+    ]
+  },
+  {
+    "id": "984598",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-05T18:20:25.662+0530",
+    "items": [
+      {
+        "field": "assignee",
+        "fieldtype": "jira",
+        "fieldId": "assignee",
+        "from": null,
+        "fromString": null,
+        "to": "557058:e0e50699-b67e-4c72-9c63-628991326903",
+        "toString": "Ziad Elharaoui",
+        "tmpFromAccountId": null,
+        "tmpToAccountId": "557058:e0e50699-b67e-4c72-9c63-628991326903"
+      }
+    ]
+  },
+  {
+    "id": "984599",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-05T18:22:17.217+0530",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "As a Territory Manager or any user who has given access for New Submission, I need to manually create a new business submission in the Workbench when a broker sends me a new opportunity. I must be able to enter the submission details manually. The system should require only the essential fields to start, with optional fields available for additional context.\n\n|*Fields from Screenshot*|*Phase 1 Inclusion*|*Notes*|\n|Submission Name|✅ Auto-generated| |\n|Account Name|✅ Required|Search from Salesforce|\n|Group|✅ Optional|Search from Salesforce|\n|Type|✅ Required|Default \"New Business\"|\n|Product Line|⏳ Phase 2|Set during quoting|\n|Broker Contact|✅ Optional|Search from Salesforce|\n|Brokerage (Lookup)|✅ Optional|Search from Salesforce|\n|Incumbent Brokerage|✅ Optional|Free text or lookup|\n|Parent Brokerage|❌ Out of Scope|Low priority|\n|First Quote Date|⏳ Phase 2|Set when quote created|\n|1st Binder Follow-up Date|⏳ Phase 2|Set during binding|\n|Underwriting Specialist|⏳ Phase 2|Set via routing|\n|Underwriter|⏳ Phase 2|Set via routing|\n|Submission Notes|✅ Optional|Free text field|\n|Probability (%)|❌ Out of Scope|Not used in Phase 1|\n|Primary Reason Won|⏳ Phase 2|Set at close|\n|Reason Lost|⏳ Phase 2|Set at close|\n\n|*#*|*Acceptance Criteria*|\n|1|User can access \"New Submission\" button from the Submission Dashboard|\n|2|System displays a form with the following Required Fields: Submission Name (auto-generated or user-entered), Account Name (search/lookup from Salesforce), Type (New Business), Need By Date, Effective Date (optional in Phase 1, default to Need By Date + 30 days)|\n|3|System displays the following Optional Fields: Group (search/lookup if part of a group), Broker Contact (search from Salesforce), Brokerage (lookup from Salesforce), Incumbent Brokerage, Parent Brokerage|\n|4|System displays the following Read-only/System Fields: Submission Owner (defaults to current user), Created By, Created Date|\n|5|User can search for existing Account Name using type-ahead search that queries Salesforce API|\n|6|System auto-generates Submission Name in format: {Account Name}-{Type}-{YYMMDD} (e.g., \"Academy of Art University-New Business-260101\")|\n|7|User can click \"Save\" to create the submission record or \"Save & New\" to create another|\n|8|After save, system creates submission record in Workbench DB and syncs to Salesforce via API|\n|9|User is redirected to the Submission Drill-Down page (SCR-03) upon successful save|\n\n----\n\n[~accountid:712020:969bebc2-b867-48a4-8ef7-c2e0c555434d] here are the submission statuses:\n\n*Intake & Triage*\n\n* Incomplete Submission, Complete Submission, Declined to Quote\n\n*Underwriting*\n\n* Information Gathering, Review In Progress, Referred\n\n*Quoting*\n\n* Quote In Progress, Quote Sent, Quote Negotiation, Revised Quote\n\n*Decision*\n\n* Bound, UE Non-Renewed, Member Declined, Member No Response \n\n*Post-Bind*\n\n* Pending Issuance, Issued, Cancelled, Endorsed\n\n----\n\n*Dependencies:* Salesforce API access for Account/Contact search",
+        "to": null,
+        "toString": "*Navigation*: \n\nDashboard/Submissions/*New Submission*\n\n*Story:*\nAs an Underwriter / Business User\nI want to create a new submission\nSo that I can initiate underwriting for an account\n\n*Fields & Behavior:*\n\n||*Field*||*Section*||*Type*||*Behavior*||*Validation*||\n|Submission Type|Submission Type|Radio Button (Card Type)|New Business / Cross-sell|Mandatory|\n|Account Name|Account|Searchable Dropdown|Pull from Salesforce|Mandatory|\n|Product|Policy|Multi-select Dropdown|Multiple products allowed|Mandatory|\n|Need By Date|Policy|Date Picker|Selectable|Mandatory|\n|Effective Date|Policy|Date Picker|Selectable|Mandatory, Effective Date must not exceed Expiration Date|\n|Expiration Date|Policy|Date Picker|Selectable|Mandatory, Effective Date must not exceed Expiration Date|\n|Current Stage|Submission Stage|Dropdown|Default = \"Incomplete Submission\"\nOther LOVs to be fetched from a Master Data|# Stage defaults to “Incomplete Submission”\n# User can modify stage before submission creation|\n|Brokerage|Brokerage|Searchable Dropdown|Pull from Salesforce|Data editable but not written back to Salesforce\n# Fresh data fetched for every submission|\n|Broker Contact|Brokerage|Searchable Dropdown|Pull from Salesforce|Data editable but not written back to Salesforce\n# Fresh data fetched for every submission|\n|Broker Email|Brokerage|Email|Pull from Salesforce|Data editable but not written back to Salesforce\n# Fresh data fetched for every submission|\n|Broker Phone|Brokerage|Phone|Pull from Salesforce|Data editable but not written back to Salesforce\n# Fresh data fetched for every submission|\n|Underwriter|Underwriting Team|Searchable Dropdown|Pull from Salesforce|Data editable but not written back to Salesforce\n# Fresh data fetched for every submission|\n|Underwriting Specialist|Underwriting Team|Searchable Dropdown|Pull from Salesforce|Data editable but not written back to Salesforce\n# Fresh data fetched for every submission|\n|Internal Notes|Notes|Text Area|Free text|Optional|\n|Add Document|Submission Documents|Document Uploader|File Uploader|Atleast one document is mandatory|\n|Create Submission| |Button|Creates a Submission|Display Field level validaiton errors wherever applicable|\n|Cancel| |Button|Cancel the Action|Display a warning message of data loss upon canceling the action|\n\n*Submission Summary - Summary Preview Section to display the following list of fields:*\n\n# TYPE\n# ACCOUNT\n# PRODUCTS\n# NEED BY\n# EFFECTIVE\n# BROKERAGE\n# BROKER\n# STAGE\n# DOCS\n\n*Key Rules*\n\n* Single Account field (no Group)\n* Submission ID generated after creation\n* Cannot proceed without mandatory fields\n* Products allow multi-selection\n\n----\n\n*Submission Stage LOVs:* (Can be handled as a Master)\n\n|*Stage Category*|*Stage Name*|\n|Intake & Triage|Incomplete Submission|\n|Intake & Triage|Complete Submission|\n|Intake & Triage|Declined to Quote|\n|Underwriting|Information Gathering|\n|Underwriting|Review In Progress|\n|Underwriting|Referred|\n|Quoting|Quote In Progress|\n|Quoting|Quote Sent|\n|Quoting|Quote Negotiation|\n|Quoting|Revised Quote|\n|Decision|Bound|\n|Decision|UE Non-Renewed|\n|Decision|Member Declined|\n|Decision|Member No Response|\n|Post-Bind|Pending Issuance|\n|Post-Bind|Issued|\n|Post-Bind|Cancelled|\n|Post-Bind|Endorsed|\n\nh2. Acceptance Criteria\n\n* All mandatory fields must be completed before submission creation\n* Account supports search and selection from Salesforce\n* Account field supports search from Salesforce\n* User must select an account to proceed\n* System shows message when no results are found\n* Product and Underwriting Team allow multiple selections\n* Date fields must be valid (Effective Date ≤ Expiration Date)\n* Stage defaults to “Incomplete Submission” and is editable\n* Submission is created only after validations pass with a unique Submission ID\n* Brokerage, Broker, and Underwriting Team auto-populate on account selection\n* Auto-populated fields are editable\n* Changes are stored only in Workbench\n* Each new submission fetches fresh Salesforce data\n* Stage defaults to “Incomplete Submission”\n* User can modify stage before submission creation\n* Notes field is optional\n* Notes do not block submission creation\n* Summary displays key submission details\n* User can review details before final submission\n\n\n\n*Dependencies:* Salesforce API access for Account/Contact search"
+      }
+    ]
+  },
+  {
+    "id": "984618",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-05T18:33:43.163+0530",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "*Navigation*: \n\nDashboard/Submissions/*New Submission*\n\n*Story:*\nAs an Underwriter / Business User\nI want to create a new submission\nSo that I can initiate underwriting for an account\n\n*Fields & Behavior:*\n\n||*Field*||*Section*||*Type*||*Behavior*||*Validation*||\n|Submission Type|Submission Type|Radio Button (Card Type)|New Business / Cross-sell|Mandatory|\n|Account Name|Account|Searchable Dropdown|Pull from Salesforce|Mandatory|\n|Product|Policy|Multi-select Dropdown|Multiple products allowed|Mandatory|\n|Need By Date|Policy|Date Picker|Selectable|Mandatory|\n|Effective Date|Policy|Date Picker|Selectable|Mandatory, Effective Date must not exceed Expiration Date|\n|Expiration Date|Policy|Date Picker|Selectable|Mandatory, Effective Date must not exceed Expiration Date|\n|Current Stage|Submission Stage|Dropdown|Default = \"Incomplete Submission\"\nOther LOVs to be fetched from a Master Data|# Stage defaults to “Incomplete Submission”\n# User can modify stage before submission creation|\n|Brokerage|Brokerage|Searchable Dropdown|Pull from Salesforce|Data editable but not written back to Salesforce\n# Fresh data fetched for every submission|\n|Broker Contact|Brokerage|Searchable Dropdown|Pull from Salesforce|Data editable but not written back to Salesforce\n# Fresh data fetched for every submission|\n|Broker Email|Brokerage|Email|Pull from Salesforce|Data editable but not written back to Salesforce\n# Fresh data fetched for every submission|\n|Broker Phone|Brokerage|Phone|Pull from Salesforce|Data editable but not written back to Salesforce\n# Fresh data fetched for every submission|\n|Underwriter|Underwriting Team|Searchable Dropdown|Pull from Salesforce|Data editable but not written back to Salesforce\n# Fresh data fetched for every submission|\n|Underwriting Specialist|Underwriting Team|Searchable Dropdown|Pull from Salesforce|Data editable but not written back to Salesforce\n# Fresh data fetched for every submission|\n|Internal Notes|Notes|Text Area|Free text|Optional|\n|Add Document|Submission Documents|Document Uploader|File Uploader|Atleast one document is mandatory|\n|Create Submission| |Button|Creates a Submission|Display Field level validaiton errors wherever applicable|\n|Cancel| |Button|Cancel the Action|Display a warning message of data loss upon canceling the action|\n\n*Submission Summary - Summary Preview Section to display the following list of fields:*\n\n# TYPE\n# ACCOUNT\n# PRODUCTS\n# NEED BY\n# EFFECTIVE\n# BROKERAGE\n# BROKER\n# STAGE\n# DOCS\n\n*Key Rules*\n\n* Single Account field (no Group)\n* Submission ID generated after creation\n* Cannot proceed without mandatory fields\n* Products allow multi-selection\n\n----\n\n*Submission Stage LOVs:* (Can be handled as a Master)\n\n|*Stage Category*|*Stage Name*|\n|Intake & Triage|Incomplete Submission|\n|Intake & Triage|Complete Submission|\n|Intake & Triage|Declined to Quote|\n|Underwriting|Information Gathering|\n|Underwriting|Review In Progress|\n|Underwriting|Referred|\n|Quoting|Quote In Progress|\n|Quoting|Quote Sent|\n|Quoting|Quote Negotiation|\n|Quoting|Revised Quote|\n|Decision|Bound|\n|Decision|UE Non-Renewed|\n|Decision|Member Declined|\n|Decision|Member No Response|\n|Post-Bind|Pending Issuance|\n|Post-Bind|Issued|\n|Post-Bind|Cancelled|\n|Post-Bind|Endorsed|\n\nh2. Acceptance Criteria\n\n* All mandatory fields must be completed before submission creation\n* Account supports search and selection from Salesforce\n* Account field supports search from Salesforce\n* User must select an account to proceed\n* System shows message when no results are found\n* Product and Underwriting Team allow multiple selections\n* Date fields must be valid (Effective Date ≤ Expiration Date)\n* Stage defaults to “Incomplete Submission” and is editable\n* Submission is created only after validations pass with a unique Submission ID\n* Brokerage, Broker, and Underwriting Team auto-populate on account selection\n* Auto-populated fields are editable\n* Changes are stored only in Workbench\n* Each new submission fetches fresh Salesforce data\n* Stage defaults to “Incomplete Submission”\n* User can modify stage before submission creation\n* Notes field is optional\n* Notes do not block submission creation\n* Summary displays key submission details\n* User can review details before final submission\n\n\n\n*Dependencies:* Salesforce API access for Account/Contact search",
+        "to": null,
+        "toString": "*Navigation*: \n\nDashboard/Submissions/*New Submission*\n\n*Story:*\nAs an Underwriter / Business User\nI want to create a new submission\nSo that I can initiate underwriting for an account\n\n*Fields & Behavior:*\n\n||*Field*||*Section*||*Type*||*Behavior*||*Validation*||\n|Submission Type|Submission Type|Radio Button (Card Type)|New Business / Cross-sell|Mandatory|\n|Account Name|Account|Searchable Dropdown|Pull from Salesforce|Mandatory|\n|Product|Policy|Multi-select Dropdown|Multiple products allowed|Mandatory, Selected product to show as multiple cards with one click remove option|\n|Need By Date|Policy|Date Picker|Selectable|Mandatory\nDefault to Today + 7 days|\n|Effective Date|Policy|Date Picker|Selectable|Mandatory, Effective Date must not exceed Expiration Date\nDefault to Today|\n|Expiration Date|Policy|Date Picker|Selectable|Mandatory, Effective Date must not exceed Expiration Date\nDefault to Today + 1 year|\n|Current Stage|Submission Stage|Dropdown|Default = \"Incomplete Submission\"\nOther LOVs to be fetched from a Master Data|# Stage defaults to “Incomplete Submission”\n# User can modify stage before submission creation|\n|Brokerage|Brokerage|Searchable Dropdown|Pull from Salesforce|Data editable but not written back to Salesforce\n# Fresh data fetched for every submission|\n|Broker Contact|Brokerage|Searchable Dropdown|Pull from Salesforce|Data editable but not written back to Salesforce\n# Fresh data fetched for every submission|\n|Broker Email|Brokerage|Email|Pull from Salesforce|Data editable but not written back to Salesforce\n# Fresh data fetched for every submission|\n|Broker Phone|Brokerage|Phone|Pull from Salesforce|Data editable but not written back to Salesforce\n# Fresh data fetched for every submission|\n|Underwriter|Underwriting Team|Searchable Dropdown|Pull from Salesforce|Data editable but not written back to Salesforce\n# Fresh data fetched for every submission|\n|Underwriting Specialist|Underwriting Team|Searchable Dropdown|Pull from Salesforce|Data editable but not written back to Salesforce\n# Fresh data fetched for every submission|\n|Internal Notes|Notes|Text Area|Free text|Optional|\n|Add Document|Submission Documents|Document Uploader|File Uploader|Atleast one document is mandatory\nMax file size: 25 MB (TBD)\nAllowed extensions: .pdf, .doc, .docx, .xlsx, .jpg, .png (TBD)\nMax files: No Limits (TBD)|\n|Create Submission| |Button|Creates a Submission|Display Field level validaiton errors wherever applicable\nh3. Submission ID format TBD|\n|Cancel| |Button|Cancel the Action|Display a warning message of data loss upon canceling the action.\n_Cancel button shows warning only if any field has been modified. If all fields are default/empty, cancel without warning._|\n\n*Submission Summary - Summary Preview Section to display the following list of fields:*\n\n# TYPE\n# ACCOUNT\n# PRODUCTS (Summary displays selected products as comma-separated list)\n# NEED BY\n# EFFECTIVE\n# BROKERAGE\n# BROKER\n# STAGE\n# DOCS\n\n*Key Rules*\n\n* Single Account field (no Group)\n* Submission ID generated after creation\n* Cannot proceed without mandatory fields\n* Products allow multi-selection\n\n----\n\n*Submission Stage LOVs:* (Can be handled as a Master)\n\n|*Stage Category*|*Stage Name*|\n|Intake & Triage|Incomplete Submission|\n|Intake & Triage|Complete Submission|\n|Intake & Triage|Declined to Quote|\n|Underwriting|Information Gathering|\n|Underwriting|Review In Progress|\n|Underwriting|Referred|\n|Quoting|Quote In Progress|\n|Quoting|Quote Sent|\n|Quoting|Quote Negotiation|\n|Quoting|Revised Quote|\n|Decision|Bound|\n|Decision|UE Non-Renewed|\n|Decision|Member Declined|\n|Decision|Member No Response|\n|Post-Bind|Pending Issuance|\n|Post-Bind|Issued|\n|Post-Bind|Cancelled|\n|Post-Bind|Endorsed|\n\nh2. Acceptance Criteria\n\n* All mandatory fields must be completed before submission creation\n* Account supports search and selection from Salesforce\n* Account field supports search from Salesforce\n* User must select an account to proceed\n* System shows message when no results are found\n* Product and Underwriting Team allow multiple selections\n* Date fields must be valid (Effective Date ≤ Expiration Date)\n* Stage defaults to “Incomplete Submission” and is editable\n* Submission is created only after validations pass with a unique Submission ID\n* Brokerage, Broker, and Underwriting Team auto-populate on account selection\n* Auto-populated fields are editable\n* Changes are stored only in Workbench\n* Each new submission fetches fresh Salesforce data\n* Stage defaults to “Incomplete Submission”\n* User can modify stage before submission creation\n* Notes field is optional\n* Notes do not block submission creation\n* Summary displays key submission details\n* User can review details before final submission\n\n\n\n*Dependencies:* Salesforce API access for Account/Contact search"
+      }
+    ]
+  },
+  {
+    "id": "984644",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-05T19:00:18.444+0530",
+    "items": [
+      {
+        "field": "assignee",
+        "fieldtype": "jira",
+        "fieldId": "assignee",
+        "from": "557058:e0e50699-b67e-4c72-9c63-628991326903",
+        "fromString": "Ziad Elharaoui",
+        "to": "614dcf9f41af83007156944d",
+        "toString": "Sahitya Muppireddy",
+        "tmpFromAccountId": "557058:e0e50699-b67e-4c72-9c63-628991326903",
+        "tmpToAccountId": "614dcf9f41af83007156944d"
+      }
+    ]
+  },
+  {
+    "id": "985004",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-06T12:19:17.445+0530",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "*Navigation*: \n\nDashboard/Submissions/*New Submission*\n\n*Story:*\nAs an Underwriter / Business User\nI want to create a new submission\nSo that I can initiate underwriting for an account\n\n*Fields & Behavior:*\n\n||*Field*||*Section*||*Type*||*Behavior*||*Validation*||\n|Submission Type|Submission Type|Radio Button (Card Type)|New Business / Cross-sell|Mandatory|\n|Account Name|Account|Searchable Dropdown|Pull from Salesforce|Mandatory|\n|Product|Policy|Multi-select Dropdown|Multiple products allowed|Mandatory, Selected product to show as multiple cards with one click remove option|\n|Need By Date|Policy|Date Picker|Selectable|Mandatory\nDefault to Today + 7 days|\n|Effective Date|Policy|Date Picker|Selectable|Mandatory, Effective Date must not exceed Expiration Date\nDefault to Today|\n|Expiration Date|Policy|Date Picker|Selectable|Mandatory, Effective Date must not exceed Expiration Date\nDefault to Today + 1 year|\n|Current Stage|Submission Stage|Dropdown|Default = \"Incomplete Submission\"\nOther LOVs to be fetched from a Master Data|# Stage defaults to “Incomplete Submission”\n# User can modify stage before submission creation|\n|Brokerage|Brokerage|Searchable Dropdown|Pull from Salesforce|Data editable but not written back to Salesforce\n# Fresh data fetched for every submission|\n|Broker Contact|Brokerage|Searchable Dropdown|Pull from Salesforce|Data editable but not written back to Salesforce\n# Fresh data fetched for every submission|\n|Broker Email|Brokerage|Email|Pull from Salesforce|Data editable but not written back to Salesforce\n# Fresh data fetched for every submission|\n|Broker Phone|Brokerage|Phone|Pull from Salesforce|Data editable but not written back to Salesforce\n# Fresh data fetched for every submission|\n|Underwriter|Underwriting Team|Searchable Dropdown|Pull from Salesforce|Data editable but not written back to Salesforce\n# Fresh data fetched for every submission|\n|Underwriting Specialist|Underwriting Team|Searchable Dropdown|Pull from Salesforce|Data editable but not written back to Salesforce\n# Fresh data fetched for every submission|\n|Internal Notes|Notes|Text Area|Free text|Optional|\n|Add Document|Submission Documents|Document Uploader|File Uploader|Atleast one document is mandatory\nMax file size: 25 MB (TBD)\nAllowed extensions: .pdf, .doc, .docx, .xlsx, .jpg, .png (TBD)\nMax files: No Limits (TBD)|\n|Create Submission| |Button|Creates a Submission|Display Field level validaiton errors wherever applicable\nh3. Submission ID format TBD|\n|Cancel| |Button|Cancel the Action|Display a warning message of data loss upon canceling the action.\n_Cancel button shows warning only if any field has been modified. If all fields are default/empty, cancel without warning._|\n\n*Submission Summary - Summary Preview Section to display the following list of fields:*\n\n# TYPE\n# ACCOUNT\n# PRODUCTS (Summary displays selected products as comma-separated list)\n# NEED BY\n# EFFECTIVE\n# BROKERAGE\n# BROKER\n# STAGE\n# DOCS\n\n*Key Rules*\n\n* Single Account field (no Group)\n* Submission ID generated after creation\n* Cannot proceed without mandatory fields\n* Products allow multi-selection\n\n----\n\n*Submission Stage LOVs:* (Can be handled as a Master)\n\n|*Stage Category*|*Stage Name*|\n|Intake & Triage|Incomplete Submission|\n|Intake & Triage|Complete Submission|\n|Intake & Triage|Declined to Quote|\n|Underwriting|Information Gathering|\n|Underwriting|Review In Progress|\n|Underwriting|Referred|\n|Quoting|Quote In Progress|\n|Quoting|Quote Sent|\n|Quoting|Quote Negotiation|\n|Quoting|Revised Quote|\n|Decision|Bound|\n|Decision|UE Non-Renewed|\n|Decision|Member Declined|\n|Decision|Member No Response|\n|Post-Bind|Pending Issuance|\n|Post-Bind|Issued|\n|Post-Bind|Cancelled|\n|Post-Bind|Endorsed|\n\nh2. Acceptance Criteria\n\n* All mandatory fields must be completed before submission creation\n* Account supports search and selection from Salesforce\n* Account field supports search from Salesforce\n* User must select an account to proceed\n* System shows message when no results are found\n* Product and Underwriting Team allow multiple selections\n* Date fields must be valid (Effective Date ≤ Expiration Date)\n* Stage defaults to “Incomplete Submission” and is editable\n* Submission is created only after validations pass with a unique Submission ID\n* Brokerage, Broker, and Underwriting Team auto-populate on account selection\n* Auto-populated fields are editable\n* Changes are stored only in Workbench\n* Each new submission fetches fresh Salesforce data\n* Stage defaults to “Incomplete Submission”\n* User can modify stage before submission creation\n* Notes field is optional\n* Notes do not block submission creation\n* Summary displays key submission details\n* User can review details before final submission\n\n\n\n*Dependencies:* Salesforce API access for Account/Contact search",
+        "to": null,
+        "toString": "*Navigation*: \n\nDashboard/Submissions/*New Submission*\n\n*Story:*\nAs an Underwriter / Business User\nI want to create a new submission\nSo that I can initiate underwriting for an account\n\n*Fields & Behavior:*\n\n||*Field*||*Section*||*Type*||*Behavior*||*Validation*||\n|Submission Type|Submission Type|Radio Button (Card Type)|New Business / Cross-sell|Mandatory|\n|Account Name|Account|Searchable Dropdown|Pull from Salesforce|Mandatory|\n|Product|Policy|Multi-select Dropdown|Multiple products allowed|Mandatory, Selected product to show as multiple cards with one click remove option|\n|Need By Date|Policy|Date Picker|Selectable|Mandatory\nDefault to Today + 7 days (TBD)|\n|Effective Date|Policy|Date Picker|Selectable|Mandatory, Effective Date must not exceed Expiration Date\nDefault to Today|\n|Expiration Date|Policy|Date Picker|Selectable|Mandatory, Effective Date must not exceed Expiration Date\nDefault to Today + 1 year|\n|Current Stage|Submission Stage|Dropdown|Default = \"Incomplete Submission\"\nOther LOVs to be fetched from a Master Data|# Stage defaults to “Incomplete Submission”\n# User can modify stage before submission creation|\n|Brokerage|Brokerage|Searchable Dropdown|Pull from Salesforce|Read-only|\n|Broker Contact|Brokerage|Searchable Dropdown|Pull from Salesforce|Read-only|\n|Broker Email|Brokerage|Email|Pull from Salesforce|Read-only|\n|Broker Phone|Brokerage|Phone|Pull from Salesforce|Read-only|\n|Underwriter|Underwriting Team|Searchable Dropdown|Pull from Salesforce|Read-only|\n|Underwriting Specialist|Underwriting Team|Searchable Dropdown|Pull from Salesforce|Read-only|\n|Internal Notes|Notes|Text Area|Free text|Optional|\n|Add Document|Submission Documents|Document Uploader|File Uploader|Atleast one document is mandatory\nMax file size: 25 MB (TBD)\nAllowed extensions: .pdf, .doc, .docx, .xlsx, .jpg, .png (TBD)\nMax files: No Limits (TBD)|\n|Create Submission| |Button|Creates a Submission|Display Field level validaiton errors wherever applicable\nh3. Submission ID format TBD|\n|Cancel| |Button|Cancel the Action|Display a warning message of data loss upon canceling the action.\n_Cancel button shows warning only if any field has been modified. If all fields are default/empty, cancel without warning._|\n\n*Submission Summary - Summary Preview Section to display the following list of fields:*\n\n# TYPE\n# ACCOUNT\n# PRODUCTS (Summary displays selected products as comma-separated list)\n# NEED BY\n# EFFECTIVE\n# BROKERAGE\n# BROKER\n# STAGE\n# DOCS\n\n*Key Rules*\n\n* Single Account field (no Group)\n* Submission ID generated after creation\n* Cannot proceed without mandatory fields\n* Products allow multi-selection\n\n----\n\n*Submission Stage LOVs:* (Can be handled as a Master)\n\n|*Stage Category*|*Stage Name*|\n|Intake & Triage|Incomplete Submission|\n|Intake & Triage|Complete Submission|\n|Intake & Triage|Declined to Quote|\n|Underwriting|Information Gathering|\n|Underwriting|Review In Progress|\n|Underwriting|Referred|\n|Quoting|Quote In Progress|\n|Quoting|Quote Sent|\n|Quoting|Quote Negotiation|\n|Quoting|Revised Quote|\n|Decision|Bound|\n|Decision|UE Non-Renewed|\n|Decision|Member Declined|\n|Decision|Member No Response|\n|Post-Bind|Pending Issuance|\n|Post-Bind|Issued|\n|Post-Bind|Cancelled|\n|Post-Bind|Endorsed|\n\nh2. Acceptance Criteria\n\n* All mandatory fields must be completed before submission creation\n* Account supports search and selection from Salesforce\n* Account field supports search from Salesforce\n* User must select an account to proceed\n* System shows message when no results are found\n* Product and Underwriting Team allow multiple selections\n* Date fields must be valid (Effective Date ≤ Expiration Date)\n* Stage defaults to “Incomplete Submission” and is editable\n* Submission is created only after validations pass with a unique Submission ID\n* Brokerage, Broker, and Underwriting Team auto-populate on account selection\n* Auto-populated fields are non-editable\n* Changes are stored only in Workbench\n* Each new submission fetches fresh Salesforce data\n* Stage defaults to “Incomplete Submission”\n* User can modify stage before submission creation\n* Notes field is optional\n* Notes do not block submission creation\n* Summary displays key submission details\n* User can review details before final submission\n\n\n\n*Dependencies:* Salesforce API access for Account/Contact search"
+      }
+    ]
+  },
+  {
+    "id": "985129",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=557058%3Ae0e50699-b67e-4c72-9c63-628991326903",
+      "accountId": "557058:e0e50699-b67e-4c72-9c63-628991326903",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png"
+      },
+      "displayName": "Ziad Elharaoui",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-06T18:43:28.618+0530",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "*Navigation*: \n\nDashboard/Submissions/*New Submission*\n\n*Story:*\nAs an Underwriter / Business User\nI want to create a new submission\nSo that I can initiate underwriting for an account\n\n*Fields & Behavior:*\n\n||*Field*||*Section*||*Type*||*Behavior*||*Validation*||\n|Submission Type|Submission Type|Radio Button (Card Type)|New Business / Cross-sell|Mandatory|\n|Account Name|Account|Searchable Dropdown|Pull from Salesforce|Mandatory|\n|Product|Policy|Multi-select Dropdown|Multiple products allowed|Mandatory, Selected product to show as multiple cards with one click remove option|\n|Need By Date|Policy|Date Picker|Selectable|Mandatory\nDefault to Today + 7 days (TBD)|\n|Effective Date|Policy|Date Picker|Selectable|Mandatory, Effective Date must not exceed Expiration Date\nDefault to Today|\n|Expiration Date|Policy|Date Picker|Selectable|Mandatory, Effective Date must not exceed Expiration Date\nDefault to Today + 1 year|\n|Current Stage|Submission Stage|Dropdown|Default = \"Incomplete Submission\"\nOther LOVs to be fetched from a Master Data|# Stage defaults to “Incomplete Submission”\n# User can modify stage before submission creation|\n|Brokerage|Brokerage|Searchable Dropdown|Pull from Salesforce|Read-only|\n|Broker Contact|Brokerage|Searchable Dropdown|Pull from Salesforce|Read-only|\n|Broker Email|Brokerage|Email|Pull from Salesforce|Read-only|\n|Broker Phone|Brokerage|Phone|Pull from Salesforce|Read-only|\n|Underwriter|Underwriting Team|Searchable Dropdown|Pull from Salesforce|Read-only|\n|Underwriting Specialist|Underwriting Team|Searchable Dropdown|Pull from Salesforce|Read-only|\n|Internal Notes|Notes|Text Area|Free text|Optional|\n|Add Document|Submission Documents|Document Uploader|File Uploader|Atleast one document is mandatory\nMax file size: 25 MB (TBD)\nAllowed extensions: .pdf, .doc, .docx, .xlsx, .jpg, .png (TBD)\nMax files: No Limits (TBD)|\n|Create Submission| |Button|Creates a Submission|Display Field level validaiton errors wherever applicable\nh3. Submission ID format TBD|\n|Cancel| |Button|Cancel the Action|Display a warning message of data loss upon canceling the action.\n_Cancel button shows warning only if any field has been modified. If all fields are default/empty, cancel without warning._|\n\n*Submission Summary - Summary Preview Section to display the following list of fields:*\n\n# TYPE\n# ACCOUNT\n# PRODUCTS (Summary displays selected products as comma-separated list)\n# NEED BY\n# EFFECTIVE\n# BROKERAGE\n# BROKER\n# STAGE\n# DOCS\n\n*Key Rules*\n\n* Single Account field (no Group)\n* Submission ID generated after creation\n* Cannot proceed without mandatory fields\n* Products allow multi-selection\n\n----\n\n*Submission Stage LOVs:* (Can be handled as a Master)\n\n|*Stage Category*|*Stage Name*|\n|Intake & Triage|Incomplete Submission|\n|Intake & Triage|Complete Submission|\n|Intake & Triage|Declined to Quote|\n|Underwriting|Information Gathering|\n|Underwriting|Review In Progress|\n|Underwriting|Referred|\n|Quoting|Quote In Progress|\n|Quoting|Quote Sent|\n|Quoting|Quote Negotiation|\n|Quoting|Revised Quote|\n|Decision|Bound|\n|Decision|UE Non-Renewed|\n|Decision|Member Declined|\n|Decision|Member No Response|\n|Post-Bind|Pending Issuance|\n|Post-Bind|Issued|\n|Post-Bind|Cancelled|\n|Post-Bind|Endorsed|\n\nh2. Acceptance Criteria\n\n* All mandatory fields must be completed before submission creation\n* Account supports search and selection from Salesforce\n* Account field supports search from Salesforce\n* User must select an account to proceed\n* System shows message when no results are found\n* Product and Underwriting Team allow multiple selections\n* Date fields must be valid (Effective Date ≤ Expiration Date)\n* Stage defaults to “Incomplete Submission” and is editable\n* Submission is created only after validations pass with a unique Submission ID\n* Brokerage, Broker, and Underwriting Team auto-populate on account selection\n* Auto-populated fields are non-editable\n* Changes are stored only in Workbench\n* Each new submission fetches fresh Salesforce data\n* Stage defaults to “Incomplete Submission”\n* User can modify stage before submission creation\n* Notes field is optional\n* Notes do not block submission creation\n* Summary displays key submission details\n* User can review details before final submission\n\n\n\n*Dependencies:* Salesforce API access for Account/Contact search",
+        "to": null,
+        "toString": "*Navigation*: \n\nSubmissions/*New Submission*\n\n*Story:*\nAs an Underwriting or BD User\nI want to create a new submission\nSo that I can initiate underwriting for a cross-sell or new business opportunity\n\n*Fields & Behavior:*\n\n||*Field*||*Section*||*Type*||*Behavior*||*Validation*||\n|Submission Type|Submission Type|Radio Button (Card Type)|New Business / Cross-sell|Mandatory|\n|Account Name|Account|Searchable Dropdown|Pull from Salesforce|Mandatory|\n|Need By Date|Policy|Date Picker|Selectable|Mandatory, Default to 5 days before Effective date if effective date is selected first and Need By Date field is empty|\n|Effective Date|Policy|Date Picker|Selectable|Mandatory, Effective Date must not exceed Expiration Date|\n|Expiration Date|Policy|Date Picker|Selectable|Mandatory, Effective Date must not exceed Expiration Date\nDefault to Effective Date + 1 year. Example, 1/1/2026 to 1/1/2027|\n|Product(s)|Policy|Multi-select Dropdown|Multiple products allowed|Mandatory, Selected product to show as multiple cards with one click remove option. The drop down will show the product in the following formal: Product Name (Product Code) - Line of Business Code. For example, Educators Legal Liability (ELL) - ML. Product list will be listed at the bottom of the ticket.|\n|Current Stage|Submission Stage|Dropdown|Default = \"Incomplete Submission\"\nOther LOVs to be fetched from a Master Data|# Stage defaults to “Incomplete Submission”\n# User can modify stage before submission creation\nStages list will be listed at the bottom of the ticket.|\n|Brokerage|Brokerage|Searchable Dropdown|Pull from Salesforce|Read-only|\n|Broker Contact|Brokerage|Searchable Dropdown|Pull from Salesforce|Read-only|\n|Broker Email|Brokerage|Email|Pull from Salesforce|Read-only|\n|Broker Phone|Brokerage|Phone|Pull from Salesforce|Read-only|\n|Underwriter|Underwriting Team|Searchable Dropdown|Pull from Salesforce|Read-only|\n|Underwriting Specialist|Underwriting Team|Searchable Dropdown|Pull from Salesforce|Read-only|\n|Internal Notes|Notes|Text Area|Free text|Optional|\n|Add Document|Submission Documents|Document Uploader|File Uploader|Atleast one document is mandatory\nMax file size: 25 MB (TBD)\nAllowed extensions: .pdf, .doc, .docx, .xlsx, .jpg, .png (TBD)\nMax files: No Limits (TBD)|\n|Create Submission| |Button|Creates a Submission|Display Field level validaiton errors wherever applicable. Generates an auto-incrementing submission id value.|\n|Cancel| |Button|Cancel the Action|Display a warning message of data loss upon canceling the action. The display message should be:\nAre you sure you want to cancel this submission? All entered data will be lost.\nSelect Yes to continue or No to return to the submission.\n_Cancel button shows warning only if any field has been modified. If all fields are default/empty, cancel without warning._|\n\n*Submission Summary - Summary Preview Section to display the following list of fields:*\n\n# TYPE\n# ACCOUNT\n# PRODUCTS (Summary displays selected products as comma-separated list)\n# NEED BY\n# EFFECTIVE\n# BROKERAGE\n# BROKER\n# STAGE\n# -DOCS I think this may be too much in the small review section-\n\n*Key Rules*\n\n* The account field will accept an account from Salesforce, regardless of it is an institution of group\n* Submission ID generated after creation\n* Cannot proceed without mandatory fields\n* Products allow multi-selection\n* Validate Need by Date is before effective date. If effective date is not empty and need by date is empty, default need by date to effective date - 5 days.\n* Expiration date defaults to effective date + 1 year\n* Internal notes field should include a spell checker\n\n----\n\n*Submission Stage LOVs:* (Can be handled as a Master)\n\n|*Stage Category*|*Stage Name*|\n|Intake & Triage|Incomplete Submission|\n|Intake & Triage|Complete Submission|\n|Intake & Triage|Declined to Quote|\n|Underwriting|Information Gathering|\n|Underwriting|Review In Progress|\n|Underwriting|Referred|\n|Quoting|Quote In Progress|\n|Quoting|Quote Sent|\n|Quoting|Quote Negotiation|\n|Quoting|Revised Quote|\n|Decision|Bound|\n|Decision|UE Non-Renewed|\n|Decision|Member Declined|\n|Decision|Member No Response|\n|Post-Bind|Pending Issuance|\n|Post-Bind|Issued|\n|Post-Bind|Cancelled|\n|Post-Bind|Endorsed|\n\n*Products List:*\n\nPrimary General Liability (CGL) - GL\nBuffer Excess Liability (BLX) - GL\nGeneral Liability Excess (GLX) - GL\nPublic School Liability (PSL) - GL\n\nEducators Legal Liability (ELL) - ML\nExcess Educators Legal Liability (ELX) - ML\nFiduciary Liability (FDL) - ML\nExcess Fiduciary Liability (FDX) - ML\nSchool Board Legal (SBL) - ML\n\nInternships and Professional Services Liability (IPL) - PL\n\nAssumed Public School (RPS) - AR\nAssumed Higher Education (RPH) - AR\nExcess Following Form (XFF) - EL\nExcess Liability Following Form - Shared Aggregate Limit of Liability (XPG) - EL\n\nh2. Acceptance Criteria\n\n* All mandatory fields must be completed before submission creation\n* Account supports search and selection from Salesforce\n* Account field supports search from Salesforce\n* User must select an account to proceed\n* System shows message when no results are found\n* Product and Underwriting Team allow multiple selections\n* Date fields must be valid (Effective Date ≤ Expiration Date)\n* Stage defaults to “Incomplete Submission” and is editable\n* Submission is created only after validations pass with a unique Submission ID\n* Brokerage, Broker, and Underwriting Team auto-populate on account selection\n* Auto-populated fields are non-editable\n* Changes are stored only in Workbench\n* Each new submission fetches fresh Salesforce data\n* Stage defaults to “Incomplete Submission”\n* User can modify stage before submission creation\n* Notes field is optional\n* Notes do not block submission creation\n* Summary displays key submission details\n* User can review details before final submission\n\n\n\n*Dependencies:* Salesforce API access for Account/Contact search"
+      }
+    ]
+  },
+  {
+    "id": "985130",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=557058%3Ae0e50699-b67e-4c72-9c63-628991326903",
+      "accountId": "557058:e0e50699-b67e-4c72-9c63-628991326903",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png"
+      },
+      "displayName": "Ziad Elharaoui",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-06T18:51:56.945+0530",
+    "items": [
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": "*Navigation*: \n\nSubmissions/*New Submission*\n\n*Story:*\nAs an Underwriting or BD User\nI want to create a new submission\nSo that I can initiate underwriting for a cross-sell or new business opportunity\n\n*Fields & Behavior:*\n\n||*Field*||*Section*||*Type*||*Behavior*||*Validation*||\n|Submission Type|Submission Type|Radio Button (Card Type)|New Business / Cross-sell|Mandatory|\n|Account Name|Account|Searchable Dropdown|Pull from Salesforce|Mandatory|\n|Need By Date|Policy|Date Picker|Selectable|Mandatory, Default to 5 days before Effective date if effective date is selected first and Need By Date field is empty|\n|Effective Date|Policy|Date Picker|Selectable|Mandatory, Effective Date must not exceed Expiration Date|\n|Expiration Date|Policy|Date Picker|Selectable|Mandatory, Effective Date must not exceed Expiration Date\nDefault to Effective Date + 1 year. Example, 1/1/2026 to 1/1/2027|\n|Product(s)|Policy|Multi-select Dropdown|Multiple products allowed|Mandatory, Selected product to show as multiple cards with one click remove option. The drop down will show the product in the following formal: Product Name (Product Code) - Line of Business Code. For example, Educators Legal Liability (ELL) - ML. Product list will be listed at the bottom of the ticket.|\n|Current Stage|Submission Stage|Dropdown|Default = \"Incomplete Submission\"\nOther LOVs to be fetched from a Master Data|# Stage defaults to “Incomplete Submission”\n# User can modify stage before submission creation\nStages list will be listed at the bottom of the ticket.|\n|Brokerage|Brokerage|Searchable Dropdown|Pull from Salesforce|Read-only|\n|Broker Contact|Brokerage|Searchable Dropdown|Pull from Salesforce|Read-only|\n|Broker Email|Brokerage|Email|Pull from Salesforce|Read-only|\n|Broker Phone|Brokerage|Phone|Pull from Salesforce|Read-only|\n|Underwriter|Underwriting Team|Searchable Dropdown|Pull from Salesforce|Read-only|\n|Underwriting Specialist|Underwriting Team|Searchable Dropdown|Pull from Salesforce|Read-only|\n|Internal Notes|Notes|Text Area|Free text|Optional|\n|Add Document|Submission Documents|Document Uploader|File Uploader|Atleast one document is mandatory\nMax file size: 25 MB (TBD)\nAllowed extensions: .pdf, .doc, .docx, .xlsx, .jpg, .png (TBD)\nMax files: No Limits (TBD)|\n|Create Submission| |Button|Creates a Submission|Display Field level validaiton errors wherever applicable. Generates an auto-incrementing submission id value.|\n|Cancel| |Button|Cancel the Action|Display a warning message of data loss upon canceling the action. The display message should be:\nAre you sure you want to cancel this submission? All entered data will be lost.\nSelect Yes to continue or No to return to the submission.\n_Cancel button shows warning only if any field has been modified. If all fields are default/empty, cancel without warning._|\n\n*Submission Summary - Summary Preview Section to display the following list of fields:*\n\n# TYPE\n# ACCOUNT\n# PRODUCTS (Summary displays selected products as comma-separated list)\n# NEED BY\n# EFFECTIVE\n# BROKERAGE\n# BROKER\n# STAGE\n# -DOCS I think this may be too much in the small review section-\n\n*Key Rules*\n\n* The account field will accept an account from Salesforce, regardless of it is an institution of group\n* Submission ID generated after creation\n* Cannot proceed without mandatory fields\n* Products allow multi-selection\n* Validate Need by Date is before effective date. If effective date is not empty and need by date is empty, default need by date to effective date - 5 days.\n* Expiration date defaults to effective date + 1 year\n* Internal notes field should include a spell checker\n\n----\n\n*Submission Stage LOVs:* (Can be handled as a Master)\n\n|*Stage Category*|*Stage Name*|\n|Intake & Triage|Incomplete Submission|\n|Intake & Triage|Complete Submission|\n|Intake & Triage|Declined to Quote|\n|Underwriting|Information Gathering|\n|Underwriting|Review In Progress|\n|Underwriting|Referred|\n|Quoting|Quote In Progress|\n|Quoting|Quote Sent|\n|Quoting|Quote Negotiation|\n|Quoting|Revised Quote|\n|Decision|Bound|\n|Decision|UE Non-Renewed|\n|Decision|Member Declined|\n|Decision|Member No Response|\n|Post-Bind|Pending Issuance|\n|Post-Bind|Issued|\n|Post-Bind|Cancelled|\n|Post-Bind|Endorsed|\n\n*Products List:*\n\nPrimary General Liability (CGL) - GL\nBuffer Excess Liability (BLX) - GL\nGeneral Liability Excess (GLX) - GL\nPublic School Liability (PSL) - GL\n\nEducators Legal Liability (ELL) - ML\nExcess Educators Legal Liability (ELX) - ML\nFiduciary Liability (FDL) - ML\nExcess Fiduciary Liability (FDX) - ML\nSchool Board Legal (SBL) - ML\n\nInternships and Professional Services Liability (IPL) - PL\n\nAssumed Public School (RPS) - AR\nAssumed Higher Education (RPH) - AR\nExcess Following Form (XFF) - EL\nExcess Liability Following Form - Shared Aggregate Limit of Liability (XPG) - EL\n\nh2. Acceptance Criteria\n\n* All mandatory fields must be completed before submission creation\n* Account supports search and selection from Salesforce\n* Account field supports search from Salesforce\n* User must select an account to proceed\n* System shows message when no results are found\n* Product and Underwriting Team allow multiple selections\n* Date fields must be valid (Effective Date ≤ Expiration Date)\n* Stage defaults to “Incomplete Submission” and is editable\n* Submission is created only after validations pass with a unique Submission ID\n* Brokerage, Broker, and Underwriting Team auto-populate on account selection\n* Auto-populated fields are non-editable\n* Changes are stored only in Workbench\n* Each new submission fetches fresh Salesforce data\n* Stage defaults to “Incomplete Submission”\n* User can modify stage before submission creation\n* Notes field is optional\n* Notes do not block submission creation\n* Summary displays key submission details\n* User can review details before final submission\n\n\n\n*Dependencies:* Salesforce API access for Account/Contact search",
+        "to": null,
+        "toString": "*Navigation*: \n\nSubmissions/*New Submission*\n\n*Story:*\nAs an Underwriting or BD User\nI want to create a new submission\nSo that I can initiate underwriting for a cross-sell or new business opportunity\n\n*Fields & Behavior:*\n\n||*Field*||*Section*||*Type*||*Behavior*||*Validation*||\n|Submission Type|Submission Type|Radio Button (Card Type)|New Business / Cross-sell|Mandatory|\n|Account Name|Account|Searchable Dropdown|Pull from Salesforce|Mandatory|\n|Need By Date|Policy|Date Picker|Selectable|Mandatory, Default to 5 days before Effective date if effective date is selected first and Need By Date field is empty|\n|Effective Date|Policy|Date Picker|Selectable|Mandatory, Effective Date must not exceed Expiration Date|\n|Expiration Date|Policy|Date Picker|Selectable|Mandatory, Effective Date must not exceed Expiration Date\nDefault to Effective Date + 1 year. Example, 1/1/2026 to 1/1/2027|\n|Product(s)|Policy|Multi-select Dropdown|Multiple products allowed|Mandatory, Selected product to show as multiple cards with one click remove option. The drop down will show the product in the following formal: Product Name (Product Code) - Line of Business Code. For example, Educators Legal Liability (ELL) - ML. Product list will be listed at the bottom of the ticket.|\n|Current Stage|Submission Stage|Dropdown|Default = \"Incomplete Submission\"\nOther LOVs to be fetched from a Master Data|# Stage defaults to “Incomplete Submission”\n# User can modify stage before submission creation\nStages list will be listed at the bottom of the ticket.|\n|Brokerage|Brokerage|Searchable Dropdown|Pull from Salesforce|Read-only|\n|Broker Contact|Brokerage|Searchable Dropdown|Pull from Salesforce|Read-only|\n|Broker Email|Brokerage|Email|Pull from Salesforce|Read-only|\n|Broker Phone|Brokerage|Phone|Pull from Salesforce|Read-only|\n|Underwriter|Underwriting Team|Searchable Dropdown|Pull from Salesforce|Read-only|\n|Underwriting Specialist|Underwriting Team|Searchable Dropdown|Pull from Salesforce|Read-only|\n|Internal Notes|Notes|Text Area|Free text|Optional, but should include a spell checker|\n|Add Document|Submission Documents|Document Uploader|File Uploader|Atleast one document is mandatory\nMax file size: 25 MB (TBD)\nAllowed extensions: .pdf, .doc, .docx, .xlsx, .jpg, .png (TBD)\nMax files: No Limits (TBD)|\n|Create Submission| |Button|Creates a Submission|Display Field level validation errors wherever applicable. Generates an auto-incrementing submission id value on submission creation.|\n|Cancel| |Button|Cancel the Action|Display a warning message of data loss upon canceling the action. The display message should be:\nAre you sure you want to cancel this submission? All entered data will be lost.\nSelect Yes to continue or No to return to the submission.\n_Cancel button shows warning only if any field has been modified. If all fields are default/empty, cancel without warning._|\n\n*Submission Summary - Summary Preview Section to display the following list of fields:*\n\n# TYPE\n# ACCOUNT\n# PRODUCTS (Summary displays selected products as comma-separated list)\n# NEED BY\n# EFFECTIVE\n# BROKERAGE\n# BROKER\n# STAGE\n# -DOCS I think this may be too much in the small review section-\n\n*Key Rules*\n\n* The account field will accept an account from Salesforce, regardless of it is an institution of group\n* Submission ID generated after creation\n* Cannot proceed without mandatory fields\n* Products allow multi-selection\n* Validate Need by Date is before effective date. If effective date is not empty and need by date is empty, default need by date to effective date - 5 days.\n* Expiration date defaults to effective date + 1 year\n* Internal notes field should include a spell checker\n\n----\n\n*Submission Stage LOVs:* (Can be handled as a Master)\n\n|*Stage Category*|*Stage Name*|\n|Intake & Triage|Incomplete Submission|\n|Intake & Triage|Complete Submission|\n|Intake & Triage|Declined to Quote|\n|Underwriting|Information Gathering|\n|Underwriting|Review In Progress|\n|Underwriting|Referred|\n|Quoting|Quote In Progress|\n|Quoting|Quote Sent|\n|Quoting|Quote Negotiation|\n|Quoting|Revised Quote|\n|Decision|Bound|\n|Decision|UE Non-Renewed|\n|Decision|Member Declined|\n|Decision|Member No Response|\n|Post-Bind|Pending Issuance|\n|Post-Bind|Issued|\n|Post-Bind|Cancelled|\n|Post-Bind|Endorsed|\n\n*Products List:*\n\nPrimary General Liability (CGL) - GL\nBuffer Excess Liability (BLX) - GL\nGeneral Liability Excess (GLX) - GL\nPublic School Liability (PSL) - GL\n\nEducators Legal Liability (ELL) - ML\nExcess Educators Legal Liability (ELX) - ML\nFiduciary Liability (FDL) - ML\nExcess Fiduciary Liability (FDX) - ML\nSchool Board Legal (SBL) - ML\n\nInternships and Professional Services Liability (IPL) - PL\n\nAssumed Public School (RPS) - AR\nAssumed Higher Education (RPH) - AR\nExcess Following Form (XFF) - EL\nExcess Liability Following Form - Shared Aggregate Limit of Liability (XPG) - EL\n\nh2. Acceptance Criteria\n\n* All mandatory fields must be completed before submission creation\n* Account supports search and selection from Salesforce\n* Account field supports search from Salesforce\n* User must select an account to proceed\n* System shows message when no results are found\n* Product and Underwriting Team allow multiple selections\n* Date fields must be valid (Effective Date ≤ Expiration Date)\n* Stage defaults to “Incomplete Submission” and is editable\n* Submission is created only after validations pass with a unique Submission ID\n* Brokerage, Broker, and Underwriting Team auto-populate on account selection\n* Auto-populated fields are non-editable\n* Changes are stored only in Workbench\n* Each new submission fetches fresh Salesforce data\n* Stage defaults to “Incomplete Submission”\n* User can modify stage before submission creation\n* Notes field is optional\n* Notes do not block submission creation\n* Summary displays key submission details\n* User can review details before final submission\n\n\n\n*Dependencies:* Salesforce API access for Account/Contact search"
+      }
+    ]
+  },
+  {
+    "id": "985143",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-06T19:10:18.994+0530",
+    "items": [
+      {
+        "field": "Attachment",
+        "fieldtype": "jira",
+        "fieldId": "attachment",
+        "from": null,
+        "fromString": null,
+        "to": "250804",
+        "toString": "image-20260506-133759.png"
+      }
+    ]
+  },
+  {
+    "id": "985649",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-06T23:52:24.629+0530",
+    "items": [
+      {
+        "field": "issuetype",
+        "fieldtype": "jira",
+        "fieldId": "issuetype",
+        "from": "11789",
+        "fromString": "Task",
+        "to": "11824",
+        "toString": "Story"
+      }
+    ]
+  },
+  {
+    "id": "985650",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-06T23:54:19.844+0530",
+    "items": [
+      {
+        "field": "summary",
+        "fieldtype": "jira",
+        "fieldId": "summary",
+        "from": null,
+        "fromString": "NB-01: Create New Submission",
+        "to": null,
+        "toString": "NB-01: Create New Submission for New Business and Cross Sell"
+      }
+    ]
+  },
+  {
+    "id": "991441",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=557058%3Ae0e50699-b67e-4c72-9c63-628991326903",
+      "accountId": "557058:e0e50699-b67e-4c72-9c63-628991326903",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/ZE-2.png"
+      },
+      "displayName": "Ziad Elharaoui",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-15T02:13:42.758+0530",
+    "items": [
+      {
+        "field": "status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": "12906",
+        "fromString": "In Progress",
+        "to": "13044",
+        "toString": "IN BA"
+      }
+    ]
+  },
+  {
+    "id": "993862",
+    "author": {
+      "self": "https://unitededucators.atlassian.net/rest/api/2/user?accountId=712020%3A969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "accountId": "712020:969bebc2-b867-48a4-8ef7-c2e0c555434d",
+      "emailAddress": "mythili.thangavelu@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/a20ec5a14da92bff44d200d3622a9425?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMT-6.png"
+      },
+      "displayName": "Mythili T",
+      "active": true,
+      "timeZone": "Asia/Kolkata",
+      "accountType": "atlassian"
+    },
+    "created": "2026-05-19T15:26:52.022+0530",
+    "items": [
+      {
+        "field": "assignee",
+        "fieldtype": "jira",
+        "fieldId": "assignee",
+        "from": "614dcf9f41af83007156944d",
+        "fromString": "Sahitya Muppireddy",
+        "to": "712020:b841cce5-af49-487b-9f3b-2cf8d84ad891",
+        "toString": "Naresh Kotha",
+        "tmpFromAccountId": "614dcf9f41af83007156944d",
+        "tmpToAccountId": "712020:b841cce5-af49-487b-9f3b-2cf8d84ad891"
+      }
+    ]
+  }
+]

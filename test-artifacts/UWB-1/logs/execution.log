@@ -1,0 +1,17 @@
+[2026-05-27] Execution started (re-run with screenshot capture)
+Mode: JIRA_AND_URL
+Ticket: UWB-1
+App URL: https://united-educators-application.vercel.app
+Base Directory: test-artifacts/UWB-1
+Auth: Required (Admin)
+Testing Scope: Smoke, Functional, Accessibility, End-to-End, Positive, Negative, Edge Cases
+Browser: Chrome (Chromium)
+Mobile: No
+
+[2026-05-27] STEP 3 — Jira requirements loaded: 18 ACs, 9 subtasks, 5 comments
+[2026-05-27] STEP 4 — Playwright crawl complete: 5 discrepancies found, 10 screenshots captured
+[2026-05-27] STEP 4 — D-04 RESOLVED (Submission Type now card-style); D-06 PARTIAL (jpg added, doc missing)
+[2026-05-27] STEP 5 — Test cases generated/updated: Smoke(13), Functional(22), Positive(11), Regression(10), Boundary(12)
+[2026-05-27] STEP 6 — Gherkin feature files: smoke(updated), functional(new), regression(new)
+[2026-05-27] STEP 7 — Reports updated: coverage-report.md, rtm.md
+[2026-05-27] Execution complete

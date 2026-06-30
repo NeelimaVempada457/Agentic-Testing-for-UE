@@ -1,0 +1,190 @@
+[
+  {
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/23669",
+    "id": "23669",
+    "filename": "Cards.zip",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Aab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+      "accountId": "712020:ab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+      "emailAddress": "richard.mena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png"
+      },
+      "displayName": "Richard Mena",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2025-11-08T23:59:43.158-0500",
+    "size": 6261,
+    "mimeType": "application/zip",
+    "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/23669",
+    "status": "downloaded",
+    "localPath": "C:\\Users\\NeelmaVempada\\First_Project_Agentic\\jira-output\\BDBP1-204\\Attachments\\Cards.zip"
+  },
+  {
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/23668",
+    "id": "23668",
+    "filename": "image-20251109-045900.png",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3Aab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+      "accountId": "712020:ab1c63fb-f435-4eeb-a61c-ca4d97476f0e",
+      "emailAddress": "richard.mena@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "24x24": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "16x16": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png",
+        "32x32": "https://secure.gravatar.com/avatar/7ceff68116a9dbe13da7ac80983ab9fd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-5.png"
+      },
+      "displayName": "Richard Mena",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2025-11-08T23:59:06.688-0500",
+    "size": 104634,
+    "mimeType": "image/png",
+    "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/23668",
+    "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/23668",
+    "status": "downloaded",
+    "localPath": "C:\\Users\\NeelmaVempada\\First_Project_Agentic\\jira-output\\BDBP1-204\\Attachments\\image-20251109-045900.png"
+  },
+  {
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/30266",
+    "id": "30266",
+    "filename": "image-20260122-084049.png",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+      "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+      "emailAddress": "prachi.jangid@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+      },
+      "displayName": "Prachi Jangid",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-01-22T04:19:49.539-0500",
+    "size": 880380,
+    "mimeType": "image/png",
+    "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/30266",
+    "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/30266",
+    "status": "downloaded",
+    "localPath": "C:\\Users\\NeelmaVempada\\First_Project_Agentic\\jira-output\\BDBP1-204\\Attachments\\image-20260122-084049.png"
+  },
+  {
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/30265",
+    "id": "30265",
+    "filename": "image-20260122-084117.png",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+      "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+      "emailAddress": "prachi.jangid@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+      },
+      "displayName": "Prachi Jangid",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-01-22T04:19:49.251-0500",
+    "size": 37077,
+    "mimeType": "image/png",
+    "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/30265",
+    "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/30265",
+    "status": "downloaded",
+    "localPath": "C:\\Users\\NeelmaVempada\\First_Project_Agentic\\jira-output\\BDBP1-204\\Attachments\\image-20260122-084117.png"
+  },
+  {
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/34135",
+    "id": "34135",
+    "filename": "image-20260211-114345.png",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A718d8a89-842e-4b65-8360-5391f2ce3814",
+      "accountId": "712020:718d8a89-842e-4b65-8360-5391f2ce3814",
+      "emailAddress": "arnav.gaddam@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+        "24x24": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+        "16x16": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+        "32x32": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png"
+      },
+      "displayName": "Arnav Gaddam",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-11T06:54:20.373-0500",
+    "size": 38190,
+    "mimeType": "image/png",
+    "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/34135",
+    "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/34135",
+    "status": "downloaded",
+    "localPath": "C:\\Users\\NeelmaVempada\\First_Project_Agentic\\jira-output\\BDBP1-204\\Attachments\\image-20260211-114345.png"
+  },
+  {
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/34134",
+    "id": "34134",
+    "filename": "image-20260211-114412.png",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A718d8a89-842e-4b65-8360-5391f2ce3814",
+      "accountId": "712020:718d8a89-842e-4b65-8360-5391f2ce3814",
+      "emailAddress": "arnav.gaddam@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+        "24x24": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+        "16x16": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png",
+        "32x32": "https://secure.gravatar.com/avatar/1116d94fbbfaa2134859e936a6a77963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAG-3.png"
+      },
+      "displayName": "Arnav Gaddam",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-11T06:54:19.697-0500",
+    "size": 37715,
+    "mimeType": "image/png",
+    "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/34134",
+    "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/34134",
+    "status": "downloaded",
+    "localPath": "C:\\Users\\NeelmaVempada\\First_Project_Agentic\\jira-output\\BDBP1-204\\Attachments\\image-20260211-114412.png"
+  },
+  {
+    "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/36993",
+    "id": "36993",
+    "filename": "image-20260225-101239.png",
+    "author": {
+      "self": "https://theksquaregroupglobal.atlassian.net/rest/api/2/user?accountId=712020%3A98be500c-734d-4ba3-9e47-d06126c774d4",
+      "accountId": "712020:98be500c-734d-4ba3-9e47-d06126c774d4",
+      "emailAddress": "prachi.jangid@theksquaregroup.com",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:98be500c-734d-4ba3-9e47-d06126c774d4/1b27ca93-0caa-45c7-9529-82c0e531ab31/32"
+      },
+      "displayName": "Prachi Jangid",
+      "active": true,
+      "timeZone": "America/New_York",
+      "accountType": "atlassian"
+    },
+    "created": "2026-02-25T05:12:38.860-0500",
+    "size": 77366,
+    "mimeType": "image/png",
+    "content": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/content/36993",
+    "thumbnail": "https://theksquaregroupglobal.atlassian.net/rest/api/2/attachment/thumbnail/36993",
+    "status": "downloaded",
+    "localPath": "C:\\Users\\NeelmaVempada\\First_Project_Agentic\\jira-output\\BDBP1-204\\Attachments\\image-20260225-101239.png"
+  }
+]
